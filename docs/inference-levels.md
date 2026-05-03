@@ -6,7 +6,7 @@ Inference level does **not** measure how emotionally convincing, plausible, or n
 
 A claim may feel highly plausible while still belonging to a higher inference level.
 
-## IL-0 — Raw Data / Direct Record
+## IL-0 Raw Data / Direct Record
 
 **Definition:**  
 A source item itself, or a direct extract from a source.
@@ -24,7 +24,7 @@ This includes documents, newspaper articles, photographs, official records, maps
 **Use when:**  
 The record is being preserved or described as a source, not interpreted.
 
-## IL-1 — Directly Supported Fact
+## IL-1 Directly Supported Fact
 
 **Definition:**  
 A factual claim directly supported by one or more reliable sources.
@@ -41,7 +41,7 @@ The source does not merely suggest the claim; it states it clearly.
 **Use when:**  
 A source explicitly states the fact.
 
-## IL-2 — Reasonable Inference
+## IL-2 Reasonable Inference
 
 **Definition:**  
 A conclusion drawn from reliable facts, context, geography, chronology, or documented patterns, but not directly stated by a source.
@@ -57,7 +57,7 @@ The inference should be explainable step by step.
 **Use when:**  
 The claim is not directly documented, but the reasoning is grounded and defensible.
 
-## IL-3 — Speculative Inference
+## IL-3 Speculative Inference
 
 **Definition:**  
 A hypothesis with some evidential grounding, but insufficient support to treat as a firm conclusion.
@@ -74,7 +74,7 @@ This level is for ideas that may help investigation or analysis but must remain 
 **Use when:**  
 The idea is plausible but cannot yet be firmly demonstrated.
 
-## IL-4 — Open Speculation / Weak Hypothesis
+## IL-4 Open Speculation / Weak Hypothesis
 
 **Definition:**  
 A weak or exploratory idea with limited evidential support.
