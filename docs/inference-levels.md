@@ -115,7 +115,6 @@ Example:
   "inference_level": "IL-1",
   "source_refs": ["KCSRC0001"]
 }
-```
 
 ## Composite Items and Hypotheses
 
@@ -138,5 +137,29 @@ Example:
 {
   "component_inference_levels": ["IL-1", "IL-1", "IL-2", "IL-3", "IL-3"],
   "median_inference_level": "IL-2"
+}
+
+## Effective Inference Level
+
+The `effective_inference_level` represents the practical evidential risk of relying on a composite item.
+
+It is used for hypotheses, reconstructed timelines, route theories, offender-behaviour interpretations, or any analytical item that combines multiple evidential components.
+
+A composite item may contain many strongly supported elements while still depending on one weaker speculative bridge. In that case, the median inference level may look low, but the practical risk remains higher.
+
+### Rule
+
+The `effective_inference_level` cannot be lower than any necessary weak link.
+
+A necessary weak link is a component without which the composite hypothesis would collapse.
+
+### Example
+
+```json
+{
+  "component_inference_levels": ["IL-1", "IL-1", "IL-3"],
+  "median_inference_level": "IL-1",
+  "effective_inference_level": "IL-3",
+  "effective_inference_reason": "The hypothesis depends on an IL-3 necessary bridge."
 }
 
