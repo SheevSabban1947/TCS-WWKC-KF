@@ -117,3 +117,26 @@ Example:
 }
 ```
 
+## Composite Items and Hypotheses
+
+Single items receive a direct `inference_level`.
+
+Composite items, such as hypotheses, reconstructed timelines, route theories, or analytical summaries, may combine several claims or observations. In those cases, the Knowledge File uses two additional fields:
+
+- `median_inference_level`
+- `effective_inference_level`
+
+## Median Inference Level
+
+The `median_inference_level` represents the statistical centre of the component inference levels used in a composite item.
+
+It describes the overall evidential texture of the hypothesis.
+
+Example:
+
+```json
+{
+  "component_inference_levels": ["IL-1", "IL-1", "IL-2", "IL-3", "IL-3"],
+  "median_inference_level": "IL-2"
+}
+
