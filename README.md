@@ -6,6 +6,6 @@ This project is released under the **GPL-3.0 license**. This means it may be use
 
 ## Project structure
 
-* data/       factual records
-* schemas/    validation rules
-* docs/       methodology and conventions
+* `data/`       factual records
+* `schemas/`    validation rules
+* `docs/`       methodology and conventions
