@@ -115,6 +115,7 @@ Example:
   "inference_level": "IL-1",
   "source_refs": ["KCSRC0001"]
 }
+```
 
 ## Composite Items and Hypotheses
 
@@ -138,6 +139,7 @@ Example:
   "component_inference_levels": ["IL-1", "IL-1", "IL-2", "IL-3", "IL-3"],
   "median_inference_level": "IL-2"
 }
+```
 
 ## Effective Inference Level
 
@@ -162,4 +164,5 @@ A necessary weak link is a component without which the composite hypothesis woul
   "effective_inference_level": "IL-3",
   "effective_inference_reason": "The hypothesis depends on an IL-3 necessary bridge."
 }
+```
 
