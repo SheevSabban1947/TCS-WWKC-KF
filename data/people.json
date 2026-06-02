@@ -1,0 +1,196 @@
+{
+  "id": "TCS-WWKC-PPL-0003",
+  "record_type": "person",
+  "display_name": {
+    "value": "Phyllis Chan",
+    "units": "personal_name",
+    "precision": "common_public_case_name",
+    "inference_score": 0,
+    "source_ids": ["TCS-WWKC-WEB-0001"]
+  },
+  "names": [
+    {
+      "value": "Phyllis Chan",
+      "units": "personal_name",
+      "precision": "common_public_case_name",
+      "inference_score": 0,
+      "source_ids": ["TCS-WWKC-WEB-0001"]
+    },
+    {
+      "value": "Phyllis Ngan Ying Lam",
+      "units": "personal_name",
+      "precision": "expanded_public_name",
+      "inference_score": 0,
+      "source_ids": ["TCS-WWKC-WEB-0001"]
+    },
+    {
+      "value": "Phyllis Lam",
+      "units": "personal_name",
+      "precision": "later_public_name_or_birth_family_name",
+      "inference_score": 1,
+      "source_ids": ["TCS-WWKC-WEB-0001"]
+    },
+    {
+      "value": "Phyllis Lam (ex-Chan)",
+      "units": "personal_name",
+      "precision": "reported_later_name_style",
+      "inference_score": 0,
+      "source_ids": ["TCS-WWKC-WEB-0001"]
+    }
+  ],
+  "roles": [
+    {
+      "value": "mother_of_karmein_chan",
+      "units": "family_role",
+      "precision": "exact",
+      "inference_score": 0,
+      "source_ids": ["TCS-WWKC-WEB-0001"]
+    },
+    {
+      "value": "restaurant_operator",
+      "units": "occupation_or_business_role",
+      "precision": "general_role",
+      "inference_score": 0,
+      "source_ids": ["TCS-WWKC-WEB-0001"]
+    }
+  ],
+  "family_relationships": [
+    {
+      "relationship": {
+        "value": "daughter",
+        "units": "family_relationship",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      },
+      "person_id": {
+        "value": "TCS-WWKC-PPL-0001",
+        "units": "person_id",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      }
+    },
+    {
+      "relationship": {
+        "value": "daughter",
+        "units": "family_relationship",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      },
+      "person_id": {
+        "value": "TCS-WWKC-PPL-0004",
+        "units": "person_id",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      }
+    },
+    {
+      "relationship": {
+        "value": "daughter",
+        "units": "family_relationship",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      },
+      "person_id": {
+        "value": "TCS-WWKC-PPL-0005",
+        "units": "person_id",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      }
+    },
+    {
+      "relationship": {
+        "value": "husband",
+        "units": "family_relationship",
+        "precision": "case_period_relationship",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      },
+      "person_id": {
+        "value": "TCS-WWKC-PPL-0002",
+        "units": "person_id",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      }
+    }
+  ],
+  "events": {
+    "parents_migrated_to_melbourne": {
+      "date": {
+        "value": "1976",
+        "units": "iso8601_year",
+        "precision": "year",
+        "inference_score": 1,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      },
+      "place": {
+        "value": "Melbourne, Victoria, Australia",
+        "units": "place_name",
+        "precision": "city",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      }
+    },
+    "breakfast_with_karmein": {
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      },
+      "place": {
+        "value": "Bulleen Plaza shopping centre, Bulleen, Victoria, Australia",
+        "units": "place_name",
+        "precision": "specific_location",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001"]
+      }
+    },
+    "press_conference": {
+      "date": {
+        "value": "1991-04-16",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001", "KCSRC00041"]
+      },
+      "context": {
+        "value": "First press conference after Karmein Chan's abduction",
+        "units": "event_context",
+        "precision": "summary",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001", "KCSRC00041"]
+      }
+    },
+    "mr_kind_letter": {
+      "date": {
+        "value": "1991-05-02",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001", "KCSRC00051"]
+      },
+      "context": {
+        "value": "Open letter addressed to the man who abducted Karmein Chan",
+        "units": "event_context",
+        "precision": "summary",
+        "inference_score": 0,
+        "source_ids": ["TCS-WWKC-WEB-0001", "KCSRC00051"]
+      }
+    }
+  },
+  "public_status": {
+    "value": "publicly_known",
+    "units": "public_status",
+    "precision": "exact",
+    "inference_score": 0,
+    "source_ids": ["TCS-WWKC-WEB-0001"]
+  }
+}
