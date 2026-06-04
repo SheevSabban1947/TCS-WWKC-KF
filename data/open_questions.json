@@ -1,0 +1,1333 @@
+{
+  "file": "open_questions.json",
+  "schema_version": "0.1.0",
+  "updated": "2026-06-04",
+  "claim_model": {
+    "value": "...",
+    "units": "...",
+    "precision": "...",
+    "inference_score": 0,
+    "source_ids": [
+      "..."
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "TCS-WWKC-WEB-0001",
+      "title": "The Cruel Song – Who Was Karmein Chan?",
+      "url": "https://thecruelsong.com/",
+      "locators": [
+        "#public-questions-about-the-karmein-chan-case",
+        "#questions-about-karmein-chan-herself"
+      ]
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "KCQST0001",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Who was the last person outside the family to see Karmein Chan alive?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0002",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Were the phone lines cut?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0003",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What do we really know about Karmein Chan’s behavior during the home invasion?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0004",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Did the abductor know that Karmein had asthma?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0005",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Is there any evidence that Karmein Chan was taken to the same hideout as the other victims?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0006",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was the exact distance between the abduction site and the place where her body was found?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0007",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Why did the perpetrator choose to kill Karmein, when previous victims had been released?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0008",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was the likely route taken by the abductor between Templestowe and Edgars Creek?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0009",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Who are the witnesses or acquaintances today who might be willing to speak, or cooperate anonymously?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0010",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What did the place where Karmein was held prisoner look like, exactly? Is a reconstruction possible?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0011",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Was Mimi a dog or a cat (or something else)?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0012",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Did the abductor steal anything from the Chan residence (clothing, records, money…)?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0013",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Was Mimi present inside the Chan residence during the abduction?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0014",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "If Mimi was a dog and was present at the Chan residence during the abduction, why didn’t he/she bark?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#public-questions-about-the-karmein-chan-case",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0015",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite music (artist, track, composer…)?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0016",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite TV show?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0017",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite movie?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0018",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite toy?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0019",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite activity?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0020",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite sport?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0021",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite animal?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0022",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite colour?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0023",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite fruit?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0024",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite food?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0025",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What was her favourite place?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0026",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What were her familiar expressions?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0027",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Was she into video games?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0028",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Where did she go to practice skating?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCQST0029",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Was she taking ballet/dance lessons?",
+        "units": "question_text",
+        "precision": "verbatim_from_source",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#questions-about-karmein-chan-herself",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": []
+    }
+  ]
+}
