@@ -1,0 +1,960 @@
+{
+  "file": "places.json",
+  "schema_version": "0.1.0",
+  "updated": "2026-06-04",
+  "claim_model": {
+    "value": "...",
+    "units": "...",
+    "precision": "...",
+    "inference_score": 0,
+    "source_ids": ["..."]
+  },
+  "places": [
+    {
+      "id": "KCPLACE0001",
+      "canonical_name": {
+        "value": "Chan family home",
+        "units": null,
+        "precision": "descriptive label",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00034", "KCSRC00038"]
+      },
+      "place_type": {
+        "value": "residential_property",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00034", "KCSRC00038"]
+      },
+      "location": {
+        "street_address": {
+          "value": "113 Serpells Road",
+          "units": null,
+          "precision": "publicly reported historical address",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00034"]
+        },
+        "suburb": {
+          "value": "Templestowe",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "Karmein Chan's family home in 1991",
+          "units": null,
+          "precision": "case role",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        {
+          "value": "abduction site",
+          "units": null,
+          "precision": "case role",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00034"]
+        }
+      ],
+      "privacy_level": {
+        "value": "privacy_sensitive_historical_private_residence",
+        "units": null,
+        "precision": "data-handling flag",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0002",
+      "canonical_name": {
+        "value": "Presbyterian Ladies' College",
+        "units": null,
+        "precision": "official institution name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00001", "KCSRC00002", "KCSRC00038"]
+      },
+      "place_type": {
+        "value": "school",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00001", "KCSRC00002"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Burwood",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00002"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00002"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00002"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "Karmein Chan's school",
+          "units": null,
+          "precision": "case role",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00001", "KCSRC00038"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0003",
+      "canonical_name": {
+        "value": "Box Hill",
+        "units": null,
+        "precision": "suburb / transport locality",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00038"]
+      },
+      "place_type": {
+        "value": "suburb_or_transport_area",
+        "units": null,
+        "precision": "category",
+        "inference_score": 1,
+        "source_ids": ["KCSRC00038"]
+      },
+      "location": {
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "place Karmein Chan passed through during school bus trips",
+          "units": null,
+          "precision": "routine place",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0004",
+      "canonical_name": {
+        "value": "Eltham restaurant operated by the Chan family",
+        "units": null,
+        "precision": "neutral descriptive label",
+        "inference_score": 1,
+        "source_ids": ["KCSRC00019", "KCSRC00038"]
+      },
+      "aliases": [
+        {
+          "value": "Ming's restaurant in Eltham",
+          "units": null,
+          "precision": "name as currently present in source text",
+          "inference_score": 1,
+          "source_ids": ["KCSRC00038"]
+        }
+      ],
+      "place_type": {
+        "value": "restaurant",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00019", "KCSRC00038"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Eltham",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "family business location",
+          "units": null,
+          "precision": "case role",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        {
+          "value": "place where Karmein, Karly and Karen Chan spent part of Saturday 13 April 1991",
+          "units": null,
+          "precision": "same-day routine location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00019"]
+        }
+      ],
+      "review_flags": [
+        "Resolve restaurant name conflict before treating alias as canonical."
+      ]
+    },
+    {
+      "id": "KCPLACE0005",
+      "canonical_name": {
+        "value": "Bulleen Plaza shopping centre",
+        "units": null,
+        "precision": "shopping centre name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00011", "KCSRC00035", "KCSRC00038"]
+      },
+      "place_type": {
+        "value": "shopping_centre",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00011", "KCSRC00038"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Bulleen",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "Saturday breakfast location for Karmein Chan and Phyllis Chan",
+          "units": null,
+          "precision": "routine place",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00038"]
+        },
+        {
+          "value": "location of a Chan family restaurant business",
+          "units": null,
+          "precision": "business location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00035", "KCSRC00038"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0006",
+      "canonical_name": {
+        "value": "Bulleen Library",
+        "units": null,
+        "precision": "library name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00005"]
+      },
+      "place_type": {
+        "value": "library",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00005"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Bulleen",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00005"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00005"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00005"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "place where Karmein Chan completed homework on Saturday mornings",
+          "units": null,
+          "precision": "routine place",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00005"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0007",
+      "canonical_name": {
+        "value": "Boroondara Tennis Centre",
+        "units": null,
+        "precision": "current or later name used by source",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00018", "KCSRC00038"]
+      },
+      "aliases": [
+        {
+          "value": "Camberwell Tennis Centre",
+          "units": null,
+          "precision": "historical name",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018", "KCSRC00038"]
+        }
+      ],
+      "place_type": {
+        "value": "sports_facility",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00018"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Balwyn North",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "Karmein Chan's Saturday tennis lesson location",
+          "units": null,
+          "precision": "routine place",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018", "KCSRC00038"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0008",
+      "canonical_name": {
+        "value": "Doncaster Police Station",
+        "units": null,
+        "precision": "institution name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00034"]
+      },
+      "place_type": {
+        "value": "police_station",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00034"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Doncaster",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00034"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00034"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00034"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "place where the Chan family was taken to make first statements after the abduction",
+          "units": null,
+          "precision": "case procedure location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00034"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0009",
+      "canonical_name": {
+        "value": "The Royal Children's Hospital Melbourne",
+        "units": null,
+        "precision": "institution name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00018", "KCSRC00053", "KCSRC00054"]
+      },
+      "aliases": [
+        {
+          "value": "Royal Melbourne Children's Hospital",
+          "units": null,
+          "precision": "name variant used in source text",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        }
+      ],
+      "place_type": {
+        "value": "hospital",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00018"]
+      },
+      "location": {
+        "city": {
+          "value": "Melbourne",
+          "units": null,
+          "precision": "city",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "place where Karmein Chan received treatment for glandular fever in 1989",
+          "units": null,
+          "precision": "medical history location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00018"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0010",
+      "canonical_name": {
+        "value": "Jerusalem Creek",
+        "units": null,
+        "precision": "camping area / locality",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00058", "KCSRC00060"]
+      },
+      "place_type": {
+        "value": "camping_area",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00058", "KCSRC00060"]
+      },
+      "location": {
+        "nearby_locality": {
+          "value": "Eildon",
+          "units": null,
+          "precision": "nearby locality",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00058"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00058", "KCSRC00060"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00058", "KCSRC00060"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 16 February 1991",
+          "units": null,
+          "precision": "date-bounded school activity location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00058"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0011",
+      "canonical_name": {
+        "value": "Bulleen Baptist Church",
+        "units": null,
+        "precision": "church name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00012", "KCSRC00049"]
+      },
+      "place_type": {
+        "value": "church",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00012", "KCSRC00049"]
+      },
+      "location": {
+        "street_context": {
+          "value": "corner of Marcus and Thompsons roads",
+          "units": null,
+          "precision": "publicly reported intersection",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00049"]
+        },
+        "suburb": {
+          "value": "Bulleen",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00012", "KCSRC00049"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00049"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00049"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "funeral service location for Karmein Chan on 16 May 1992",
+          "units": null,
+          "precision": "ceremonial location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00049"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0012",
+      "canonical_name": {
+        "value": "Fawkner Cemetery",
+        "units": null,
+        "precision": "cemetery name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00012", "KCSRC00047"]
+      },
+      "place_type": {
+        "value": "cemetery",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00012", "KCSRC00047"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Fawkner",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00012", "KCSRC00047"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00047"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00047"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "cremation location after the Bulleen Baptist Church service",
+          "units": null,
+          "precision": "ceremonial / funerary location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00047"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0013",
+      "canonical_name": {
+        "value": "Templestowe Cemetery",
+        "units": null,
+        "precision": "cemetery name",
+        "inference_score": 1,
+        "source_ids": []
+      },
+      "place_type": {
+        "value": "cemetery",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "location": {
+        "suburb": {
+          "value": "Templestowe",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      },
+      "case_roles": [
+        {
+          "value": "resting place associated with Karmein Chan",
+          "units": null,
+          "precision": "grave / memorial location",
+          "inference_score": 1,
+          "source_ids": []
+        }
+      ],
+      "review_flags": [
+        "Add a proper internal source_id before treating this entry as fully sourced."
+      ]
+    },
+    {
+      "id": "KCPLACE0014",
+      "canonical_name": {
+        "value": "Scots Church Melbourne",
+        "units": null,
+        "precision": "church name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00001"]
+      },
+      "place_type": {
+        "value": "church",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00001"]
+      },
+      "location": {
+        "city": {
+          "value": "Melbourne",
+          "units": null,
+          "precision": "city",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00001"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00001"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00001"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "memorial service location attended by PLC students and teachers on 20 May 1992",
+          "units": null,
+          "precision": "ceremonial location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00001"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0015",
+      "canonical_name": {
+        "value": "Karmein Chan remains discovery location",
+        "units": null,
+        "precision": "descriptive label",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00037"]
+      },
+      "aliases": [
+        {
+          "value": "field near Thomastown SEC Terminal Station",
+          "units": null,
+          "precision": "descriptive location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00037"]
+        },
+        {
+          "value": "Edgars Creek discovery location",
+          "units": null,
+          "precision": "descriptive location",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00037"]
+        }
+      ],
+      "place_type": {
+        "value": "body_recovery_site",
+        "units": null,
+        "precision": "case category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00037"]
+      },
+      "location": {
+        "suburb": {
+          "value": "Thomastown",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00037"]
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00037"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00037"]
+        },
+        "coordinates": {
+          "value": {
+            "latitude": -37.6916389,
+            "longitude": 145.0084167
+          },
+          "units": "decimal_degrees",
+          "precision": "converted from reported DMS coordinates",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00037"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "place where Karmein Chan's remains were found on 9 April 1992",
+          "units": null,
+          "precision": "case role",
+          "inference_score": 0,
+          "source_ids": ["KCSRC00037"]
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCPLACE0016",
+      "canonical_name": {
+        "value": "Parer Street",
+        "units": null,
+        "precision": "street name",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00029"]
+      },
+      "place_type": {
+        "value": "street",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": ["KCSRC00029"]
+      },
+      "location": {
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 1,
+          "source_ids": ["KCSRC00029"]
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 1,
+          "source_ids": ["KCSRC00029"]
+        }
+      },
+      "case_roles": [
+        {
+          "value": "reported location of suspicious vehicle activity near Presbyterian Ladies' College before the abduction",
+          "units": null,
+          "precision": "reported suspicious activity location",
+          "inference_score": 1,
+          "source_ids": ["KCSRC00029"]
+        }
+      ],
+      "review_flags": [
+        "Confirm exact suburb and relationship to PLC pickup area."
+      ]
+    },
+    {
+      "id": "KCPLACE0017",
+      "canonical_name": {
+        "value": "Rocklea Road",
+        "units": null,
+        "precision": "street name only",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "place_type": {
+        "value": "street",
+        "units": null,
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "location": {
+        "suburb": {
+          "value": "Bulleen",
+          "units": null,
+          "precision": "suburb",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "state": {
+          "value": "Victoria",
+          "units": null,
+          "precision": "state",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "country": {
+          "value": "Australia",
+          "units": null,
+          "precision": "country",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      },
+      "case_roles": [
+        {
+          "value": "location associated with the 1995 Billy Chan attack on Phyllis Lam",
+          "units": null,
+          "precision": "related later family event",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      ],
+      "privacy_level": {
+        "value": "privacy_sensitive_street_only",
+        "units": null,
+        "precision": "data-handling flag",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "review_flags": [
+        "Add source_id if this later family event remains in places.json."
+      ]
+    }
+  ]
+}

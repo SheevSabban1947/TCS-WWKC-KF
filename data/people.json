@@ -1,19 +1,21 @@
-[
-  {
-    "id": "TCS-WWKC-PPL-0001",
-    "record_type": "person",
-    "display_name": {
-      "value": "Karmein Chan",
-      "units": "personal_name",
-      "precision": "common_public_name",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001",
-        "KCSRC00006"
-      ]
-    },
-    "names": [
-      {
+{
+  "file": "people.json",
+  "schema_version": "0.1.0",
+  "updated": "2026-06-04",
+  "claim_model": {
+    "value": "...",
+    "units": "...",
+    "precision": "...",
+    "inference_score": 0,
+    "source_ids": [
+      "..."
+    ]
+  },
+  "people": [
+    {
+      "id": "TCS-WWKC-PPL-0001",
+      "record_type": "person",
+      "display_name": {
         "value": "Karmein Chan",
         "units": "personal_name",
         "precision": "common_public_name",
@@ -23,338 +25,338 @@
           "KCSRC00006"
         ]
       },
-      {
-        "value": "Karmein",
-        "units": "given_name",
-        "precision": "common_public_given_name",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00006"
-        ]
-      },
-      {
-        "value": "Chan",
-        "units": "family_name",
-        "precision": "common_public_family_name",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00006"
-        ]
-      },
-      {
-        "value": "陈嘉敏",
-        "units": "chinese_name",
-        "precision": "simplified_chinese",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    ],
-    "roles": [
-      {
-        "value": "primary_subject",
-        "units": "knowledge_file_role",
-        "precision": "exact",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "victim",
-        "units": "case_role",
-        "precision": "exact",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "student",
-        "units": "social_role",
-        "precision": "general",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00001"
-        ]
-      }
-    ],
-    "birth": {
-      "date": {
-        "value": "1977-11-05",
-        "units": "iso8601_date",
-        "precision": "day",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      "place": {
-        "value": "Australia",
-        "units": "place_name",
-        "precision": "country",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    },
-    "death": {
-      "year": {
-        "value": "1991",
-        "units": "iso8601_year",
-        "precision": "year",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    },
-    "family_relationships": [
-      {
-        "relationship": {
-          "value": "father",
-          "units": "family_relationship",
-          "precision": "exact",
+      "names": [
+        {
+          "value": "Karmein Chan",
+          "units": "personal_name",
+          "precision": "common_public_name",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001",
             "KCSRC00006"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0002",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "mother",
-          "units": "family_relationship",
-          "precision": "exact",
+        {
+          "value": "Karmein",
+          "units": "given_name",
+          "precision": "common_public_given_name",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001",
             "KCSRC00006"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0003",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "younger_sister",
-          "units": "family_relationship",
-          "precision": "exact",
+        {
+          "value": "Chan",
+          "units": "family_name",
+          "precision": "common_public_family_name",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001",
             "KCSRC00006"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0004",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "younger_sister",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0005",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        }
-      }
-    ],
-    "residences": [
-      {
-        "place": {
-          "value": "Bulleen, Victoria, Australia",
-          "units": "place_name",
-          "precision": "suburb",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "period": {
-          "value": "early_years",
-          "units": "life_period",
-          "precision": "relative_period",
+        {
+          "value": "陈嘉敏",
+          "units": "chinese_name",
+          "precision": "simplified_chinese",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
         }
-      },
-      {
-        "place": {
-          "value": "Serpells Road, Templestowe, Victoria, Australia",
-          "units": "place_name",
-          "precision": "street",
+      ],
+      "roles": [
+        {
+          "value": "primary_subject",
+          "units": "knowledge_file_role",
+          "precision": "exact",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
         },
-        "period": {
-          "value": "after_bulleen_until_abduction",
-          "units": "life_period",
-          "precision": "relative_period",
+        {
+          "value": "victim",
+          "units": "case_role",
+          "precision": "exact",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "student",
+          "units": "social_role",
+          "precision": "general",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001",
+            "KCSRC00001"
           ]
         }
-      },
-      {
-        "place": {
-          "value": "113 Serpells Road, Templestowe, Victoria, Australia",
-          "units": "postal_address",
-          "precision": "street_address",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "period": {
-          "value": "1991-04-13",
+      ],
+      "birth": {
+        "date": {
+          "value": "1977-11-05",
           "units": "iso8601_date",
           "precision": "day",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
-        }
-      }
-    ],
-    "education": [
-      {
-        "institution": {
-          "value": "Presbyterian Ladies' College",
-          "units": "school_name",
-          "precision": "institution",
+        },
+        "place": {
+          "value": "Australia",
+          "units": "place_name",
+          "precision": "country",
           "inference_score": 0,
           "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00001"
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      },
+      "death": {
+        "year": {
+          "value": "1991",
+          "units": "iso8601_year",
+          "precision": "year",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      },
+      "family_relationships": [
+        {
+          "relationship": {
+            "value": "father",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0002",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "mother",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0003",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "younger_sister",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0004",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "younger_sister",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0005",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          }
+        }
+      ],
+      "residences": [
+        {
+          "place": {
+            "value": "Bulleen, Victoria, Australia",
+            "units": "place_name",
+            "precision": "suburb",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "period": {
+            "value": "early_years",
+            "units": "life_period",
+            "precision": "relative_period",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        },
+        {
+          "place": {
+            "value": "Serpells Road, Templestowe, Victoria, Australia",
+            "units": "place_name",
+            "precision": "street",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "period": {
+            "value": "after_bulleen_until_abduction",
+            "units": "life_period",
+            "precision": "relative_period",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        },
+        {
+          "place": {
+            "value": "113 Serpells Road, Templestowe, Victoria, Australia",
+            "units": "postal_address",
+            "precision": "street_address",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "period": {
+            "value": "1991-04-13",
+            "units": "iso8601_date",
+            "precision": "day",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": {
+            "value": "Presbyterian Ladies' College",
+            "units": "school_name",
+            "precision": "institution",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00001"
+            ]
+          },
+          "year_level_1991": {
+            "value": "Year 8",
+            "units": "school_year_level",
+            "precision": "year_level",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00001"
+            ]
+          }
+        }
+      ],
+      "languages": [
+        {
+          "value": "English",
+          "units": "language",
+          "precision": "known_language",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
           ]
         },
-        "year_level_1991": {
-          "value": "Year 8",
-          "units": "school_year_level",
-          "precision": "year_level",
+        {
+          "value": "Chinese",
+          "units": "language_family_or_household_language",
+          "precision": "general",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001",
-            "KCSRC00001"
+            "KCSRC00005",
+            "KCSRC00006"
+          ]
+        },
+        {
+          "value": "Cantonese",
+          "units": "language",
+          "precision": "known_language",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Mandarin",
+          "units": "language",
+          "precision": "known_language",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
           ]
         }
-      }
-    ],
-    "languages": [
-      {
-        "value": "English",
-        "units": "language",
-        "precision": "known_language",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "Chinese",
-        "units": "language_family_or_household_language",
-        "precision": "general",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00005",
-          "KCSRC00006"
-        ]
-      },
-      {
-        "value": "Cantonese",
-        "units": "language",
-        "precision": "known_language",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "Mandarin",
-        "units": "language",
-        "precision": "known_language",
+      ],
+      "public_status": {
+        "value": "publicly_known",
+        "units": "public_status",
+        "precision": "exact",
         "inference_score": 0,
         "source_ids": [
           "TCS-WWKC-WEB-0001"
         ]
       }
-    ],
-    "public_status": {
-      "value": "publicly_known",
-      "units": "public_status",
-      "precision": "exact",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001"
-      ]
-    }
-  },
-  {
-    "id": "TCS-WWKC-PPL-0002",
-    "record_type": "person",
-    "display_name": {
-      "value": "John Chan",
-      "units": "personal_name",
-      "precision": "common_public_name",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001",
-        "KCSRC00006"
-      ]
     },
-    "names": [
-      {
+    {
+      "id": "TCS-WWKC-PPL-0002",
+      "record_type": "person",
+      "display_name": {
         "value": "John Chan",
         "units": "personal_name",
         "precision": "common_public_name",
@@ -364,223 +366,223 @@
           "KCSRC00006"
         ]
       },
-      {
-        "value": "Kam On John Chan",
-        "units": "personal_name",
-        "precision": "expanded_public_name",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
+      "names": [
+        {
+          "value": "John Chan",
+          "units": "personal_name",
+          "precision": "common_public_name",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001",
+            "KCSRC00006"
+          ]
+        },
+        {
+          "value": "Kam On John Chan",
+          "units": "personal_name",
+          "precision": "expanded_public_name",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Kam On (John) Chan",
+          "units": "personal_name",
+          "precision": "caption_name",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "value": "father_of_karmein_chan",
+          "units": "family_role",
+          "precision": "exact",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001",
+            "KCSRC00006"
+          ]
+        },
+        {
+          "value": "restaurant_operator",
+          "units": "occupation_or_business_role",
+          "precision": "general_role",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "family_relationships": [
+        {
+          "relationship": {
+            "value": "daughter",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0001",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "daughter",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0004",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "daughter",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0005",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "wife",
+            "units": "family_relationship",
+            "precision": "case_period_relationship",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0003",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        }
+      ],
+      "events": {
+        "parents_migrated_to_melbourne": {
+          "date": {
+            "value": "1976",
+            "units": "iso8601_year",
+            "precision": "year",
+            "inference_score": 1,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "place": {
+            "value": "Melbourne, Victoria, Australia",
+            "units": "place_name",
+            "precision": "city",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        },
+        "d24_call": {
+          "date": {
+            "value": "1991-04-13",
+            "units": "iso8601_date",
+            "precision": "day",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00046"
+            ]
+          },
+          "time": {
+            "value": "21:35",
+            "units": "local_time_24h",
+            "precision": "minute",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00046"
+            ]
+          }
+        },
+        "divorce_from_phyllis_chan": {
+          "date": {
+            "value": "1993",
+            "units": "iso8601_year",
+            "precision": "year",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0003",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        }
       },
-      {
-        "value": "Kam On (John) Chan",
-        "units": "personal_name",
-        "precision": "caption_name",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    ],
-    "roles": [
-      {
-        "value": "father_of_karmein_chan",
-        "units": "family_role",
+      "public_status": {
+        "value": "publicly_known",
+        "units": "public_status",
         "precision": "exact",
         "inference_score": 0,
         "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00006"
-        ]
-      },
-      {
-        "value": "restaurant_operator",
-        "units": "occupation_or_business_role",
-        "precision": "general_role",
-        "inference_score": 0,
-        "source_ids": [
           "TCS-WWKC-WEB-0001"
         ]
       }
-    ],
-    "family_relationships": [
-      {
-        "relationship": {
-          "value": "daughter",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0001",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "daughter",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0004",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "daughter",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0005",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "wife",
-          "units": "family_relationship",
-          "precision": "case_period_relationship",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0003",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        }
-      }
-    ],
-    "events": {
-      "parents_migrated_to_melbourne": {
-        "date": {
-          "value": "1976",
-          "units": "iso8601_year",
-          "precision": "year",
-          "inference_score": 1,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "place": {
-          "value": "Melbourne, Victoria, Australia",
-          "units": "place_name",
-          "precision": "city",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        }
-      },
-      "d24_call": {
-        "date": {
-          "value": "1991-04-13",
-          "units": "iso8601_date",
-          "precision": "day",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00046"
-          ]
-        },
-        "time": {
-          "value": "21:35",
-          "units": "local_time_24h",
-          "precision": "minute",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00046"
-          ]
-        }
-      },
-      "divorce_from_phyllis_chan": {
-        "date": {
-          "value": "1993",
-          "units": "iso8601_year",
-          "precision": "year",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0003",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        }
-      }
     },
-    "public_status": {
-      "value": "publicly_known",
-      "units": "public_status",
-      "precision": "exact",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001"
-      ]
-    }
-  },
-  {
-    "id": "TCS-WWKC-PPL-0003",
-    "record_type": "person",
-    "display_name": {
-      "value": "Phyllis Chan",
-      "units": "personal_name",
-      "precision": "common_public_case_name",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001",
-        "KCSRC00006"
-      ]
-    },
-    "names": [
-      {
+    {
+      "id": "TCS-WWKC-PPL-0003",
+      "record_type": "person",
+      "display_name": {
         "value": "Phyllis Chan",
         "units": "personal_name",
         "precision": "common_public_case_name",
@@ -590,239 +592,27 @@
           "KCSRC00006"
         ]
       },
-      {
-        "value": "Phyllis Ngan Ying Lam",
-        "units": "personal_name",
-        "precision": "expanded_public_name",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "Phyllis Lam",
-        "units": "personal_name",
-        "precision": "later_public_name",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "Phyllis Lam (ex-Chan)",
-        "units": "personal_name",
-        "precision": "reported_later_name_style",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    ],
-    "roles": [
-      {
-        "value": "mother_of_karmein_chan",
-        "units": "family_role",
-        "precision": "exact",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00006"
-        ]
-      },
-      {
-        "value": "restaurant_operator",
-        "units": "occupation_or_business_role",
-        "precision": "general_role",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    ],
-    "family_relationships": [
-      {
-        "relationship": {
-          "value": "daughter",
-          "units": "family_relationship",
-          "precision": "exact",
+      "names": [
+        {
+          "value": "Phyllis Chan",
+          "units": "personal_name",
+          "precision": "common_public_case_name",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001",
             "KCSRC00006"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0001",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "daughter",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0004",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "daughter",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0005",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "husband",
-          "units": "family_relationship",
-          "precision": "case_period_relationship",
+        {
+          "value": "Phyllis Ngan Ying Lam",
+          "units": "personal_name",
+          "precision": "expanded_public_name",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0002",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        }
-      }
-    ],
-    "events": {
-      "parents_migrated_to_melbourne": {
-        "date": {
-          "value": "1976",
-          "units": "iso8601_year",
-          "precision": "year",
-          "inference_score": 1,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "place": {
-          "value": "Melbourne, Victoria, Australia",
-          "units": "place_name",
-          "precision": "city",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        }
-      },
-      "breakfast_with_karmein": {
-        "date": {
-          "value": "1991-04-13",
-          "units": "iso8601_date",
-          "precision": "day",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "place": {
-          "value": "Bulleen Plaza shopping centre, Bulleen, Victoria, Australia",
-          "units": "place_name",
-          "precision": "specific_location",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        }
-      },
-      "press_conference": {
-        "date": {
-          "value": "1991-04-16",
-          "units": "iso8601_date",
-          "precision": "day",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00041"
-          ]
-        }
-      },
-      "mr_kind_letter": {
-        "date": {
-          "value": "1991-05-02",
-          "units": "iso8601_date",
-          "precision": "day",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00051"
-          ]
-        }
-      },
-      "divorce_from_john_chan": {
-        "date": {
-          "value": "1993",
-          "units": "iso8601_year",
-          "precision": "year",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0002",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        }
-      },
-      "returned_to_family_name": {
-        "date": {
-          "value": "after_1993",
-          "units": "relative_date",
-          "precision": "relative",
-          "inference_score": 1,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        "name": {
+        {
           "value": "Phyllis Lam",
           "units": "personal_name",
           "precision": "later_public_name",
@@ -830,34 +620,246 @@
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
+        },
+        {
+          "value": "Phyllis Lam (ex-Chan)",
+          "units": "personal_name",
+          "precision": "reported_later_name_style",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
         }
+      ],
+      "roles": [
+        {
+          "value": "mother_of_karmein_chan",
+          "units": "family_role",
+          "precision": "exact",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001",
+            "KCSRC00006"
+          ]
+        },
+        {
+          "value": "restaurant_operator",
+          "units": "occupation_or_business_role",
+          "precision": "general_role",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "family_relationships": [
+        {
+          "relationship": {
+            "value": "daughter",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0001",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "daughter",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0004",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "daughter",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0005",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "husband",
+            "units": "family_relationship",
+            "precision": "case_period_relationship",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0002",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        }
+      ],
+      "events": {
+        "parents_migrated_to_melbourne": {
+          "date": {
+            "value": "1976",
+            "units": "iso8601_year",
+            "precision": "year",
+            "inference_score": 1,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "place": {
+            "value": "Melbourne, Victoria, Australia",
+            "units": "place_name",
+            "precision": "city",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        },
+        "breakfast_with_karmein": {
+          "date": {
+            "value": "1991-04-13",
+            "units": "iso8601_date",
+            "precision": "day",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "place": {
+            "value": "Bulleen Plaza shopping centre, Bulleen, Victoria, Australia",
+            "units": "place_name",
+            "precision": "specific_location",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        },
+        "press_conference": {
+          "date": {
+            "value": "1991-04-16",
+            "units": "iso8601_date",
+            "precision": "day",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00041"
+            ]
+          }
+        },
+        "mr_kind_letter": {
+          "date": {
+            "value": "1991-05-02",
+            "units": "iso8601_date",
+            "precision": "day",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00051"
+            ]
+          }
+        },
+        "divorce_from_john_chan": {
+          "date": {
+            "value": "1993",
+            "units": "iso8601_year",
+            "precision": "year",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0002",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        },
+        "returned_to_family_name": {
+          "date": {
+            "value": "after_1993",
+            "units": "relative_date",
+            "precision": "relative",
+            "inference_score": 1,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          },
+          "name": {
+            "value": "Phyllis Lam",
+            "units": "personal_name",
+            "precision": "later_public_name",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        }
+      },
+      "public_status": {
+        "value": "publicly_known",
+        "units": "public_status",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
       }
     },
-    "public_status": {
-      "value": "publicly_known",
-      "units": "public_status",
-      "precision": "exact",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001"
-      ]
-    }
-  },
-  {
-    "id": "TCS-WWKC-PPL-0004",
-    "record_type": "person",
-    "display_name": {
-      "value": "Karly Chan",
-      "units": "personal_name",
-      "precision": "common_public_name",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001",
-        "KCSRC00006"
-      ]
-    },
-    "names": [
-      {
+    {
+      "id": "TCS-WWKC-PPL-0004",
+      "record_type": "person",
+      "display_name": {
         "value": "Karly Chan",
         "units": "personal_name",
         "precision": "common_public_name",
@@ -866,55 +868,23 @@
           "TCS-WWKC-WEB-0001",
           "KCSRC00006"
         ]
-      }
-    ],
-    "roles": [
-      {
-        "value": "younger_sister_of_karmein_chan",
-        "units": "family_role",
-        "precision": "exact",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00006"
-        ]
       },
-      {
-        "value": "home_invasion_witness",
-        "units": "case_role",
-        "precision": "exact",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "student",
-        "units": "social_role",
-        "precision": "general",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    ],
-    "birth": {
-      "date": {
-        "value": "1981-06",
-        "units": "iso8601_month",
-        "precision": "month",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00006"
-        ]
-      }
-    },
-    "family_relationships": [
-      {
-        "relationship": {
-          "value": "father",
-          "units": "family_relationship",
+      "names": [
+        {
+          "value": "Karly Chan",
+          "units": "personal_name",
+          "precision": "common_public_name",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001",
+            "KCSRC00006"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "value": "younger_sister_of_karmein_chan",
+          "units": "family_role",
           "precision": "exact",
           "inference_score": 0,
           "source_ids": [
@@ -922,122 +892,154 @@
             "KCSRC00006"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0002",
-          "units": "person_id",
+        {
+          "value": "home_invasion_witness",
+          "units": "case_role",
           "precision": "exact",
           "inference_score": 0,
           "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "mother",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
+            "TCS-WWKC-WEB-0001"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0003",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "older_sister",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0001",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "younger_sister",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0005",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00043"
-          ]
-        }
-      }
-    ],
-    "education": [
-      {
-        "institution": {
-          "value": "Presbyterian Ladies' College",
-          "units": "school_name",
-          "precision": "institution",
+        {
+          "value": "student",
+          "units": "social_role",
+          "precision": "general",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
         }
+      ],
+      "birth": {
+        "date": {
+          "value": "1981-06",
+          "units": "iso8601_month",
+          "precision": "month",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001",
+            "KCSRC00006"
+          ]
+        }
+      },
+      "family_relationships": [
+        {
+          "relationship": {
+            "value": "father",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0002",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "mother",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0003",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "older_sister",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0001",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "younger_sister",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0005",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00043"
+            ]
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": {
+            "value": "Presbyterian Ladies' College",
+            "units": "school_name",
+            "precision": "institution",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        }
+      ],
+      "public_status": {
+        "value": "publicly_known",
+        "units": "public_status",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
       }
-    ],
-    "public_status": {
-      "value": "publicly_known",
-      "units": "public_status",
-      "precision": "exact",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001"
-      ]
-    }
-  },
-  {
-    "id": "TCS-WWKC-PPL-0005",
-    "record_type": "person",
-    "display_name": {
-      "value": "Karen Chan",
-      "units": "personal_name",
-      "precision": "common_public_name",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001",
-        "KCSRC00043"
-      ]
     },
-    "names": [
-      {
+    {
+      "id": "TCS-WWKC-PPL-0005",
+      "record_type": "person",
+      "display_name": {
         "value": "Karen Chan",
         "units": "personal_name",
         "precision": "common_public_name",
@@ -1046,161 +1048,173 @@
           "TCS-WWKC-WEB-0001",
           "KCSRC00043"
         ]
-      }
-    ],
-    "roles": [
-      {
-        "value": "younger_sister_of_karmein_chan",
-        "units": "family_role",
-        "precision": "exact",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00043"
-        ]
       },
-      {
-        "value": "home_invasion_witness",
-        "units": "case_role",
-        "precision": "exact",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      },
-      {
-        "value": "student",
-        "units": "social_role",
-        "precision": "general",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
-      }
-    ],
-    "birth": {
-      "date": {
-        "value": "1983-05-31",
-        "units": "iso8601_date",
-        "precision": "day",
-        "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00043"
-        ]
-      }
-    },
-    "family_relationships": [
-      {
-        "relationship": {
-          "value": "father",
-          "units": "family_relationship",
-          "precision": "exact",
+      "names": [
+        {
+          "value": "Karen Chan",
+          "units": "personal_name",
+          "precision": "common_public_name",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0002",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
+            "KCSRC00043"
           ]
         }
-      },
-      {
-        "relationship": {
-          "value": "mother",
-          "units": "family_relationship",
+      ],
+      "roles": [
+        {
+          "value": "younger_sister_of_karmein_chan",
+          "units": "family_role",
           "precision": "exact",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
+            "KCSRC00043"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0003",
-          "units": "person_id",
+        {
+          "value": "home_invasion_witness",
+          "units": "case_role",
           "precision": "exact",
           "inference_score": 0,
           "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "older_sister",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
+            "TCS-WWKC-WEB-0001"
           ]
         },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0001",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      },
-      {
-        "relationship": {
-          "value": "older_sister",
-          "units": "family_relationship",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        },
-        "person_id": {
-          "value": "TCS-WWKC-PPL-0004",
-          "units": "person_id",
-          "precision": "exact",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001",
-            "KCSRC00006"
-          ]
-        }
-      }
-    ],
-    "education": [
-      {
-        "institution": {
-          "value": "Presbyterian Ladies' College",
-          "units": "school_name",
-          "precision": "institution",
+        {
+          "value": "student",
+          "units": "social_role",
+          "precision": "general",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
         }
+      ],
+      "birth": {
+        "date": {
+          "value": "1983-05-31",
+          "units": "iso8601_date",
+          "precision": "day",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001",
+            "KCSRC00043"
+          ]
+        }
+      },
+      "family_relationships": [
+        {
+          "relationship": {
+            "value": "father",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0002",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "mother",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0003",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "older_sister",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0001",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        },
+        {
+          "relationship": {
+            "value": "older_sister",
+            "units": "family_relationship",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0004",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00006"
+            ]
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": {
+            "value": "Presbyterian Ladies' College",
+            "units": "school_name",
+            "precision": "institution",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001"
+            ]
+          }
+        }
+      ],
+      "public_status": {
+        "value": "publicly_known",
+        "units": "public_status",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
       }
-    ],
-    "public_status": {
-      "value": "publicly_known",
-      "units": "public_status",
-      "precision": "exact",
-      "inference_score": 0,
-      "source_ids": [
-        "TCS-WWKC-WEB-0001"
-      ]
     }
-  }
-]
+  ]
+}
