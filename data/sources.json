@@ -1,0 +1,4763 @@
+{
+  "file": "sources.json",
+  "schema_version": "0.1.0",
+  "updated": "2026-06-07",
+  "claim_model": {
+    "value": "...",
+    "units": "...",
+    "precision": "...",
+    "inference_score": 0,
+    "source_ids": [
+      "..."
+    ]
+  },
+  "metadata": {
+    "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
+    "source_count": 62,
+    "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
+    "notes": [
+      "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "TCS-WWKC-WEB-0001",
+      "record_type": "source",
+      "title": {
+        "value": "The Cruel Song – Who Was Karmein Chan?",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_page",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "2026-06-07",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Website version visible on source page: TCS-WWKC-0038",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://thecruelsong.com/",
+        "units": "access_locator_or_note",
+        "precision": "catalogued",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Main public source page used to seed the Knowledge File source catalogue, timeline, open questions, people and places records.",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 116
+        },
+        {
+          "file": "people.json",
+          "reference_count": 111
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 280
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00001",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 08/05/1991, page 5",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-05-08",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 8, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein Chan’s class at PLC",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 3
+        },
+        {
+          "file": "places.json",
+          "reference_count": 9
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00002",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 30/04/1991, page 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-30",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited Apr 30, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein Chan’s first year at PLC",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 5
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00003",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 07/04/1991, page 89",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-07",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited Apr 7, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Documentary watched by the three Chan sisters on TV just before the abduction took place",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "timeline.json",
+          "reference_count": 5
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00004",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 11/04/1991, page 30",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-11",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited Apr 11, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "TV channel name for documentary on Marilyn Monroe",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "timeline.json",
+          "reference_count": 5
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00005",
+      "record_type": "source",
+      "title": {
+        "value": "Dirty Dozen: Shocking Australian True Crime Stories",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "book",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "ISBN: 9781740665728",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Interview of Phyllis Chan/Lam",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 1
+        },
+        {
+          "file": "places.json",
+          "reference_count": 6
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 5
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00006",
+      "record_type": "source",
+      "title": {
+        "value": "Wikipedia – Murder of Karmein Chan",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_page",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Information about the Chan family",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Detailed review of the abduction",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 43
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00007",
+      "record_type": "source",
+      "title": {
+        "value": "Blog – Melbourne Marvels",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "blog",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Melbourne Marvels",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Most knowledgeable resource about the Mr Cruel case",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00008",
+      "record_type": "source",
+      "title": {
+        "value": "Blog – Who is Mr Cruel?",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "blog",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Another very good source of information",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00009",
+      "record_type": "source",
+      "title": {
+        "value": "School term dates 1991",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "reference_website",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "State Library Victoria",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "School term dates for the year 1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00010",
+      "record_type": "source",
+      "title": {
+        "value": "Website – Aerial photos",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Manningham Council",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "1991 aerial photos of the Chan residence",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00011",
+      "record_type": "source",
+      "title": {
+        "value": "Website – Doncaster Templestowe Historical Society",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Judith Leaney",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Vintage photo of Bulleen Plaza",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 2
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00012",
+      "record_type": "source",
+      "title": {
+        "value": "Melway Edition 20 from 1990",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "book_map",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "ISSN: 0311-3957",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Vintage Melbourne maps",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 6
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00013",
+      "record_type": "source",
+      "title": {
+        "value": "The Met, Public Transport Map of Melbourne from 1992",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "map",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Melbourne transport map from 1992",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00014",
+      "record_type": "source",
+      "title": {
+        "value": "The Mr Cruel Map",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "map",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Melbourne Marvels",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Spatial data",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00015",
+      "record_type": "source",
+      "title": {
+        "value": "Photo © Wayne Ludbey/The Age",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "photo",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "FXB1603372",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Phyllis Chan in Karmein’s bedroom, 13/04/1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00016",
+      "record_type": "source",
+      "title": {
+        "value": "Photo © Tina Haynes/The Age",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "photo",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "FXB1614201",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Phyllis Chan in Karmein’s bedroom, 03/11/1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00017",
+      "record_type": "source",
+      "title": {
+        "value": "Conversation with Eamonn Gunning from Melbourne Marvels",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "private_conversation",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Birthdates of Karly and Karen Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Presence of an alarm system in the Chan residence",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
+      ]
+    },
+    {
+      "source_id": "KCSRC00018",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 21/04/1991, page 5",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-21",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein’s glandular fever",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Phone call from Karly Chan to her father on the night of the abduction",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 14
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00019",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 13/09/1997, page 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1997-09-13",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited Sep 13, 1997",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Abduction timeline according to deputy state coroner Iain West",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Timeline differs significantly from the Wikipedia/Paul Anderson timeline [KCSRC00005]",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 3
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 5
+        }
+      ],
+      "review_flags": [
+        "Timeline conflicts with KCSRC00005 according to the source index; use with explicit conflict handling."
+      ]
+    },
+    {
+      "source_id": "KCSRC00020",
+      "record_type": "source",
+      "title": {
+        "value": "grays.com Sale 20084097 > Lot 0001",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "auction_listing",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Photo of 1974 Holden HQ Monaro GTS",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00021",
+      "record_type": "source",
+      "title": {
+        "value": "Website – Registration labels repro",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Rego sticker analysis",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00022",
+      "record_type": "source",
+      "title": {
+        "value": "User “pwurg” from Reddit",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "reddit_user_content",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Photo of the intercom system installed in the former Chan residence",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
+      ]
+    },
+    {
+      "source_id": "KCSRC00023",
+      "record_type": "source",
+      "title": {
+        "value": "Colour version of a photo mostly seen in black and white",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "video_still_or_video_source",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "The Hunters: Mr Cruel (S01E01)",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein Chan during winter",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00024",
+      "record_type": "source",
+      "title": {
+        "value": "OpenAI ChatGPT 4o",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "ai_generated_or_assisted_claim",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 2,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein Chan height in 1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "low_confidence_ai_assisted_claim",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "AI-derived claim; should be replaced or corroborated with a primary or archival source."
+      ]
+    },
+    {
+      "source_id": "KCSRC00025",
+      "record_type": "source",
+      "title": {
+        "value": "Ask Oracle website",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Zodiac sign information about Karmein Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00026",
+      "record_type": "source",
+      "title": {
+        "value": "YouTube – australianews",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "youtube_video",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "YouTube user: australianews",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Edgars Creek incident original video (2012)",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00027",
+      "record_type": "source",
+      "title": {
+        "value": "Bus and Coach Society of Victoria website",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Melbourne Government Bus Routes 1971 to 1993: 200–377 & 600–602",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Historical bus routes information for Melbourne",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00028",
+      "record_type": "source",
+      "title": {
+        "value": "Missing and Murdered blog",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "blog",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Trivia about Phyllis Lam and Karmein Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00029",
+      "record_type": "source",
+      "title": {
+        "value": "YouTube – The chilling case of Mr Cruel’s abductions",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "youtube_video",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Information about the abduction of Karmein Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 5
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00030",
+      "record_type": "source",
+      "title": {
+        "value": "Weather Spark – April 1991 Weather History at Melbourne Airport, Victoria, Australia",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "weather_reference_website",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Melbourne weather data for Saturday 13 April 1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00031",
+      "record_type": "source",
+      "title": {
+        "value": "Vice – Twenty-Five Years On, Here’s Everything We Know About the Murder of Karmein Chan",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "2016-04-13",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Maddison Connaughton, Vice",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Twenty-Five Years On, Here’s Everything We Know About the Murder of Karmein Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00032",
+      "record_type": "source",
+      "title": {
+        "value": "The Canberra Times, Monday 15 April 1991 – Kidnapping “May be the third”",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-15",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Newspaper article about the abduction of Karmein Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00033",
+      "record_type": "source",
+      "title": {
+        "value": "User “GoingInForPhase2” from Reddit",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "reddit_user_content",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Drawings of the balaclavas used by Mr Cruel",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
+      ]
+    },
+    {
+      "source_id": "KCSRC00034",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, Friday 11 April 2025 – When Karmein Chan was abducted, this policeman was first at the scene",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "2025-04-11",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Original Victoria Police statement from Rodney David Phillips, the first policeman to enter the crime scene",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 10
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 4
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00035",
+      "record_type": "source",
+      "title": {
+        "value": "Facebook post",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "private_or_limited_access_social_media_post",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Non-disclosable",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Bulleen Plaza restaurant opening year",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "non_disclosable_source_details",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 2
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": [
+        "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
+      ]
+    },
+    {
+      "source_id": "KCSRC00036",
+      "record_type": "source",
+      "title": {
+        "value": "Reddit DM",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "private_message",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Non-disclosable",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Chan sister’s favourite dish",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "non_disclosable_source_details",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
+      ]
+    },
+    {
+      "source_id": "KCSRC00037",
+      "record_type": "source",
+      "title": {
+        "value": "Melway Edition 20 from 1990",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "book_map",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "© Melway",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 0311-3957",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Burwood, PLC, Parer Street",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 9
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00038",
+      "record_type": "source",
+      "title": {
+        "value": "Melbourne & suburbs map",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "map",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "© ACV 03/1990",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Vintage map of Melbourne",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 30
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00039",
+      "record_type": "source",
+      "title": {
+        "value": "Website – TakeMeBackTo",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Trivia about Saturday 13 April 1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00040",
+      "record_type": "source",
+      "title": {
+        "value": "Website – My Trips by Blenner Hassett",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Hong Kong harbour in 1988",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00041",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 17/04/1991, page 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-17",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited Apr 17, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Quotes from the interview given by the Chan parents on Tuesday 16 April 1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 1
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00042",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 03/05/1991, page 5",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-05-03",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 3, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Patronage drop in both restaurants",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00043",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 24/05/1991, page 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-05-24",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 24, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karen Chan birthday: Tuesday 31 May 1983",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 12
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00044",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 05/06/1991, page 5",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-06-05",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited Jun 5, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karly Chan has started to sleepwalk",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00045",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 14/08/1994, page 6",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1994-08-14",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited Aug 14, 1994",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Lesser known portrait of Karmein Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00046",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 04/05/1991, page 19",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-05-04",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 4, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Photo of the Chan sisters sitting on a bed",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 2
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00047",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 11/05/1992, page 5",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1992-05-11",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 11, 1992",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Information about Karmein Chan’s funeral service",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 6
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00048",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 17/05/1992, page 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1992-05-17",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 17, 1992",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Information about Karmein Chan’s funeral service",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00049",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 16/05/1992, page 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1992-05-16",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 16, 1992",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Information about Karmein Chan’s funeral service",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 7
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00050",
+      "record_type": "source",
+      "title": {
+        "value": "3AW radio broadcast",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "radio_broadcast",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Copyright 3AW",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Audio recording of radio broadcast about Karmein Chan’s funeral ceremony",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00051",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 02/05/1991, page 1",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-05-02",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Copyright Fairfax Media Publications Pty Limited May 2, 1991",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Letter from Phyllis Chan to “Mr Kind”",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 1
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00052",
+      "record_type": "source",
+      "title": {
+        "value": "Unlabelled newspaper from Tuesday 2 July 1996",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1996-07-02",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Copyright Eltham District Historical Society via Victorian Collections",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Opening year for Ying’s restaurant in Eltham",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00053",
+      "record_type": "source",
+      "title": {
+        "value": "YouTube video – VFAFOOTY",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "youtube_video",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "YouTube user: VFAFOOTY",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Video shot around and inside the Melbourne Royal Children’s Hospital in 1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 1
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00054",
+      "record_type": "source",
+      "title": {
+        "value": "YouTube video – Gezza1967",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "youtube_video",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "YouTube user: Gezza1967",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Aerial view of The Royal Children Hospital of Melbourne in 1963",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 1
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00055",
+      "record_type": "source",
+      "title": {
+        "value": "Crime Insiders, Episode 237, season 3 – FORENSICS | Mr. Cruel",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "podcast_episode",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "2025-08-04",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Associate Professor David Wells guest; former forensic physician with Victoria Police at the time of the attacks",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "New details about Mr Cruel",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Medical condition related to his back",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00056",
+      "record_type": "source",
+      "title": {
+        "value": "Anonymous informant",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "anonymous_informant",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "n/a",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Non-disclosable",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein Chan wanted to become a paediatrician",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "non_disclosable_source_details",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
+      ]
+    },
+    {
+      "source_id": "KCSRC00057",
+      "record_type": "source",
+      "title": {
+        "value": "Melbourne Marvels podcast – Mr Cruel 12, special episode",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "podcast_episode",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "2025-09-16",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Interview with the Holden Commodore Vacationer witness",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Mr Cruel might have been seen bringing Sharon Wills to her release location on Tuesday 27 December 1988 around 11.30PM",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00058",
+      "record_type": "source",
+      "title": {
+        "value": "Melbourne Marvels podcast – Mr Cruel 14",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "podcast_episode",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "2026-03-16",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein Chan was camping at Jerusalem Creek in February 1991",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 6
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 4
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00059",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 14/05/1992, page 20",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1992-05-14",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Fairfax Media Publications Pty Limited",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Funeral notice for Karmein Chan",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00060",
+      "record_type": "source",
+      "title": {
+        "value": "VicRoads Country Directory, 1st edition 1992",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "book_map",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "© VicRoads",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 1037 4876",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Maps of Alexandra, Eildon and Jerusalem Inlet",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 4
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00061",
+      "record_type": "source",
+      "title": {
+        "value": "Victoria Police Gazette",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "government_gazette",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "2016-07-07",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Victoria Police",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Thursday 7 July 2016",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "VicPol reward",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "The site body appears to show “Thursday 7 July 2026” near the reward image, while the source list records “Thursday 7 July 2016”; verify the date if this source becomes important."
+      ]
+    }
+  ]
+}

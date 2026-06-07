@@ -1,0 +1,3179 @@
+{
+  "file": "timeline.json",
+  "schema_version": "0.1.0",
+  "updated": "2026-06-07",
+  "claim_model": {
+    "value": "...",
+    "units": "...",
+    "precision": "...",
+    "inference_score": 0,
+    "source_ids": [
+      "..."
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "TCS-WWKC-WEB-0001",
+      "title": "The Cruel Song – Who Was Karmein Chan?",
+      "url": "https://thecruelsong.com/",
+      "locators": [
+        "#timeline"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "KCEVT0001",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "personal_milestone",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein Chan’s birth",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1977-11-05",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein Chan’s birth",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0002",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "family_business",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Hong Kong style restaurant named Mings opens at Bulleen Plaza",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00035"
+        ]
+      },
+      "date": {
+        "value": "1978",
+        "units": "iso8601_year",
+        "precision": "year",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00035"
+        ]
+      },
+      "summary": {
+        "value": "A Hong Kong style restaurant named Mings opens at the Bulleen Plaza shopping centre.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00035"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0003"
+      ],
+      "related_place_ids": [
+        "KCPLACE0005"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0003",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "personal_milestone",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karly Chan’s birth",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00006"
+        ]
+      },
+      "date": {
+        "value": "1981-06",
+        "units": "iso8601_month",
+        "precision": "month",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00006"
+        ]
+      },
+      "summary": {
+        "value": "Karly Chan’s birth",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00006"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0004"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0004",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "personal_milestone",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karen Chan’s birth",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00043"
+        ]
+      },
+      "date": {
+        "value": "1983-05-31",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00043"
+        ]
+      },
+      "summary": {
+        "value": "Karen Chan’s birth",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00043"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0005",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "medical_history",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein Chan has glandular fever",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00018"
+        ]
+      },
+      "date": {
+        "value": "1989-09",
+        "units": "iso8601_month",
+        "precision": "month",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00018"
+        ]
+      },
+      "summary": {
+        "value": "Karmein Chan has glandular fever, also known as infectious mononucleosis, and receives treatment at the Royal Children’s Hospital of Melbourne.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00018"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0009"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0006",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "personal_milestone",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein Chan’s 13th birthday",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1990-11-05",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein Chan’s 13th birthday",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0007",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "public_context",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Melbourne Cup takes place at Flemington Racecourse",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1990-11-06",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "The Melbourne Cup, a 3.2 km handicap horse race, takes place at Flemington Racecourse.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0008",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "school_activity",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein camps at Jerusalem Creek with PLC classmates",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00058"
+        ]
+      },
+      "start_date": {
+        "value": "1991-02-02",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00058"
+        ]
+      },
+      "end_date": {
+        "value": "1991-02-16",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00058"
+        ]
+      },
+      "summary": {
+        "value": "Karmein Chan is camping at Jerusalem Creek with her classmates from Presbyterian Ladies’ College.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00058"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010",
+        "KCPLACE0002"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0009",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "world_context",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Dissolution of the Soviet Union",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-03-17",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Timeline contextual entry: Dissolution of the Soviet Union.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "review_flags": [
+        "Verify this contextual entry: the label/date may be historically imprecise."
+      ]
+    },
+    {
+      "id": "KCEVT0010",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "public_context",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Easter Monday public holiday",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-01",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Easter Monday public holiday in Victoria/Australia context.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0011",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "school_calendar",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Last school day of term 1",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-12",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Last school day of term 1",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0002"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0012",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Tennis lesson for Karmein at Boroondara Tennis Centre",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "09:00",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein attends a tennis lesson at the Boroondara Tennis Centre, formerly Camberwell Tennis Centre.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0007"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0013",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Phyllis and Karmein have breakfast at Bulleen Plaza",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "10:00",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Phyllis and Karmein have breakfast at the Bulleen Plaza shopping centre; the timeline notes cappuccino and orange juice.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0005"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0014",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein does homework at Bulleen Library",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00005"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00005"
+        ]
+      },
+      "start_time": {
+        "value": "10:30",
+        "units": "local_time_24h",
+        "precision": "approximate_minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00005"
+        ]
+      },
+      "end_time": {
+        "value": "12:00",
+        "units": "local_time_24h",
+        "precision": "approximate_minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00005"
+        ]
+      },
+      "summary": {
+        "value": "Karmein does her homework at the Bulleen Library, approximately between 10:30 AM and 12:00 PM.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00005"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0006"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0015",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine_transfer",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Family friends collect the Chan sisters and drive them to Ming’s",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "10:30",
+        "units": "local_time_24h",
+        "precision": "approximate_time_range",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "end_time": {
+        "value": "12:00",
+        "units": "local_time_24h",
+        "precision": "approximate_time_range",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "A married couple, friends of the Chans, collected Karmein and her sisters, who had been at a Chinese (Mandarin) lesson, and drove them to Ming’s.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0004"
+      ],
+      "review_flags": [
+        "This source sentence combines Karmein’s Bulleen Library homework with the sisters’ collection/transfer; split further if primary-source detail improves."
+      ]
+    },
+    {
+      "id": "KCEVT0016",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Lunch at Eltham restaurant",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "12:45",
+        "units": "local_time_24h",
+        "precision": "approximate_minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Approximate lunch at the Eltham restaurant operated by the Chan family.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0003"
+      ],
+      "related_place_ids": [
+        "KCPLACE0004"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0017",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein, Karly and Karen play outside the restaurant and have dinner",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "13:30",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "end_time": {
+        "value": "17:44",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein, Karly and Karen play outside the Eltham restaurant and have dinner.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0004"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0018",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine_transfer",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Eltham restaurant manager drives the three sisters home",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00019"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00019"
+        ]
+      },
+      "start_time": {
+        "value": "17:45",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00019"
+        ]
+      },
+      "end_time": {
+        "value": "18:00",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00019"
+        ]
+      },
+      "summary": {
+        "value": "The Eltham restaurant manager drives Karmein, Karly and Karen home.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00019"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0004",
+        "KCPLACE0001"
+      ],
+      "review_flags": [
+        "The website timeline explicitly notes: 'Conflicts with KCSRC00005'."
+      ]
+    },
+    {
+      "id": "KCEVT0019",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "The girls are at home with John Chan",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "18:00",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "end_time": {
+        "value": "18:29",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein, Karly and Karen are at home with their father John Chan.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0002"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0020",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine_transfer",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "John Chan goes to work at Ming’s restaurant in Eltham",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "18:30",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "John Chan leaves the family home and goes to work at Ming’s restaurant in Eltham.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001",
+        "KCPLACE0004"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0021",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "daily_routine",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein bathes her sisters, reads stories, and the girls watch a Marilyn Monroe documentary",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00003",
+          "KCSRC00004"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00003",
+          "KCSRC00004"
+        ]
+      },
+      "start_time": {
+        "value": "18:31",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00003",
+          "KCSRC00004"
+        ]
+      },
+      "end_time": {
+        "value": "20:30",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00003",
+          "KCSRC00004"
+        ]
+      },
+      "summary": {
+        "value": "Karmein bathes her younger sisters and reads them bedtime stories. They start watching 'Marilyn: Something’s Got To Give' on Channel 10.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00003",
+          "KCSRC00004"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0022",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "home_invasion",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein and Karly encounter the intruder in the family hallway",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "20:40",
+        "units": "local_time_24h",
+        "precision": "approximate_minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein and Karly encounter a man in a green tracksuit and balaclava wielding a long knife in the family hallway; he ties the younger sisters and locks them in a wardrobe.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0023",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "abduction",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein Chan is abducted",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "21:05",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein is abducted, barefoot and wearing a white short-sleeved knee-length nightdress with a blue flower pattern.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0024",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "case_status",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein’s trail is lost after the abduction",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "21:05",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "From the point of the abduction onward, Karmein’s trail is lost.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": [
+        "Status statement rather than a discrete witnessed event."
+      ]
+    },
+    {
+      "id": "KCEVT0025",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "emergency_call",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karly and Karen break free and call John Chan",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "21:20",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karly and Karen break free and call their father at the restaurant.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001",
+        "KCPLACE0004"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0026",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "emergency_response",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "John Chan leaves his restaurant in Eltham",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "21:23",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "John Chan leaves his restaurant in Eltham after receiving the call.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002"
+      ],
+      "related_place_ids": [
+        "KCPLACE0004"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0027",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "emergency_response",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "John Chan arrives at 113 Serpells Road",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "21:30",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "John Chan arrives at the Chan family home at 113 Serpells Road, Templestowe.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0028",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "police_notification",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Police are called",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "21:35",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Police are called after John Chan arrives home and discovers Karmein is missing.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0029",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "police_response",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Sergeant Rodney David Phillips arrives at the scene",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00034"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00034"
+        ]
+      },
+      "start_time": {
+        "value": "21:50",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00034"
+        ]
+      },
+      "summary": {
+        "value": "Sergeant Rodney David Phillips from Victoria Police is at the scene and meets John Chan, Karly and Karen next to the garage.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00034"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0030",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "police_procedure",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Chan family taken to Doncaster police station",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-13",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "22:00",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "The Chan family is taken to Doncaster police station to make their first statements.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0008"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0031",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "case_context_comparison",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein has been missing as long as Sharon Wills had been missing",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-14",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "15:00",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein Chan has now been missing for as long as Sharon Wills was in December 1988.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0032",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "case_context_comparison",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein has been missing as long as Nicola Lynas had been missing",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-15",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "23:00",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein Chan has now been missing for as long as Nicola Lynas was in July 1990.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0033",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "media_appeal",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "John and Phyllis Chan give their first press conference",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-16",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "John and Phyllis Chan give their first press conference after Karmein’s abduction.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0034",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "family_correspondence",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karly and Karen Chan write letters to Karmein",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-19",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karly and Karen Chan each write a letter to their missing sister.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0035",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "investigation_reward",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Victorian government offers $100,000 reward",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-23",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "The Victorian government offers a $100,000 reward, described by the timeline as unusually fast and substantial.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0036",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "investigation",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Police conduct large-scale door knock near Chan residence",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-24",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Police conduct a large-scale door knock of around 2,500 homes near the Chans’ Templestowe residence.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0001"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0037",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "school_calendar",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "First school day of term 2",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-29",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "First school day of term 2.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0002"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0038",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "school_calendar",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Presbyterian Ladies’ College students return to school",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-04-30",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Presbyterian Ladies’ College students return to school.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0002"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0039",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "family_correspondence",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Phyllis Chan writes a letter to “Mr Kind”",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00051"
+        ]
+      },
+      "date": {
+        "value": "1991-05-02",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00051"
+        ]
+      },
+      "summary": {
+        "value": "Phyllis Chan writes a letter to 'Mr Kind'.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00051"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0040",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "case_aftermath",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Patronage at the family’s Chinese restaurants has dropped dramatically",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00042"
+        ]
+      },
+      "date": {
+        "value": "1991-05-03",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00042"
+        ]
+      },
+      "summary": {
+        "value": "By this date, patronage at the family’s two Chinese restaurants has dropped off dramatically.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00042"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0004",
+        "KCPLACE0005"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0041",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "school_correspondence",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein Chan’s classmates write to her family",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00001"
+        ]
+      },
+      "date": {
+        "value": "1991-05-08",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein Chan’s classmates write a letter to her family to express their sympathy.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0002"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0042",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "family_correspondence",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Phyllis Chan addresses a letter to the man who is with Karmein",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-05-23",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Phyllis Chan addresses a letter to 'the man who is with Karmein Chan now'.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0043",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "case_aftermath",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karly Chan has started to sleepwalk while calling out for Karmein",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00044"
+        ]
+      },
+      "date": {
+        "value": "1991-06-05",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00044"
+        ]
+      },
+      "summary": {
+        "value": "Karly Chan has started to sleepwalk while calling out for her missing sister.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00044"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0044",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "public_appeal",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Phyllis Chan publishes a coded letter in the Sunday Herald Sun",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-06-23",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Phyllis Chan publishes a coded letter in the Sunday Herald Sun.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0045",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "public_appeal",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Phyllis Chan publishes another letter in the Herald Sun on Karmein’s 14th birthday",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1991-11-05",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Phyllis Chan publishes another letter in the Herald Sun. Karmein would have been 14 years old.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0046",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "body_recovery",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein Chan’s body is found in Thomastown",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1992-04-09",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "17:00",
+        "units": "local_time_24h",
+        "precision": "approximate_minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Karmein’s body is found in Thomastown by a man walking his dog at around 5 PM.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0015"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0047",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "funeral_service",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Service held at Bulleen Baptist Church",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1992-05-16",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "start_time": {
+        "value": "10:30",
+        "units": "local_time_24h",
+        "precision": "minute",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "A service is held at Bulleen Baptist Church.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0002",
+        "TCS-WWKC-PPL-0003",
+        "TCS-WWKC-PPL-0004",
+        "TCS-WWKC-PPL-0005"
+      ],
+      "related_place_ids": [
+        "KCPLACE0011"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0048",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "cremation",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "Karmein Chan’s remains are cremated in Fawkner",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1992-05-16",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "Later in the day, Karmein’s remains are cremated in Fawkner.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0012"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0049",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "memorial_service",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "PLC memorial service at Scots Church",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "date": {
+        "value": "1992-05-20",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "About 700 students and teachers from Presbyterian Ladies’ College attend a memorial service at Scots Church in Melbourne.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0002",
+        "KCPLACE0014"
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "KCEVT0050",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "case_status",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "title": {
+        "value": "The offender was never brought to justice",
+        "units": "event_title",
+        "precision": "normalized_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "summary": {
+        "value": "The offender was never brought to justice.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_timeline_entry",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#timeline",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "review_flags": [
+        "Undated status statement from the timeline, not a discrete dated event."
+      ],
+      "date": {
+        "value": null,
+        "units": "undated_status",
+        "precision": "not_date_bound",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      }
+    }
+  ]
+}
