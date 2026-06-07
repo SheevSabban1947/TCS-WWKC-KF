@@ -1,0 +1,2375 @@
+knowledge_file:
+  file: "karmein_chan_knowledge_file.toon"
+  schema_version: "0.1.0"
+  updated: "2026-06-07"
+  format: "TOON"
+  project: "Who Was Karmein Chan? / The Cruel Song Knowledge File"
+  description: "Single-file TOON consolidation of the current JSON Knowledge File modules."
+  format_notes[3]:
+    - "Atomic claims are rendered as: field: | value | u=units | p=precision | i=inference_score | s=[source_ids]."
+    - "Nested JSON objects are rendered as indented TOON blocks."
+    - "This file is designed as a compact working master for LLM ingestion; the JSON modules remain the stricter editable source of truth."
+  claim_model: | "..." | u="..." | p="..." | i=0 | s=[...]
+  provenance:
+    input_files[5]:
+      - file: "sources.json"
+        schema_version: "0.1.0"
+        updated: "2026-06-07"
+        record_key: "sources"
+        record_count: 62
+      - file: "people.json"
+        schema_version: "0.1.0"
+        updated: "2026-06-04"
+        record_key: "people"
+        record_count: 5
+      - file: "places.json"
+        schema_version: "0.1.0"
+        updated: "2026-06-04"
+        record_key: "places"
+        record_count: 17
+      - file: "timeline.json"
+        schema_version: "0.1.0"
+        updated: "2026-06-07"
+        record_key: "timeline"
+        record_count: 50
+      - file: "open_questions.json"
+        schema_version: "0.1.0"
+        updated: "2026-06-04"
+        record_key: "open_questions"
+        record_count: 29
+    record_counts:
+      sources: 62
+      people: 5
+      places: 17
+      timeline_events: 50
+      open_questions: 29
+      total_records: 163
+    integrity:
+      referenced_source_id_count: 28
+      catalogued_source_id_count: 62
+      missing_source_ids: []
+      unused_catalogue_source_ids[34]:
+        - "KCSRC00007"
+        - "KCSRC00008"
+        - "KCSRC00009"
+        - "KCSRC00010"
+        - "KCSRC00013"
+        - "KCSRC00014"
+        - "KCSRC00015"
+        - "KCSRC00016"
+        - "KCSRC00017"
+        - "KCSRC00020"
+        - "KCSRC00021"
+        - "KCSRC00022"
+        - "KCSRC00023"
+        - "KCSRC00024"
+        - "KCSRC00025"
+        - "KCSRC00026"
+        - "KCSRC00027"
+        - "KCSRC00028"
+        - "KCSRC00030"
+        - "KCSRC00031"
+        - "KCSRC00032"
+        - "KCSRC00033"
+        - "KCSRC00036"
+        - "KCSRC00039"
+        - "KCSRC00040"
+        - "KCSRC00045"
+        - "KCSRC00048"
+        - "KCSRC00050"
+        - "KCSRC00052"
+        - "KCSRC00055"
+        - "KCSRC00056"
+        - "KCSRC00057"
+        - "KCSRC00059"
+        - "KCSRC00061"
+  sources[62]:
+    - source_id: "TCS-WWKC-WEB-0001"
+      record_type: "source"
+      title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_page" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2026-06-07" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[1]:
+        -: | "Website version visible on source page: TCS-WWKC-0038" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "https://thecruelsong.com/" | u="access_locator_or_note" | p="catalogued" | i=0 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Main public source page used to seed the Knowledge File source catalogue, timeline, open questions, people and places records." | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[3]:
+        - file: "open_questions.json"
+          reference_count: 116
+        - file: "people.json"
+          reference_count: 111
+        - file: "timeline.json"
+          reference_count: 280
+      review_flags: []
+    - source_id: "KCSRC00001"
+      record_type: "source"
+      title: | "The Age, 08/05/1991, page 5" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-05-08" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "Copyright Fairfax Media Publications Pty Limited May 8, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karmein Chan’s class at PLC" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[3]:
+        - file: "people.json"
+          reference_count: 3
+        - file: "places.json"
+          reference_count: 9
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags: []
+    - source_id: "KCSRC00002"
+      record_type: "source"
+      title: | "The Age, 30/04/1991, page 3" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-04-30" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "Copyright Fairfax Media Publications Pty Limited Apr 30, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karmein Chan’s first year at PLC" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 5
+      review_flags: []
+    - source_id: "KCSRC00003"
+      record_type: "source"
+      title: | "The Age, 07/04/1991, page 89" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-04-07" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "Copyright Fairfax Media Publications Pty Limited Apr 7, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Documentary watched by the three Chan sisters on TV just before the abduction took place" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "timeline.json"
+          reference_count: 5
+      review_flags: []
+    - source_id: "KCSRC00004"
+      record_type: "source"
+      title: | "The Age, 11/04/1991, page 30" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-04-11" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "Copyright Fairfax Media Publications Pty Limited Apr 11, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "TV channel name for documentary on Marilyn Monroe" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "timeline.json"
+          reference_count: 5
+      review_flags: []
+    - source_id: "KCSRC00005"
+      record_type: "source"
+      title: | "Dirty Dozen: Shocking Australian True Crime Stories" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "book" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "ISBN: 9781740665728" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Interview of Phyllis Chan/Lam" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[3]:
+        - file: "people.json"
+          reference_count: 1
+        - file: "places.json"
+          reference_count: 6
+        - file: "timeline.json"
+          reference_count: 5
+      review_flags: []
+    - source_id: "KCSRC00006"
+      record_type: "source"
+      title: | "Wikipedia – Murder of Karmein Chan" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_page" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[2]:
+        -: | "Information about the Chan family" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Detailed review of the abduction" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "people.json"
+          reference_count: 43
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags: []
+    - source_id: "KCSRC00007"
+      record_type: "source"
+      title: | "Blog – Melbourne Marvels" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "blog" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "Melbourne Marvels" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Most knowledgeable resource about the Mr Cruel case" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00008"
+      record_type: "source"
+      title: | "Blog – Who is Mr Cruel?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "blog" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Another very good source of information" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00009"
+      record_type: "source"
+      title: | "School term dates 1991" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "reference_website" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "State Library Victoria" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "School term dates for the year 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00010"
+      record_type: "source"
+      title: | "Website – Aerial photos" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "Manningham Council" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "1991 aerial photos of the Chan residence" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00011"
+      record_type: "source"
+      title: | "Website – Doncaster Templestowe Historical Society" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "Judith Leaney" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Vintage photo of Bulleen Plaza" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 2
+      review_flags: []
+    - source_id: "KCSRC00012"
+      record_type: "source"
+      title: | "Melway Edition 20 from 1990" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "book_map" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "ISSN: 0311-3957" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Vintage Melbourne maps" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 6
+      review_flags: []
+    - source_id: "KCSRC00013"
+      record_type: "source"
+      title: | "The Met, Public Transport Map of Melbourne from 1992" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "map" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Melbourne transport map from 1992" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00014"
+      record_type: "source"
+      title: | "The Mr Cruel Map" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "map" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "Melbourne Marvels" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Spatial data" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00015"
+      record_type: "source"
+      title: | "Photo © Wayne Ludbey/The Age" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "photo" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "FXB1603372" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Phyllis Chan in Karmein’s bedroom, 13/04/1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00016"
+      record_type: "source"
+      title: | "Photo © Tina Haynes/The Age" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "photo" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "FXB1614201" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Phyllis Chan in Karmein’s bedroom, 03/11/1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00017"
+      record_type: "source"
+      title: | "Conversation with Eamonn Gunning from Melbourne Marvels" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "private_conversation" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[2]:
+        -: | "Birthdates of Karly and Karen Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Presence of an alarm system in the Chan residence" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
+    - source_id: "KCSRC00018"
+      record_type: "source"
+      title: | "The Age, 21/04/1991, page 5" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-04-21" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[2]:
+        -: | "Karmein’s glandular fever" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Phone call from Karly Chan to her father on the night of the abduction" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "places.json"
+          reference_count: 14
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags: []
+    - source_id: "KCSRC00019"
+      record_type: "source"
+      title: | "The Age, 13/09/1997, page 3" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1997-09-13" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited Sep 13, 1997" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[2]:
+        -: | "Abduction timeline according to deputy state coroner Iain West" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Timeline differs significantly from the Wikipedia/Paul Anderson timeline [KCSRC00005]" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "places.json"
+          reference_count: 3
+        - file: "timeline.json"
+          reference_count: 5
+      review_flags[1]:
+        - "Timeline conflicts with KCSRC00005 according to the source index; use with explicit conflict handling."
+    - source_id: "KCSRC00020"
+      record_type: "source"
+      title: | "grays.com Sale 20084097 > Lot 0001" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "auction_listing" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Photo of 1974 Holden HQ Monaro GTS" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00021"
+      record_type: "source"
+      title: | "Website – Registration labels repro" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Rego sticker analysis" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00022"
+      record_type: "source"
+      title: | "User “pwurg” from Reddit" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "reddit_user_content" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Photo of the intercom system installed in the former Chan residence" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
+    - source_id: "KCSRC00023"
+      record_type: "source"
+      title: | "Colour version of a photo mostly seen in black and white" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "video_still_or_video_source" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "The Hunters: Mr Cruel (S01E01)" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karmein Chan during winter" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00024"
+      record_type: "source"
+      title: | "OpenAI ChatGPT 4o" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "ai_generated_or_assisted_claim" | u="source_type" | p="category" | i=2 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karmein Chan height in 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "low_confidence_ai_assisted_claim" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "AI-derived claim; should be replaced or corroborated with a primary or archival source."
+    - source_id: "KCSRC00025"
+      record_type: "source"
+      title: | "Ask Oracle website" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Zodiac sign information about Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00026"
+      record_type: "source"
+      title: | "YouTube – australianews" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "youtube_video" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "YouTube user: australianews" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Edgars Creek incident original video (2012)" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00027"
+      record_type: "source"
+      title: | "Bus and Coach Society of Victoria website" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "Melbourne Government Bus Routes 1971 to 1993: 200–377 & 600–602" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Historical bus routes information for Melbourne" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00028"
+      record_type: "source"
+      title: | "Missing and Murdered blog" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "blog" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Trivia about Phyllis Lam and Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00029"
+      record_type: "source"
+      title: | "YouTube – The chilling case of Mr Cruel’s abductions" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "youtube_video" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Information about the abduction of Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 5
+      review_flags: []
+    - source_id: "KCSRC00030"
+      record_type: "source"
+      title: | "Weather Spark – April 1991 Weather History at Melbourne Airport, Victoria, Australia" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "weather_reference_website" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Melbourne weather data for Saturday 13 April 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00031"
+      record_type: "source"
+      title: | "Vice – Twenty-Five Years On, Here’s Everything We Know About the Murder of Karmein Chan" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2016-04-13" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[1]:
+        -: | "Maddison Connaughton, Vice" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Twenty-Five Years On, Here’s Everything We Know About the Murder of Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00032"
+      record_type: "source"
+      title: | "The Canberra Times, Monday 15 April 1991 – Kidnapping “May be the third”" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-04-15" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Newspaper article about the abduction of Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00033"
+      record_type: "source"
+      title: | "User “GoingInForPhase2” from Reddit" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "reddit_user_content" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Drawings of the balaclavas used by Mr Cruel" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
+    - source_id: "KCSRC00034"
+      record_type: "source"
+      title: | "The Age, Friday 11 April 2025 – When Karmein Chan was abducted, this policeman was first at the scene" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2025-04-11" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Original Victoria Police statement from Rodney David Phillips, the first policeman to enter the crime scene" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "places.json"
+          reference_count: 10
+        - file: "timeline.json"
+          reference_count: 4
+      review_flags: []
+    - source_id: "KCSRC00035"
+      record_type: "source"
+      title: | "Facebook post" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "private_or_limited_access_social_media_post" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[2]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Non-disclosable" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Bulleen Plaza restaurant opening year" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "non_disclosable_source_details" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "places.json"
+          reference_count: 2
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags[1]:
+        - "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
+    - source_id: "KCSRC00036"
+      record_type: "source"
+      title: | "Reddit DM" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "private_message" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[2]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Non-disclosable" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Chan sister’s favourite dish" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "non_disclosable_source_details" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
+    - source_id: "KCSRC00037"
+      record_type: "source"
+      title: | "Melway Edition 20 from 1990" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "book_map" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[2]:
+        -: | "© Melway" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 0311-3957" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Burwood, PLC, Parer Street" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 9
+      review_flags: []
+    - source_id: "KCSRC00038"
+      record_type: "source"
+      title: | "Melbourne & suburbs map" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "map" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "© ACV 03/1990" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Vintage map of Melbourne" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 30
+      review_flags: []
+    - source_id: "KCSRC00039"
+      record_type: "source"
+      title: | "Website – TakeMeBackTo" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Trivia about Saturday 13 April 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00040"
+      record_type: "source"
+      title: | "Website – My Trips by Blenner Hassett" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Hong Kong harbour in 1988" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00041"
+      record_type: "source"
+      title: | "The Age, 17/04/1991, page 3" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-04-17" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited Apr 17, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Quotes from the interview given by the Chan parents on Tuesday 16 April 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 1
+      review_flags: []
+    - source_id: "KCSRC00042"
+      record_type: "source"
+      title: | "The Age, 03/05/1991, page 5" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-05-03" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited May 3, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Patronage drop in both restaurants" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags: []
+    - source_id: "KCSRC00043"
+      record_type: "source"
+      title: | "The Age, 24/05/1991, page 3" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-05-24" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited May 24, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karen Chan birthday: Tuesday 31 May 1983" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "people.json"
+          reference_count: 12
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags: []
+    - source_id: "KCSRC00044"
+      record_type: "source"
+      title: | "The Age, 05/06/1991, page 5" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-06-05" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited Jun 5, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karly Chan has started to sleepwalk" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags: []
+    - source_id: "KCSRC00045"
+      record_type: "source"
+      title: | "The Age, 14/08/1994, page 6" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1994-08-14" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited Aug 14, 1994" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Lesser known portrait of Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00046"
+      record_type: "source"
+      title: | "The Age, 04/05/1991, page 19" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-05-04" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited May 4, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Photo of the Chan sisters sitting on a bed" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 2
+      review_flags: []
+    - source_id: "KCSRC00047"
+      record_type: "source"
+      title: | "The Age, 11/05/1992, page 5" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1992-05-11" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited May 11, 1992" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Information about Karmein Chan’s funeral service" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 6
+      review_flags: []
+    - source_id: "KCSRC00048"
+      record_type: "source"
+      title: | "The Age, 17/05/1992, page 3" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1992-05-17" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited May 17, 1992" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Information about Karmein Chan’s funeral service" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00049"
+      record_type: "source"
+      title: | "The Age, 16/05/1992, page 3" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1992-05-16" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited May 16, 1992" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Information about Karmein Chan’s funeral service" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 7
+      review_flags: []
+    - source_id: "KCSRC00050"
+      record_type: "source"
+      title: | "3AW radio broadcast" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "radio_broadcast" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "Copyright 3AW" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Audio recording of radio broadcast about Karmein Chan’s funeral ceremony" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00051"
+      record_type: "source"
+      title: | "The Age, 02/05/1991, page 1" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1991-05-02" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Copyright Fairfax Media Publications Pty Limited May 2, 1991" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Letter from Phyllis Chan to “Mr Kind”" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "people.json"
+          reference_count: 1
+        - file: "timeline.json"
+          reference_count: 3
+      review_flags: []
+    - source_id: "KCSRC00052"
+      record_type: "source"
+      title: | "Unlabelled newspaper from Tuesday 2 July 1996" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1996-07-02" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[1]:
+        -: | "Copyright Eltham District Historical Society via Victorian Collections" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Opening year for Ying’s restaurant in Eltham" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00053"
+      record_type: "source"
+      title: | "YouTube video – VFAFOOTY" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "youtube_video" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "YouTube user: VFAFOOTY" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Video shot around and inside the Melbourne Royal Children’s Hospital in 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 1
+      review_flags: []
+    - source_id: "KCSRC00054"
+      record_type: "source"
+      title: | "YouTube video – Gezza1967" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "youtube_video" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "YouTube user: Gezza1967" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Aerial view of The Royal Children Hospital of Melbourne in 1963" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 1
+      review_flags: []
+    - source_id: "KCSRC00055"
+      record_type: "source"
+      title: | "Crime Insiders, Episode 237, season 3 – FORENSICS | Mr. Cruel" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2025-08-04" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[1]:
+        -: | "Associate Professor David Wells guest; former forensic physician with Victoria Police at the time of the attacks" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[2]:
+        -: | "New details about Mr Cruel" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Medical condition related to his back" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00056"
+      record_type: "source"
+      title: | "Anonymous informant" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "anonymous_informant" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[2]:
+        -: | "n/a" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Non-disclosable" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karmein Chan wanted to become a paediatrician" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "non_disclosable_source_details" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
+    - source_id: "KCSRC00057"
+      record_type: "source"
+      title: | "Melbourne Marvels podcast – Mr Cruel 12, special episode" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2025-09-16" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[1]:
+        -: | "Interview with the Holden Commodore Vacationer witness" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Mr Cruel might have been seen bringing Sharon Wills to her release location on Tuesday 27 December 1988 around 11.30PM" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00058"
+      record_type: "source"
+      title: | "Melbourne Marvels podcast – Mr Cruel 14" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2026-03-16" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers: []
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Karmein Chan was camping at Jerusalem Creek in February 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[2]:
+        - file: "places.json"
+          reference_count: 6
+        - file: "timeline.json"
+          reference_count: 4
+      review_flags: []
+    - source_id: "KCSRC00059"
+      record_type: "source"
+      title: | "The Age, 14/05/1992, page 20" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1992-05-14" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "Fairfax Media Publications Pty Limited" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Funeral notice for Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00060"
+      record_type: "source"
+      title: | "VicRoads Country Directory, 1st edition 1992" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "book_map" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[2]:
+        -: | "© VicRoads" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 1037 4876" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Maps of Alexandra, Eildon and Jerusalem Inlet" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 4
+      review_flags: []
+    - source_id: "KCSRC00061"
+      record_type: "source"
+      title: | "Victoria Police Gazette" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "government_gazette" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2016-07-07" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[2]:
+        -: | "Victoria Police" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Thursday 7 July 2016" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "VicPol reward" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "The site body appears to show “Thursday 7 July 2026” near the reward image, while the source list records “Thursday 7 July 2016”; verify the date if this source becomes important."
+  people[5]:
+    - id: "TCS-WWKC-PPL-0001"
+      record_type: "person"
+      display_name: | "Karmein Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      names[4]:
+        -: | "Karmein Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "Karmein" | u="given_name" | p="common_public_given_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "Chan" | u="family_name" | p="common_public_family_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "陈嘉敏" | u="chinese_name" | p="simplified_chinese" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[3]:
+        -: | "primary_subject" | u="knowledge_file_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "victim" | u="case_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "student" | u="social_role" | p="general" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00001]
+      birth:
+        date: | "1977-11-05" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+        place: | "Australia" | u="place_name" | p="country" | i=0 | s=[TCS-WWKC-WEB-0001]
+      death:
+        year: | "1991" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001]
+      family_relationships[4]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "younger_sister" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0004" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "younger_sister" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+          person_id: | "TCS-WWKC-PPL-0005" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      residences[3]:
+        -
+          place: | "Bulleen, Victoria, Australia" | u="place_name" | p="suburb" | i=0 | s=[TCS-WWKC-WEB-0001]
+          period: | "early_years" | u="life_period" | p="relative_period" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -
+          place: | "Serpells Road, Templestowe, Victoria, Australia" | u="place_name" | p="street" | i=0 | s=[TCS-WWKC-WEB-0001]
+          period: | "after_bulleen_until_abduction" | u="life_period" | p="relative_period" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -
+          place: | "113 Serpells Road, Templestowe, Victoria, Australia" | u="postal_address" | p="street_address" | i=0 | s=[TCS-WWKC-WEB-0001]
+          period: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      education[1]:
+        -
+          institution: | "Presbyterian Ladies' College" | u="school_name" | p="institution" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00001]
+          year_level_1991: | "Year 8" | u="school_year_level" | p="year_level" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00001]
+      languages[4]:
+        -: | "English" | u="language" | p="known_language" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Chinese" | u="language_family_or_household_language" | p="general" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00005,KCSRC00006]
+        -: | "Cantonese" | u="language" | p="known_language" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Mandarin" | u="language" | p="known_language" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+    - id: "TCS-WWKC-PPL-0002"
+      record_type: "person"
+      display_name: | "John Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      names[3]:
+        -: | "John Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "Kam On John Chan" | u="personal_name" | p="expanded_public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Kam On (John) Chan" | u="personal_name" | p="caption_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "father_of_karmein_chan" | u="family_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "restaurant_operator" | u="occupation_or_business_role" | p="general_role" | i=0 | s=[TCS-WWKC-WEB-0001]
+      family_relationships[4]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0001" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0004" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+          person_id: | "TCS-WWKC-PPL-0005" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+        -
+          relationship: | "wife" | u="family_relationship" | p="case_period_relationship" | i=0 | s=[TCS-WWKC-WEB-0001]
+          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      events:
+        parents_migrated_to_melbourne:
+          date: | "1976" | u="iso8601_year" | p="year" | i=1 | s=[TCS-WWKC-WEB-0001]
+          place: | "Melbourne, Victoria, Australia" | u="place_name" | p="city" | i=0 | s=[TCS-WWKC-WEB-0001]
+        d24_call:
+          date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
+          time: | "21:35" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
+        divorce_from_phyllis_chan:
+          date: | "1993" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001]
+          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+    - id: "TCS-WWKC-PPL-0003"
+      record_type: "person"
+      display_name: | "Phyllis Chan" | u="personal_name" | p="common_public_case_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      names[4]:
+        -: | "Phyllis Chan" | u="personal_name" | p="common_public_case_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "Phyllis Ngan Ying Lam" | u="personal_name" | p="expanded_public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Phyllis Lam" | u="personal_name" | p="later_public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Phyllis Lam (ex-Chan)" | u="personal_name" | p="reported_later_name_style" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "mother_of_karmein_chan" | u="family_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "restaurant_operator" | u="occupation_or_business_role" | p="general_role" | i=0 | s=[TCS-WWKC-WEB-0001]
+      family_relationships[4]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0001" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0004" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+          person_id: | "TCS-WWKC-PPL-0005" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+        -
+          relationship: | "husband" | u="family_relationship" | p="case_period_relationship" | i=0 | s=[TCS-WWKC-WEB-0001]
+          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      events:
+        parents_migrated_to_melbourne:
+          date: | "1976" | u="iso8601_year" | p="year" | i=1 | s=[TCS-WWKC-WEB-0001]
+          place: | "Melbourne, Victoria, Australia" | u="place_name" | p="city" | i=0 | s=[TCS-WWKC-WEB-0001]
+        breakfast_with_karmein:
+          date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+          place: | "Bulleen Plaza shopping centre, Bulleen, Victoria, Australia" | u="place_name" | p="specific_location" | i=0 | s=[TCS-WWKC-WEB-0001]
+        press_conference:
+          date: | "1991-04-16" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00041]
+        mr_kind_letter:
+          date: | "1991-05-02" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00051]
+        divorce_from_john_chan:
+          date: | "1993" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001]
+          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+        returned_to_family_name:
+          date: | "after_1993" | u="relative_date" | p="relative" | i=1 | s=[TCS-WWKC-WEB-0001]
+          name: | "Phyllis Lam" | u="personal_name" | p="later_public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+    - id: "TCS-WWKC-PPL-0004"
+      record_type: "person"
+      display_name: | "Karly Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      names[1]:
+        -: | "Karly Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      roles[3]:
+        -: | "younger_sister_of_karmein_chan" | u="family_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -: | "home_invasion_witness" | u="case_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "student" | u="social_role" | p="general" | i=0 | s=[TCS-WWKC-WEB-0001]
+      birth:
+        date: | "1981-06" | u="iso8601_month" | p="month" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      family_relationships[4]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "older_sister" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0001" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "younger_sister" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+          person_id: | "TCS-WWKC-PPL-0005" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      education[1]:
+        -
+          institution: | "Presbyterian Ladies' College" | u="school_name" | p="institution" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+    - id: "TCS-WWKC-PPL-0005"
+      record_type: "person"
+      display_name: | "Karen Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      names[1]:
+        -: | "Karen Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      roles[3]:
+        -: | "younger_sister_of_karmein_chan" | u="family_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+        -: | "home_invasion_witness" | u="case_role" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "student" | u="social_role" | p="general" | i=0 | s=[TCS-WWKC-WEB-0001]
+      birth:
+        date: | "1983-05-31" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      family_relationships[4]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "older_sister" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0001" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+        -
+          relationship: | "older_sister" | u="family_relationship" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+          person_id: | "TCS-WWKC-PPL-0004" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      education[1]:
+        -
+          institution: | "Presbyterian Ladies' College" | u="school_name" | p="institution" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+  places[17]:
+    - id: "KCPLACE0001"
+      canonical_name: | "Chan family home" | p="descriptive label" | i=0 | s=[KCSRC00034,KCSRC00038]
+      place_type: | "residential_property" | p="category" | i=0 | s=[KCSRC00034,KCSRC00038]
+      location:
+        street_address: | "113 Serpells Road" | p="publicly reported historical address" | i=0 | s=[KCSRC00034]
+        suburb: | "Templestowe" | p="suburb" | i=0 | s=[KCSRC00038]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00038]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00038]
+      case_roles[2]:
+        -: | "Karmein Chan's family home in 1991" | p="case role" | i=0 | s=[KCSRC00038]
+        -: | "abduction site" | p="case role" | i=0 | s=[KCSRC00034]
+      privacy_level: | "privacy_sensitive_historical_private_residence" | p="data-handling flag" | i=0 | s=[]
+      review_flags: []
+    - id: "KCPLACE0002"
+      canonical_name: | "Presbyterian Ladies' College" | p="official institution name" | i=0 | s=[KCSRC00001,KCSRC00002,KCSRC00038]
+      place_type: | "school" | p="category" | i=0 | s=[KCSRC00001,KCSRC00002]
+      location:
+        suburb: | "Burwood" | p="suburb" | i=0 | s=[KCSRC00002]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00002]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00002]
+      case_roles[1]:
+        -: | "Karmein Chan's school" | p="case role" | i=0 | s=[KCSRC00001,KCSRC00038]
+      review_flags: []
+    - id: "KCPLACE0003"
+      canonical_name: | "Box Hill" | p="suburb / transport locality" | i=0 | s=[KCSRC00038]
+      place_type: | "suburb_or_transport_area" | p="category" | i=1 | s=[KCSRC00038]
+      location:
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00038]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00038]
+      case_roles[1]:
+        -: | "place Karmein Chan passed through during school bus trips" | p="routine place" | i=0 | s=[KCSRC00038]
+      review_flags: []
+    - id: "KCPLACE0004"
+      canonical_name: | "Eltham restaurant operated by the Chan family" | p="neutral descriptive label" | i=1 | s=[KCSRC00019,KCSRC00038]
+      aliases[1]:
+        -: | "Ming's restaurant in Eltham" | p="name as currently present in source text" | i=1 | s=[KCSRC00038]
+      place_type: | "restaurant" | p="category" | i=0 | s=[KCSRC00019,KCSRC00038]
+      location:
+        suburb: | "Eltham" | p="suburb" | i=0 | s=[KCSRC00038]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00038]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00038]
+      case_roles[2]:
+        -: | "family business location" | p="case role" | i=0 | s=[KCSRC00038]
+        -: | "place where Karmein, Karly and Karen Chan spent part of Saturday 13 April 1991" | p="same-day routine location" | i=0 | s=[KCSRC00019]
+      review_flags[1]:
+        - "Resolve restaurant name conflict before treating alias as canonical."
+    - id: "KCPLACE0005"
+      canonical_name: | "Bulleen Plaza shopping centre" | p="shopping centre name" | i=0 | s=[KCSRC00011,KCSRC00035,KCSRC00038]
+      place_type: | "shopping_centre" | p="category" | i=0 | s=[KCSRC00011,KCSRC00038]
+      location:
+        suburb: | "Bulleen" | p="suburb" | i=0 | s=[KCSRC00038]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00038]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00038]
+      case_roles[2]:
+        -: | "Saturday breakfast location for Karmein Chan and Phyllis Chan" | p="routine place" | i=0 | s=[KCSRC00038]
+        -: | "location of a Chan family restaurant business" | p="business location" | i=0 | s=[KCSRC00035,KCSRC00038]
+      review_flags: []
+    - id: "KCPLACE0006"
+      canonical_name: | "Bulleen Library" | p="library name" | i=0 | s=[KCSRC00005]
+      place_type: | "library" | p="category" | i=0 | s=[KCSRC00005]
+      location:
+        suburb: | "Bulleen" | p="suburb" | i=0 | s=[KCSRC00005]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00005]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00005]
+      case_roles[1]:
+        -: | "place where Karmein Chan completed homework on Saturday mornings" | p="routine place" | i=0 | s=[KCSRC00005]
+      review_flags: []
+    - id: "KCPLACE0007"
+      canonical_name: | "Boroondara Tennis Centre" | p="current or later name used by source" | i=0 | s=[KCSRC00018,KCSRC00038]
+      aliases[1]:
+        -: | "Camberwell Tennis Centre" | p="historical name" | i=0 | s=[KCSRC00018,KCSRC00038]
+      place_type: | "sports_facility" | p="category" | i=0 | s=[KCSRC00018]
+      location:
+        suburb: | "Balwyn North" | p="suburb" | i=0 | s=[KCSRC00018]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00018]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00018]
+      case_roles[1]:
+        -: | "Karmein Chan's Saturday tennis lesson location" | p="routine place" | i=0 | s=[KCSRC00018,KCSRC00038]
+      review_flags: []
+    - id: "KCPLACE0008"
+      canonical_name: | "Doncaster Police Station" | p="institution name" | i=0 | s=[KCSRC00034]
+      place_type: | "police_station" | p="category" | i=0 | s=[KCSRC00034]
+      location:
+        suburb: | "Doncaster" | p="suburb" | i=0 | s=[KCSRC00034]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00034]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00034]
+      case_roles[1]:
+        -: | "place where the Chan family was taken to make first statements after the abduction" | p="case procedure location" | i=0 | s=[KCSRC00034]
+      review_flags: []
+    - id: "KCPLACE0009"
+      canonical_name: | "The Royal Children's Hospital Melbourne" | p="institution name" | i=0 | s=[KCSRC00018,KCSRC00053,KCSRC00054]
+      aliases[1]:
+        -: | "Royal Melbourne Children's Hospital" | p="name variant used in source text" | i=0 | s=[KCSRC00018]
+      place_type: | "hospital" | p="category" | i=0 | s=[KCSRC00018]
+      location:
+        city: | "Melbourne" | p="city" | i=0 | s=[KCSRC00018]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00018]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00018]
+      case_roles[1]:
+        -: | "place where Karmein Chan received treatment for glandular fever in 1989" | p="medical history location" | i=0 | s=[KCSRC00018]
+      review_flags: []
+    - id: "KCPLACE0010"
+      canonical_name: | "Jerusalem Creek" | p="camping area / locality" | i=0 | s=[KCSRC00058,KCSRC00060]
+      place_type: | "camping_area" | p="category" | i=0 | s=[KCSRC00058,KCSRC00060]
+      location:
+        nearby_locality: | "Eildon" | p="nearby locality" | i=0 | s=[KCSRC00058]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00058,KCSRC00060]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00058,KCSRC00060]
+      case_roles[1]:
+        -: | "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 16 February 1991" | p="date-bounded school activity location" | i=0 | s=[KCSRC00058]
+      review_flags: []
+    - id: "KCPLACE0011"
+      canonical_name: | "Bulleen Baptist Church" | p="church name" | i=0 | s=[KCSRC00012,KCSRC00049]
+      place_type: | "church" | p="category" | i=0 | s=[KCSRC00012,KCSRC00049]
+      location:
+        street_context: | "corner of Marcus and Thompsons roads" | p="publicly reported intersection" | i=0 | s=[KCSRC00049]
+        suburb: | "Bulleen" | p="suburb" | i=0 | s=[KCSRC00012,KCSRC00049]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00049]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00049]
+      case_roles[1]:
+        -: | "funeral service location for Karmein Chan on 16 May 1992" | p="ceremonial location" | i=0 | s=[KCSRC00049]
+      review_flags: []
+    - id: "KCPLACE0012"
+      canonical_name: | "Fawkner Cemetery" | p="cemetery name" | i=0 | s=[KCSRC00012,KCSRC00047]
+      place_type: | "cemetery" | p="category" | i=0 | s=[KCSRC00012,KCSRC00047]
+      location:
+        suburb: | "Fawkner" | p="suburb" | i=0 | s=[KCSRC00012,KCSRC00047]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00047]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00047]
+      case_roles[1]:
+        -: | "cremation location after the Bulleen Baptist Church service" | p="ceremonial / funerary location" | i=0 | s=[KCSRC00047]
+      review_flags: []
+    - id: "KCPLACE0013"
+      canonical_name: | "Templestowe Cemetery" | p="cemetery name" | i=1 | s=[]
+      place_type: | "cemetery" | p="category" | i=0 | s=[]
+      location:
+        suburb: | "Templestowe" | p="suburb" | i=0 | s=[]
+        state: | "Victoria" | p="state" | i=0 | s=[]
+        country: | "Australia" | p="country" | i=0 | s=[]
+      case_roles[1]:
+        -: | "resting place associated with Karmein Chan" | p="grave / memorial location" | i=1 | s=[]
+      review_flags[1]:
+        - "Add a proper internal source_id before treating this entry as fully sourced."
+    - id: "KCPLACE0014"
+      canonical_name: | "Scots Church Melbourne" | p="church name" | i=0 | s=[KCSRC00001]
+      place_type: | "church" | p="category" | i=0 | s=[KCSRC00001]
+      location:
+        city: | "Melbourne" | p="city" | i=0 | s=[KCSRC00001]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00001]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00001]
+      case_roles[1]:
+        -: | "memorial service location attended by PLC students and teachers on 20 May 1992" | p="ceremonial location" | i=0 | s=[KCSRC00001]
+      review_flags: []
+    - id: "KCPLACE0015"
+      canonical_name: | "Karmein Chan remains discovery location" | p="descriptive label" | i=0 | s=[KCSRC00037]
+      aliases[2]:
+        -: | "field near Thomastown SEC Terminal Station" | p="descriptive location" | i=0 | s=[KCSRC00037]
+        -: | "Edgars Creek discovery location" | p="descriptive location" | i=0 | s=[KCSRC00037]
+      place_type: | "body_recovery_site" | p="case category" | i=0 | s=[KCSRC00037]
+      location:
+        suburb: | "Thomastown" | p="suburb" | i=0 | s=[KCSRC00037]
+        state: | "Victoria" | p="state" | i=0 | s=[KCSRC00037]
+        country: | "Australia" | p="country" | i=0 | s=[KCSRC00037]
+        coordinates: | {"latitude":-37.6916389,"longitude":145.0084167} | u="decimal_degrees" | p="converted from reported DMS coordinates" | i=0 | s=[KCSRC00037]
+      case_roles[1]:
+        -: | "place where Karmein Chan's remains were found on 9 April 1992" | p="case role" | i=0 | s=[KCSRC00037]
+      review_flags: []
+    - id: "KCPLACE0016"
+      canonical_name: | "Parer Street" | p="street name" | i=0 | s=[KCSRC00029]
+      place_type: | "street" | p="category" | i=0 | s=[KCSRC00029]
+      location:
+        state: | "Victoria" | p="state" | i=1 | s=[KCSRC00029]
+        country: | "Australia" | p="country" | i=1 | s=[KCSRC00029]
+      case_roles[1]:
+        -: | "reported location of suspicious vehicle activity near Presbyterian Ladies' College before the abduction" | p="reported suspicious activity location" | i=1 | s=[KCSRC00029]
+      review_flags[1]:
+        - "Confirm exact suburb and relationship to PLC pickup area."
+    - id: "KCPLACE0017"
+      canonical_name: | "Rocklea Road" | p="street name only" | i=0 | s=[]
+      place_type: | "street" | p="category" | i=0 | s=[]
+      location:
+        suburb: | "Bulleen" | p="suburb" | i=0 | s=[]
+        state: | "Victoria" | p="state" | i=0 | s=[]
+        country: | "Australia" | p="country" | i=0 | s=[]
+      case_roles[1]:
+        -: | "location associated with the 1995 Billy Chan attack on Phyllis Lam" | p="related later family event" | i=0 | s=[]
+      privacy_level: | "privacy_sensitive_street_only" | p="data-handling flag" | i=0 | s=[]
+      review_flags[1]:
+        - "Add source_id if this later family event remains in places.json."
+  timeline[50]:
+    - id: "KCEVT0001"
+      record_type: "timeline_event"
+      event_type: | "personal_milestone" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein Chan’s birth" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1977-11-05" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein Chan’s birth" | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0002"
+      record_type: "timeline_event"
+      event_type: | "family_business" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Hong Kong style restaurant named Mings opens at Bulleen Plaza" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00035]
+      date: | "1978" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00035]
+      summary: | "A Hong Kong style restaurant named Mings opens at the Bulleen Plaza shopping centre." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00035]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0003"
+      related_place_ids[1]:
+        - "KCPLACE0005"
+      review_flags: []
+    - id: "KCEVT0003"
+      record_type: "timeline_event"
+      event_type: | "personal_milestone" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karly Chan’s birth" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      date: | "1981-06" | u="iso8601_month" | p="month" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      summary: | "Karly Chan’s birth" | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0004"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0004"
+      record_type: "timeline_event"
+      event_type: | "personal_milestone" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karen Chan’s birth" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      date: | "1983-05-31" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      summary: | "Karen Chan’s birth" | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0005"
+      record_type: "timeline_event"
+      event_type: | "medical_history" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein Chan has glandular fever" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00018]
+      date: | "1989-09" | u="iso8601_month" | p="month" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00018]
+      summary: | "Karmein Chan has glandular fever, also known as infectious mononucleosis, and receives treatment at the Royal Children’s Hospital of Melbourne." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00018]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0009"
+      review_flags: []
+    - id: "KCEVT0006"
+      record_type: "timeline_event"
+      event_type: | "personal_milestone" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein Chan’s 13th birthday" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1990-11-05" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein Chan’s 13th birthday" | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0007"
+      record_type: "timeline_event"
+      event_type: | "public_context" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Melbourne Cup takes place at Flemington Racecourse" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1990-11-06" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "The Melbourne Cup, a 3.2 km handicap horse race, takes place at Flemington Racecourse." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0008"
+      record_type: "timeline_event"
+      event_type: | "school_activity" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein camps at Jerusalem Creek with PLC classmates" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
+      start_date: | "1991-02-02" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
+      end_date: | "1991-02-16" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
+      summary: | "Karmein Chan is camping at Jerusalem Creek with her classmates from Presbyterian Ladies’ College." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[2]:
+        - "KCPLACE0010"
+        - "KCPLACE0002"
+      review_flags: []
+    - id: "KCEVT0009"
+      record_type: "timeline_event"
+      event_type: | "world_context" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Dissolution of the Soviet Union" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-03-17" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Timeline contextual entry: Dissolution of the Soviet Union." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      review_flags[1]:
+        - "Verify this contextual entry: the label/date may be historically imprecise."
+    - id: "KCEVT0010"
+      record_type: "timeline_event"
+      event_type: | "public_context" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Easter Monday public holiday" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-01" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Easter Monday public holiday in Victoria/Australia context." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0011"
+      record_type: "timeline_event"
+      event_type: | "school_calendar" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Last school day of term 1" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-12" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Last school day of term 1" | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0002"
+      review_flags: []
+    - id: "KCEVT0012"
+      record_type: "timeline_event"
+      event_type: | "daily_routine" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Tennis lesson for Karmein at Boroondara Tennis Centre" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "09:00" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein attends a tennis lesson at the Boroondara Tennis Centre, formerly Camberwell Tennis Centre." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0007"
+      review_flags: []
+    - id: "KCEVT0013"
+      record_type: "timeline_event"
+      event_type: | "daily_routine" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Phyllis and Karmein have breakfast at Bulleen Plaza" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "10:00" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Phyllis and Karmein have breakfast at the Bulleen Plaza shopping centre; the timeline notes cappuccino and orange juice." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0005"
+      review_flags: []
+    - id: "KCEVT0014"
+      record_type: "timeline_event"
+      event_type: | "daily_routine" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein does homework at Bulleen Library" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00005]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00005]
+      start_time: | "10:30" | u="local_time_24h" | p="approximate_minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00005]
+      end_time: | "12:00" | u="local_time_24h" | p="approximate_minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00005]
+      summary: | "Karmein does her homework at the Bulleen Library, approximately between 10:30 AM and 12:00 PM." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00005]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0006"
+      review_flags: []
+    - id: "KCEVT0015"
+      record_type: "timeline_event"
+      event_type: | "daily_routine_transfer" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Family friends collect the Chan sisters and drive them to Ming’s" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "10:30" | u="local_time_24h" | p="approximate_time_range" | i=0 | s=[TCS-WWKC-WEB-0001]
+      end_time: | "12:00" | u="local_time_24h" | p="approximate_time_range" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "A married couple, friends of the Chans, collected Karmein and her sisters, who had been at a Chinese (Mandarin) lesson, and drove them to Ming’s." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0004"
+      review_flags[1]:
+        - "This source sentence combines Karmein’s Bulleen Library homework with the sisters’ collection/transfer; split further if primary-source detail improves."
+    - id: "KCEVT0016"
+      record_type: "timeline_event"
+      event_type: | "daily_routine" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Lunch at Eltham restaurant" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "12:45" | u="local_time_24h" | p="approximate_minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Approximate lunch at the Eltham restaurant operated by the Chan family." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[4]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0003"
+      related_place_ids[1]:
+        - "KCPLACE0004"
+      review_flags: []
+    - id: "KCEVT0017"
+      record_type: "timeline_event"
+      event_type: | "daily_routine" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein, Karly and Karen play outside the restaurant and have dinner" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "13:30" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      end_time: | "17:44" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein, Karly and Karen play outside the Eltham restaurant and have dinner." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0004"
+      review_flags: []
+    - id: "KCEVT0018"
+      record_type: "timeline_event"
+      event_type: | "daily_routine_transfer" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Eltham restaurant manager drives the three sisters home" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00019]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00019]
+      start_time: | "17:45" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00019]
+      end_time: | "18:00" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00019]
+      summary: | "The Eltham restaurant manager drives Karmein, Karly and Karen home." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00019]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[2]:
+        - "KCPLACE0004"
+        - "KCPLACE0001"
+      review_flags[1]:
+        - "The website timeline explicitly notes: 'Conflicts with KCSRC00005'."
+    - id: "KCEVT0019"
+      record_type: "timeline_event"
+      event_type: | "daily_routine" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "The girls are at home with John Chan" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "18:00" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      end_time: | "18:29" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein, Karly and Karen are at home with their father John Chan." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[4]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0002"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0020"
+      record_type: "timeline_event"
+      event_type: | "daily_routine_transfer" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "John Chan goes to work at Ming’s restaurant in Eltham" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "18:30" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "John Chan leaves the family home and goes to work at Ming’s restaurant in Eltham." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0002"
+      related_place_ids[2]:
+        - "KCPLACE0001"
+        - "KCPLACE0004"
+      review_flags: []
+    - id: "KCEVT0021"
+      record_type: "timeline_event"
+      event_type: | "daily_routine" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein bathes her sisters, reads stories, and the girls watch a Marilyn Monroe documentary" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00003,KCSRC00004]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00003,KCSRC00004]
+      start_time: | "18:31" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00003,KCSRC00004]
+      end_time: | "20:30" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00003,KCSRC00004]
+      summary: | "Karmein bathes her younger sisters and reads them bedtime stories. They start watching 'Marilyn: Something’s Got To Give' on Channel 10." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00003,KCSRC00004]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0022"
+      record_type: "timeline_event"
+      event_type: | "home_invasion" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein and Karly encounter the intruder in the family hallway" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "20:40" | u="local_time_24h" | p="approximate_minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein and Karly encounter a man in a green tracksuit and balaclava wielding a long knife in the family hallway; he ties the younger sisters and locks them in a wardrobe." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0023"
+      record_type: "timeline_event"
+      event_type: | "abduction" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein Chan is abducted" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "21:05" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein is abducted, barefoot and wearing a white short-sleeved knee-length nightdress with a blue flower pattern." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0024"
+      record_type: "timeline_event"
+      event_type: | "case_status" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein’s trail is lost after the abduction" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "21:05" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "From the point of the abduction onward, Karmein’s trail is lost." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags[1]:
+        - "Status statement rather than a discrete witnessed event."
+    - id: "KCEVT0025"
+      record_type: "timeline_event"
+      event_type: | "emergency_call" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karly and Karen break free and call John Chan" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "21:20" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karly and Karen break free and call their father at the restaurant." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[4]:
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[2]:
+        - "KCPLACE0001"
+        - "KCPLACE0004"
+      review_flags: []
+    - id: "KCEVT0026"
+      record_type: "timeline_event"
+      event_type: | "emergency_response" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "John Chan leaves his restaurant in Eltham" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "21:23" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "John Chan leaves his restaurant in Eltham after receiving the call." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0002"
+      related_place_ids[1]:
+        - "KCPLACE0004"
+      review_flags: []
+    - id: "KCEVT0027"
+      record_type: "timeline_event"
+      event_type: | "emergency_response" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "John Chan arrives at 113 Serpells Road" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "21:30" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "John Chan arrives at the Chan family home at 113 Serpells Road, Templestowe." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[4]:
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0028"
+      record_type: "timeline_event"
+      event_type: | "police_notification" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Police are called" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "21:35" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Police are called after John Chan arrives home and discovers Karmein is missing." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[4]:
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0029"
+      record_type: "timeline_event"
+      event_type: | "police_response" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Sergeant Rodney David Phillips arrives at the scene" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00034]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00034]
+      start_time: | "21:50" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00034]
+      summary: | "Sergeant Rodney David Phillips from Victoria Police is at the scene and meets John Chan, Karly and Karen next to the garage." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00034]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[4]:
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0030"
+      record_type: "timeline_event"
+      event_type: | "police_procedure" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Chan family taken to Doncaster police station" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "22:00" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "The Chan family is taken to Doncaster police station to make their first statements." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[5]:
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0008"
+      review_flags: []
+    - id: "KCEVT0031"
+      record_type: "timeline_event"
+      event_type: | "case_context_comparison" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein has been missing as long as Sharon Wills had been missing" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-14" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "15:00" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein Chan has now been missing for as long as Sharon Wills was in December 1988." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0032"
+      record_type: "timeline_event"
+      event_type: | "case_context_comparison" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein has been missing as long as Nicola Lynas had been missing" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-15" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "23:00" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein Chan has now been missing for as long as Nicola Lynas was in July 1990." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0033"
+      record_type: "timeline_event"
+      event_type: | "media_appeal" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "John and Phyllis Chan give their first press conference" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-16" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "John and Phyllis Chan give their first press conference after Karmein’s abduction." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0034"
+      record_type: "timeline_event"
+      event_type: | "family_correspondence" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karly and Karen Chan write letters to Karmein" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-19" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karly and Karen Chan each write a letter to their missing sister." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0035"
+      record_type: "timeline_event"
+      event_type: | "investigation_reward" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Victorian government offers $100,000 reward" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-23" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "The Victorian government offers a $100,000 reward, described by the timeline as unusually fast and substantial." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0036"
+      record_type: "timeline_event"
+      event_type: | "investigation" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Police conduct large-scale door knock near Chan residence" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-24" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Police conduct a large-scale door knock of around 2,500 homes near the Chans’ Templestowe residence." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0001"
+      review_flags: []
+    - id: "KCEVT0037"
+      record_type: "timeline_event"
+      event_type: | "school_calendar" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "First school day of term 2" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-29" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "First school day of term 2." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0002"
+      review_flags: []
+    - id: "KCEVT0038"
+      record_type: "timeline_event"
+      event_type: | "school_calendar" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Presbyterian Ladies’ College students return to school" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-04-30" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Presbyterian Ladies’ College students return to school." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0002"
+      review_flags: []
+    - id: "KCEVT0039"
+      record_type: "timeline_event"
+      event_type: | "family_correspondence" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Phyllis Chan writes a letter to “Mr Kind”" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00051]
+      date: | "1991-05-02" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00051]
+      summary: | "Phyllis Chan writes a letter to 'Mr Kind'." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00051]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0040"
+      record_type: "timeline_event"
+      event_type: | "case_aftermath" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Patronage at the family’s Chinese restaurants has dropped dramatically" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00042]
+      date: | "1991-05-03" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00042]
+      summary: | "By this date, patronage at the family’s two Chinese restaurants has dropped off dramatically." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00042]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[2]:
+        - "KCPLACE0004"
+        - "KCPLACE0005"
+      review_flags: []
+    - id: "KCEVT0041"
+      record_type: "timeline_event"
+      event_type: | "school_correspondence" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein Chan’s classmates write to her family" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00001]
+      date: | "1991-05-08" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00001]
+      summary: | "Karmein Chan’s classmates write a letter to her family to express their sympathy." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[5]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0002"
+      review_flags: []
+    - id: "KCEVT0042"
+      record_type: "timeline_event"
+      event_type: | "family_correspondence" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Phyllis Chan addresses a letter to the man who is with Karmein" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-05-23" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Phyllis Chan addresses a letter to 'the man who is with Karmein Chan now'." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0043"
+      record_type: "timeline_event"
+      event_type: | "case_aftermath" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karly Chan has started to sleepwalk while calling out for Karmein" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00044]
+      date: | "1991-06-05" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00044]
+      summary: | "Karly Chan has started to sleepwalk while calling out for her missing sister." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00044]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0044"
+      record_type: "timeline_event"
+      event_type: | "public_appeal" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Phyllis Chan publishes a coded letter in the Sunday Herald Sun" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-06-23" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Phyllis Chan publishes a coded letter in the Sunday Herald Sun." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0045"
+      record_type: "timeline_event"
+      event_type: | "public_appeal" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Phyllis Chan publishes another letter in the Herald Sun on Karmein’s 14th birthday" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1991-11-05" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Phyllis Chan publishes another letter in the Herald Sun. Karmein would have been 14 years old." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags: []
+    - id: "KCEVT0046"
+      record_type: "timeline_event"
+      event_type: | "body_recovery" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein Chan’s body is found in Thomastown" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1992-04-09" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "17:00" | u="local_time_24h" | p="approximate_minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Karmein’s body is found in Thomastown by a man walking his dog at around 5 PM." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0015"
+      review_flags: []
+    - id: "KCEVT0047"
+      record_type: "timeline_event"
+      event_type: | "funeral_service" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Service held at Bulleen Baptist Church" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1992-05-16" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      start_time: | "10:30" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "A service is held at Bulleen Baptist Church." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[5]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0002"
+        - "TCS-WWKC-PPL-0003"
+        - "TCS-WWKC-PPL-0004"
+        - "TCS-WWKC-PPL-0005"
+      related_place_ids[1]:
+        - "KCPLACE0011"
+      review_flags: []
+    - id: "KCEVT0048"
+      record_type: "timeline_event"
+      event_type: | "cremation" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "Karmein Chan’s remains are cremated in Fawkner" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1992-05-16" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "Later in the day, Karmein’s remains are cremated in Fawkner." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0012"
+      review_flags: []
+    - id: "KCEVT0049"
+      record_type: "timeline_event"
+      event_type: | "memorial_service" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "PLC memorial service at Scots Church" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      date: | "1992-05-20" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "About 700 students and teachers from Presbyterian Ladies’ College attend a memorial service at Scots Church in Melbourne." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[2]:
+        - "KCPLACE0002"
+        - "KCPLACE0014"
+      review_flags: []
+    - id: "KCEVT0050"
+      record_type: "timeline_event"
+      event_type: | "case_status" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      title: | "The offender was never brought to justice" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      summary: | "The offender was never brought to justice." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      review_flags[1]:
+        - "Undated status statement from the timeline, not a discrete dated event."
+      date: | null | u="undated_status" | p="not_date_bound" | i=0 | s=[TCS-WWKC-WEB-0001]
+  open_questions[29]:
+    - id: "KCQST0001"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Who was the last person outside the family to see Karmein Chan alive?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0002"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Were the phone lines cut?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0003"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What do we really know about Karmein Chan’s behavior during the home invasion?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0004"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Did the abductor know that Karmein had asthma?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0005"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Is there any evidence that Karmein Chan was taken to the same hideout as the other victims?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0006"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was the exact distance between the abduction site and the place where her body was found?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0007"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Why did the perpetrator choose to kill Karmein, when previous victims had been released?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0008"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was the likely route taken by the abductor between Templestowe and Edgars Creek?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0009"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Who are the witnesses or acquaintances today who might be willing to speak, or cooperate anonymously?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0010"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What did the place where Karmein was held prisoner look like, exactly? Is a reconstruction possible?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0011"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Was Mimi a dog or a cat (or something else)?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0012"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Did the abductor steal anything from the Chan residence (clothing, records, money…)?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0013"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Was Mimi present inside the Chan residence during the abduction?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0014"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "If Mimi was a dog and was present at the Chan residence during the abduction, why didn’t he/she bark?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#public-questions-about-the-karmein-chan-case" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids: []
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0015"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite music (artist, track, composer…)?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0016"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite TV show?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0017"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite movie?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0018"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite toy?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0019"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite activity?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0020"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite sport?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0021"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite animal?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0022"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite colour?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0023"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite fruit?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0024"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite food?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0025"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What was her favourite place?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0026"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What were her familiar expressions?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0027"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Was she into video games?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0028"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Where did she go to practice skating?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
+    - id: "KCQST0029"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Was she taking ballet/dance lessons?" | u="question_text" | p="verbatim_from_source" | i=0 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#questions-about-karmein-chan-herself" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags: []
