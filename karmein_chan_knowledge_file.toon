@@ -1,7 +1,7 @@
 knowledge_file:
   file: "karmein_chan_knowledge_file.toon"
-  schema_version: "0.2.0"
-  updated: "2026-07-18"
+  schema_version: "0.2.1"
+  updated: "2026-08-02"
   format: "TOON"
   project: "Who Was Karmein Chan? / The Cruel Song Knowledge File"
   description: "Single-file TOON consolidation of the current JSON Knowledge File modules."
@@ -20,12 +20,12 @@ knowledge_file:
         record_count: 62
       - file: "people.json"
         schema_version: "0.2.1"
-        updated: "2026-07-18"
+        updated: "2026-08-02"
         record_keys[2]:
           - "people"
           - "contextual_people"
-        record_count: 79
-        core_record_count: 75
+        record_count: 80
+        core_record_count: 76
         contextual_record_count: 4
       - file: "places.json"
         schema_version: "0.1.0"
@@ -46,12 +46,12 @@ knowledge_file:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
       sources: 62
-      people: 75
+      people: 76
       contextual_people: 4
       places: 17
       timeline_events: 50
       open_questions: 29
-      total_records: 237
+      total_records: 238
     integrity:
       referenced_source_id_count: 37
       catalogued_source_id_count: 62
@@ -83,9 +83,9 @@ knowledge_file:
         - "KCSRC00059"
         - "KCSRC00061"
       referenced_person_id_count: 26
-      catalogued_person_id_count: 79
+      catalogued_person_id_count: 80
       missing_person_ids: []
-      unreferenced_person_ids[53]:
+      unreferenced_person_ids[54]:
         - "TCS-WWKC-PPL-0025"
         - "TCS-WWKC-PPL-0026"
         - "TCS-WWKC-PPL-0027"
@@ -139,16 +139,17 @@ knowledge_file:
         - "TCS-WWKC-PPL-0077"
         - "TCS-WWKC-PPL-0078"
         - "TCS-WWKC-PPL-0079"
+        - "TCS-WWKC-PPL-0080"
   people_module:
     schema_version: "0.2.1"
-    updated: "2026-07-18"
+    updated: "2026-08-02"
     metadata:
       description: "Case-person catalogue for the Karmein Chan Knowledge File."
-      total_person_count: 79
-      core_person_count: 75
+      total_person_count: 80
+      core_person_count: 76
       contextual_person_count: 4
       previous_version: "0.2.0"
-      change_summary[8]:
+      change_summary[9]:
         - "Migrated the five original records to the v0.2.x identity/review schema."
         - "Repaired four one-way possible_same_as relationships."
         - "Restricted KCSRC00037 to geographic context on the Parer Street records."
@@ -157,6 +158,7 @@ knowledge_file:
         - "Marked synthetic ordinal records explicitly as unresolved placeholders."
         - "Added record_scope, verification and publication-status fields to every record."
         - "Added controlled-vocabulary and layer definitions."
+        - "Added Kelvin “Kel” Glare, Chief Commissioner of Victoria Police at the time of Karmein Chan’s abduction and a reported acquaintance of John Chan."
       factual_certification_status: "not_certified_pending_exact_source_locators"
       identity_handling_note: "Mr Cruel, Karmein Chan’s abductor, the Parer Street stalker, the Edgars Creek armed man and the man reportedly seen digging remain separate entities linked only by unresolved hypotheses."
     layers:
@@ -1167,7 +1169,7 @@ knowledge_file:
       referenced_in_current_files: []
       review_flags[1]:
         - "The site body appears to show “Thursday 7 July 2026” near the reward image, while the source list records “Thursday 7 July 2016”; verify the date if this source becomes important."
-  people[75]:
+  people[76]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
       display_name: | "Karmein Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
@@ -2869,6 +2871,26 @@ knowledge_file:
         claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
         publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
         review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0080"
+      record_type: "person"
+      display_name: | "Kelvin Glare" | u="personal_name" | p="public_name" | i=0 | s=[]
+      names[2]:
+        -: | "Kelvin Glare" | u="personal_name" | p="public_name" | i=0 | s=[]
+        -: | "Kel Glare" | u="personal_name" | p="public_short_name" | i=0 | s=[]
+      roles[2]:
+        -: | "chief_commissioner_of_victoria_police_at_time_of_karmein_chan_abduction" | u="professional_role" | p="controlled_label" | i=0 | s=[]
+        -: | "reported_acquaintance_of_john_chan" | u="case_context_role" | p="reported_relationship" | i=0 | s=[]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[]
+      review_flags[2]:
+        - "Exact source support is still required for the reported acquaintance with John Chan."
+        - "Do not infer investigative influence, preferential treatment or misconduct from the reported acquaintance alone."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "The record was added from project knowledge; its claims require assignment to a catalogued source and an exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
   contextual_people[4]:
     - id: "TCS-WWKC-PPL-0076"
       record_type: "person"
