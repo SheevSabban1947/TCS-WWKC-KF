@@ -1,13 +1,14 @@
 knowledge_file:
   file: "karmein_chan_knowledge_file.toon"
-  schema_version: "0.1.0"
-  updated: "2026-06-07"
+  schema_version: "0.2.0"
+  updated: "2026-07-18"
   format: "TOON"
   project: "Who Was Karmein Chan? / The Cruel Song Knowledge File"
   description: "Single-file TOON consolidation of the current JSON Knowledge File modules."
-  format_notes[3]:
+  format_notes[4]:
     - "Atomic claims are rendered as: field: | value | u=units | p=precision | i=inference_score | s=[source_ids]."
     - "Nested JSON objects are rendered as indented TOON blocks."
+    - "The people module contains separate core and contextual person layers."
     - "This file is designed as a compact working master for LLM ingestion; the JSON modules remain the stricter editable source of truth."
   claim_model: | "..." | u="..." | p="..." | i=0 | s=[...]
   provenance:
@@ -18,10 +19,14 @@ knowledge_file:
         record_key: "sources"
         record_count: 62
       - file: "people.json"
-        schema_version: "0.1.0"
-        updated: "2026-06-04"
-        record_key: "people"
-        record_count: 5
+        schema_version: "0.2.1"
+        updated: "2026-07-18"
+        record_keys[2]:
+          - "people"
+          - "contextual_people"
+        record_count: 79
+        core_record_count: 75
+        contextual_record_count: 4
       - file: "places.json"
         schema_version: "0.1.0"
         updated: "2026-06-04"
@@ -37,20 +42,21 @@ knowledge_file:
         updated: "2026-06-04"
         record_key: "open_questions"
         record_count: 29
+    normalizations[1]:
+      - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
       sources: 62
-      people: 5
+      people: 75
+      contextual_people: 4
       places: 17
       timeline_events: 50
       open_questions: 29
-      total_records: 163
+      total_records: 237
     integrity:
-      referenced_source_id_count: 28
+      referenced_source_id_count: 37
       catalogued_source_id_count: 62
       missing_source_ids: []
-      unused_catalogue_source_ids[34]:
-        - "KCSRC00007"
-        - "KCSRC00008"
+      unused_catalogue_source_ids[25]:
         - "KCSRC00009"
         - "KCSRC00010"
         - "KCSRC00013"
@@ -64,25 +70,142 @@ knowledge_file:
         - "KCSRC00023"
         - "KCSRC00024"
         - "KCSRC00025"
-        - "KCSRC00026"
         - "KCSRC00027"
         - "KCSRC00028"
         - "KCSRC00030"
-        - "KCSRC00031"
-        - "KCSRC00032"
         - "KCSRC00033"
         - "KCSRC00036"
         - "KCSRC00039"
         - "KCSRC00040"
         - "KCSRC00045"
-        - "KCSRC00048"
-        - "KCSRC00050"
         - "KCSRC00052"
-        - "KCSRC00055"
         - "KCSRC00056"
-        - "KCSRC00057"
         - "KCSRC00059"
         - "KCSRC00061"
+      referenced_person_id_count: 26
+      catalogued_person_id_count: 79
+      missing_person_ids: []
+      unreferenced_person_ids[53]:
+        - "TCS-WWKC-PPL-0025"
+        - "TCS-WWKC-PPL-0026"
+        - "TCS-WWKC-PPL-0027"
+        - "TCS-WWKC-PPL-0028"
+        - "TCS-WWKC-PPL-0029"
+        - "TCS-WWKC-PPL-0030"
+        - "TCS-WWKC-PPL-0031"
+        - "TCS-WWKC-PPL-0032"
+        - "TCS-WWKC-PPL-0033"
+        - "TCS-WWKC-PPL-0034"
+        - "TCS-WWKC-PPL-0035"
+        - "TCS-WWKC-PPL-0036"
+        - "TCS-WWKC-PPL-0037"
+        - "TCS-WWKC-PPL-0038"
+        - "TCS-WWKC-PPL-0039"
+        - "TCS-WWKC-PPL-0040"
+        - "TCS-WWKC-PPL-0041"
+        - "TCS-WWKC-PPL-0042"
+        - "TCS-WWKC-PPL-0043"
+        - "TCS-WWKC-PPL-0044"
+        - "TCS-WWKC-PPL-0045"
+        - "TCS-WWKC-PPL-0046"
+        - "TCS-WWKC-PPL-0047"
+        - "TCS-WWKC-PPL-0048"
+        - "TCS-WWKC-PPL-0049"
+        - "TCS-WWKC-PPL-0050"
+        - "TCS-WWKC-PPL-0051"
+        - "TCS-WWKC-PPL-0052"
+        - "TCS-WWKC-PPL-0053"
+        - "TCS-WWKC-PPL-0054"
+        - "TCS-WWKC-PPL-0055"
+        - "TCS-WWKC-PPL-0056"
+        - "TCS-WWKC-PPL-0057"
+        - "TCS-WWKC-PPL-0058"
+        - "TCS-WWKC-PPL-0059"
+        - "TCS-WWKC-PPL-0060"
+        - "TCS-WWKC-PPL-0061"
+        - "TCS-WWKC-PPL-0062"
+        - "TCS-WWKC-PPL-0063"
+        - "TCS-WWKC-PPL-0064"
+        - "TCS-WWKC-PPL-0067"
+        - "TCS-WWKC-PPL-0068"
+        - "TCS-WWKC-PPL-0069"
+        - "TCS-WWKC-PPL-0070"
+        - "TCS-WWKC-PPL-0071"
+        - "TCS-WWKC-PPL-0072"
+        - "TCS-WWKC-PPL-0073"
+        - "TCS-WWKC-PPL-0074"
+        - "TCS-WWKC-PPL-0075"
+        - "TCS-WWKC-PPL-0076"
+        - "TCS-WWKC-PPL-0077"
+        - "TCS-WWKC-PPL-0078"
+        - "TCS-WWKC-PPL-0079"
+  people_module:
+    schema_version: "0.2.1"
+    updated: "2026-07-18"
+    metadata:
+      description: "Case-person catalogue for the Karmein Chan Knowledge File."
+      total_person_count: 79
+      core_person_count: 75
+      contextual_person_count: 4
+      previous_version: "0.2.0"
+      change_summary[8]:
+        - "Migrated the five original records to the v0.2.x identity/review schema."
+        - "Repaired four one-way possible_same_as relationships."
+        - "Restricted KCSRC00037 to geographic context on the Parer Street records."
+        - "Applied publication holds to sensitive allegations and suspect/person-of-interest records."
+        - "Moved four contextual records to a contextual_people layer."
+        - "Marked synthetic ordinal records explicitly as unresolved placeholders."
+        - "Added record_scope, verification and publication-status fields to every record."
+        - "Added controlled-vocabulary and layer definitions."
+      factual_certification_status: "not_certified_pending_exact_source_locators"
+      identity_handling_note: "Mr Cruel, Karmein Chan’s abductor, the Parer Street stalker, the Edgars Creek armed man and the man reportedly seen digging remain separate entities linked only by unresolved hypotheses."
+    layers:
+      people:
+        scope: "core_case_graph"
+        description: "Victims, relatives, witnesses, investigators, specialists, alleged offenders and publicly discussed persons of interest directly represented in the case graph."
+      contextual_people:
+        scope: "contextual_people"
+        description: "People retained for contextual comparison or background but excluded from the core case graph."
+    controlled_vocabularies:
+      role_units[10]:
+        - "case_context_role"
+        - "case_role"
+        - "family_role"
+        - "investigative_role"
+        - "knowledge_file_role"
+        - "occupation_or_business_role"
+        - "professional_role"
+        - "public_case_label"
+        - "situational_role"
+        - "social_role"
+      record_scope[2]:
+        - "core_case_graph"
+        - "contextual_people"
+      verification_status[3]:
+        - "pending_claim_locator_review"
+        - "hold_pending_exact_source_review"
+        - "contextual_scope_pending_source_locator_review"
+      publication_status[3]:
+        - "internal_only_pending_review"
+        - "hold"
+        - "contextual_only_internal"
+      identity_relationship_status[1]:
+        - "unresolved_hypothesis"
+      inference_score:
+        "0": "directly asserted or exact structural reference"
+        "1": "editorial normalization or unresolved entity distinction"
+        "2": "explicit hypothesis; must not be stated as established fact"
+        "3": "highly speculative; prohibited from publication without exceptional corroboration"
+    pending_global_work[3]:
+      - code: "EXACT_SOURCE_LOCATORS"
+        status: "pending"
+        description: "Attach page, paragraph, timestamp, quotation or equivalent locator to each material claim."
+      - code: "SOURCE_RELEVANCE_REVIEW"
+        status: "pending"
+        description: "Confirm that every cited source actually supports each claim to which it is attached."
+      - code: "CONTROLLED_ROLE_VALUE_REVIEW"
+        status: "pending"
+        description: "Review individual role values for naming consistency after source-level verification."
   sources[62]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
@@ -96,12 +219,12 @@ knowledge_file:
         -: | "Main public source page used to seed the Knowledge File source catalogue, timeline, open questions, people and places records." | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[3]:
-        - file: "open_questions.json"
-          reference_count: 116
         - file: "people.json"
-          reference_count: 111
+          reference_count: 266
         - file: "timeline.json"
           reference_count: 280
+        - file: "open_questions.json"
+          reference_count: 116
       review_flags: []
     - source_id: "KCSRC00001"
       record_type: "source"
@@ -208,7 +331,7 @@ knowledge_file:
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[2]:
         - file: "people.json"
-          reference_count: 43
+          reference_count: 62
         - file: "timeline.json"
           reference_count: 3
       review_flags: []
@@ -223,7 +346,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Most knowledgeable resource about the Mr Cruel case" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 398
       review_flags: []
     - source_id: "KCSRC00008"
       record_type: "source"
@@ -236,7 +361,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Another very good source of information" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 398
       review_flags: []
     - source_id: "KCSRC00009"
       record_type: "source"
@@ -392,7 +519,9 @@ knowledge_file:
         -: | "Abduction timeline according to deputy state coroner Iain West" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "Timeline differs significantly from the Wikipedia/Paul Anderson timeline [KCSRC00005]" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[2]:
+      referenced_in_current_files[3]:
+        - file: "people.json"
+          reference_count: 7
         - file: "places.json"
           reference_count: 3
         - file: "timeline.json"
@@ -487,7 +616,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Edgars Creek incident original video (2012)" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 16
       review_flags: []
     - source_id: "KCSRC00027"
       record_type: "source"
@@ -552,7 +683,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Twenty-Five Years On, Here’s Everything We Know About the Murder of Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 15
       review_flags: []
     - source_id: "KCSRC00032"
       record_type: "source"
@@ -564,7 +697,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Newspaper article about the abduction of Karmein Chan" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 15
       review_flags: []
     - source_id: "KCSRC00033"
       record_type: "source"
@@ -589,7 +724,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Original Victoria Police statement from Rodney David Phillips, the first policeman to enter the crime scene" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[2]:
+      referenced_in_current_files[3]:
+        - file: "people.json"
+          reference_count: 7
         - file: "places.json"
           reference_count: 10
         - file: "timeline.json"
@@ -641,7 +778,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Burwood, PLC, Parer Street" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
+        - file: "people.json"
+          reference_count: 6
         - file: "places.json"
           reference_count: 9
       review_flags: []
@@ -735,7 +874,7 @@ knowledge_file:
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[2]:
         - file: "people.json"
-          reference_count: 12
+          reference_count: 13
         - file: "timeline.json"
           reference_count: 3
       review_flags: []
@@ -801,7 +940,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Information about Karmein Chan’s funeral service" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
+        - file: "people.json"
+          reference_count: 7
         - file: "places.json"
           reference_count: 6
       review_flags: []
@@ -818,7 +959,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Information about Karmein Chan’s funeral service" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 7
       review_flags: []
     - source_id: "KCSRC00049"
       record_type: "source"
@@ -833,7 +976,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Information about Karmein Chan’s funeral service" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
+        - file: "people.json"
+          reference_count: 7
         - file: "places.json"
           reference_count: 7
       review_flags: []
@@ -848,7 +993,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Audio recording of radio broadcast about Karmein Chan’s funeral ceremony" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 7
       review_flags: []
     - source_id: "KCSRC00051"
       record_type: "source"
@@ -924,7 +1071,9 @@ knowledge_file:
         -: | "New details about Mr Cruel" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "Medical condition related to his back" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 47
       review_flags: []
     - source_id: "KCSRC00056"
       record_type: "source"
@@ -952,7 +1101,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Mr Cruel might have been seen bringing Sharon Wills to her release location on Tuesday 27 December 1988 around 11.30PM" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 105
       review_flags: []
     - source_id: "KCSRC00058"
       record_type: "source"
@@ -1016,7 +1167,7 @@ knowledge_file:
       referenced_in_current_files: []
       review_flags[1]:
         - "The site body appears to show “Thursday 7 July 2026” near the reward image, while the source list records “Thursday 7 July 2016”; verify the date if this source becomes important."
-  people[5]:
+  people[75]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
       display_name: | "Karmein Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
@@ -1067,6 +1218,14 @@ knowledge_file:
         -: | "Cantonese" | u="language" | p="known_language" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "Mandarin" | u="language" | p="known_language" | i=0 | s=[TCS-WWKC-WEB-0001]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags: []
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
     - id: "TCS-WWKC-PPL-0002"
       record_type: "person"
       display_name: | "John Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
@@ -1101,6 +1260,14 @@ knowledge_file:
           date: | "1993" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001]
           person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags: []
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
     - id: "TCS-WWKC-PPL-0003"
       record_type: "person"
       display_name: | "Phyllis Chan" | u="personal_name" | p="common_public_case_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
@@ -1143,6 +1310,14 @@ knowledge_file:
           date: | "after_1993" | u="relative_date" | p="relative" | i=1 | s=[TCS-WWKC-WEB-0001]
           name: | "Phyllis Lam" | u="personal_name" | p="later_public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags: []
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
     - id: "TCS-WWKC-PPL-0004"
       record_type: "person"
       display_name: | "Karly Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
@@ -1171,6 +1346,14 @@ knowledge_file:
         -
           institution: | "Presbyterian Ladies' College" | u="school_name" | p="institution" | i=0 | s=[TCS-WWKC-WEB-0001]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags: []
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
     - id: "TCS-WWKC-PPL-0005"
       record_type: "person"
       display_name: | "Karen Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
@@ -1199,6 +1382,1563 @@ knowledge_file:
         -
           institution: | "Presbyterian Ladies' College" | u="school_name" | p="institution" | i=0 | s=[TCS-WWKC-WEB-0001]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags: []
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00043]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0006"
+      record_type: "person"
+      display_name: | "Mr Cruel" | u="public_case_name" | p="media_and_police_case_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      names[1]:
+        -: | "Mr Cruel" | u="public_case_name" | p="media_and_police_case_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      roles[4]:
+        -: | "unidentified_serial_offender" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+        -: | "offender_in_lower_plenty_attack" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+        -: | "offender_in_sharon_wills_abduction" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+        -: | "offender_in_nicola_lynas_abduction" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      public_status: | "publicly_known_unidentified_person" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      possible_same_as[2]:
+        -
+          person_id: | "TCS-WWKC-PPL-0007" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032,KCSRC00007,KCSRC00008]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032,KCSRC00007,KCSRC00008]
+          rationale: | "Publicly discussed possibility that Mr Cruel abducted Karmein Chan; identity has not been established." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032,KCSRC00007,KCSRC00008]
+        -
+          person_id: | "TCS-WWKC-PPL-0008" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00007,KCSRC00008]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00007,KCSRC00008]
+          rationale: | "Reciprocal representation of the unresolved hypothesis linking Mr Cruel and the reported Parer Street stalker; no identity match is established." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00007,KCSRC00008]
+      review_flags[1]:
+        - "Do not merge with Karmein Chan’s abductor unless identity is established by evidence."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0007"
+      record_type: "person"
+      display_name: | "Karmein Chan’s abductor and killer" | u="descriptive_label" | p="unidentified_case_actor_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+      names[2]:
+        -: | "Karmein Chan’s abductor and killer" | u="descriptive_label" | p="unidentified_case_actor_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+        -: | "Mr Kind" | u="form_of_address" | p="name_used_in_phyllis_chan_letter" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+      roles[4]:
+        -: | "unidentified_offender" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+        -: | "abductor_of_karmein_chan" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+        -: | "killer_of_karmein_chan" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+        -: | "home_invasion_offender" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+      public_status: | "publicly_known_unidentified_person" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032]
+      possible_same_as[4]:
+        -
+          person_id: | "TCS-WWKC-PPL-0006" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032,KCSRC00007,KCSRC00008]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032,KCSRC00007,KCSRC00008]
+          rationale: | "The offender has often been associated with Mr Cruel, but the attribution remains unresolved." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00006,KCSRC00031,KCSRC00032,KCSRC00007,KCSRC00008]
+        -
+          person_id: | "TCS-WWKC-PPL-0008" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001]
+          rationale: | "Reciprocal representation of the unresolved hypothesis linking Karmein Chan’s abductor and the reported Parer Street stalker; no identity match is established." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001]
+        -
+          person_id: | "TCS-WWKC-PPL-0009" | u="person_id" | p="exact_reference" | i=0 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+          rationale: | "Reciprocal representation of the unresolved hypothesis linking Karmein Chan’s abductor and the Edgars Creek armed man; relevance remains unresolved." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+        -
+          person_id: | "TCS-WWKC-PPL-0010" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001]
+          rationale: | "Reciprocal representation of the unresolved hypothesis linking Karmein Chan’s abductor and the man reportedly seen digging near the remains location; relevance remains unresolved." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Do not treat “Mr Kind” as an established alias or as proof that this person was Mr Cruel."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0008"
+      record_type: "person"
+      display_name: | "Parer Street stalker" | u="descriptive_label" | p="unidentified_witness_report_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Parer Street stalker" | u="descriptive_label" | p="unidentified_witness_report_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[1]:
+        -: | "reported_stalker_of_plc_students" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      possible_same_as[2]:
+        -
+          person_id: | "TCS-WWKC-PPL-0006" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00007,KCSRC00008]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00007,KCSRC00008]
+          rationale: | "Possible connection to the offender has been discussed, but no identity match is established." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001,KCSRC00007,KCSRC00008]
+        -
+          person_id: | "TCS-WWKC-PPL-0007" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001]
+          rationale: | "Possible connection to Karmein Chan’s abduction has been discussed, but no identity match is established." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001]
+      review_flags[2]:
+        - "Identity not publicly established; avoid speculative identification."
+        - "KCSRC00037 is restricted to geographic context and must not be used as evidence for the reported person’s existence, identity or conduct."
+      context_sources[1]:
+        -
+          source_id: | "KCSRC00037" | u="source_id" | p="exact_reference" | i=0 | s=[KCSRC00037]
+          scope: | "geographic_context_only" | u="source_scope" | p="controlled_label" | i=0 | s=[KCSRC00037]
+          note: | "Melway map material may support location context but does not establish the existence, identity or conduct of the reported person." | u="source_scope_note" | p="editorial_qualification" | i=0 | s=[KCSRC00037]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0009"
+      record_type: "person"
+      display_name: | "Edgars Creek armed man" | u="descriptive_label" | p="unidentified_witness_report_label" | i=0 | s=[KCSRC00026]
+      names[1]:
+        -: | "Edgars Creek armed man" | u="descriptive_label" | p="unidentified_witness_report_label" | i=0 | s=[KCSRC00026]
+      roles[1]:
+        -: | "reported_armed_man_near_edgars_creek" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00026]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00026]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00026]
+      possible_same_as[1]:
+        -
+          person_id: | "TCS-WWKC-PPL-0007" | u="person_id" | p="exact_reference" | i=0 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+          rationale: | "Possible relevance to the Chan case is unresolved." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0010"
+      record_type: "person"
+      display_name: | "Man seen digging near Karmein’s remains location" | u="descriptive_label" | p="unidentified_witness_report_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Man seen digging near Karmein’s remains location" | u="descriptive_label" | p="unidentified_witness_report_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[1]:
+        -: | "reported_person_digging_near_remains_location" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      possible_same_as[1]:
+        -
+          person_id: | "TCS-WWKC-PPL-0007" | u="person_id" | p="exact_reference" | i=0 | s=[TCS-WWKC-WEB-0001]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[TCS-WWKC-WEB-0001]
+          rationale: | "Possible relevance to the concealment of Karmein Chan’s remains is unresolved." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0011"
+      record_type: "person"
+      display_name: | "Sharon Wills" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Sharon Wills" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[2]:
+        -: | "victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -: | "student" | u="social_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      family_relationships[5]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0012" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0013" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0014" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0015" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0016" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0012"
+      record_type: "person"
+      display_name: | "John Wills" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "John Wills" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "father_of_sharon_wills" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      family_relationships[4]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0011" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0014" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0015" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0016" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0013"
+      record_type: "person"
+      display_name: | "Julie Wills" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Julie Wills" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "mother_of_sharon_wills" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      family_relationships[4]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0011" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0014" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0015" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0016" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0014"
+      record_type: "person"
+      display_name: | "Unidentified sister of Sharon Wills — placeholder A" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Unidentified sister of Sharon Wills — placeholder A" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "sister_of_sharon_wills" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      family_relationships[3]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0012" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0013" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0011" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[3]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Previous label “Wills sister 1” was an arbitrary ordinal. The replacement remains a synthetic placeholder, not a verified ordering or identity."
+        - "Do not merge, order or distinguish this placeholder from similar records without an exact source passage."
+      entity_resolution_status: | "synthetic_placeholder_not_individually_distinguished" | u="entity_resolution_status" | p="controlled_label" | i=1 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0015"
+      record_type: "person"
+      display_name: | "Unidentified sister of Sharon Wills — placeholder B" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Unidentified sister of Sharon Wills — placeholder B" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "sister_of_sharon_wills" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      family_relationships[3]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0012" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0013" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0011" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[3]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Previous label “Wills sister 2” was an arbitrary ordinal. The replacement remains a synthetic placeholder, not a verified ordering or identity."
+        - "Do not merge, order or distinguish this placeholder from similar records without an exact source passage."
+      entity_resolution_status: | "synthetic_placeholder_not_individually_distinguished" | u="entity_resolution_status" | p="controlled_label" | i=1 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0016"
+      record_type: "person"
+      display_name: | "Unidentified sister of Sharon Wills — placeholder C" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Unidentified sister of Sharon Wills — placeholder C" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "sister_of_sharon_wills" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      family_relationships[3]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0012" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0013" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+          person_id: | "TCS-WWKC-PPL-0011" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[3]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Previous label “Wills sister 3” was an arbitrary ordinal. The replacement remains a synthetic placeholder, not a verified ordering or identity."
+        - "Do not merge, order or distinguish this placeholder from similar records without an exact source passage."
+      entity_resolution_status: | "synthetic_placeholder_not_individually_distinguished" | u="entity_resolution_status" | p="controlled_label" | i=1 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0017"
+      record_type: "person"
+      display_name: | "Nicola Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Nicola Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "student" | u="social_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      family_relationships[3]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0018" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0019" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0020" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0018"
+      record_type: "person"
+      display_name: | "Brian Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Brian Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "father_of_nicola_lynas" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      family_relationships[2]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0017" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0020" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0019"
+      record_type: "person"
+      display_name: | "Rosemary Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Rosemary Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "mother_of_nicola_lynas" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      family_relationships[2]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0017" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0020" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0020"
+      record_type: "person"
+      display_name: | "Fiona Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Fiona Lynas" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "sister_of_nicola_lynas" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      family_relationships[3]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0018" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0019" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+          person_id: | "TCS-WWKC-PPL-0017" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0021"
+      record_type: "person"
+      display_name: | "Lower Plenty victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      names[1]:
+        -: | "Lower Plenty victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      roles[1]:
+        -: | "victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      family_relationships[3]:
+        -
+          relationship: | "father" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+          person_id: | "TCS-WWKC-PPL-0022" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+        -
+          relationship: | "mother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+          person_id: | "TCS-WWKC-PPL-0023" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+        -
+          relationship: | "brother" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+          person_id: | "TCS-WWKC-PPL-0024" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      review_flags[1]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0022"
+      record_type: "person"
+      display_name: | "Lower Plenty victim’s father" | u="descriptive_label" | p="identity_withheld_family_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      names[1]:
+        -: | "Lower Plenty victim’s father" | u="descriptive_label" | p="identity_withheld_family_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      roles[1]:
+        -: | "father_of_lower_plenty_victim" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      family_relationships[1]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+          person_id: | "TCS-WWKC-PPL-0021" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      review_flags[1]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0023"
+      record_type: "person"
+      display_name: | "Lower Plenty victim’s mother" | u="descriptive_label" | p="identity_withheld_family_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      names[1]:
+        -: | "Lower Plenty victim’s mother" | u="descriptive_label" | p="identity_withheld_family_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      roles[1]:
+        -: | "mother_of_lower_plenty_victim" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      family_relationships[1]:
+        -
+          relationship: | "daughter" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+          person_id: | "TCS-WWKC-PPL-0021" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      review_flags[1]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0024"
+      record_type: "person"
+      display_name: | "Lower Plenty victim’s brother" | u="descriptive_label" | p="identity_withheld_family_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      names[1]:
+        -: | "Lower Plenty victim’s brother" | u="descriptive_label" | p="identity_withheld_family_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      roles[1]:
+        -: | "brother_of_lower_plenty_victim" | u="family_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      family_relationships[1]:
+        -
+          relationship: | "sister" | u="family_relationship" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+          person_id: | "TCS-WWKC-PPL-0021" | u="person_id" | p="exact" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00055]
+      review_flags[1]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0025"
+      record_type: "person"
+      display_name: | "February 1985 Hampton victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "February 1985 Hampton victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "suspected_earlier_victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[2]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Connection to the canonical Mr Cruel series requires explicit evidentiary qualification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0026"
+      record_type: "person"
+      display_name: | "July 1985 Hampton victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "July 1985 Hampton victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "July 1985 Hampton victim, aged 14" | u="descriptive_label" | p="reported_age_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "suspected_earlier_victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[2]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Connection to the canonical Mr Cruel series requires explicit evidentiary qualification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0027"
+      record_type: "person"
+      display_name: | "December 1985 Warrandyte victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "December 1985 Warrandyte victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "suspected_earlier_victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[2]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Connection to the canonical Mr Cruel series requires explicit evidentiary qualification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0028"
+      record_type: "person"
+      display_name: | "December 1985 Donvale victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "December 1985 Donvale victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "suspected_earlier_victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[2]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Connection to the canonical Mr Cruel series requires explicit evidentiary qualification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0029"
+      record_type: "person"
+      display_name: | "December 1985 Bulleen victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "December 1985 Bulleen victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "suspected_earlier_victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[2]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Connection to the canonical Mr Cruel series requires explicit evidentiary qualification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0030"
+      record_type: "person"
+      display_name: | "February 1986 Caulfield/Chelsea Heights victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "February 1986 Caulfield/Chelsea Heights victim" | u="descriptive_label" | p="identity_withheld_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "suspected_earlier_victim" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[2]:
+        - "Identity intentionally withheld or not publicly established; do not attempt speculative identification."
+        - "Connection to the canonical Mr Cruel series requires explicit evidentiary qualification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0031"
+      record_type: "person"
+      display_name: | "Rodney David Phillips" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00034,TCS-WWKC-WEB-0001]
+      names[2]:
+        -: | "Rodney David Phillips" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00034,TCS-WWKC-WEB-0001]
+        -: | "Sergeant Rodney David Phillips" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[KCSRC00034,TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "first_police_officer_at_chan_crime_scene" | u="investigative_role" | p="controlled_label" | i=0 | s=[KCSRC00034,TCS-WWKC-WEB-0001]
+        -: | "victoria_police_sergeant" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00034,TCS-WWKC-WEB-0001]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00034,TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00034,TCS-WWKC-WEB-0001]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0032"
+      record_type: "person"
+      display_name: | "David Longhi" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "David Longhi" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+      roles[1]:
+        -: | "edgars_creek_witness" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00026,TCS-WWKC-WEB-0001]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0033"
+      record_type: "person"
+      display_name: | "Man who found Karmein’s remains" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Man who found Karmein’s remains" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "discoverer_of_karmein_chan_remains" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "dog_walker" | u="situational_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0034"
+      record_type: "person"
+      display_name: | "Unidentified married Chan family friend — placeholder A" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Unidentified married Chan family friend — placeholder A" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "chan_family_friend" | u="social_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "case_witness_or_participant" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[3]:
+        - "Identity not publicly established; avoid speculative identification."
+        - "Previous label “Married family friend 1” was an arbitrary ordinal. The replacement remains a synthetic placeholder, not a verified ordering or identity."
+        - "Do not merge, order or distinguish this placeholder from similar records without an exact source passage."
+      entity_resolution_status: | "synthetic_placeholder_not_individually_distinguished" | u="entity_resolution_status" | p="controlled_label" | i=1 | s=[TCS-WWKC-WEB-0001]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0035"
+      record_type: "person"
+      display_name: | "Unidentified married Chan family friend — placeholder B" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Unidentified married Chan family friend — placeholder B" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "chan_family_friend" | u="social_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "case_witness_or_participant" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[3]:
+        - "Identity not publicly established; avoid speculative identification."
+        - "Previous label “Married family friend 2” was an arbitrary ordinal. The replacement remains a synthetic placeholder, not a verified ordering or identity."
+        - "Do not merge, order or distinguish this placeholder from similar records without an exact source passage."
+      entity_resolution_status: | "synthetic_placeholder_not_individually_distinguished" | u="entity_resolution_status" | p="controlled_label" | i=1 | s=[TCS-WWKC-WEB-0001]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0036"
+      record_type: "person"
+      display_name: | "Eltham restaurant employee who drove the Chan sisters home" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[2]:
+        -: | "Eltham restaurant employee who drove the Chan sisters home" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Eltham restaurant manager/employee" | u="descriptive_label" | p="role_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "chan_family_restaurant_employee" | u="professional_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "driver_of_chan_sisters_on_abduction_night" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0037"
+      record_type: "person"
+      display_name: | "Chan family babysitter" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Chan family babysitter" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "chan_family_babysitter" | u="social_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "case_context_person" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0038"
+      record_type: "person"
+      display_name: | "Tradesman who appeared at the Chan residence" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Tradesman who appeared at the Chan residence" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[1]:
+        -: | "tradesman_at_chan_residence" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0039"
+      record_type: "person"
+      display_name: | "PLC student who reported the Parer Street stalker" | u="descriptive_label" | p="identity_withheld_witness_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "PLC student who reported the Parer Street stalker" | u="descriptive_label" | p="identity_withheld_witness_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "parer_street_stalker_witness" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "plc_student" | u="social_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_withheld" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_withheld" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[2]:
+        - "Identity not publicly established; avoid speculative identification."
+        - "KCSRC00037 is restricted to geographic context and must not be used as evidence for the reported person’s existence, identity or conduct."
+      context_sources[1]:
+        -
+          source_id: | "KCSRC00037" | u="source_id" | p="exact_reference" | i=0 | s=[KCSRC00037]
+          scope: | "geographic_context_only" | u="source_scope" | p="controlled_label" | i=0 | s=[KCSRC00037]
+          note: | "Melway map material may support location context but does not establish the existence, identity or conduct of the reported person." | u="source_scope_note" | p="editorial_qualification" | i=0 | s=[KCSRC00037]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0040"
+      record_type: "person"
+      display_name: | "Holden Commodore Vacationer witness" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Holden Commodore Vacationer witness" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[1]:
+        -: | "vehicle_sighting_witness" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0041"
+      record_type: "person"
+      display_name: | "Billy Chan" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Billy Chan" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "former_chan_family_employee" | u="professional_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "attacker_of_phyllis_lam_in_1995" | u="case_context_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[2]:
+        - "Later family-context event; keep separate from the 1991 abduction investigation."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0042"
+      record_type: "person"
+      display_name: | "Neighbour who rescued Phyllis Lam" | u="descriptive_label" | p="identity_not_public_context_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[1]:
+        -: | "Neighbour who rescued Phyllis Lam" | u="descriptive_label" | p="identity_not_public_context_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "rescuer_of_phyllis_lam_in_1995" | u="case_context_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "chan_family_neighbour" | u="social_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0043"
+      record_type: "person"
+      display_name: | "Bill McFarlane" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00047,KCSRC00048,KCSRC00049,KCSRC00050]
+      names[2]:
+        -: | "Bill McFarlane" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00047,KCSRC00048,KCSRC00049,KCSRC00050]
+        -: | "Reverend Bill McFarlane" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00047,KCSRC00048,KCSRC00049,KCSRC00050]
+      roles[2]:
+        -: | "clergy" | u="professional_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00047,KCSRC00048,KCSRC00049,KCSRC00050]
+        -: | "karmein_chan_funeral_participant" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00047,KCSRC00048,KCSRC00049,KCSRC00050]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00047,KCSRC00048,KCSRC00049,KCSRC00050]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00047,KCSRC00048,KCSRC00049,KCSRC00050]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0044"
+      record_type: "person"
+      display_name: | "John Clement" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[2]:
+        -: | "John Clement" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Dr John Clement" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "medical_practitioner" | u="professional_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "case_context_person" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0045"
+      record_type: "person"
+      display_name: | "Sheena Chan" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      names[2]:
+        -: | "Sheena Chan" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Dr Sheena Chan" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "medical_practitioner" | u="professional_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "case_context_person" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0046"
+      record_type: "person"
+      display_name: | "Iain West" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00019,TCS-WWKC-WEB-0001]
+      names[2]:
+        -: | "Iain West" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00019,TCS-WWKC-WEB-0001]
+        -: | "Deputy State Coroner Iain West" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[KCSRC00019,TCS-WWKC-WEB-0001]
+      roles[2]:
+        -: | "deputy_state_coroner" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00019,TCS-WWKC-WEB-0001]
+        -: | "coronial_case_official" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00019,TCS-WWKC-WEB-0001]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00019,TCS-WWKC-WEB-0001]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00019,TCS-WWKC-WEB-0001]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0047"
+      record_type: "person"
+      display_name: | "Woman who found Sharon after her release" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Woman who found Sharon after her release" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "finder_of_sharon_wills_after_release" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0048"
+      record_type: "person"
+      display_name: | "Witness who reported the filming incident behind the Wills home" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Witness who reported the filming incident behind the Wills home" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "wills_home_filming_incident_witness" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0049"
+      record_type: "person"
+      display_name: | "Unidentified brother in the Wills-home filming incident — placeholder A" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Unidentified brother in the Wills-home filming incident — placeholder A" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "wills_home_filming_incident_witness" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[3]:
+        - "Identity not publicly established; avoid speculative identification."
+        - "Previous label “First brother who encountered the man filming the Wills home” was an arbitrary ordinal. The replacement remains a synthetic placeholder, not a verified ordering or identity."
+        - "Do not merge, order or distinguish this placeholder from similar records without an exact source passage."
+      entity_resolution_status: | "synthetic_placeholder_not_individually_distinguished" | u="entity_resolution_status" | p="controlled_label" | i=1 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0050"
+      record_type: "person"
+      display_name: | "Unidentified brother in the Wills-home filming incident — placeholder B" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Unidentified brother in the Wills-home filming incident — placeholder B" | u="descriptive_label" | p="synthetic_placeholder_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "wills_home_filming_incident_witness" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[3]:
+        - "Identity not publicly established; avoid speculative identification."
+        - "Previous label “Second brother who encountered the man filming the Wills home” was an arbitrary ordinal. The replacement remains a synthetic placeholder, not a verified ordering or identity."
+        - "Do not merge, order or distinguish this placeholder from similar records without an exact source passage."
+      entity_resolution_status: | "synthetic_placeholder_not_individually_distinguished" | u="entity_resolution_status" | p="controlled_label" | i=1 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0051"
+      record_type: "person"
+      display_name: | "Man who filmed the Wills home" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      names[1]:
+        -: | "Man who filmed the Wills home" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      roles[1]:
+        -: | "reported_person_filming_wills_home" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008,KCSRC00057]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0052"
+      record_type: "person"
+      display_name: | "Resident whose house Nicola approached after her release" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Resident whose house Nicola approached after her release" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "first_contact_after_nicola_lynas_release" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[1]:
+        - "Identity not publicly established; avoid speculative identification."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0053"
+      record_type: "person"
+      display_name: | "David Sprague" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "David Sprague" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "investigator" | u="investigative_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "mr_cruel_case_investigator" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0054"
+      record_type: "person"
+      display_name: | "Chris O’Connor" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "Chris O’Connor" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "Detective Senior Sergeant Chris O’Connor" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "detective_senior_sergeant" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "mr_cruel_case_investigator" | u="investigative_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0055"
+      record_type: "person"
+      display_name: | "Ron Iddles" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Ron Iddles" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "detective" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "case_investigator_or_commentator" | u="investigative_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0056"
+      record_type: "person"
+      display_name: | "David Wells" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00055,KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "David Wells" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00055,KCSRC00007,KCSRC00008]
+        -: | "Associate Professor David Wells" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[KCSRC00055,KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "forensic_physician" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00055,KCSRC00007,KCSRC00008]
+        -: | "mr_cruel_case_specialist" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00055,KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00055,KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00055,KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0057"
+      record_type: "person"
+      display_name: | "Ian Joblin" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Ian Joblin" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "forensic_or_investigative_specialist" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "mr_cruel_case_specialist" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0058"
+      record_type: "person"
+      display_name: | "Colin McLaren" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Colin McLaren" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "former_detective" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "case_commentator_or_investigator" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags: []
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0059"
+      record_type: "person"
+      display_name: | "Brian Alan Elkner" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "Brian Alan Elkner" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "Dr Brian Alan Elkner" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "sierra_suspect_1" | u="public_case_label" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0060"
+      record_type: "person"
+      display_name: | "Sierra Suspect 2" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "Sierra Suspect 2" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "Bernard" | u="pseudonym" | p="published_pseudonym" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "sierra_suspect_2" | u="public_case_label" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "unidentified_or_pseudonymous" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "pseudonymous_public_reference" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0061"
+      record_type: "person"
+      display_name: | "Sierra Suspect 3" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Sierra Suspect 3" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "sierra_suspect_3" | u="public_case_label" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0062"
+      record_type: "person"
+      display_name: | "Sierra Suspect 4" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Sierra Suspect 4" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "sierra_suspect_4" | u="public_case_label" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0063"
+      record_type: "person"
+      display_name: | "Sierra Suspect 5" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Sierra Suspect 5" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "sierra_suspect_5" | u="public_case_label" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0064"
+      record_type: "person"
+      display_name: | "Sierra Suspect 6" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Sierra Suspect 6" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "sierra_suspect_6" | u="public_case_label" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0065"
+      record_type: "person"
+      display_name: | "Sierra Suspect 7" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Sierra Suspect 7" | u="descriptive_label" | p="police_or_media_suspect_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "sierra_suspect_7" | u="public_case_label" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "unidentified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      possible_same_as[1]:
+        -
+          person_id: | "TCS-WWKC-PPL-0066" | u="person_id" | p="exact_reference" | i=0 | s=[KCSRC00007,KCSRC00008]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[KCSRC00007,KCSRC00008]
+          rationale: | "Christopher Michael Crowther has been proposed as a match for Sierra Suspect 7; this is unconfirmed." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0066"
+      record_type: "person"
+      display_name: | "Christopher Michael Crowther" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Christopher Michael Crowther" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "proposed_match_for_sierra_suspect_7" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "publicly_discussed_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      possible_same_as[1]:
+        -
+          person_id: | "TCS-WWKC-PPL-0065" | u="person_id" | p="exact_reference" | i=0 | s=[KCSRC00007,KCSRC00008]
+          status: | "unresolved_hypothesis" | u="identity_relationship_status" | p="controlled_label" | i=2 | s=[KCSRC00007,KCSRC00008]
+          rationale: | "Proposed identity match only; not established." | u="identity_hypothesis_rationale" | p="summary" | i=2 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0067"
+      record_type: "person"
+      display_name: | "Norman Leung Lee" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "Norman Leung Lee" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "Norman “Normie” Leung Lee" | u="personal_name_with_nickname" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "publicly_discussed_suspect_or_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0068"
+      record_type: "person"
+      display_name: | "Alfred Hugh Gay" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Alfred Hugh Gay" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[2]:
+        -: | "informant" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "nominator_of_suspect" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "Informant record. Do not classify Alfred Hugh Gay as the suspect he nominated."
+        - "Verify the exact source account before adding further allegations."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0069"
+      record_type: "person"
+      display_name: | "Maurice Marion" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "Maurice Marion" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "Maurice “Maurie” Marion" | u="personal_name_with_nickname" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "publicly_discussed_suspect_or_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0070"
+      record_type: "person"
+      display_name: | "Robert Keith Knight" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Robert Keith Knight" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "publicly_discussed_suspect_or_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0071"
+      record_type: "person"
+      display_name: | "John" | u="pseudonym" | p="published_pseudonym" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "John" | u="pseudonym" | p="published_pseudonym" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "“John”" | u="pseudonym" | p="published_pseudonym" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "pseudonymous_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "pseudonymous" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "pseudonymous_public_reference" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0072"
+      record_type: "person"
+      display_name: | "Jamie Warwick Hall" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Jamie Warwick Hall" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "publicly_discussed_suspect_or_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0073"
+      record_type: "person"
+      display_name: | "Ashley Mervyn Coulston" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Ashley Mervyn Coulston" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "publicly_discussed_suspect_or_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0074"
+      record_type: "person"
+      display_name: | "Richard Starrett" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Richard Starrett" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "publicly_discussed_suspect_or_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0075"
+      record_type: "person"
+      display_name: | "Steven Greenwood" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Steven Greenwood" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "publicly_discussed_suspect_or_person_of_interest" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[3]:
+        - "No implication of guilt. Inclusion records public reporting or discussion only."
+        - "Verify the precise source wording before adding biographical or allegation details."
+        - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "hold" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+  contextual_people[4]:
+    - id: "TCS-WWKC-PPL-0076"
+      record_type: "person"
+      display_name: | "Stephen Asling" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Stephen Asling" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "underworld_context_person" | u="case_context_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[1]:
+        - "Contextual record only; do not classify this person as a suspect without a separate supported claim."
+      record_scope: | "contextual_people" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "contextual_scope_pending_source_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "contextual_only_internal" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0077"
+      record_type: "person"
+      display_name: | "Terrence Blewitt" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Terrence Blewitt" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "later_burial_site_comparison_victim" | u="case_context_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[1]:
+        - "Contextual record only; do not classify this person as a suspect without a separate supported claim."
+      record_scope: | "contextual_people" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "contextual_scope_pending_source_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "contextual_only_internal" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0078"
+      record_type: "person"
+      display_name: | "Jeffrey Graham Reading" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[1]:
+        -: | "Jeffrey Graham Reading" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "underworld_context_person" | u="case_context_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[1]:
+        - "Contextual record only; do not classify this person as a suspect without a separate supported claim."
+      record_scope: | "contextual_people" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "contextual_scope_pending_source_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "contextual_only_internal" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0079"
+      record_type: "person"
+      display_name: | "Allan Austin Bartholomew" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      names[2]:
+        -: | "Allan Austin Bartholomew" | u="personal_name" | p="public_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+        -: | "Dr Allan Austin Bartholomew" | u="titled_personal_name" | p="public_titled_name" | i=0 | s=[KCSRC00007,KCSRC00008]
+      roles[1]:
+        -: | "psychiatrist_in_elkner_historical_case" | u="case_context_role" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      public_status: | "publicly_named_in_secondary_sources" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00007,KCSRC00008]
+      review_flags[1]:
+        - "Contextual record only; do not classify this person as a suspect without a separate supported claim."
+      record_scope: | "contextual_people" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "contextual_scope_pending_source_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
+        publication_status: | "contextual_only_internal" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
   places[17]:
     - id: "KCPLACE0001"
       canonical_name: | "Chan family home" | p="descriptive label" | i=0 | s=[KCSRC00034,KCSRC00038]
