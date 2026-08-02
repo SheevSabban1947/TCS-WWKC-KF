@@ -1,7 +1,7 @@
 {
   "file": "people.json",
   "schema_version": "0.2.1",
-  "updated": "2026-07-18",
+  "updated": "2026-08-02",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -13,8 +13,8 @@
   },
   "metadata": {
     "description": "Case-person catalogue for the Karmein Chan Knowledge File.",
-    "total_person_count": 79,
-    "core_person_count": 75,
+    "total_person_count": 80,
+    "core_person_count": 76,
     "contextual_person_count": 4,
     "previous_version": "0.2.0",
     "change_summary": [
@@ -25,7 +25,8 @@
       "Moved four contextual records to a contextual_people layer.",
       "Marked synthetic ordinal records explicitly as unresolved placeholders.",
       "Added record_scope, verification and publication-status fields to every record.",
-      "Added controlled-vocabulary and layer definitions."
+      "Added controlled-vocabulary and layer definitions.",
+      "Added Kelvin “Kel” Glare, Chief Commissioner of Victoria Police at the time of Karmein Chan’s abduction and a reported acquaintance of John Chan."
     ],
     "factual_certification_status": "not_certified_pending_exact_source_locators",
     "identity_handling_note": "Mr Cruel, Karmein Chan’s abductor, the Parer Street stalker, the Edgars Creek armed man and the man reportedly seen digging remain separate entities linked only by unresolved hypotheses."
@@ -10434,6 +10435,104 @@
         },
         "review_note": {
           "value": "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification.",
+          "units": "verification_note",
+          "precision": "editorial_status_note",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "id": "TCS-WWKC-PPL-0080",
+      "record_type": "person",
+      "display_name": {
+        "value": "Kelvin Glare",
+        "units": "personal_name",
+        "precision": "public_name",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "names": [
+        {
+          "value": "Kelvin Glare",
+          "units": "personal_name",
+          "precision": "public_name",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        {
+          "value": "Kel Glare",
+          "units": "personal_name",
+          "precision": "public_short_name",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      ],
+      "roles": [
+        {
+          "value": "chief_commissioner_of_victoria_police_at_time_of_karmein_chan_abduction",
+          "units": "professional_role",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        {
+          "value": "reported_acquaintance_of_john_chan",
+          "units": "case_context_role",
+          "precision": "reported_relationship",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      ],
+      "identity_status": {
+        "value": "identified",
+        "units": "identity_status",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "public_status": {
+        "value": "publicly_known",
+        "units": "public_status",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "review_flags": [
+        "Exact source support is still required for the reported acquaintance with John Chan.",
+        "Do not infer investigative influence, preferential treatment or misconduct from the reported acquaintance alone."
+      ],
+      "record_scope": {
+        "value": "core_case_graph",
+        "units": "record_scope",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "verification": {
+        "status": {
+          "value": "pending_claim_locator_review",
+          "units": "verification_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "claim_locator_status": {
+          "value": "missing",
+          "units": "claim_locator_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "publication_status": {
+          "value": "internal_only_pending_review",
+          "units": "publication_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "review_note": {
+          "value": "The record was added from project knowledge; its claims require assignment to a catalogued source and an exact locator before factual certification.",
           "units": "verification_note",
           "precision": "editorial_status_note",
           "inference_score": 0,
