@@ -15,9 +15,9 @@ knowledge_file:
     input_files[5]:
       - file: "sources.json"
         schema_version: "0.1.0"
-        updated: "2026-06-07"
+        updated: "2026-08-06"
         record_key: "sources"
-        record_count: 62
+        record_count: 65
       - file: "people.json"
         schema_version: "0.3.0"
         updated: "2026-08-06"
@@ -45,18 +45,18 @@ knowledge_file:
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
-      sources: 62
+      sources: 65
       people: 76
       contextual_people: 4
       places: 17
       timeline_events: 50
       open_questions: 29
-      total_records: 238
+      total_records: 241
     integrity:
       referenced_source_id_count: 37
-      catalogued_source_id_count: 62
+      catalogued_source_id_count: 65
       missing_source_ids: []
-      unused_catalogue_source_ids[25]:
+      unused_catalogue_source_ids[28]:
         - "KCSRC00009"
         - "KCSRC00010"
         - "KCSRC00013"
@@ -82,6 +82,9 @@ knowledge_file:
         - "KCSRC00056"
         - "KCSRC00059"
         - "KCSRC00061"
+        - "KCSRC00062"
+        - "KCSRC00063"
+        - "KCSRC00064"
       referenced_person_id_count: 26
       catalogued_person_id_count: 80
       missing_person_ids: []
@@ -208,7 +211,7 @@ knowledge_file:
       - code: "CONTROLLED_ROLE_VALUE_REVIEW"
         status: "pending"
         description: "Review individual role values for naming consistency after source-level verification."
-  sources[62]:
+  sources[65]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -1169,6 +1172,48 @@ knowledge_file:
       referenced_in_current_files: []
       review_flags[1]:
         - "The site body appears to show “Thursday 7 July 2026” near the reward image, while the source list records “Thursday 7 July 2016”; verify the date if this source becomes important."
+    - source_id: "KCSRC00062"
+      record_type: "source"
+      title: | "Map – Potential Mr Cruel detention premises location" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "map" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: null
+      identifiers[1]:
+        -: | "Reddit User BozoBozovic" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "https://www.google.com/maps/d/embed?mid=1o4ouuYsf-qc7VNWn1Xb5nyutDcU_hmY&ehbc=2E312F&noprof=1&ll=-37.80864364520764%2C145.04854105712894&z=11" | u="access_locator_or_note" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Potential lair locations" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00063"
+      record_type: "source"
+      title: | "The Sydney Morning Herald, 23/07/1997, page 5" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1997-07-23" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[2]:
+        -: | "Fairfax Media Publications Pty Limited" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 0312-6315" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/newspapers/july-23-1997-page-5-61/docview/2527638959/sem-2?accountid=13905" | u="access_locator_or_note" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Billy Chan trial" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
+    - source_id: "KCSRC00064"
+      record_type: "source"
+      title: | "The Age, 05/08/1997, page 3" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "1997-08-05" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      identifiers[3]:
+        -: | "Fairfax Media Publications Pty Limited" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      access: | "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/newspapers/august-5-1997-page-3-70/docview/2521938660/sem-2?accountid=13905" | u="access_locator_or_note" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+      facts_supported[1]:
+        -: | "Phyllis Lam injuries" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      referenced_in_current_files: []
+      review_flags: []
   people[76]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
