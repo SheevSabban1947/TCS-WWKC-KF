@@ -1,6 +1,6 @@
 {
   "file": "sources.json",
-  "schema_version": "0.3.0",
+  "schema_version": "0.1.0",
   "updated": "2026-08-06",
   "claim_model": {
     "value": "...",
@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 62,
+    "source_count": 65,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -953,10 +953,10 @@
         }
       ],
       "access": {
-        "value": "https://dt-hs.blogspot.com/2020/05/bulleen-short-history-judith-leaney.html",
+        "value": "see source index on The Cruel Song; exact URL not normalized here",
         "units": "access_locator_or_note",
-        "precision": "exact_url",
-        "inference_score": 0,
+        "precision": "partial",
+        "inference_score": 1,
         "source_ids": [
           "TCS-WWKC-WEB-0001"
         ]
@@ -966,15 +966,6 @@
           "value": "Vintage photo of Bulleen Plaza",
           "units": "fact_summary",
           "precision": "from_source_index",
-          "inference_score": 0,
-          "source_ids": [
-            "TCS-WWKC-WEB-0001"
-          ]
-        },
-        {
-          "value": "Bulleen Shopping Centre in Manningham Road was built in 1974 and was later named Bulleen Plaza",
-          "units": "fact_summary",
-          "precision": "direct_statement_in_source",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
@@ -993,12 +984,10 @@
       "referenced_in_current_files": [
         {
           "file": "places.json",
-          "reference_count": 3
+          "reference_count": 2
         }
       ],
-      "review_flags": [
-        "Another Doncaster Templestowe Historical Society chronology states that Bulleen Village Shopping Centre opened in 1969–70; reconcile whether it describes an earlier or distinct centre."
-      ]
+      "review_flags": []
     },
     {
       "source_id": "KCSRC00012",
@@ -4769,6 +4758,244 @@
       "review_flags": [
         "The site body appears to show “Thursday 7 July 2026” near the reward image, while the source list records “Thursday 7 July 2016”; verify the date if this source becomes important."
       ]
+    },
+    {
+      "source_id": "KCSRC00062",
+      "record_type": "source",
+      "title": {
+        "value": "Map – Potential Mr Cruel detention premises location",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "map",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Reddit User BozoBozovic",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://www.google.com/maps/d/embed?mid=1o4ouuYsf-qc7VNWn1Xb5nyutDcU_hmY&ehbc=2E312F&noprof=1&ll=-37.80864364520764%2C145.04854105712894&z=11",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Potential lair locations",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00063",
+      "record_type": "source",
+      "title": {
+        "value": "The Sydney Morning Herald, 23/07/1997, page 5",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1997-07-23",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Fairfax Media Publications Pty Limited",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 0312-6315",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/newspapers/july-23-1997-page-5-61/docview/2527638959/sem-2?accountid=13905",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Billy Chan trial",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00064",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 05/08/1997, page 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": {
+        "value": "1997-08-05",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_source_index",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Fairfax Media Publications Pty Limited",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/newspapers/august-5-1997-page-3-70/docview/2521938660/sem-2?accountid=13905",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Phyllis Lam injuries",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": []
     }
   ]
 }
