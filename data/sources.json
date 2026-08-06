@@ -1,7 +1,7 @@
 {
   "file": "sources.json",
-  "schema_version": "0.1.0",
-  "updated": "2026-06-07",
+  "schema_version": "0.3.0",
+  "updated": "2026-08-06",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -953,10 +953,10 @@
         }
       ],
       "access": {
-        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "value": "https://dt-hs.blogspot.com/2020/05/bulleen-short-history-judith-leaney.html",
         "units": "access_locator_or_note",
-        "precision": "partial",
-        "inference_score": 1,
+        "precision": "exact_url",
+        "inference_score": 0,
         "source_ids": [
           "TCS-WWKC-WEB-0001"
         ]
@@ -966,6 +966,15 @@
           "value": "Vintage photo of Bulleen Plaza",
           "units": "fact_summary",
           "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Bulleen Shopping Centre in Manningham Road was built in 1974 and was later named Bulleen Plaza",
+          "units": "fact_summary",
+          "precision": "direct_statement_in_source",
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
@@ -984,10 +993,12 @@
       "referenced_in_current_files": [
         {
           "file": "places.json",
-          "reference_count": 2
+          "reference_count": 3
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Another Doncaster Templestowe Historical Society chronology states that Bulleen Village Shopping Centre opened in 1969–70; reconcile whether it describes an earlier or distinct centre."
+      ]
     },
     {
       "source_id": "KCSRC00012",

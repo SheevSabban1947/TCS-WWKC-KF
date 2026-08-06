@@ -1,13 +1,15 @@
 {
   "file": "places.json",
-  "schema_version": "0.1.0",
-  "updated": "2026-06-04",
+  "schema_version": "0.3.0",
+  "updated": "2026-08-06",
   "claim_model": {
     "value": "...",
     "units": "...",
     "precision": "...",
     "inference_score": 0,
-    "source_ids": ["..."]
+    "source_ids": [
+      "..."
+    ]
   },
   "places": [
     {
@@ -17,14 +19,20 @@
         "units": null,
         "precision": "descriptive label",
         "inference_score": 0,
-        "source_ids": ["KCSRC00034", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00034",
+          "KCSRC00038"
+        ]
       },
       "place_type": {
         "value": "residential_property",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00034", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00034",
+          "KCSRC00038"
+        ]
       },
       "location": {
         "street_address": {
@@ -32,28 +40,36 @@
           "units": null,
           "precision": "publicly reported historical address",
           "inference_score": 0,
-          "source_ids": ["KCSRC00034"]
+          "source_ids": [
+            "KCSRC00034"
+          ]
         },
         "suburb": {
           "value": "Templestowe",
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         }
       },
       "case_roles": [
@@ -62,14 +78,18 @@
           "units": null,
           "precision": "case role",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         {
           "value": "abduction site",
           "units": null,
           "precision": "case role",
           "inference_score": 0,
-          "source_ids": ["KCSRC00034"]
+          "source_ids": [
+            "KCSRC00034"
+          ]
         }
       ],
       "privacy_level": {
@@ -88,14 +108,21 @@
         "units": null,
         "precision": "official institution name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00001", "KCSRC00002", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00001",
+          "KCSRC00002",
+          "KCSRC00038"
+        ]
       },
       "place_type": {
         "value": "school",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00001", "KCSRC00002"]
+        "source_ids": [
+          "KCSRC00001",
+          "KCSRC00002"
+        ]
       },
       "location": {
         "suburb": {
@@ -103,21 +130,27 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00002"]
+          "source_ids": [
+            "KCSRC00002"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00002"]
+          "source_ids": [
+            "KCSRC00002"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00002"]
+          "source_ids": [
+            "KCSRC00002"
+          ]
         }
       },
       "case_roles": [
@@ -126,7 +159,10 @@
           "units": null,
           "precision": "case role",
           "inference_score": 0,
-          "source_ids": ["KCSRC00001", "KCSRC00038"]
+          "source_ids": [
+            "KCSRC00001",
+            "KCSRC00038"
+          ]
         }
       ],
       "review_flags": []
@@ -138,14 +174,18 @@
         "units": null,
         "precision": "suburb / transport locality",
         "inference_score": 0,
-        "source_ids": ["KCSRC00038"]
+        "source_ids": [
+          "KCSRC00038"
+        ]
       },
       "place_type": {
         "value": "suburb_or_transport_area",
         "units": null,
         "precision": "category",
         "inference_score": 1,
-        "source_ids": ["KCSRC00038"]
+        "source_ids": [
+          "KCSRC00038"
+        ]
       },
       "location": {
         "state": {
@@ -153,14 +193,18 @@
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         }
       },
       "case_roles": [
@@ -169,7 +213,9 @@
           "units": null,
           "precision": "routine place",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         }
       ],
       "review_flags": []
@@ -181,7 +227,10 @@
         "units": null,
         "precision": "neutral descriptive label",
         "inference_score": 1,
-        "source_ids": ["KCSRC00019", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00019",
+          "KCSRC00038"
+        ]
       },
       "aliases": [
         {
@@ -189,7 +238,9 @@
           "units": null,
           "precision": "name as currently present in source text",
           "inference_score": 1,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         }
       ],
       "place_type": {
@@ -197,7 +248,10 @@
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00019", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00019",
+          "KCSRC00038"
+        ]
       },
       "location": {
         "suburb": {
@@ -205,21 +259,27 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         }
       },
       "case_roles": [
@@ -228,14 +288,18 @@
           "units": null,
           "precision": "case role",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         {
           "value": "place where Karmein, Karly and Karen Chan spent part of Saturday 13 April 1991",
           "units": null,
           "precision": "same-day routine location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00019"]
+          "source_ids": [
+            "KCSRC00019"
+          ]
         }
       ],
       "review_flags": [
@@ -249,14 +313,21 @@
         "units": null,
         "precision": "shopping centre name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00011", "KCSRC00035", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00011",
+          "KCSRC00035",
+          "KCSRC00038"
+        ]
       },
       "place_type": {
         "value": "shopping_centre",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00011", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00011",
+          "KCSRC00038"
+        ]
       },
       "location": {
         "suburb": {
@@ -264,40 +335,64 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         }
       },
+      "historical_facts": [
+        {
+          "value": "The Bulleen Shopping Centre in Manningham Road was built in 1974 and was later named Bulleen Plaza.",
+          "units": null,
+          "precision": "year and naming history",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00011"
+          ]
+        }
+      ],
       "case_roles": [
         {
           "value": "Saturday breakfast location for Karmein Chan and Phyllis Chan",
           "units": null,
           "precision": "routine place",
           "inference_score": 0,
-          "source_ids": ["KCSRC00038"]
+          "source_ids": [
+            "KCSRC00038"
+          ]
         },
         {
           "value": "location of a Chan family restaurant business",
           "units": null,
           "precision": "business location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00035", "KCSRC00038"]
+          "source_ids": [
+            "KCSRC00035",
+            "KCSRC00038"
+          ]
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "A separate Doncaster Templestowe Historical Society chronology states that Bulleen Village Shopping Centre opened in 1969–70; determine whether this refers to an earlier or distinct centre before describing 1974 as the opening year."
+      ]
     },
     {
       "id": "KCPLACE0006",
@@ -306,14 +401,18 @@
         "units": null,
         "precision": "library name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00005"]
+        "source_ids": [
+          "KCSRC00005"
+        ]
       },
       "place_type": {
         "value": "library",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00005"]
+        "source_ids": [
+          "KCSRC00005"
+        ]
       },
       "location": {
         "suburb": {
@@ -321,21 +420,27 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00005"]
+          "source_ids": [
+            "KCSRC00005"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00005"]
+          "source_ids": [
+            "KCSRC00005"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00005"]
+          "source_ids": [
+            "KCSRC00005"
+          ]
         }
       },
       "case_roles": [
@@ -344,7 +449,9 @@
           "units": null,
           "precision": "routine place",
           "inference_score": 0,
-          "source_ids": ["KCSRC00005"]
+          "source_ids": [
+            "KCSRC00005"
+          ]
         }
       ],
       "review_flags": []
@@ -356,7 +463,10 @@
         "units": null,
         "precision": "current or later name used by source",
         "inference_score": 0,
-        "source_ids": ["KCSRC00018", "KCSRC00038"]
+        "source_ids": [
+          "KCSRC00018",
+          "KCSRC00038"
+        ]
       },
       "aliases": [
         {
@@ -364,7 +474,10 @@
           "units": null,
           "precision": "historical name",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018", "KCSRC00038"]
+          "source_ids": [
+            "KCSRC00018",
+            "KCSRC00038"
+          ]
         }
       ],
       "place_type": {
@@ -372,7 +485,9 @@
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00018"]
+        "source_ids": [
+          "KCSRC00018"
+        ]
       },
       "location": {
         "suburb": {
@@ -380,21 +495,27 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         }
       },
       "case_roles": [
@@ -403,7 +524,10 @@
           "units": null,
           "precision": "routine place",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018", "KCSRC00038"]
+          "source_ids": [
+            "KCSRC00018",
+            "KCSRC00038"
+          ]
         }
       ],
       "review_flags": []
@@ -415,14 +539,18 @@
         "units": null,
         "precision": "institution name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00034"]
+        "source_ids": [
+          "KCSRC00034"
+        ]
       },
       "place_type": {
         "value": "police_station",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00034"]
+        "source_ids": [
+          "KCSRC00034"
+        ]
       },
       "location": {
         "suburb": {
@@ -430,21 +558,27 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00034"]
+          "source_ids": [
+            "KCSRC00034"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00034"]
+          "source_ids": [
+            "KCSRC00034"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00034"]
+          "source_ids": [
+            "KCSRC00034"
+          ]
         }
       },
       "case_roles": [
@@ -453,7 +587,9 @@
           "units": null,
           "precision": "case procedure location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00034"]
+          "source_ids": [
+            "KCSRC00034"
+          ]
         }
       ],
       "review_flags": []
@@ -465,7 +601,11 @@
         "units": null,
         "precision": "institution name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00018", "KCSRC00053", "KCSRC00054"]
+        "source_ids": [
+          "KCSRC00018",
+          "KCSRC00053",
+          "KCSRC00054"
+        ]
       },
       "aliases": [
         {
@@ -473,7 +613,9 @@
           "units": null,
           "precision": "name variant used in source text",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         }
       ],
       "place_type": {
@@ -481,7 +623,9 @@
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00018"]
+        "source_ids": [
+          "KCSRC00018"
+        ]
       },
       "location": {
         "city": {
@@ -489,21 +633,27 @@
           "units": null,
           "precision": "city",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         }
       },
       "case_roles": [
@@ -512,7 +662,9 @@
           "units": null,
           "precision": "medical history location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00018"]
+          "source_ids": [
+            "KCSRC00018"
+          ]
         }
       ],
       "review_flags": []
@@ -524,14 +676,20 @@
         "units": null,
         "precision": "camping area / locality",
         "inference_score": 0,
-        "source_ids": ["KCSRC00058", "KCSRC00060"]
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060"
+        ]
       },
       "place_type": {
         "value": "camping_area",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00058", "KCSRC00060"]
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060"
+        ]
       },
       "location": {
         "nearby_locality": {
@@ -539,21 +697,29 @@
           "units": null,
           "precision": "nearby locality",
           "inference_score": 0,
-          "source_ids": ["KCSRC00058"]
+          "source_ids": [
+            "KCSRC00058"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00058", "KCSRC00060"]
+          "source_ids": [
+            "KCSRC00058",
+            "KCSRC00060"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00058", "KCSRC00060"]
+          "source_ids": [
+            "KCSRC00058",
+            "KCSRC00060"
+          ]
         }
       },
       "case_roles": [
@@ -562,7 +728,9 @@
           "units": null,
           "precision": "date-bounded school activity location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00058"]
+          "source_ids": [
+            "KCSRC00058"
+          ]
         }
       ],
       "review_flags": []
@@ -574,14 +742,20 @@
         "units": null,
         "precision": "church name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00012", "KCSRC00049"]
+        "source_ids": [
+          "KCSRC00012",
+          "KCSRC00049"
+        ]
       },
       "place_type": {
         "value": "church",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00012", "KCSRC00049"]
+        "source_ids": [
+          "KCSRC00012",
+          "KCSRC00049"
+        ]
       },
       "location": {
         "street_context": {
@@ -589,28 +763,37 @@
           "units": null,
           "precision": "publicly reported intersection",
           "inference_score": 0,
-          "source_ids": ["KCSRC00049"]
+          "source_ids": [
+            "KCSRC00049"
+          ]
         },
         "suburb": {
           "value": "Bulleen",
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00012", "KCSRC00049"]
+          "source_ids": [
+            "KCSRC00012",
+            "KCSRC00049"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00049"]
+          "source_ids": [
+            "KCSRC00049"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00049"]
+          "source_ids": [
+            "KCSRC00049"
+          ]
         }
       },
       "case_roles": [
@@ -619,7 +802,9 @@
           "units": null,
           "precision": "ceremonial location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00049"]
+          "source_ids": [
+            "KCSRC00049"
+          ]
         }
       ],
       "review_flags": []
@@ -631,14 +816,20 @@
         "units": null,
         "precision": "cemetery name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00012", "KCSRC00047"]
+        "source_ids": [
+          "KCSRC00012",
+          "KCSRC00047"
+        ]
       },
       "place_type": {
         "value": "cemetery",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00012", "KCSRC00047"]
+        "source_ids": [
+          "KCSRC00012",
+          "KCSRC00047"
+        ]
       },
       "location": {
         "suburb": {
@@ -646,21 +837,28 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00012", "KCSRC00047"]
+          "source_ids": [
+            "KCSRC00012",
+            "KCSRC00047"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00047"]
+          "source_ids": [
+            "KCSRC00047"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00047"]
+          "source_ids": [
+            "KCSRC00047"
+          ]
         }
       },
       "case_roles": [
@@ -669,7 +867,9 @@
           "units": null,
           "precision": "ceremonial / funerary location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00047"]
+          "source_ids": [
+            "KCSRC00047"
+          ]
         }
       ],
       "review_flags": []
@@ -733,14 +933,18 @@
         "units": null,
         "precision": "church name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00001"]
+        "source_ids": [
+          "KCSRC00001"
+        ]
       },
       "place_type": {
         "value": "church",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00001"]
+        "source_ids": [
+          "KCSRC00001"
+        ]
       },
       "location": {
         "city": {
@@ -748,21 +952,27 @@
           "units": null,
           "precision": "city",
           "inference_score": 0,
-          "source_ids": ["KCSRC00001"]
+          "source_ids": [
+            "KCSRC00001"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00001"]
+          "source_ids": [
+            "KCSRC00001"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00001"]
+          "source_ids": [
+            "KCSRC00001"
+          ]
         }
       },
       "case_roles": [
@@ -771,7 +981,9 @@
           "units": null,
           "precision": "ceremonial location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00001"]
+          "source_ids": [
+            "KCSRC00001"
+          ]
         }
       ],
       "review_flags": []
@@ -783,7 +995,9 @@
         "units": null,
         "precision": "descriptive label",
         "inference_score": 0,
-        "source_ids": ["KCSRC00037"]
+        "source_ids": [
+          "KCSRC00037"
+        ]
       },
       "aliases": [
         {
@@ -791,14 +1005,18 @@
           "units": null,
           "precision": "descriptive location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00037"]
+          "source_ids": [
+            "KCSRC00037"
+          ]
         },
         {
           "value": "Edgars Creek discovery location",
           "units": null,
           "precision": "descriptive location",
           "inference_score": 0,
-          "source_ids": ["KCSRC00037"]
+          "source_ids": [
+            "KCSRC00037"
+          ]
         }
       ],
       "place_type": {
@@ -806,7 +1024,9 @@
         "units": null,
         "precision": "case category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00037"]
+        "source_ids": [
+          "KCSRC00037"
+        ]
       },
       "location": {
         "suburb": {
@@ -814,21 +1034,27 @@
           "units": null,
           "precision": "suburb",
           "inference_score": 0,
-          "source_ids": ["KCSRC00037"]
+          "source_ids": [
+            "KCSRC00037"
+          ]
         },
         "state": {
           "value": "Victoria",
           "units": null,
           "precision": "state",
           "inference_score": 0,
-          "source_ids": ["KCSRC00037"]
+          "source_ids": [
+            "KCSRC00037"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 0,
-          "source_ids": ["KCSRC00037"]
+          "source_ids": [
+            "KCSRC00037"
+          ]
         },
         "coordinates": {
           "value": {
@@ -838,7 +1064,9 @@
           "units": "decimal_degrees",
           "precision": "converted from reported DMS coordinates",
           "inference_score": 0,
-          "source_ids": ["KCSRC00037"]
+          "source_ids": [
+            "KCSRC00037"
+          ]
         }
       },
       "case_roles": [
@@ -847,7 +1075,9 @@
           "units": null,
           "precision": "case role",
           "inference_score": 0,
-          "source_ids": ["KCSRC00037"]
+          "source_ids": [
+            "KCSRC00037"
+          ]
         }
       ],
       "review_flags": []
@@ -859,14 +1089,18 @@
         "units": null,
         "precision": "street name",
         "inference_score": 0,
-        "source_ids": ["KCSRC00029"]
+        "source_ids": [
+          "KCSRC00029"
+        ]
       },
       "place_type": {
         "value": "street",
         "units": null,
         "precision": "category",
         "inference_score": 0,
-        "source_ids": ["KCSRC00029"]
+        "source_ids": [
+          "KCSRC00029"
+        ]
       },
       "location": {
         "state": {
@@ -874,14 +1108,18 @@
           "units": null,
           "precision": "state",
           "inference_score": 1,
-          "source_ids": ["KCSRC00029"]
+          "source_ids": [
+            "KCSRC00029"
+          ]
         },
         "country": {
           "value": "Australia",
           "units": null,
           "precision": "country",
           "inference_score": 1,
-          "source_ids": ["KCSRC00029"]
+          "source_ids": [
+            "KCSRC00029"
+          ]
         }
       },
       "case_roles": [
@@ -890,7 +1128,9 @@
           "units": null,
           "precision": "reported suspicious activity location",
           "inference_score": 1,
-          "source_ids": ["KCSRC00029"]
+          "source_ids": [
+            "KCSRC00029"
+          ]
         }
       ],
       "review_flags": [
