@@ -1,7 +1,7 @@
 knowledge_file:
   file: "karmein_chan_knowledge_file.toon"
-  schema_version: "0.2.1"
-  updated: "2026-08-02"
+  schema_version: "0.3.0"
+  updated: "2026-08-06"
   format: "TOON"
   project: "Who Was Karmein Chan? / The Cruel Song Knowledge File"
   description: "Single-file TOON consolidation of the current JSON Knowledge File modules."
@@ -19,8 +19,8 @@ knowledge_file:
         record_key: "sources"
         record_count: 62
       - file: "people.json"
-        schema_version: "0.2.1"
-        updated: "2026-08-02"
+        schema_version: "0.3.0"
+        updated: "2026-08-06"
         record_keys[2]:
           - "people"
           - "contextual_people"
@@ -2205,17 +2205,19 @@ knowledge_file:
         review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
     - id: "TCS-WWKC-PPL-0041"
       record_type: "person"
-      display_name: | "Billy Chan" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
-      names[1]:
+      display_name: | "Kai Sing “Billy” Chan" | u="personal_name_with_nickname" | p="expanded_public_name" | i=0 | s=[]
+      names[2]:
+        -: | "Kai Sing “Billy” Chan" | u="personal_name_with_nickname" | p="expanded_public_name" | i=0 | s=[]
         -: | "Billy Chan" | u="personal_name" | p="public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
       roles[2]:
         -: | "former_chan_family_employee" | u="professional_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "attacker_of_phyllis_lam_in_1995" | u="case_context_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
       public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags[2]:
+      review_flags[3]:
         - "Later family-context event; keep separate from the 1991 abduction investigation."
         - "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+        - "Full expanded name added during 0.3.0 editorial work; exact public-source locator remains to be attached."
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
         status: | "hold_pending_exact_source_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]

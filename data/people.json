@@ -1,7 +1,7 @@
 {
   "file": "people.json",
-  "schema_version": "0.2.1",
-  "updated": "2026-08-02",
+  "schema_version": "0.3.0",
+  "updated": "2026-08-06",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -6560,15 +6560,20 @@
       "id": "TCS-WWKC-PPL-0041",
       "record_type": "person",
       "display_name": {
-        "value": "Billy Chan",
-        "units": "personal_name",
-        "precision": "public_name",
+        "value": "Kai Sing “Billy” Chan",
+        "units": "personal_name_with_nickname",
+        "precision": "expanded_public_name",
         "inference_score": 0,
-        "source_ids": [
-          "TCS-WWKC-WEB-0001"
-        ]
+        "source_ids": []
       },
       "names": [
+        {
+          "value": "Kai Sing “Billy” Chan",
+          "units": "personal_name_with_nickname",
+          "precision": "expanded_public_name",
+          "inference_score": 0,
+          "source_ids": []
+        },
         {
           "value": "Billy Chan",
           "units": "personal_name",
@@ -6619,7 +6624,8 @@
       },
       "review_flags": [
         "Later family-context event; keep separate from the 1991 abduction investigation.",
-        "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording."
+        "Publication hold: the allegation, suspect label or person-of-interest association requires exact-source verification and neutral wording.",
+        "Full expanded name added during 0.3.0 editorial work; exact public-source locator remains to be attached."
       ],
       "record_scope": {
         "value": "core_case_graph",
