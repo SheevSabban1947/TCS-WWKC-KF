@@ -1,0 +1,1428 @@
+{
+  "file": "photos.json",
+  "schema_version": "0.3.0",
+  "updated": "2026-08-09",
+  "claim_model": {
+    "value": "...",
+    "units": "...",
+    "precision": "...",
+    "inference_score": 0,
+    "source_ids": [
+      "..."
+    ]
+  },
+  "metadata": {
+    "description": "Metadata catalogue for project-held photographic working files associated with Karmein Chan and her public memorial.",
+    "record_count": 16,
+    "status": "active",
+    "id_namespace": "KCPHOTO####",
+    "asset_policy": "Metadata only. Image binaries are not included in the Knowledge File package and this module does not grant reuse rights.",
+    "notes": [
+      "Titles and descriptions are conservative editorial descriptions based on direct visual inspection.",
+      "Unknown dates, creators and original publication sources are omitted rather than inferred.",
+      "File checksums identify the project-held working copies inspected for this release.",
+      "Several records are alternate files or edited derivatives of the same underlying image."
+    ]
+  },
+  "photos": [
+    {
+      "id": "KCPHOTO0001",
+      "record_type": "photo",
+      "title": {
+        "value": "Karmein Chan smiling beside a car",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Outdoor photograph of Karmein Chan smiling beside a car.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein_chan-findagrave001.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 411410,
+        "sha256": "b48b71b47d979f317f8642f29a34b13f3fab6c8e4870d1b00a9ecc446e2eafc0",
+        "width_pixels": 800,
+        "height_pixels": 628
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file whose filename indicates a Find a Grave derivative; the exact memorial-page locator, uploader and original publication source are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0002"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "uploader_attribution_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0002",
+      "record_type": "photo",
+      "title": {
+        "value": "Cleaned working copy of Karmein Chan smiling beside a car",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Cleaned project working copy of the outdoor photograph of Karmein Chan smiling beside a car.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0900 Karmein Chan car clean.jpeg",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 90009,
+        "sha256": "dcc0c1747d09b4f008a0237dfcf9acd451afea3923807f317db354ab160a38f5",
+        "width_pixels": 800,
+        "height_pixels": 628
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held edited working file derived from the same underlying image as KCPHOTO0001; exact edit history and original publication source are not yet fully documented.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [
+        {
+          "type": "cleanup",
+          "description": "Digital cleanup indicated by the working filename; the exact operations and tool are not recorded."
+        }
+      ],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "derived_from",
+          "photo_id": "KCPHOTO0001"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "transformation_history_incomplete"
+      ]
+    },
+    {
+      "id": "KCPHOTO0003",
+      "record_type": "photo",
+      "title": {
+        "value": "Formal portrait of Karmein Chan in a dark vest",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Portrait of Karmein Chan smiling, with short hair and a dark vest over a light top.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein_chan-findagrave008.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 660773,
+        "sha256": "0a034da793b1fdf0766a47a6f2f1b3822a0cfb11a6b5176d9ef89753a2d0cda6",
+        "width_pixels": 776,
+        "height_pixels": 1040
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file whose filename indicates a Find a Grave derivative; the exact memorial-page locator, uploader and original publication source are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0004"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "uploader_attribution_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0004",
+      "record_type": "photo",
+      "title": {
+        "value": "Alternate working file of Karmein Chan in a dark vest",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Alternate project working file of the formal portrait represented by KCPHOTO0003.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0565.JPG",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 139023,
+        "sha256": "737848d3a5924e4ae2d63d6484d6f619b71e61d774f59115890a97bba56042a9",
+        "width_pixels": 776,
+        "height_pixels": 1040
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file corresponding to the same underlying image as KCPHOTO0003; exact original source and file-generation history are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0003"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "file_generation_history_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0005",
+      "record_type": "photo",
+      "title": {
+        "value": "Close portrait of Karmein Chan smiling in a group setting",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Close view of Karmein Chan smiling, with other people partly visible behind her.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein_chan-findagrave007.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 615913,
+        "sha256": "f008a97480ba47723782b34dba8b4e5cc84f9fd5c7ed8fa95448408512b665f5",
+        "width_pixels": 953,
+        "height_pixels": 830
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file whose filename indicates a Find a Grave derivative; the exact memorial-page locator, uploader and original publication source are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0006"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "uploader_attribution_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0006",
+      "record_type": "photo",
+      "title": {
+        "value": "Alternate working file of Karmein Chan smiling in a group setting",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Alternate project working file of the close portrait represented by KCPHOTO0005.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0567.JPG",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 219266,
+        "sha256": "3884eeafb8ffdca50a9502229a1feca5a81b9ba14559df4ae4299fd5177c5a31",
+        "width_pixels": 1478,
+        "height_pixels": 830
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file corresponding to the same underlying image as KCPHOTO0005; exact original source and file-generation history are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0005"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "file_generation_history_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0007",
+      "record_type": "photo",
+      "title": {
+        "value": "Childhood portrait of Karmein Chan with braided hair",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Childhood portrait of Karmein Chan smiling, with braided hair and a checked shirt.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein_chan-findagrave006.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 1735883,
+        "sha256": "5c2a2d4a11475fc5fa63c88390b85efb3c1500208f1719bcd83ee2e13b1e5887",
+        "width_pixels": 1080,
+        "height_pixels": 1448
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file whose filename indicates a Find a Grave derivative; the exact memorial-page locator, uploader and original publication source are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0008"
+        },
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0009"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "uploader_attribution_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0008",
+      "record_type": "photo",
+      "title": {
+        "value": "Alternate working file of the childhood portrait of Karmein Chan",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Alternate project working file of the braided-hair childhood portrait represented by KCPHOTO0007.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0549-karmein-chan-8yo.JPG",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 76174,
+        "sha256": "d8bebb96b7ae275011b6151738b067d826b55cbf0cbe1e113fdecc0e78a8c0f3",
+        "width_pixels": 478,
+        "height_pixels": 641
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file corresponding to the same underlying image as KCPHOTO0007; the age reference in the filename is not independently verified by this photo record.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0007"
+        },
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0009"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "age_label_unverified"
+      ]
+    },
+    {
+      "id": "KCPHOTO0009",
+      "record_type": "photo",
+      "title": {
+        "value": "AI-assisted cleanup of the childhood portrait of Karmein Chan",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "AI-assisted cleanup of the braided-hair childhood portrait represented by KCPHOTO0007 and KCPHOTO0008.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0602-ai-cleanup-karmein-chan-8yo.JPG",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 806666,
+        "sha256": "f037df9bbf637ea252fcbe954d6697371f7b59a2b7e9063de60c6ae937c4e213",
+        "width_pixels": 1912,
+        "height_pixels": 2564
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held derivative working file. The filename identifies AI-assisted cleanup; the exact model, settings and edit sequence are not recorded in this release.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [
+        {
+          "type": "ai_assisted_edit",
+          "description": "AI-assisted cleanup indicated by the working filename; exact model and settings are not recorded."
+        }
+      ],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "derived_from",
+          "photo_id": "KCPHOTO0008"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "transformation_history_incomplete",
+        "age_label_unverified"
+      ]
+    },
+    {
+      "id": "KCPHOTO0010",
+      "record_type": "photo",
+      "title": {
+        "value": "Low-resolution video still showing Karmein Chan",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Low-resolution still showing Karmein Chan in an indoor setting.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein_chan-findagrave005.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 997836,
+        "sha256": "2464e06daab9619d47732c899584b9e9f64701bc29a7e76ee68f5d2e853d60a4",
+        "width_pixels": 800,
+        "height_pixels": 884
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file whose filename indicates a Find a Grave derivative; the originating video, frame timestamp, uploader and exact memorial-page locator are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0011"
+        },
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0012"
+        }
+      ],
+      "review_flags": [
+        "originating_video_locator_missing",
+        "frame_timestamp_missing",
+        "copyright_holder_unverified",
+        "uploader_attribution_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0011",
+      "record_type": "photo",
+      "title": {
+        "value": "JPEG working export of a video still showing Karmein Chan",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "JPEG project working export of the same underlying video still as KCPHOTO0010.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0884 Karmein Video.jpeg",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 852128,
+        "sha256": "ad2117875b566fd14ac220a8664d3109e2ca2c1e95e00de3f69d9327def779d5",
+        "width_pixels": 800,
+        "height_pixels": 884
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held JPEG working export; the originating video and frame timestamp are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [
+        {
+          "type": "other",
+          "description": "JPEG working export from an unidentified source frame."
+        }
+      ],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0010"
+        },
+        {
+          "relation_type": "alternate_file",
+          "photo_id": "KCPHOTO0012"
+        }
+      ],
+      "review_flags": [
+        "originating_video_locator_missing",
+        "frame_timestamp_missing",
+        "copyright_holder_unverified",
+        "file_generation_history_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0012",
+      "record_type": "photo",
+      "title": {
+        "value": "PNG working export of a video still showing Karmein Chan",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "PNG project working export of the same underlying video still as KCPHOTO0010.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0884.PNG",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 580451,
+        "sha256": "010c5e8b903daf1fc7ba7ba0e21c29a047d9449675216c97238cf6c1aad51f7f",
+        "width_pixels": 1140,
+        "height_pixels": 1259
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held PNG working export; the originating video and frame timestamp are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [
+        {
+          "type": "other",
+          "description": "PNG working export from an unidentified source frame."
+        }
+      ],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0010"
+        },
+        {
+          "relation_type": "alternate_file",
+          "photo_id": "KCPHOTO0011"
+        }
+      ],
+      "review_flags": [
+        "originating_video_locator_missing",
+        "frame_timestamp_missing",
+        "copyright_holder_unverified",
+        "file_generation_history_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0013",
+      "record_type": "photo",
+      "title": {
+        "value": "Karmein Chan seated in a light-coloured T-shirt",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Fuller-length photograph of Karmein Chan seated and wearing a light-coloured printed T-shirt.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein_chan-findagrave002.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 138661,
+        "sha256": "900e0333058799a2559289ccf0dd4051cf05c34e159f0b84015c0263f6b56171",
+        "width_pixels": 264,
+        "height_pixels": 556
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file whose filename indicates a Find a Grave derivative; the exact memorial-page locator, uploader and original publication source are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "same_underlying_image",
+          "photo_id": "KCPHOTO0014"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "uploader_attribution_missing"
+      ]
+    },
+    {
+      "id": "KCPHOTO0014",
+      "record_type": "photo",
+      "title": {
+        "value": "Straightened working copy of Karmein Chan seated in a light-coloured T-shirt",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Straightened project working copy of the seated photograph represented by KCPHOTO0013.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein chan rocknroll tshirt color photo straightened.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 130251,
+        "sha256": "e9442866123df857164940f47d269a8615ee33c496057aa7a35a77c3e9f854da",
+        "width_pixels": 264,
+        "height_pixels": 556
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held edited working file derived from the same underlying image as KCPHOTO0013; the exact edit sequence and original publication source are not fully documented.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [
+        {
+          "type": "straightening",
+          "description": "Perspective or rotation straightening indicated by the working filename; exact settings are not recorded."
+        }
+      ],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [
+        {
+          "relation_type": "derived_from",
+          "photo_id": "KCPHOTO0013"
+        }
+      ],
+      "review_flags": [
+        "exact_original_source_locator_missing",
+        "copyright_holder_unverified",
+        "transformation_history_incomplete"
+      ]
+    },
+    {
+      "id": "KCPHOTO0015",
+      "record_type": "photo",
+      "title": {
+        "value": "Karmein Chan grave photograph",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Photograph of Karmein Chan’s grave at Templestowe Cemetery, with flowers and grave surroundings visible.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "karmein_chan-findagrave004.png",
+        "included_in_package": false,
+        "media_type": "image/png",
+        "byte_size": 3685134,
+        "sha256": "e3f4dea685d5e1659c92ab8b27f9da6d26547409414b3e72f53eb5410f47f52b",
+        "width_pixels": 1080,
+        "height_pixels": 1440
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [
+        "KCPLACE0013"
+      ],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held working file whose filename indicates a Find a Grave derivative; the exact memorial-page locator, photographer, uploader and capture date are not yet catalogued.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [],
+      "review_flags": [
+        "exact_memorial_page_locator_missing",
+        "photographer_unverified",
+        "capture_date_missing",
+        "copyright_holder_unverified",
+        "uploader_attribution_missing"
+      ],
+      "location": {
+        "value": "Templestowe Cemetery, Victoria, Australia",
+        "units": "place_name",
+        "precision": "identified_from_existing_place_record",
+        "inference_score": 0,
+        "source_ids": []
+      }
+    },
+    {
+      "id": "KCPHOTO0016",
+      "record_type": "photo",
+      "title": {
+        "value": "Colourized portrait of Karmein Chan",
+        "units": "photo_title",
+        "precision": "editorial_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "description": {
+        "value": "Colourized head-and-shoulders portrait of Karmein Chan.",
+        "units": "photo_description",
+        "precision": "direct_visual_description",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "asset": {
+        "filename": "IMG_0571-colorized-karmein-chan.JPG",
+        "included_in_package": false,
+        "media_type": "image/jpeg",
+        "byte_size": 1080420,
+        "sha256": "158bb047619424ad69f4eac2fba78197e341c8ad1abbf260ea00143dd8954621",
+        "width_pixels": 2704,
+        "height_pixels": 2280
+      },
+      "depicted_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "depicted_place_ids": [],
+      "source_ids": [],
+      "provenance": {
+        "value": "Project-held colourized derivative. The original black-and-white source image, colourization tool and exact transformation settings are not catalogued in this release.",
+        "units": "provenance_note",
+        "precision": "working_file_provenance",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "copyright_status": {
+        "value": "Undetermined; no copyright ownership or permission to reproduce the image is asserted by this metadata record.",
+        "units": "copyright_status",
+        "precision": "rights_not_verified",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "reuse_status": {
+        "value": "The metadata may be reused under the dataset licence; reuse of the image itself requires a separate rights and dignity assessment.",
+        "units": "reuse_status",
+        "precision": "conditional_reuse_statement",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "publication_status": {
+        "value": "metadata_catalogued_asset_not_bundled",
+        "units": "publication_status",
+        "precision": "module_status",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "transformations": [
+        {
+          "type": "colourization",
+          "description": "Digital colourization indicated by the working filename; exact tool and settings are not recorded."
+        }
+      ],
+      "privacy_level": {
+        "value": "dignity_sensitive_image_of_deceased_child",
+        "units": "privacy_level",
+        "precision": "editorial_safeguard",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "dignity_restrictions": [
+        "Do not use the image sensationally or imply family endorsement.",
+        "Preserve disclosure of known digital transformations.",
+        "Do not infer date, location, authorship or circumstances beyond the catalogued metadata."
+      ],
+      "relations": [],
+      "review_flags": [
+        "original_image_locator_missing",
+        "copyright_holder_unverified",
+        "transformation_history_incomplete"
+      ]
+    }
+  ]
+}
