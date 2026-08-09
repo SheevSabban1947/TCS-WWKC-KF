@@ -26,7 +26,7 @@ The principal publication blockers are:
 - exact page, column, paragraph, timestamp, quotation or equivalent locators are still missing from many material claims;
 - many person records remain marked `internal_only_pending_review`, `hold` or `contextual_only_internal`;
 - `data/claims.json` and `data/photos.json` are reserved but empty;
-- the JSON schemas are placeholders and do not yet validate the real data model;
+- the active JSON modules now have structural Draft 2020-12 schemas; cross-file semantic checks still require a separate integrity pass;
 - the operative `inference_score` system and the proposed inference-level documentation are not yet fully consolidated;
 - the TOON export contains known provenance-version inconsistencies and must not override the modular JSON files.
 
@@ -301,9 +301,20 @@ A large portion of the people layer remains subject to editorial, privacy, ident
 
 `claims.json` and `photos.json` are reserved namespaces rather than implemented modules. Their presence does not indicate that claim-level or image-level cataloguing is complete.
 
-### Placeholder schemas
+### JSON schemas
 
-The schemas in `schemas/` currently accept broad arrays and do not enforce the actual wrappers, required fields, controlled values or reference integrity of version 0.3.0.
+The `schemas/` directory contains Draft 2020-12 schemas for the complete module wrappers:
+
+- `source.schema.json` validates `data/sources.json`;
+- `person.schema.json` validates `data/people.json`;
+- `place.schema.json` validates `data/places.json`;
+- `timeline.schema.json` validates `data/timeline.json`;
+- `open_question.schema.json` validates `data/open_questions.json`;
+- `claim.schema.json` and `photo.schema.json` define reserved future module contracts.
+
+The five active modules validate against their corresponding schemas. The zero-byte `claims.json` and `photos.json` placeholders cannot be parsed or validated until they are replaced with JSON wrapper objects.
+
+Schema validation checks wrapper structure, required properties, field types, inference-score range, known record types and identifier formats. It does not prove factual accuracy, verify source support, enforce reciprocal relationships, check cross-file reference existence, or confirm that declared record counts are current. Those controls require an additional integrity pass.
 
 ### Inference-model transition
 

@@ -1,5 +1,7 @@
 # Inference Levels
 
+> **Status in Knowledge File v0.3.0:** This document describes a proposed IL-0 to IL-4 framework. The current JSON modules instead use the numeric `inference_score` field from 0 to 3, as documented in `methodology.md`. The two systems are not equivalent and must not be converted automatically. Until a later release formally adopts one model, the values stored in the JSON records govern interpretation of v0.3.0.
+
 The Knowledge File uses inference levels to indicate how far a statement is from direct evidence.
 
 Inference level does **not** measure how emotionally convincing, plausible, or narratively satisfying a claim feels. It measures the evidential distance between the claim and the source material.

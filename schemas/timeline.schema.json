@@ -1,8 +1,253 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Placeholder schema",
-  "type": "array",
-  "items": {
-    "type": "object"
+  "$id": "https://thecruelsong.com/schemas/timeline.schema.json",
+  "title": "Karmein Chan Knowledge File — timeline module",
+  "description": "Validates the complete data/timeline.json wrapper, embedded source descriptors and timeline events.",
+  "type": "object",
+  "required": [
+    "file",
+    "schema_version",
+    "updated",
+    "claim_model",
+    "sources",
+    "timeline"
+  ],
+  "properties": {
+    "file": {
+      "const": "timeline.json"
+    },
+    "schema_version": {
+      "$ref": "#/$defs/semver"
+    },
+    "updated": {
+      "$ref": "#/$defs/isoDate"
+    },
+    "claim_model": {
+      "$ref": "#/$defs/claim"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/embeddedSource"
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/timelineRecord"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "semver": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "isoDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "sourceRef": {
+      "type": "string",
+      "pattern": "^(?:KCSRC\\d{5}|TCS-WWKC-WEB-\\d{4}|\\.\\.\\.)$"
+    },
+    "personId": {
+      "type": "string",
+      "pattern": "^TCS-WWKC-PPL-\\d{4}$"
+    },
+    "placeId": {
+      "type": "string",
+      "pattern": "^KCPLACE\\d{4}$"
+    },
+    "eventId": {
+      "type": "string",
+      "pattern": "^KCEVT\\d{4}$"
+    },
+    "questionId": {
+      "type": "string",
+      "pattern": "^KCQST\\d{4}$"
+    },
+    "reviewFlags": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "uniqueItems": true
+    },
+    "claim": {
+      "type": "object",
+      "description": "Atomic value with semantic type, precision, inference score and supporting source references.",
+      "required": [
+        "value",
+        "units",
+        "precision",
+        "inference_score",
+        "source_ids"
+      ],
+      "properties": {
+        "value": {},
+        "units": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "inference_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "embeddedSource": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "title",
+        "url",
+        "locators"
+      ],
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/sourceRef"
+        },
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "locators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "timelineRecord": {
+      "type": "object",
+      "required": [
+        "id",
+        "record_type",
+        "event_type",
+        "title",
+        "summary",
+        "source_locator",
+        "related_person_ids",
+        "related_place_ids",
+        "review_flags"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/eventId"
+        },
+        "record_type": {
+          "const": "timeline_event"
+        },
+        "event_type": {
+          "$ref": "#/$defs/claim"
+        },
+        "title": {
+          "$ref": "#/$defs/claim"
+        },
+        "date": {
+          "$ref": "#/$defs/claim"
+        },
+        "start_date": {
+          "$ref": "#/$defs/claim"
+        },
+        "end_date": {
+          "$ref": "#/$defs/claim"
+        },
+        "start_time": {
+          "$ref": "#/$defs/claim"
+        },
+        "end_time": {
+          "$ref": "#/$defs/claim"
+        },
+        "summary": {
+          "$ref": "#/$defs/claim"
+        },
+        "source_locator": {
+          "$ref": "#/$defs/claim"
+        },
+        "related_person_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/personId"
+          },
+          "uniqueItems": true
+        },
+        "related_place_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/placeId"
+          },
+          "uniqueItems": true
+        },
+        "review_flags": {
+          "$ref": "#/$defs/reviewFlags"
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "start_date"
+            ]
+          },
+          "then": {
+            "required": [
+              "end_date"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "end_date"
+            ]
+          },
+          "then": {
+            "required": [
+              "start_date"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "end_time"
+            ]
+          },
+          "then": {
+            "required": [
+              "start_time"
+            ]
+          }
+        }
+      ]
+    }
   }
 }
