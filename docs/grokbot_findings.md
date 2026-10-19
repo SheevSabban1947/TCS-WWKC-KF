@@ -53,3 +53,42 @@ Contrôles effectués et **conformes** (rien à corriger) : tous les jours de la
 ## Corrections à apporter sur le site
 
 1. **Section « About the Chan family »** : le site dit « John and Phyllis Chan divorced in 1993 [inferred] ». C'est invalide : ils étaient mariés selon la coutume chinoise, pas civilement (source : Adam Shand, références à venir). **Correction suggérée** : supprimer la phrase, ou la reformuler, par exemple « John and Phyllis Chan, who had married according to Chinese custom, later separated » (date à préciser une fois la source disponible).
+
+## 2026-10-19 (06:00 UTC) – Contrôle après mise à jour du site
+
+Pages relues sans cache (`?nocache=`) : https://thecruelsong.com/ et https://thecruelsong.com/backstage/. **Version affichée : TCS-WWKC-0047** (contre 0046 auparavant). Le backstage n'a pas changé. Sur l'accueil, il y a eu seulement 3 modifications de fond (plus des guillemets/apostrophes typographiques changés en ASCII dans deux titres) :
+1. l'entrée « Sunday 17 March 1991 – Dissolution of the Soviet Union » a été retirée de la chronologie ;
+2. dans « About the Chan family », la phrase devient « John and Phyllis Chan separated in 1993 (no divorce) [KCSRC00065] » ;
+3. une nouvelle source a été ajoutée : KCSRC00065 « The Adam Shand Collection », Podcast, Podshape, fait couvert : « Chan parents "divorce" ».
+
+### Statut par trouvaille
+| # | Sujet | Statut |
+|---|---|---|
+| 1 | Taille de 154 cm sourcée par ChatGPT (KCSRC00024) | reste à faire |
+| 2 | « Joker » de Todd Phillips dans la trivia de 1991 | reste à faire |
+| 3 | « Dissolution of the Soviet Union » au 17/03/1991 | **corrigé** (entrée retirée) |
+| 4 | Terminator 2 (juillet 1991) | reste à faire |
+| 5 | Super Nintendo « 1991 abroad » | reste à faire |
+| 6 | « the Soviet Union collapsed » dans le texte sur 1990–1991 | reste à faire (texte inchangé) |
+| 7 | The Karate Kid (1984) rangé dans 1986–1989 | reste à faire |
+| 8 | 陈 (simplifié) au lieu de 陳 | reste à faire |
+| 9 | Operation Challenge, 12/04/1991 | rien à corriger (confirmé exact) |
+| 10 | « Lower Plenty restaurant » contre Eltham | reste à faire |
+| 11 | Police arrivée « within minutes » contre 21h35 / 21h50 | reste à faire |
+| 12 | Horaires du coroner contre Wikipédia, Church Road / Serpells Road | reste à faire (préciser les sources dans le récit) |
+| 13 | Camry décrite comme « red utility car » | reste à faire |
+| 14 | Conducteur au tennis et horaires (récit contre routine) | reste à faire |
+| 15 | Légende photo KCSRC00015 : « 1992 » contre 13/04/1991 | reste à faire |
+| 16 | « Royal Melbourne Children's Hospital » | reste à faire |
+| 17 | Camp : « two-week » pour 16 jours (2–17/02/1991) | dates confirmées exactes ; le libellé « two-week » reste à faire (facultatif) |
+| 18 | Texte météo et vent de 26 km/h sans source | reste à faire (à vérifier) |
+| 19 | Rentrée du T2 au 29/04 (écoles publiques) contre 30/04 (PLC) | reste à faire (précision facultative) |
+| 20 | Graffiti à 19h40 sans source | reste à faire (à vérifier) |
+| Site-1 | Divorce de 1993 « [inferred] » (section « Corrections à apporter sur le site ») | **corrigé** (« separated in 1993 (no divorce) », source KCSRC00065) |
+| C7 | Découverte du corps le 09/04/1992 vers 17h, coordonnées | déjà conforme sur le site (« around 5PM », 37°41'29.9"S 145°00'30.3"E) ; rien à faire |
+
+### Nouveaux points apparus avec la mise à jour
+- **N1 – Coquille dans KCSRC00065** : « Copyrighjt 2026 » au lieu de « Copyright 2026 ».
+- **N2 – Désaccord entre le KF et le site sur la séparation** : le site affirme maintenant une **séparation en 1993**, sourcée par KCSRC00065. Dans le KF, la date du retour de Phyllis au nom Lam (PPL-0003) vaut « unresolved », aucun événement de séparation n'existe, et le mariage selon la coutume chinoise attend toujours sa source (« source_pending_adam_shand »). La fiche **KCSRC00065 n'existe pas dans `sources.json`** (65 fiches, de TCS-WWKC-WEB-0001 à KCSRC00064). À faire dans le KF : créer KCSRC00065, puis le rattacher au mariage coutumier et éventuellement à une séparation en 1993 (si l'auteur confirme que c'est l'année donnée par Adam Shand).
+- **N3 – Lien de la source KCSRC00065** : la fiche affiche « link », mais je n'ai pas réussi à extraire l'URL du HTML. Elle est à vérifier si c'est nécessaire pour le KF.
+- **N4 – Référence du KF** : la source TCS-WWKC-WEB-0001 indique toujours la version TCS-WWKC-0038, alors que le site est en 0047.
