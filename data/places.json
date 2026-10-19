@@ -1,7 +1,7 @@
 {
   "file": "places.json",
   "schema_version": "0.3.0",
-  "updated": "2026-08-06",
+  "updated": "2026-10-19",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -724,7 +724,7 @@
       },
       "case_roles": [
         {
-          "value": "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 16 February 1991",
+          "value": "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 17 February 1991",
           "units": null,
           "precision": "date-bounded school activity location",
           "inference_score": 0,
@@ -733,7 +733,9 @@
           ]
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Camp end date corrected from 16 to 17 February 1991. Confirmed by the site author (The Cruel Song) on 2026-10-19."
+      ]
     },
     {
       "id": "KCPLACE0011",
@@ -1067,6 +1069,15 @@
           "source_ids": [
             "KCSRC00037"
           ]
+        },
+        "coordinates_dms": {
+          "value": "37°41'29.9\"S 145°00'30.3\"E",
+          "units": "dms_coordinates",
+          "precision": "reported DMS coordinates",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
         }
       },
       "case_roles": [
@@ -1080,7 +1091,9 @@
           ]
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Coordinates 37°41'29.9\"S 145°00'30.3\"E (decimal -37.6916389, 145.0084167) and discovery on Thursday 9 April 1992 at around 5 PM by a man walking his dog. Confirmed by the site author (The Cruel Song) on 2026-10-19."
+      ]
     },
     {
       "id": "KCPLACE0016",

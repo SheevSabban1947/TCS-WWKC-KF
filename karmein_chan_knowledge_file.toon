@@ -1303,11 +1303,14 @@ knowledge_file:
         d24_call:
           date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
           time: | "21:35" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
-        divorce_from_phyllis_chan:
-          date: | "1993" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001]
-          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
+        customary_chinese_marriage:
+          type: | "marriage_by_chinese_custom" | u="marriage_type" | p="controlled_label" | i=0 | s=[]
+          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[]
+          civil_marriage_in_australia: | false | u="boolean" | p="author_confirmed" | i=0 | s=[]
+          source_status: | "source_pending_adam_shand" | u="source_status" | p="pending_citation" | i=0 | s=[]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags: []
+      review_flags[1]:
+        - "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: Adam Shand (citation details pending; no internal source_id assigned yet)."
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
@@ -1350,14 +1353,18 @@ knowledge_file:
           date: | "1991-04-16" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00041]
         mr_kind_letter:
           date: | "1991-05-02" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00051]
-        divorce_from_john_chan:
-          date: | "1993" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001]
-          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
         returned_to_family_name:
-          date: | "after_1993" | u="relative_date" | p="relative" | i=1 | s=[TCS-WWKC-WEB-0001]
+          date: | "unresolved" | u="relative_date" | p="relative_unresolved" | i=1 | s=[TCS-WWKC-WEB-0001]
           name: | "Phyllis Lam" | u="personal_name" | p="later_public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
+        customary_chinese_marriage:
+          type: | "marriage_by_chinese_custom" | u="marriage_type" | p="controlled_label" | i=0 | s=[]
+          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[]
+          civil_marriage_in_australia: | false | u="boolean" | p="author_confirmed" | i=0 | s=[]
+          source_status: | "source_pending_adam_shand" | u="source_status" | p="pending_citation" | i=0 | s=[]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags: []
+      review_flags[2]:
+        - "returned_to_family_name date was previously anchored to the invalid 1993 divorce ('after_1993'); exact date unresolved."
+        - "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: Adam Shand (citation details pending; no internal source_id assigned yet)."
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
@@ -3118,8 +3125,9 @@ knowledge_file:
         state: | "Victoria" | p="state" | i=0 | s=[KCSRC00058,KCSRC00060]
         country: | "Australia" | p="country" | i=0 | s=[KCSRC00058,KCSRC00060]
       case_roles[1]:
-        -: | "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 16 February 1991" | p="date-bounded school activity location" | i=0 | s=[KCSRC00058]
-      review_flags: []
+        -: | "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 17 February 1991" | p="date-bounded school activity location" | i=0 | s=[KCSRC00058]
+      review_flags[1]:
+        - "Camp end date corrected from 16 to 17 February 1991. Confirmed by the site author (The Cruel Song) on 2026-10-19."
     - id: "KCPLACE0011"
       canonical_name: | "Bulleen Baptist Church" | p="church name" | i=0 | s=[KCSRC00012,KCSRC00049]
       place_type: | "church" | p="category" | i=0 | s=[KCSRC00012,KCSRC00049]
@@ -3173,9 +3181,11 @@ knowledge_file:
         state: | "Victoria" | p="state" | i=0 | s=[KCSRC00037]
         country: | "Australia" | p="country" | i=0 | s=[KCSRC00037]
         coordinates: | {"latitude":-37.6916389,"longitude":145.0084167} | u="decimal_degrees" | p="converted from reported DMS coordinates" | i=0 | s=[KCSRC00037]
+        coordinates_dms: | "37°41'29.9\"S 145°00'30.3\"E" | u="dms_coordinates" | p="reported DMS coordinates" | i=0 | s=[TCS-WWKC-WEB-0001]
       case_roles[1]:
         -: | "place where Karmein Chan's remains were found on 9 April 1992" | p="case role" | i=0 | s=[KCSRC00037]
-      review_flags: []
+      review_flags[1]:
+        - "Coordinates 37°41'29.9\"S 145°00'30.3\"E (decimal -37.6916389, 145.0084167) and discovery on Thursday 9 April 1992 at around 5 PM by a man walking his dog. Confirmed by the site author (The Cruel Song) on 2026-10-19."
     - id: "KCPLACE0016"
       canonical_name: | "Parer Street" | p="street name" | i=0 | s=[KCSRC00029]
       place_type: | "street" | p="category" | i=0 | s=[KCSRC00029]
@@ -3283,7 +3293,7 @@ knowledge_file:
       event_type: | "school_activity" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
       title: | "Karmein camps at Jerusalem Creek with PLC classmates" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
       start_date: | "1991-02-02" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
-      end_date: | "1991-02-16" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
+      end_date: | "1991-02-17" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
       summary: | "Karmein Chan is camping at Jerusalem Creek with her classmates from Presbyterian Ladies’ College." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
       source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
       related_person_ids[1]:
@@ -3291,7 +3301,8 @@ knowledge_file:
       related_place_ids[2]:
         - "KCPLACE0010"
         - "KCPLACE0002"
-      review_flags: []
+      review_flags[1]:
+        - "End date corrected from 1991-02-16 to 1991-02-17 (Sunday). Confirmed by the site author (The Cruel Song) on 2026-10-19."
     - id: "KCEVT0009"
       record_type: "timeline_event"
       event_type: | "world_context" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -3821,7 +3832,9 @@ knowledge_file:
         - "TCS-WWKC-PPL-0001"
       related_place_ids[1]:
         - "KCPLACE0015"
-      review_flags: []
+      review_flags[2]:
+        - "Canonical time is approximately 17:00 (around 5 PM). Confirmed by the site author (The Cruel Song) on 2026-10-19. Variant: The Age, 12/04/1992, page 2 ('Karmein search ends at grave') reports 4.45PM (16:45); no internal source_id is assigned to that article yet."
+        - "Discovery location coordinates: 37°41'29.9\"S 145°00'30.3\"E (see KCPLACE0015)."
     - id: "KCEVT0047"
       record_type: "timeline_event"
       event_type: | "funeral_service" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
