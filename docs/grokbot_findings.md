@@ -92,3 +92,28 @@ Pages relues sans cache (`?nocache=`) : https://thecruelsong.com/ et https://the
 - **N2 – Désaccord entre le KF et le site sur la séparation** : le site affirme maintenant une **séparation en 1993**, sourcée par KCSRC00065. Dans le KF, la date du retour de Phyllis au nom Lam (PPL-0003) vaut « unresolved », aucun événement de séparation n'existe, et le mariage selon la coutume chinoise attend toujours sa source (« source_pending_adam_shand »). La fiche **KCSRC00065 n'existe pas dans `sources.json`** (65 fiches, de TCS-WWKC-WEB-0001 à KCSRC00064). À faire dans le KF : créer KCSRC00065, puis le rattacher au mariage coutumier et éventuellement à une séparation en 1993 (si l'auteur confirme que c'est l'année donnée par Adam Shand).
 - **N3 – Lien de la source KCSRC00065** : la fiche affiche « link », mais je n'ai pas réussi à extraire l'URL du HTML. Elle est à vérifier si c'est nécessaire pour le KF.
 - **N4 – Référence du KF** : la source TCS-WWKC-WEB-0001 indique toujours la version TCS-WWKC-0038, alors que le site est en 0047.
+
+## 2026-10-19 (06:21 UTC) – Deuxième contrôle après mise à jour du site
+
+Pages relues sans cache : https://thecruelsong.com/ et https://thecruelsong.com/backstage/. **Version affichée : toujours TCS-WWKC-0047.** Le backstage n'a pas changé. Comparaison ligne à ligne de l'accueil avec le contrôle de 06:00 :
+- **N1 corrigé** : la fiche KCSRC00065 affiche maintenant « Copyright 2026 » (la coquille « Copyrighjt » a disparu).
+- **N3 résolu** : le lien de KCSRC00065 peut maintenant être extrait du HTML. C'est https://podcasts.apple.com/ie/podcast/the-adam-shand-collection/id1896909096 (« The Adam Shand Collection », Podshape).
+- **Réorganisation de la page** : « About Karmein Chan » et « The world around her » sont maintenant placés avant « Murdered at 13 », « Kidnapping » et « Timeline ». La sous-section « Presentation » s'appelle désormais « **Born on a Saturday** ». Le contenu de ces sections n'a pas changé, mot pour mot.
+
+### Statuts mis à jour
+| # | Sujet | Statut |
+|---|---|---|
+| 1, 2, 4–8, 10–16, 18–20 | (voir le tableau de 06:00) | reste à faire (textes inchangés) |
+| 3 | Dissolution de l'URSS au 17/03/1991 | corrigé (06:00) |
+| 9 | Operation Challenge | rien à corriger |
+| 17 | Camp de Jerusalem Creek | dates exactes ; libellé « two-week » facultatif, reste à faire |
+| Site-1 | Divorce de 1993 | corrigé (06:00) |
+| C7 | Découverte du corps | déjà conforme |
+| N1 | Coquille « Copyrighjt » dans KCSRC00065 | **corrigé** |
+| N2 | KCSRC00065 absente de `sources.json` ; séparation de 1993 non représentée dans le KF | reste à faire (dans le KF) |
+| N3 | URL de KCSRC00065 introuvable | **résolu** (URL Apple Podcasts ci-dessus, à reprendre dans la future fiche KCSRC00065 du KF) |
+| N4 | Le KF cite encore le site en version TCS-WWKC-0038 | reste à faire (dans le KF) |
+
+### Nouveaux points
+- **N5 – Numéro de version inchangé** : la page a changé (KCSRC00065 corrigée, sections réordonnées, sous-section renommée), mais elle affiche toujours **TCS-WWKC-0047**. Il faudrait passer en 0048 pour que les deux états de la page soient distinguables (et pour que la référence du KF reste fiable).
+- **N6 – Titre « Born on a Saturday »** (mineur, éditorial) : la sous-section couvre aussi les parents, les sœurs, PLC et la mononucléose, pas seulement la naissance. La date est exacte (le 5 novembre 1977 était bien un samedi). Pas d'erreur factuelle.
