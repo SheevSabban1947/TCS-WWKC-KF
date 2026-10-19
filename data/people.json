@@ -686,28 +686,68 @@
             "units": "marriage_type",
             "precision": "controlled_label",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
           },
           "person_id": {
             "value": "TCS-WWKC-PPL-0003",
             "units": "person_id",
             "precision": "exact",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
           },
           "civil_marriage_in_australia": {
             "value": false,
             "units": "boolean",
             "precision": "author_confirmed",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
           },
           "source_status": {
-            "value": "source_pending_adam_shand",
+            "value": "resolved",
             "units": "source_status",
-            "precision": "pending_citation",
+            "precision": "resolved_to_catalogued_source",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
+          }
+        },
+        "separation": {
+          "date": {
+            "value": "1993",
+            "units": "iso8601_year",
+            "precision": "year",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00065"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0003",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00065"
+            ]
+          },
+          "divorce": {
+            "value": false,
+            "units": "boolean",
+            "precision": "from_site_text",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00065"
+            ]
           }
         }
       },
@@ -721,7 +761,7 @@
         ]
       },
       "review_flags": [
-        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: Adam Shand (citation details pending; no internal source_id assigned yet)."
+        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
       ],
       "identity_status": {
         "value": "identified",
@@ -1023,28 +1063,68 @@
             "units": "marriage_type",
             "precision": "controlled_label",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
           },
           "person_id": {
             "value": "TCS-WWKC-PPL-0002",
             "units": "person_id",
             "precision": "exact",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
           },
           "civil_marriage_in_australia": {
             "value": false,
             "units": "boolean",
             "precision": "author_confirmed",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
           },
           "source_status": {
-            "value": "source_pending_adam_shand",
+            "value": "resolved",
             "units": "source_status",
-            "precision": "pending_citation",
+            "precision": "resolved_to_catalogued_source",
             "inference_score": 0,
-            "source_ids": []
+            "source_ids": [
+              "KCSRC00065"
+            ]
+          }
+        },
+        "separation": {
+          "date": {
+            "value": "1993",
+            "units": "iso8601_year",
+            "precision": "year",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00065"
+            ]
+          },
+          "person_id": {
+            "value": "TCS-WWKC-PPL-0002",
+            "units": "person_id",
+            "precision": "exact",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00065"
+            ]
+          },
+          "divorce": {
+            "value": false,
+            "units": "boolean",
+            "precision": "from_site_text",
+            "inference_score": 0,
+            "source_ids": [
+              "TCS-WWKC-WEB-0001",
+              "KCSRC00065"
+            ]
           }
         }
       },
@@ -1059,7 +1139,7 @@
       },
       "review_flags": [
         "returned_to_family_name date was previously anchored to the invalid 1993 divorce ('after_1993'); exact date unresolved.",
-        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: Adam Shand (citation details pending; no internal source_id assigned yet)."
+        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
       ],
       "identity_status": {
         "value": "identified",

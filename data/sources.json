@@ -1,7 +1,7 @@
 {
   "file": "sources.json",
   "schema_version": "0.1.0",
-  "updated": "2026-08-06",
+  "updated": "2026-10-19",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 65,
+    "source_count": 66,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -4996,6 +4996,105 @@
       },
       "referenced_in_current_files": [],
       "review_flags": []
+    },
+    {
+      "source_id": "KCSRC00065",
+      "record_type": "source",
+      "title": {
+        "value": "The Adam Shand Collection",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_type": {
+        "value": "podcast",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Copyright 2026",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "Podshape",
+          "units": "source_identifier",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://podcasts.apple.com/ie/podcast/the-adam-shand-collection/id1896909096",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Chan parents “divorce”",
+          "units": "fact_summary",
+          "precision": "from_source_index",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "John and Phyllis Chan separated in 1993 (no divorce)",
+          "units": "fact_summary",
+          "precision": "from_site_text_about_the_chan_family",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia",
+          "units": "fact_summary",
+          "precision": "site_author_confirmed_2026-10-19",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 14
+        }
+      ],
+      "review_flags": [
+        "Episode title, publication date and timestamp locator not given in the source index; add them when available."
+      ]
     }
   ]
 }

@@ -117,3 +117,15 @@ Pages relues sans cache : https://thecruelsong.com/ et https://thecruelsong.com/
 ### Nouveaux points
 - **N5 – Numéro de version inchangé** : la page a changé (KCSRC00065 corrigée, sections réordonnées, sous-section renommée), mais elle affiche toujours **TCS-WWKC-0047**. Il faudrait passer en 0048 pour que les deux états de la page soient distinguables (et pour que la référence du KF reste fiable).
 - **N6 – Titre « Born on a Saturday »** (mineur, éditorial) : la sous-section couvre aussi les parents, les sœurs, PLC et la mononucléose, pas seulement la naissance. La date est exacte (le 5 novembre 1977 était bien un samedi). Pas d'erreur factuelle.
+
+## 2026-10-19 (06:23 UTC) – Mise à jour du KF (approuvée par l'auteur)
+
+- **N2 – résolu.** La source **KCSRC00065** a été ajoutée à `data/sources.json` :
+  - titre « The Adam Shand Collection », type `podcast` ;
+  - identifiants copiés du site : « Copyright 2026 », « Podshape » ;
+  - accès : https://podcasts.apple.com/ie/podcast/the-adam-shand-collection/id1896909096 ;
+  - faits couverts : « Chan parents "divorce" » (index du site), séparation en 1993 sans divorce, mariage selon la coutume chinoise ;
+  - date de publication `null`, et une note dans `review_flags` signale que le titre d'épisode et le minutage sont absents.
+
+  Dans PPL-0002 et PPL-0003, `events.customary_chinese_marriage` renvoie maintenant à KCSRC00065, avec `source_status` passé à « resolved ». Un nouvel événement `events.separation` (1993, `divorce` = false) a été ajouté, sourcé par TCS-WWKC-WEB-0001 et KCSRC00065. `returned_to_family_name.date` reste « unresolved », car le site ne donne pas de date.
+- **N4 – reste ouvert.** Le KF cite toujours le site en version TCS-WWKC-0038. La version actuelle ne peut pas servir de référence fiable tant que deux états différents de la page portent le même numéro, 0047 (voir N5).
