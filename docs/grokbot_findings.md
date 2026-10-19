@@ -1,0 +1,45 @@
+# The Cruel Song : trouvailles et vérifications
+
+## 2026-10-19
+1. **Taille de Karmein (154 cm)** : la seule source est ChatGPT (KCSRC00024), sans source réelle. Section « Essential facts ».
+2. **Trivia du 13 avril 1991** : « Joker de Todd Phillips » est cité comme film populaire, alors qu'il est sorti en 2019. Section « Trivia ».
+3. **Chronologie, 17 mars 1991** : il s'agit du référendum sur le maintien de l'URSS, pas de sa dissolution (décembre 1991). Section « Timeline ».
+
+## 2026-10-19 – vérification complète
+
+Contrôles effectués et **conformes** (rien à corriger) : tous les jours de la semaine cités (naissances, chronologie, attaques, funérailles, articles de presse, Gazette 2016…) ; 13 avril 1991 = 103e jour ; écarts de 493 / 553 / 284 jours entre attaques ; résultats, scores, stades et affluences de la Round 4 AFL 1991 (https://en.wikipedia.org/wiki/1991_AFL_season) ; Melbourne Cup le mardi 6 novembre 1990 ; lundi de Pâques le 1er avril 1991 ; « Falling » de Julee Cruise n°1 en Australie début avril 1991 ; surnom « Mr Cruel » apparu dans The Sun le 19 novembre 1987 ; récompenses (200 000 A$ pour les deux enlèvements, 100 000 → 1 000 000 A$ en avril 2016 pour Karmein) (https://en.wikipedia.org/wiki/Mr_Cruel) ; durées de captivité de Sharon Wills (18 h) et Nicola Lynas (50 h) cohérentes avec les repères du 14 et 15 avril.
+
+### Erreurs vérifiées
+
+4. **« The world around her » / « 1990–1991: Adolescence » – Terminator 2** : cité comme film de son époque. Or il est sorti le 3 juillet 1991 aux États-Unis (et plus tard en Australie), soit après l'enlèvement du 13 avril 1991 : Karmein n'a pas pu le voir. Source : https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day
+5. **« 1990–1991: Adolescence » – Super Nintendo « (1990 Japan, 1991 abroad) »** : sortie en Amérique du Nord en août 1991 et dans le reste du monde (dont Europe/Australie) en 1992, donc après sa disparition. « Discovering the new Super Nintendo » est anachronique pour elle. Source : https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System
+6. **« The world around her » (texte) – « the Soviet Union collapsed » en 1990–1991** : l'effondrement date de décembre 1991, après sa mort (même problème que la trouvaille n°3, mais dans une autre section). Source : https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+7. **« 1986–1989: Pre-Adolescence » – The Karate Kid (1984)** : la date indiquée par le site lui-même (1984) sort de la période 1986–1989 ; à déplacer dans 1981–1985 ou remplacer par The Karate Kid Part II (1986). Source : https://en.wikipedia.org/wiki/The_Karate_Kid
+8. **« Essential facts » – nom chinois 陈嘉敏** : écrit en caractères simplifiés (陈), alors qu'une famille de Hong Kong des années 1970 utilisait les caractères traditionnels ; Wikipédia (d'après SBS) donne 陳嘉敏. Source : https://en.wikipedia.org/wiki/Murder_of_Karmein_Chan
+9. **« About Saturday 13 April 1991 » – « Operation Challenge … wound down on Friday 12 April 1991 »** — *à vérifier* : je n'ai trouvé aucune source pour cette date précise ; Wikipédia indique seulement que la Spectrum Task Force, créée le 6 mai 1991, a absorbé Operation Challenge. Source : https://en.wikipedia.org/wiki/Murder_of_Karmein_Chan
+
+### Incohérences internes
+
+10. **« Kidnapping » vs « Timeline » – le restaurant** : le récit dit que le père part vers « the Lower Plenty restaurant », alors que la chronologie et la section « About the restaurants » parlent de Ming's à Eltham (le récit a gardé la formulation de Wikipédia).
+11. **« Kidnapping » vs « Timeline » / « About D-24 » – arrivée de la police** : le récit dit que la police est arrivée « within minutes », mais la chronologie donne un appel à 21h35 et l'arrivée du sergent Phillips à 21h50 (15 min). Le récit dit aussi que les sœurs ont mangé « an afternoon meal », alors que la chronologie parle d'un déjeuner à 12h45 et d'un « dinner » avant 17h45.
+12. **« Kidnapping » – horaires repris de Wikipédia mais modifiés** : le site donne 21h05 pour la fuite et 21h20 pour l'appel, Wikipédia 21h30 et 21h45, et l'heure de retour 17h45 contre 18h30 chez Wikipédia. Le site dit suivre le coroner (KCSRC00019) ; ce n'est pas une erreur, mais il faudrait le préciser dans le récit, pas seulement dans la chronologie. Le récit dit aussi « onto Church Road », alors que Wikipédia dit Serpells Road (en signalant que la piste des chiens s'arrête à 300 m, sur Church Road). Source : https://en.wikipedia.org/wiki/Murder_of_Karmein_Chan
+13. **« About the graffitied Toyota Camry »** : « red utility car », alors qu'une Camry est une berline, pas un ute. L'heure « around 7.40PM » n'a pas de source et contredit Wikipédia, qui place le graffiti juste avant l'entrée (~20h40) ou au moment de la fuite (*à vérifier*).
+14. **« Kidnapping » vs « Typical weekend » – conducteur au tennis** : John Chan selon le récit, Phyllis dans la routine habituelle. Les horaires ne collent pas non plus : leçon à 9h dans la chronologie, de 8h30 à 10h dans la routine, avec un petit-déjeuner à 10h.
+15. **« About the Chan residence » – légende photo KCSRC00015** : la légende dit « 1992 », mais la liste des sources dit « 13/04/1991 ».
+16. **« Essential facts » – « Royal Melbourne Children's Hospital »** : le nom officiel est Royal Children's Hospital (c'est d'ailleurs le nom utilisé dans la chronologie). Le Royal Melbourne Hospital est un autre établissement.
+17. **« Camping in Jerusalem Creek » – « two-week camping trip »** : du samedi 2 au dimanche 17 février, cela fait 16 jours. De plus, ce camp tombe en plein trimestre 1 (29 janvier – 12 avril, d'après le site). C'est plausible, mais la durée est à vérifier dans le podcast source.
+
+## 2026-10-19 – météo, astronomie et trimestres
+
+**Confirmé correct :**
+- **Fuseau horaire** : l'heure d'été s'est terminée à Melbourne le dimanche 3 mars 1991, donc le 13 avril on était bien à l'heure normale de l'Est (AEST, UTC+10). Source : https://www.timeanddate.com/time/change/australia/melbourne?year=1991
+- **Lever / coucher du soleil (section « Weather »)** : d'après mon calcul (bibliothèque PyEphem, centre de Melbourne), lever vers 6h43 et coucher vers 17h58-17h59 AEST. Le site donne 6h44 / 17h57 : l'écart de 1 à 2 minutes s'explique par le point choisi et les conventions. C'est correct.
+- **Lune** : dernier croissant éclairé à environ 2,5 % le 13 avril, nouvelle lune le 14 avril 1991 à 19h38 UTC. La Lune était même sous l'horizon (−16°) vers 21h. « Night effectively moonless » est donc juste.
+- **Météo, en partie** : les observations de l'aéroport de Melbourne du 13 avril 1991 signalent de la bruine légère intermittente, de la brume et de la fumée, et pas de cumul de pluie notable. C'est cohérent avec « isolated coastal drizzle ». Le maximum était d'environ 20 °C (relevés NOAA). Sources : https://weatherspark.com/h/m/149436/1991/4/Historical-Weather-in-April-1991-at-Melbourne-Airport-Victoria-Australia et https://www.extremeweatherwatch.com/cities/melbourne/year-1991
+- **Trimestres scolaires (« Cruel timeline » / « Canon attacks » / « Hampton cases »)** : toutes les dates citées correspondent à celles des écoles publiques du Victoria publiées par la State Library : 1985 (4 fév.–10 mai, 27 mai–23 août, 9 sept.–19 déc.), 1987 T3 (13 juil.–28 sept.), 1988 T4 (3 oct.–22 déc.), 1989 T1 (1er fév.–23 mars), 1990 T2 (30 avr.–6 juil.), 1991 T1 (29 janv.–12 avr.) et T2 (29 avr.–5 juil.). Les mentions « School holiday? » (oui pour Wills et Karmein, non pour les autres) sont donc cohérentes. Source : https://guides.slv.vic.gov.au/education/termdates
+- **Operation Challenge réduite le vendredi 12 avril 1991** (ancien point 9, « à vérifier ») : c'est confirmé par deux sources spécialisées (blogs, pas de source officielle) : https://whoismrcruel.wordpress.com/2023/12/16/was-mr-cruel-a-cop/ et https://melbinmarvels.com/2025/06/21/karmein-chan-5-mr-cruel-11/ (« discontinued the day before Karmein's [abduction] »). Le point 9 est à retirer.
+
+**Trouvailles :**
+18. **« Weather » – « Patchy rain in the east clearing… south-westerly wind… » et « Max wind speed: 26 km/h »** — *à vérifier* : le texte ressemble à une prévision du Bureau of Meteorology pour tout l'État, pas à une observation de Melbourne. Je n'ai pas pu retrouver la vitesse de vent max de 26 km/h dans des données accessibles (la page quotidienne de Weather Spark ne se charge pas avec mes outils). Suggestion : indiquer la source exacte de ce texte (BoM, journal du 13/04/1991 ?).
+19. **« Cruel timeline » / « Karmein Chan » – trimestres 1991** : les dates citées sont celles des écoles publiques. PLC est une école privée : d'après la chronologie du site lui-même, ses élèves sont rentrées le mardi 30 avril, et non le lundi 29. Les deux lignes de la chronologie sont exactes, mais le libellé « Term 2 (29 April – …) » appliqué à Karmein mériterait cette précision.
+20. **« About the graffitied Toyota Camry » – heure 19h40** (ancien point 13) — *toujours à vérifier* : je n'ai trouvé aucune source publique. Wikipédia situe le graffiti juste avant l'entrée ou au moment de la fuite.
