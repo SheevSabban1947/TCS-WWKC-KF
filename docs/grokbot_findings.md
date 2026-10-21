@@ -129,3 +129,15 @@ Pages relues sans cache : https://thecruelsong.com/ et https://thecruelsong.com/
 
   Dans PPL-0002 et PPL-0003, `events.customary_chinese_marriage` renvoie maintenant à KCSRC00065, avec `source_status` passé à « resolved ». Un nouvel événement `events.separation` (1993, `divorce` = false) a été ajouté, sourcé par TCS-WWKC-WEB-0001 et KCSRC00065. `returned_to_family_name.date` reste « unresolved », car le site ne donne pas de date.
 - **N4 – reste ouvert.** Le KF cite toujours le site en version TCS-WWKC-0038. La version actuelle ne peut pas servir de référence fiable tant que deux états différents de la page portent le même numéro, 0047 (voir N5).
+
+## 2026-10-21 – Faits d'Adam Shand intégrés au KF
+
+Sources ajoutées : KCSRC00066 (Ep 2 « The Task Force Begins », 21/06/2026), KCSRC00067 (Ep 5 « The Father, the Underworld, and the Suspect Who Wasn't », 05/07/2026) et KCSRC00068 (Victorian Places, Bulleen). KCSRC00065 reste l'enregistrement de la série.
+
+- **Bulleen Plaza (1974)** : KCPLACE0005 est désormais sourcé par KCSRC00068 et KCSRC00065. KCEVT0002 précise que 1978 est l'année d'ouverture du restaurant, pas celle du centre.
+- **Constables Gallagher et Farley** : création de PPL-0081 et PPL-0082, ainsi que de l'événement KCEVT0051 (chronologie de la police : 17:45, 18:00, 18:06, 18:49). KCEVT0046 est lié à ces enregistrements et l'heure de référence de la découverte reste 17h. Une description du site a été ajoutée à KCPLACE0015.
+- **Travaux non payés** : ajout d'une entrée `allegations` dans PPL-0002, marquée « alleged / unverified hearsay » (inference 2), et création de la question ouverte KCQST0030.
+- **Garde des enfants** : PPL-0037 reçoit les rôles d'employée de maison et « usually a relative », avec la citation exacte.
+- **Mariage coutumier** : citation exacte et localisateur (KCSRC00067, 11:48–12:46) ajoutés à PPL-0002 et PPL-0003.
+- **Points connexes** : les variantes du départ de John Chan (Hong Kong ou Queensland) sont notées. PPL-0080 (Glare) reçoit un `review_flag`, car selon Ep 5 il connaissait à peine John Chan.
+- **Modifications du site** : elles sont préparées dans `/workspace/thecruelsong/wp_change_plan.md`, mais pas encore appliquées.

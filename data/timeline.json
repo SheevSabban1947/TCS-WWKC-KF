@@ -1,7 +1,7 @@
 {
   "file": "timeline.json",
   "schema_version": "0.1.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -109,7 +109,7 @@
         ]
       },
       "summary": {
-        "value": "A Hong Kong style restaurant named Mings opens at the Bulleen Plaza shopping centre.",
+        "value": "A Hong Kong style restaurant named Mings opens at the Bulleen Plaza shopping centre (the restaurant opened in 1978; the shopping centre itself opened in 1974, see KCPLACE0005).",
         "units": "event_summary",
         "precision": "paraphrased_from_timeline_entry",
         "inference_score": 0,
@@ -134,7 +134,9 @@
       "related_place_ids": [
         "KCPLACE0005"
       ],
-      "review_flags": []
+      "review_flags": [
+        "1978 is the restaurant's opening year, not the shopping centre's (1974: KCSRC00068, KCSRC00065)."
+      ]
     },
     {
       "id": "KCEVT0003",
@@ -2932,14 +2934,17 @@
         ]
       },
       "related_person_ids": [
-        "TCS-WWKC-PPL-0001"
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0081",
+        "TCS-WWKC-PPL-0082"
       ],
       "related_place_ids": [
         "KCPLACE0015"
       ],
       "review_flags": [
         "Canonical time is approximately 17:00 (around 5 PM). Confirmed by the site author (The Cruel Song) on 2026-10-19. Variant: The Age, 12/04/1992, page 2 ('Karmein search ends at grave') reports 4.45PM (16:45); no internal source_id is assigned to that article yet.",
-        "Discovery location coordinates: 37°41'29.9\"S 145°00'30.3\"E (see KCPLACE0015)."
+        "Discovery location coordinates: 37°41'29.9\"S 145°00'30.3\"E (see KCPLACE0015).",
+        "Police response on the same evening (radio message 17:45, skull located 18:00, superintendent 18:06, TV crew 18:49) is recorded separately in KCEVT0051 (KCSRC00066). The canonical ~17:00 time is the dog walker's discovery and is unchanged."
       ]
     },
     {
@@ -3179,6 +3184,197 @@
           "TCS-WWKC-WEB-0001"
         ]
       }
+    },
+    {
+      "id": "KCEVT0051",
+      "record_type": "timeline_event",
+      "event_type": {
+        "value": "police_response",
+        "units": "event_category",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "title": {
+        "value": "Thomastown police respond and locate the skull",
+        "units": "event_title",
+        "precision": "normalized_from_transcript",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "date": {
+        "value": "1992-04-09",
+        "units": "iso8601_date",
+        "precision": "day",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "start_time": {
+        "value": "17:45",
+        "units": "local_time_24h",
+        "precision": "exact_minute_as_reported",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "summary": {
+        "value": "Constables Gallagher and Farley of Thomastown Police receive a radio message about suspected human remains, meet the dog walker at the station, return with him to the landfill site between the creek and the Thomastown electricity substation, and locate the skull at 6 PM. A superintendent arrives at 6.06 PM and requests full crime scene services; a TV news crew sets up on the western side of the creek at 6.49 PM, before the police surgeon arrives.",
+        "units": "event_summary",
+        "precision": "paraphrased_from_transcript",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "police_timeline": [
+        {
+          "time": {
+            "value": "17:45",
+            "units": "local_time_24h",
+            "precision": "exact_minute_as_reported",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "description": {
+            "value": "Radio message to the Thomastown divisional van: suspected human remains found",
+            "units": "event_step",
+            "precision": "paraphrased_from_transcript",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00066, 00:05–02:23",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          }
+        },
+        {
+          "time": {
+            "value": "18:00",
+            "units": "local_time_24h",
+            "precision": "exact_minute_as_reported",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "description": {
+            "value": "Constables Gallagher and Farley locate the skull, about 20 m up a small rise across freshly graded ground",
+            "units": "event_step",
+            "precision": "paraphrased_from_transcript",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00066, 00:05–02:23",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          }
+        },
+        {
+          "time": {
+            "value": "18:06",
+            "units": "local_time_24h",
+            "precision": "exact_minute_as_reported",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "description": {
+            "value": "A superintendent arrives to organise the recovery; full crime scene services are requested",
+            "units": "event_step",
+            "precision": "paraphrased_from_transcript",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00066, 00:05–02:23",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          }
+        },
+        {
+          "time": {
+            "value": "18:49",
+            "units": "local_time_24h",
+            "precision": "exact_minute_as_reported",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "description": {
+            "value": "A TV news crew sets up on the western side of the creek, before the police surgeon arrives",
+            "units": "event_step",
+            "precision": "paraphrased_from_transcript",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00066, 00:05–02:23",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00066"
+            ]
+          }
+        }
+      ],
+      "source_locator": {
+        "value": "KCSRC00066, 00:05–02:23",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0081",
+        "TCS-WWKC-PPL-0082"
+      ],
+      "related_place_ids": [
+        "KCPLACE0015"
+      ],
+      "related_event_ids": [
+        "KCEVT0046"
+      ],
+      "review_flags": [
+        "Single source (Adam Shand, Ep 2); times as narrated, verify against police records or press if possible.",
+        "Follows KCEVT0046 (discovery by the dog walker at around 17:00)."
+      ]
     }
   ]
 }

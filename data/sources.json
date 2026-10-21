@@ -1,7 +1,7 @@
 {
   "file": "sources.json",
   "schema_version": "0.1.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 66,
+    "source_count": 69,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -5075,6 +5075,15 @@
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
+        },
+        {
+          "value": "Bulleen Plaza shopping centre opened in 1974 (fact passed on by the site author; episode and timestamp not identified)",
+          "units": "fact_summary",
+          "precision": "site_author_report_2026-10-21",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00065"
+          ]
         }
       ],
       "availability_status": {
@@ -5090,10 +5099,363 @@
         {
           "file": "people.json",
           "reference_count": 14
+        },
+        {
+          "file": "places.json",
+          "reference_count": 1
         }
       ],
       "review_flags": [
-        "Episode title, publication date and timestamp locator not given in the source index; add them when available."
+        "Series-level record (season 1: Creating Mr Cruel). Episode-level sources: KCSRC00066 (Ep 2) and KCSRC00067 (Ep 5).",
+        "The 1974 Bulleen Plaza opening year was passed on by the site author from Adam Shand; no episode or timestamp has been identified for it."
+      ]
+    },
+    {
+      "source_id": "KCSRC00066",
+      "record_type": "source",
+      "title": {
+        "value": "The Adam Shand Collection – Creating Mr Cruel, Ep 2 – The Task Force Begins",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "source_type": {
+        "value": "podcast_episode",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "publication_date": {
+        "value": "2026-06-21",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_publisher_listing",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Podshape",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "Season 1, Episode 2",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "Apple Podcasts episode id 1000773608167",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "Part of series KCSRC00065",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://podcasts.apple.com/ie/podcast/ep-2-the-task-force-begins/id1896909096?i=1000773608167",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Constables Gallagher and Farley of Thomastown Police were the first police at the scene when Karmein Chan's remains were found on 9 April 1992",
+          "units": "fact_summary",
+          "precision": "transcript_00:05-02:23",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "Police timeline on 9 April 1992: radio message about suspected human remains at 5.45 pm; skull located at 6 pm; a superintendent arrived at 6.06 pm and requested full crime scene services; a TV news crew set up on the western side of the creek at 6.49 pm",
+          "units": "fact_summary",
+          "precision": "transcript_00:05-02:23",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "The skull was located about 20 metres up a small rise across freshly graded ground, reached from a point 40 metres south of a large concrete drain, between the creek and the Thomastown electricity substation",
+          "units": "fact_summary",
+          "precision": "transcript_00:05-02:23",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 16
+        },
+        {
+          "file": "places.json",
+          "reference_count": 1
+        },
+        {
+          "file": "timeline.json",
+          "reference_count": 18
+        }
+      ],
+      "review_flags": [
+        "Publication date as listed by Apple Podcasts (2026-06-21T14:00:00Z, i.e. 22 June 2026 in Melbourne).",
+        "Locators are timestamps in a public machine-generated transcript (https://exa.ai/library/podcast/01ngrg762j8/episode/52rq4jm6mg7); verify against the audio before quotation. The transcript renders 'Edgars Creek' as 'the Merry Creek' and 'Karmein' as 'Carmen'.",
+        "The site's canonical discovery time (around 5 PM, by the dog walker) predates the police times in this episode; they are not contradictory."
+      ]
+    },
+    {
+      "source_id": "KCSRC00067",
+      "record_type": "source",
+      "title": {
+        "value": "The Adam Shand Collection – Creating Mr Cruel, Ep 5 – The Father, the Underworld, and the Suspect Who Wasn't",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "source_type": {
+        "value": "podcast_episode",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "publication_date": {
+        "value": "2026-07-05",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_publisher_listing",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Podshape",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        },
+        {
+          "value": "Season 1, Episode 5",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        },
+        {
+          "value": "Apple Podcasts episode id 1000775523715",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        },
+        {
+          "value": "Part of series KCSRC00065",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://podcasts.apple.com/ie/podcast/ep-5-the-father-the-underworld-and-the-suspect-who-wasnt/id1896909096?i=1000775523715",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Spectrum crime-analysis summary read by crime analyst Stewie Cooper: 'Chan and his wife are married by Chinese tradition only and are not recognized as legally married in this country.'",
+          "units": "fact_summary",
+          "precision": "transcript_11:48-12:46",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        },
+        {
+          "value": "Spectrum crime-analysis summary: 'some days they are babysat by persons that clean their house for the Chans, usually a relative of the family.'",
+          "units": "fact_summary",
+          "precision": "transcript_11:48-12:46",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        },
+        {
+          "value": "Alleged, unverified hearsay: commercial disputes over restaurant fit-outs; former Spectrum detective Chris O'Connor relays second-hand information that John Chan would not pay fit-out invoices",
+          "units": "fact_summary",
+          "precision": "transcript_07:56-08:43",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        },
+        {
+          "value": "Former Chief Commissioner Kel Glare: he dined regularly at Phyllis's restaurant, had very little to do with John Chan, and thought John Chan 'I think went to Queensland' not long after",
+          "units": "fact_summary",
+          "precision": "transcript_04:13-05:00",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 26
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
+      "review_flags": [
+        "Publication date as listed by Apple Podcasts (2026-07-05T14:00:00Z).",
+        "Locators are timestamps in a public machine-generated transcript (https://exa.ai/library/podcast/01ngrg762j8/episode/f11pcsvrkjw); verify against the audio before quotation.",
+        "Ep 5 states the abduction took place on 'the night of April 12, 1992' (03:02); this is an error in the source (correct: 13 April 1991). Do not reuse.",
+        "Contains allegations about identifiable living people; keep publication holds on derived claims."
+      ]
+    },
+    {
+      "source_id": "KCSRC00068",
+      "record_type": "source",
+      "title": {
+        "value": "Victorian Places – Bulleen",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00068"
+        ]
+      },
+      "source_type": {
+        "value": "reference_website",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00068"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Copyright © Victorian Places, 2015",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00068"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://www.victorianplaces.com.au/bulleen",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00068"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Bulleen was an ideal site for a drive-in shopping centre, which was built in 1974 and named Bulleen Plaza",
+          "units": "fact_summary",
+          "precision": "verbatim_from_source",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00068"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00068"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 1
+        }
+      ],
+      "review_flags": [
+        "Independent corroboration of the 1974 opening year (also: SMH 07/02/2017 'Six reasons to visit Bulleen'; the centre's own site, 'Since 1974')."
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "file": "people.json",
   "schema_version": "0.3.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -13,8 +13,8 @@
   },
   "metadata": {
     "description": "Case-person catalogue for the Karmein Chan Knowledge File.",
-    "total_person_count": 80,
-    "core_person_count": 76,
+    "total_person_count": 82,
+    "core_person_count": 78,
     "contextual_person_count": 4,
     "previous_version": "0.2.0",
     "change_summary": [
@@ -26,7 +26,8 @@
       "Marked synthetic ordinal records explicitly as unresolved placeholders.",
       "Added record_scope, verification and publication-status fields to every record.",
       "Added controlled-vocabulary and layer definitions.",
-      "Added Kelvin “Kel” Glare, Chief Commissioner of Victoria Police at the time of Karmein Chan’s abduction and a reported acquaintance of John Chan."
+      "Added Kelvin “Kel” Glare, Chief Commissioner of Victoria Police at the time of Karmein Chan’s abduction and a reported acquaintance of John Chan.",
+      "2026-10-21: integrated Adam Shand facts (KCSRC00066/KCSRC00067): Constables Gallagher and Farley (PPL-0081, PPL-0082); customary-marriage quote and locator; babysitter/house-cleaner detail (PPL-0037); alleged unpaid fit-outs (PPL-0002, alleged/unverified); John Chan departure variants."
     ],
     "factual_certification_status": "not_certified_pending_exact_source_locators",
     "identity_handling_note": "Mr Cruel, Karmein Chan’s abductor, the Parer Street stalker, the Edgars Creek armed man and the man reportedly seen digging remain separate entities linked only by unresolved hypotheses."
@@ -687,7 +688,8 @@
             "precision": "controlled_label",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
             ]
           },
           "person_id": {
@@ -696,7 +698,8 @@
             "precision": "exact",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
             ]
           },
           "civil_marriage_in_australia": {
@@ -705,7 +708,8 @@
             "precision": "author_confirmed",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
             ]
           },
           "source_status": {
@@ -714,7 +718,26 @@
             "precision": "resolved_to_catalogued_source",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
+            ]
+          },
+          "exact_quote": {
+            "value": "Chan and his wife are married by Chinese tradition only and are not recognized as legally married in this country.",
+            "units": "verbatim_quote",
+            "precision": "transcript_quote",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00067, 11:48–12:46 (crime analyst Stewie Cooper reading the Spectrum crime-analysis summary)",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
             ]
           }
         },
@@ -749,6 +772,38 @@
               "KCSRC00065"
             ]
           }
+        },
+        "departure_after_separation": {
+          "destination": {
+            "value": "unresolved",
+            "units": "place_name",
+            "precision": "conflicting_sources",
+            "inference_score": 1,
+            "source_ids": [
+              "KCSRC00034",
+              "KCSRC00067"
+            ]
+          },
+          "variants": [
+            {
+              "value": "Returned to Hong Kong",
+              "units": "place_name",
+              "precision": "press_report",
+              "inference_score": 0,
+              "source_ids": [
+                "KCSRC00034"
+              ]
+            },
+            {
+              "value": "Went to Queensland ('I think'), per former Chief Commissioner Kel Glare",
+              "units": "place_name",
+              "precision": "uncertain_recollection",
+              "inference_score": 0,
+              "source_ids": [
+                "KCSRC00067"
+              ]
+            }
+          ]
         }
       },
       "public_status": {
@@ -761,7 +816,10 @@
         ]
       },
       "review_flags": [
-        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
+        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection).",
+        "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them.",
+        "Fact 3 (unpaid fit-outs) is alleged, unverified, second-hand hearsay (KCSRC00067, 07:56–08:43). Publication hold: present only as an allegation reported by a former investigator; no implication of guilt or involvement in the abduction. Do not name creditors or tradespeople.",
+        "Departure destination unresolved: Hong Kong (The Age, 11/04/2025, KCSRC00034) vs Queensland (Kel Glare, uncertain, KCSRC00067 04:13–05:00)."
       ],
       "identity_status": {
         "value": "identified",
@@ -809,7 +867,74 @@
           "inference_score": 0,
           "source_ids": []
         }
-      }
+      },
+      "allegations": [
+        {
+          "statement": {
+            "value": "Allegedly had restaurant fit-outs done and did not pay the invoices",
+            "units": "allegation_summary",
+            "precision": "allegation_hearsay",
+            "inference_score": 2,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "allegation_status": {
+            "value": "alleged_unverified_hearsay",
+            "units": "allegation_status",
+            "precision": "controlled_label",
+            "inference_score": 2,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "alleged": {
+            "value": true,
+            "units": "boolean",
+            "precision": "controlled_label",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "verified": {
+            "value": false,
+            "units": "boolean",
+            "precision": "controlled_label",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "attribution": {
+            "value": "Adam Shand reports 'commercial disputes over fit outs on his properties'; former Spectrum detective Chris O'Connor relays second-hand information ('I didn't see it firsthand') that John Chan 'just wouldn't pay'",
+            "units": "attribution_note",
+            "precision": "paraphrase_with_short_quotes",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00067, 07:56–08:43",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "related_question_id": {
+            "value": "KCQST0030",
+            "units": "open_question_id",
+            "precision": "exact_reference",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "TCS-WWKC-PPL-0003",
@@ -1064,7 +1189,8 @@
             "precision": "controlled_label",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
             ]
           },
           "person_id": {
@@ -1073,7 +1199,8 @@
             "precision": "exact",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
             ]
           },
           "civil_marriage_in_australia": {
@@ -1082,7 +1209,8 @@
             "precision": "author_confirmed",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
             ]
           },
           "source_status": {
@@ -1091,7 +1219,26 @@
             "precision": "resolved_to_catalogued_source",
             "inference_score": 0,
             "source_ids": [
-              "KCSRC00065"
+              "KCSRC00065",
+              "KCSRC00067"
+            ]
+          },
+          "exact_quote": {
+            "value": "Chan and his wife are married by Chinese tradition only and are not recognized as legally married in this country.",
+            "units": "verbatim_quote",
+            "precision": "transcript_quote",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00067, 11:48–12:46 (crime analyst Stewie Cooper reading the Spectrum crime-analysis summary)",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00067"
             ]
           }
         },
@@ -1139,7 +1286,8 @@
       },
       "review_flags": [
         "returned_to_family_name date was previously anchored to the invalid 1993 divorce ('after_1993'); exact date unresolved.",
-        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
+        "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection).",
+        "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them."
       ],
       "identity_status": {
         "value": "identified",
@@ -6280,6 +6428,24 @@
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
+        },
+        {
+          "value": "house_cleaner_for_the_chans",
+          "units": "occupation_or_business_role",
+          "precision": "from_police_summary_read_on_podcast",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
+        },
+        {
+          "value": "usually_a_relative_of_the_chan_family",
+          "units": "family_role",
+          "precision": "from_police_summary_read_on_podcast",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00067"
+          ]
         }
       ],
       "identity_status": {
@@ -6301,7 +6467,8 @@
         ]
       },
       "review_flags": [
-        "Identity not publicly established; avoid speculative identification."
+        "Identity not publicly established; avoid speculative identification.",
+        "'Some days' and 'usually a relative': not necessarily the same person as the babysitter who was unavailable on 13 April 1991 (KCSRC00005), nor the 'housekeeper' mentioned on /backstage/. Do not attempt identification."
       ],
       "record_scope": {
         "value": "core_case_graph",
@@ -6339,6 +6506,33 @@
           "inference_score": 0,
           "source_ids": []
         }
+      },
+      "care_arrangement": {
+        "value": "Some days, the Chan sisters were babysat by persons who cleaned the Chans' house, usually a relative of the family",
+        "units": "care_arrangement_summary",
+        "precision": "from_police_summary_read_on_podcast",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "care_arrangement_quote": {
+        "value": "some days they are babysat by persons that clean their house for the Chans, usually a relative of the family.",
+        "units": "verbatim_quote",
+        "precision": "transcript_quote",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00067, 11:48–12:46",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
       }
     },
     {
@@ -10611,7 +10805,8 @@
       },
       "review_flags": [
         "Exact source support is still required for the reported acquaintance with John Chan.",
-        "Do not infer investigative influence, preferential treatment or misconduct from the reported acquaintance alone."
+        "Do not infer investigative influence, preferential treatment or misconduct from the reported acquaintance alone.",
+        "KCSRC00067 (Ep 5, 01:19–05:00): Glare says he dined regularly at Phyllis's restaurant and regarded her as a friend, but had 'very little to do with John' and spoke to him no more than twice. This weakens the 'reported_acquaintance_of_john_chan' role; review it."
       ],
       "record_scope": {
         "value": "core_case_graph",
@@ -10644,6 +10839,234 @@
         },
         "review_note": {
           "value": "The record was added from project knowledge; its claims require assignment to a catalogued source and an exact locator before factual certification.",
+          "units": "verification_note",
+          "precision": "editorial_status_note",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "id": "TCS-WWKC-PPL-0081",
+      "record_type": "person",
+      "display_name": {
+        "value": "Constable Gallagher",
+        "units": "personal_name",
+        "precision": "surname_and_rank_only",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "names": [
+        {
+          "value": "Constable Gallagher",
+          "units": "personal_name",
+          "precision": "surname_and_rank_only",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "Gallagher",
+          "units": "personal_name",
+          "precision": "surname_only_given_name_unresolved",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "value": "victoria_police_constable_thomastown_police",
+          "units": "professional_role",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "first_police_at_remains_discovery_scene",
+          "units": "case_role",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        }
+      ],
+      "public_status": {
+        "value": "named_in_public_podcast",
+        "units": "public_status",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "review_flags": [
+        "Single source (KCSRC00066, 00:05–02:23); name not independently corroborated in press archives. Given name unresolved.",
+        "With Constable Farley, took the dog walker back to the site and located the skull at about 6 PM on 9 April 1992 (KCEVT0051)."
+      ],
+      "identity_status": {
+        "value": "partially_identified_surname_only",
+        "units": "identity_status",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "record_scope": {
+        "value": "core_case_graph",
+        "units": "record_scope",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "verification": {
+        "status": {
+          "value": "pending_claim_locator_review",
+          "units": "verification_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "claim_locator_status": {
+          "value": "present",
+          "units": "claim_locator_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        "publication_status": {
+          "value": "internal_only_pending_review",
+          "units": "publication_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "review_note": {
+          "value": "Locator present (transcript timestamp); verify against the audio and seek press corroboration before factual certification.",
+          "units": "verification_note",
+          "precision": "editorial_status_note",
+          "inference_score": 0,
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "id": "TCS-WWKC-PPL-0082",
+      "record_type": "person",
+      "display_name": {
+        "value": "Constable Farley",
+        "units": "personal_name",
+        "precision": "surname_and_rank_only",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "names": [
+        {
+          "value": "Constable Farley",
+          "units": "personal_name",
+          "precision": "surname_and_rank_only",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "Farley",
+          "units": "personal_name",
+          "precision": "surname_only_given_name_unresolved",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "value": "victoria_police_constable_thomastown_police",
+          "units": "professional_role",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        {
+          "value": "first_police_at_remains_discovery_scene",
+          "units": "case_role",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        }
+      ],
+      "public_status": {
+        "value": "named_in_public_podcast",
+        "units": "public_status",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "review_flags": [
+        "Single source (KCSRC00066, 00:05–02:23); name not independently corroborated in press archives. Given name unresolved.",
+        "With Constable Gallagher, took the dog walker back to the site and located the skull at about 6 PM on 9 April 1992 (KCEVT0051)."
+      ],
+      "identity_status": {
+        "value": "partially_identified_surname_only",
+        "units": "identity_status",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      },
+      "record_scope": {
+        "value": "core_case_graph",
+        "units": "record_scope",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": []
+      },
+      "verification": {
+        "status": {
+          "value": "pending_claim_locator_review",
+          "units": "verification_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "claim_locator_status": {
+          "value": "present",
+          "units": "claim_locator_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00066"
+          ]
+        },
+        "publication_status": {
+          "value": "internal_only_pending_review",
+          "units": "publication_status",
+          "precision": "controlled_label",
+          "inference_score": 0,
+          "source_ids": []
+        },
+        "review_note": {
+          "value": "Locator present (transcript timestamp); verify against the audio and seek press corroboration before factual certification.",
           "units": "verification_note",
           "precision": "editorial_status_note",
           "inference_score": 0,

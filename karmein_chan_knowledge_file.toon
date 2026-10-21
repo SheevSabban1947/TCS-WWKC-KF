@@ -1,7 +1,7 @@
 knowledge_file:
   file: "karmein_chan_knowledge_file.toon"
   schema_version: "0.3.0"
-  updated: "2026-08-06"
+  updated: "2026-10-21"
   format: "TOON"
   project: "Who Was Karmein Chan? / The Cruel Song Knowledge File"
   description: "Single-file TOON consolidation of the current JSON Knowledge File modules."
@@ -15,46 +15,46 @@ knowledge_file:
     input_files[5]:
       - file: "sources.json"
         schema_version: "0.1.0"
-        updated: "2026-08-06"
+        updated: "2026-10-21"
         record_key: "sources"
-        record_count: 66
+        record_count: 69
       - file: "people.json"
         schema_version: "0.3.0"
-        updated: "2026-08-06"
+        updated: "2026-10-21"
         record_keys[2]:
           - "people"
           - "contextual_people"
-        record_count: 80
-        core_record_count: 76
+        record_count: 82
+        core_record_count: 78
         contextual_record_count: 4
       - file: "places.json"
         schema_version: "0.1.0"
-        updated: "2026-06-04"
+        updated: "2026-10-21"
         record_key: "places"
         record_count: 17
       - file: "timeline.json"
         schema_version: "0.1.0"
-        updated: "2026-06-07"
+        updated: "2026-10-21"
         record_key: "timeline"
-        record_count: 50
+        record_count: 51
       - file: "open_questions.json"
         schema_version: "0.1.0"
-        updated: "2026-06-04"
+        updated: "2026-10-21"
         record_key: "open_questions"
-        record_count: 29
+        record_count: 30
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
-      sources: 66
-      people: 76
+      sources: 69
+      people: 78
       contextual_people: 4
       places: 17
-      timeline_events: 50
-      open_questions: 29
-      total_records: 242
+      timeline_events: 51
+      open_questions: 30
+      total_records: 249
     integrity:
-      referenced_source_id_count: 38
-      catalogued_source_id_count: 66
+      referenced_source_id_count: 41
+      catalogued_source_id_count: 69
       missing_source_ids: []
       unused_catalogue_source_ids[28]:
         - "KCSRC00009"
@@ -85,8 +85,8 @@ knowledge_file:
         - "KCSRC00062"
         - "KCSRC00063"
         - "KCSRC00064"
-      referenced_person_id_count: 26
-      catalogued_person_id_count: 80
+      referenced_person_id_count: 28
+      catalogued_person_id_count: 82
       missing_person_ids: []
       unreferenced_person_ids[54]:
         - "TCS-WWKC-PPL-0025"
@@ -148,11 +148,11 @@ knowledge_file:
     updated: "2026-08-02"
     metadata:
       description: "Case-person catalogue for the Karmein Chan Knowledge File."
-      total_person_count: 80
-      core_person_count: 76
+      total_person_count: 82
+      core_person_count: 78
       contextual_person_count: 4
       previous_version: "0.2.0"
-      change_summary[9]:
+      change_summary[10]:
         - "Migrated the five original records to the v0.2.x identity/review schema."
         - "Repaired four one-way possible_same_as relationships."
         - "Restricted KCSRC00037 to geographic context on the Parer Street records."
@@ -162,6 +162,7 @@ knowledge_file:
         - "Added record_scope, verification and publication-status fields to every record."
         - "Added controlled-vocabulary and layer definitions."
         - "Added Kelvin “Kel” Glare, Chief Commissioner of Victoria Police at the time of Karmein Chan’s abduction and a reported acquaintance of John Chan."
+        - "2026-10-21: integrated Adam Shand facts (KCSRC00066/KCSRC00067): Constables Gallagher and Farley (PPL-0081, PPL-0082); customary-marriage quote and locator; babysitter/house-cleaner detail (PPL-0037); alleged unpaid fit-outs (PPL-0002, alleged/unverified); John Chan departure variants."
       factual_certification_status: "not_certified_pending_exact_source_locators"
       identity_handling_note: "Mr Cruel, Karmein Chan’s abductor, the Parer Street stalker, the Edgars Creek armed man and the man reportedly seen digging remain separate entities linked only by unresolved hypotheses."
     layers:
@@ -211,7 +212,7 @@ knowledge_file:
       - code: "CONTROLLED_ROLE_VALUE_REVIEW"
         status: "pending"
         description: "Review individual role values for naming consistency after source-level verification."
-  sources[66]:
+  sources[69]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -223,9 +224,11 @@ knowledge_file:
       facts_supported[1]:
         -: | "Main public source page used to seed the Knowledge File source catalogue, timeline, open questions, people and places records." | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[3]:
+      referenced_in_current_files[4]:
         - file: "people.json"
-          reference_count: 266
+          reference_count: 267
+        - file: "places.json"
+          reference_count: 1
         - file: "timeline.json"
           reference_count: 280
         - file: "open_questions.json"
@@ -409,7 +412,7 @@ knowledge_file:
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[1]:
         - file: "places.json"
-          reference_count: 2
+          reference_count: 3
       review_flags: []
     - source_id: "KCSRC00012"
       record_type: "source"
@@ -731,7 +734,7 @@ knowledge_file:
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[3]:
         - file: "people.json"
-          reference_count: 7
+          reference_count: 9
         - file: "places.json"
           reference_count: 10
         - file: "timeline.json"
@@ -785,7 +788,7 @@ knowledge_file:
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[2]:
         - file: "people.json"
-          reference_count: 6
+          reference_count: 8
         - file: "places.json"
           reference_count: 9
       review_flags: []
@@ -1223,17 +1226,91 @@ knowledge_file:
         -: | "Copyright 2026" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "Podshape" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       access: | "https://podcasts.apple.com/ie/podcast/the-adam-shand-collection/id1896909096" | u="access_locator_or_note" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
-      facts_supported[3]:
+      facts_supported[4]:
         -: | "Chan parents “divorce”" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "John and Phyllis Chan separated in 1993 (no divorce)" | u="fact_summary" | p="from_site_text_about_the_chan_family" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia" | u="fact_summary" | p="site_author_confirmed_2026-10-19" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Bulleen Plaza shopping centre opened in 1974 (fact passed on by the site author; episode and timestamp not identified)" | u="fact_summary" | p="site_author_report_2026-10-21" | i=0 | s=[KCSRC00065]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
         - file: "people.json"
           reference_count: 14
+        - file: "places.json"
+          reference_count: 1
+      review_flags[2]:
+        - "Series-level record (season 1: Creating Mr Cruel). Episode-level sources: KCSRC00066 (Ep 2) and KCSRC00067 (Ep 5)."
+        - "The 1974 Bulleen Plaza opening year was passed on by the site author from Adam Shand; no episode or timestamp has been identified for it."
+    - source_id: "KCSRC00066"
+      record_type: "source"
+      title: | "The Adam Shand Collection – Creating Mr Cruel, Ep 2 – The Task Force Begins" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00066]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[KCSRC00066]
+      publication_date: | "2026-06-21" | u="iso8601_date_or_partial_date" | p="from_publisher_listing" | i=0 | s=[KCSRC00066]
+      identifiers[4]:
+        -: | "Podshape" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00066]
+        -: | "Season 1, Episode 2" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00066]
+        -: | "Apple Podcasts episode id 1000773608167" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00066]
+        -: | "Part of series KCSRC00065" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00066]
+      access: | "https://podcasts.apple.com/ie/podcast/ep-2-the-task-force-begins/id1896909096?i=1000773608167" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00066]
+      facts_supported[3]:
+        -: | "Constables Gallagher and Farley of Thomastown Police were the first police at the scene when Karmein Chan's remains were found on 9 April 1992" | u="fact_summary" | p="transcript_00:05-02:23" | i=0 | s=[KCSRC00066]
+        -: | "Police timeline on 9 April 1992: radio message about suspected human remains at 5.45 pm; skull located at 6 pm; a superintendent arrived at 6.06 pm and requested full crime scene services; a TV news crew set up on the western side of the creek at 6.49 pm" | u="fact_summary" | p="transcript_00:05-02:23" | i=0 | s=[KCSRC00066]
+        -: | "The skull was located about 20 metres up a small rise across freshly graded ground, reached from a point 40 metres south of a large concrete drain, between the creek and the Thomastown electricity substation" | u="fact_summary" | p="transcript_00:05-02:23" | i=0 | s=[KCSRC00066]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00066]
+      referenced_in_current_files[3]:
+        - file: "people.json"
+          reference_count: 16
+        - file: "places.json"
+          reference_count: 1
+        - file: "timeline.json"
+          reference_count: 18
+      review_flags[3]:
+        - "Publication date as listed by Apple Podcasts (2026-06-21T14:00:00Z, i.e. 22 June 2026 in Melbourne)."
+        - "Locators are timestamps in a public machine-generated transcript (https://exa.ai/library/podcast/01ngrg762j8/episode/52rq4jm6mg7); verify against the audio before quotation. The transcript renders 'Edgars Creek' as 'the Merry Creek' and 'Karmein' as 'Carmen'."
+        - "The site's canonical discovery time (around 5 PM, by the dog walker) predates the police times in this episode; they are not contradictory."
+    - source_id: "KCSRC00067"
+      record_type: "source"
+      title: | "The Adam Shand Collection – Creating Mr Cruel, Ep 5 – The Father, the Underworld, and the Suspect Who Wasn't" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00067]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[KCSRC00067]
+      publication_date: | "2026-07-05" | u="iso8601_date_or_partial_date" | p="from_publisher_listing" | i=0 | s=[KCSRC00067]
+      identifiers[4]:
+        -: | "Podshape" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00067]
+        -: | "Season 1, Episode 5" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00067]
+        -: | "Apple Podcasts episode id 1000775523715" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00067]
+        -: | "Part of series KCSRC00065" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00067]
+      access: | "https://podcasts.apple.com/ie/podcast/ep-5-the-father-the-underworld-and-the-suspect-who-wasnt/id1896909096?i=1000775523715" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00067]
+      facts_supported[4]:
+        -: | "Spectrum crime-analysis summary read by crime analyst Stewie Cooper: 'Chan and his wife are married by Chinese tradition only and are not recognized as legally married in this country.'" | u="fact_summary" | p="transcript_11:48-12:46" | i=0 | s=[KCSRC00067]
+        -: | "Spectrum crime-analysis summary: 'some days they are babysat by persons that clean their house for the Chans, usually a relative of the family.'" | u="fact_summary" | p="transcript_11:48-12:46" | i=0 | s=[KCSRC00067]
+        -: | "Alleged, unverified hearsay: commercial disputes over restaurant fit-outs; former Spectrum detective Chris O'Connor relays second-hand information that John Chan would not pay fit-out invoices" | u="fact_summary" | p="transcript_07:56-08:43" | i=0 | s=[KCSRC00067]
+        -: | "Former Chief Commissioner Kel Glare: he dined regularly at Phyllis's restaurant, had very little to do with John Chan, and thought John Chan 'I think went to Queensland' not long after" | u="fact_summary" | p="transcript_04:13-05:00" | i=0 | s=[KCSRC00067]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00067]
+      referenced_in_current_files[2]:
+        - file: "people.json"
+          reference_count: 26
+        - file: "open_questions.json"
+          reference_count: 4
+      review_flags[4]:
+        - "Publication date as listed by Apple Podcasts (2026-07-05T14:00:00Z)."
+        - "Locators are timestamps in a public machine-generated transcript (https://exa.ai/library/podcast/01ngrg762j8/episode/f11pcsvrkjw); verify against the audio before quotation."
+        - "Ep 5 states the abduction took place on 'the night of April 12, 1992' (03:02); this is an error in the source (correct: 13 April 1991). Do not reuse."
+        - "Contains allegations about identifiable living people; keep publication holds on derived claims."
+    - source_id: "KCSRC00068"
+      record_type: "source"
+      title: | "Victorian Places – Bulleen" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00068]
+      source_type: | "reference_website" | u="source_type" | p="category" | i=0 | s=[KCSRC00068]
+      publication_date: null
+      identifiers[1]:
+        -: | "Copyright © Victorian Places, 2015" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00068]
+      access: | "https://www.victorianplaces.com.au/bulleen" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00068]
+      facts_supported[1]:
+        -: | "Bulleen was an ideal site for a drive-in shopping centre, which was built in 1974 and named Bulleen Plaza" | u="fact_summary" | p="verbatim_from_source" | i=0 | s=[KCSRC00068]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00068]
+      referenced_in_current_files[1]:
+        - file: "places.json"
+          reference_count: 1
       review_flags[1]:
-        - "Episode title, publication date and timestamp locator not given in the source index; add them when available."
-  people[76]:
+        - "Independent corroboration of the 1974 opening year (also: SMH 07/02/2017 'Six reasons to visit Bulleen'; the centre's own site, 'Since 1974')."
+  people[78]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
       display_name: | "Karmein Chan" | u="personal_name" | p="common_public_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
@@ -1323,17 +1400,27 @@ knowledge_file:
           date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
           time: | "21:35" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
         customary_chinese_marriage:
-          type: | "marriage_by_chinese_custom" | u="marriage_type" | p="controlled_label" | i=0 | s=[KCSRC00065]
-          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[KCSRC00065]
-          civil_marriage_in_australia: | false | u="boolean" | p="author_confirmed" | i=0 | s=[KCSRC00065]
-          source_status: | "resolved" | u="source_status" | p="resolved_to_catalogued_source" | i=0 | s=[KCSRC00065]
+          type: | "marriage_by_chinese_custom" | u="marriage_type" | p="controlled_label" | i=0 | s=[KCSRC00065,KCSRC00067]
+          person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[KCSRC00065,KCSRC00067]
+          civil_marriage_in_australia: | false | u="boolean" | p="author_confirmed" | i=0 | s=[KCSRC00065,KCSRC00067]
+          source_status: | "resolved" | u="source_status" | p="resolved_to_catalogued_source" | i=0 | s=[KCSRC00065,KCSRC00067]
+          exact_quote: | "Chan and his wife are married by Chinese tradition only and are not recognized as legally married in this country." | u="verbatim_quote" | p="transcript_quote" | i=0 | s=[KCSRC00067]
+          source_locator: | "KCSRC00067, 11:48–12:46 (crime analyst Stewie Cooper reading the Spectrum crime-analysis summary)" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00067]
         separation:
           date: | "1993" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
           person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
           divorce: | false | u="boolean" | p="from_site_text" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
+        departure_after_separation:
+          destination: | "unresolved" | u="place_name" | p="conflicting_sources" | i=1 | s=[KCSRC00034,KCSRC00067]
+          variants[2]:
+            -: | "Returned to Hong Kong" | u="place_name" | p="press_report" | i=0 | s=[KCSRC00034]
+            -: | "Went to Queensland ('I think'), per former Chief Commissioner Kel Glare" | u="place_name" | p="uncertain_recollection" | i=0 | s=[KCSRC00067]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags[1]:
+      review_flags[4]:
         - "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
+        - "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them."
+        - "Fact 3 (unpaid fit-outs) is alleged, unverified, second-hand hearsay (KCSRC00067, 07:56–08:43). Publication hold: present only as an allegation reported by a former investigator; no implication of guilt or involvement in the abduction. Do not name creditors or tradespeople."
+        - "Departure destination unresolved: Hong Kong (The Age, 11/04/2025, KCSRC00034) vs Queensland (Kel Glare, uncertain, KCSRC00067 04:13–05:00)."
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
@@ -1341,6 +1428,15 @@ knowledge_file:
         claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
         publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
         review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+      allegations[1]:
+        -
+          statement: | "Allegedly had restaurant fit-outs done and did not pay the invoices" | u="allegation_summary" | p="allegation_hearsay" | i=2 | s=[KCSRC00067]
+          allegation_status: | "alleged_unverified_hearsay" | u="allegation_status" | p="controlled_label" | i=2 | s=[KCSRC00067]
+          alleged: | true | u="boolean" | p="controlled_label" | i=0 | s=[KCSRC00067]
+          verified: | false | u="boolean" | p="controlled_label" | i=0 | s=[KCSRC00067]
+          attribution: | "Adam Shand reports 'commercial disputes over fit outs on his properties'; former Spectrum detective Chris O'Connor relays second-hand information ('I didn't see it firsthand') that John Chan 'just wouldn't pay'" | u="attribution_note" | p="paraphrase_with_short_quotes" | i=0 | s=[KCSRC00067]
+          source_locator: | "KCSRC00067, 07:56–08:43" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00067]
+          related_question_id: | "KCQST0030" | u="open_question_id" | p="exact_reference" | i=0 | s=[KCSRC00067]
     - id: "TCS-WWKC-PPL-0003"
       record_type: "person"
       display_name: | "Phyllis Chan" | u="personal_name" | p="common_public_case_name" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
@@ -1380,18 +1476,21 @@ knowledge_file:
           date: | "unresolved" | u="relative_date" | p="relative_unresolved" | i=1 | s=[TCS-WWKC-WEB-0001]
           name: | "Phyllis Lam" | u="personal_name" | p="later_public_name" | i=0 | s=[TCS-WWKC-WEB-0001]
         customary_chinese_marriage:
-          type: | "marriage_by_chinese_custom" | u="marriage_type" | p="controlled_label" | i=0 | s=[KCSRC00065]
-          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[KCSRC00065]
-          civil_marriage_in_australia: | false | u="boolean" | p="author_confirmed" | i=0 | s=[KCSRC00065]
-          source_status: | "resolved" | u="source_status" | p="resolved_to_catalogued_source" | i=0 | s=[KCSRC00065]
+          type: | "marriage_by_chinese_custom" | u="marriage_type" | p="controlled_label" | i=0 | s=[KCSRC00065,KCSRC00067]
+          person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[KCSRC00065,KCSRC00067]
+          civil_marriage_in_australia: | false | u="boolean" | p="author_confirmed" | i=0 | s=[KCSRC00065,KCSRC00067]
+          source_status: | "resolved" | u="source_status" | p="resolved_to_catalogued_source" | i=0 | s=[KCSRC00065,KCSRC00067]
+          exact_quote: | "Chan and his wife are married by Chinese tradition only and are not recognized as legally married in this country." | u="verbatim_quote" | p="transcript_quote" | i=0 | s=[KCSRC00067]
+          source_locator: | "KCSRC00067, 11:48–12:46 (crime analyst Stewie Cooper reading the Spectrum crime-analysis summary)" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00067]
         separation:
           date: | "1993" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
           person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
           divorce: | false | u="boolean" | p="from_site_text" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags[2]:
+      review_flags[3]:
         - "returned_to_family_name date was previously anchored to the invalid 1993 divorce ('after_1993'); exact date unresolved."
         - "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
+        - "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them."
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
@@ -2211,19 +2310,25 @@ knowledge_file:
       display_name: | "Chan family babysitter" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
       names[1]:
         -: | "Chan family babysitter" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
-      roles[2]:
+      roles[4]:
         -: | "chan_family_babysitter" | u="social_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "case_context_person" | u="case_role" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "house_cleaner_for_the_chans" | u="occupation_or_business_role" | p="from_police_summary_read_on_podcast" | i=0 | s=[KCSRC00067]
+        -: | "usually_a_relative_of_the_chan_family" | u="family_role" | p="from_police_summary_read_on_podcast" | i=0 | s=[KCSRC00067]
       identity_status: | "identity_not_public" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
       public_status: | "identity_not_public" | u="public_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags[1]:
+      review_flags[2]:
         - "Identity not publicly established; avoid speculative identification."
+        - "'Some days' and 'usually a relative': not necessarily the same person as the babysitter who was unavailable on 13 April 1991 (KCSRC00005), nor the 'housekeeper' mentioned on /backstage/. Do not attempt identification."
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
         status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
         claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
         publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
         review_note: | "Source IDs are present, but material claims still require a page, paragraph, timestamp, quotation or other exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+      care_arrangement: | "Some days, the Chan sisters were babysat by persons who cleaned the Chans' house, usually a relative of the family" | u="care_arrangement_summary" | p="from_police_summary_read_on_podcast" | i=0 | s=[KCSRC00067]
+      care_arrangement_quote: | "some days they are babysat by persons that clean their house for the Chans, usually a relative of the family." | u="verbatim_quote" | p="transcript_quote" | i=0 | s=[KCSRC00067]
+      source_locator: | "KCSRC00067, 11:48–12:46" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00067]
     - id: "TCS-WWKC-PPL-0038"
       record_type: "person"
       display_name: | "Tradesman who appeared at the Chan residence" | u="descriptive_label" | p="identity_not_public_case_label" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -2963,15 +3068,56 @@ knowledge_file:
         -: | "reported_acquaintance_of_john_chan" | u="case_context_role" | p="reported_relationship" | i=0 | s=[]
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[]
       public_status: | "publicly_known" | u="public_status" | p="controlled_label" | i=0 | s=[]
-      review_flags[2]:
+      review_flags[3]:
         - "Exact source support is still required for the reported acquaintance with John Chan."
         - "Do not infer investigative influence, preferential treatment or misconduct from the reported acquaintance alone."
+        - "KCSRC00067 (Ep 5, 01:19–05:00): Glare says he dined regularly at Phyllis's restaurant and regarded her as a friend, but had 'very little to do with John' and spoke to him no more than twice. This weakens the 'reported_acquaintance_of_john_chan' role; review it."
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
         status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
         claim_locator_status: | "missing" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[]
         publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
         review_note: | "The record was added from project knowledge; its claims require assignment to a catalogued source and an exact locator before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0081"
+      record_type: "person"
+      display_name: | "Constable Gallagher" | u="personal_name" | p="surname_and_rank_only" | i=0 | s=[KCSRC00066]
+      names[2]:
+        -: | "Constable Gallagher" | u="personal_name" | p="surname_and_rank_only" | i=0 | s=[KCSRC00066]
+        -: | "Gallagher" | u="personal_name" | p="surname_only_given_name_unresolved" | i=0 | s=[KCSRC00066]
+      roles[2]:
+        -: | "victoria_police_constable_thomastown_police" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00066]
+        -: | "first_police_at_remains_discovery_scene" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00066]
+      public_status: | "named_in_public_podcast" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00066]
+      review_flags[2]:
+        - "Single source (KCSRC00066, 00:05–02:23); name not independently corroborated in press archives. Given name unresolved."
+        - "With Constable Farley, took the dog walker back to the site and located the skull at about 6 PM on 9 April 1992 (KCEVT0051)."
+      identity_status: | "partially_identified_surname_only" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00066]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "present" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[KCSRC00066]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Locator present (transcript timestamp); verify against the audio and seek press corroboration before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
+    - id: "TCS-WWKC-PPL-0082"
+      record_type: "person"
+      display_name: | "Constable Farley" | u="personal_name" | p="surname_and_rank_only" | i=0 | s=[KCSRC00066]
+      names[2]:
+        -: | "Constable Farley" | u="personal_name" | p="surname_and_rank_only" | i=0 | s=[KCSRC00066]
+        -: | "Farley" | u="personal_name" | p="surname_only_given_name_unresolved" | i=0 | s=[KCSRC00066]
+      roles[2]:
+        -: | "victoria_police_constable_thomastown_police" | u="professional_role" | p="controlled_label" | i=0 | s=[KCSRC00066]
+        -: | "first_police_at_remains_discovery_scene" | u="case_role" | p="controlled_label" | i=0 | s=[KCSRC00066]
+      public_status: | "named_in_public_podcast" | u="public_status" | p="controlled_label" | i=0 | s=[KCSRC00066]
+      review_flags[2]:
+        - "Single source (KCSRC00066, 00:05–02:23); name not independently corroborated in press archives. Given name unresolved."
+        - "With Constable Gallagher, took the dog walker back to the site and located the skull at about 6 PM on 9 April 1992 (KCEVT0051)."
+      identity_status: | "partially_identified_surname_only" | u="identity_status" | p="controlled_label" | i=0 | s=[KCSRC00066]
+      record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
+      verification:
+        status: | "pending_claim_locator_review" | u="verification_status" | p="controlled_label" | i=0 | s=[]
+        claim_locator_status: | "present" | u="claim_locator_status" | p="controlled_label" | i=0 | s=[KCSRC00066]
+        publication_status: | "internal_only_pending_review" | u="publication_status" | p="controlled_label" | i=0 | s=[]
+        review_note: | "Locator present (transcript timestamp); verify against the audio and seek press corroboration before factual certification." | u="verification_note" | p="editorial_status_note" | i=0 | s=[]
   contextual_people[4]:
     - id: "TCS-WWKC-PPL-0076"
       record_type: "person"
@@ -3096,10 +3242,14 @@ knowledge_file:
         suburb: | "Bulleen" | p="suburb" | i=0 | s=[KCSRC00038]
         state: | "Victoria" | p="state" | i=0 | s=[KCSRC00038]
         country: | "Australia" | p="country" | i=0 | s=[KCSRC00038]
+      historical_facts[1]:
+        -: | "The Bulleen Shopping Centre in Manningham Road was built in 1974 and was later named Bulleen Plaza." | p="year and naming history" | i=0 | s=[KCSRC00011,KCSRC00068,KCSRC00065]
       case_roles[2]:
         -: | "Saturday breakfast location for Karmein Chan and Phyllis Chan" | p="routine place" | i=0 | s=[KCSRC00038]
         -: | "location of a Chan family restaurant business" | p="business location" | i=0 | s=[KCSRC00035,KCSRC00038]
-      review_flags: []
+      review_flags[2]:
+        - "1974 opening year corroborated by Victorian Places (KCSRC00068), SMH 07/02/2017 and the centre's own site ('Since 1974'), and passed on from Adam Shand (KCSRC00065). An earlier '1969–70 / late 1960s' Bulleen Village date appears only in a DTHS chronology and an unsourced deleted Wikipedia article."
+        - "The Chans' Mings restaurant opened at the centre in 1978 (KCEVT0002, KCSRC00035)."
     - id: "KCPLACE0006"
       canonical_name: | "Bulleen Library" | p="library name" | i=0 | s=[KCSRC00005]
       place_type: | "library" | p="category" | i=0 | s=[KCSRC00005]
@@ -3211,8 +3361,10 @@ knowledge_file:
         coordinates_dms: | "37°41'29.9\"S 145°00'30.3\"E" | u="dms_coordinates" | p="reported DMS coordinates" | i=0 | s=[TCS-WWKC-WEB-0001]
       case_roles[1]:
         -: | "place where Karmein Chan's remains were found on 9 April 1992" | p="case role" | i=0 | s=[KCSRC00037]
-      review_flags[1]:
+      review_flags[2]:
         - "Coordinates 37°41'29.9\"S 145°00'30.3\"E (decimal -37.6916389, 145.0084167) and discovery on Thursday 9 April 1992 at around 5 PM by a man walking his dog. Confirmed by the site author (The Cruel Song) on 2026-10-19."
+        - "Site description and police timeline: KCSRC00066, 00:05–02:23 (see KCEVT0051)."
+      site_description: | "Desolate stretch of landfill between the creek and the Thomastown electricity substation; police parked 40 metres south of a large concrete drain and walked about 20 metres up a small rise across freshly graded ground to the skull" | u="site_description" | p="paraphrased_from_transcript" | i=0 | s=[KCSRC00066]
     - id: "KCPLACE0016"
       canonical_name: | "Parer Street" | p="street name" | i=0 | s=[KCSRC00029]
       place_type: | "street" | p="category" | i=0 | s=[KCSRC00029]
@@ -3235,7 +3387,7 @@ knowledge_file:
       privacy_level: | "privacy_sensitive_street_only" | p="data-handling flag" | i=0 | s=[]
       review_flags[1]:
         - "Add source_id if this later family event remains in places.json."
-  timeline[50]:
+  timeline[51]:
     - id: "KCEVT0001"
       record_type: "timeline_event"
       event_type: | "personal_milestone" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -3252,14 +3404,15 @@ knowledge_file:
       event_type: | "family_business" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
       title: | "Hong Kong style restaurant named Mings opens at Bulleen Plaza" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00035]
       date: | "1978" | u="iso8601_year" | p="year" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00035]
-      summary: | "A Hong Kong style restaurant named Mings opens at the Bulleen Plaza shopping centre." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00035]
+      summary: | "A Hong Kong style restaurant named Mings opens at the Bulleen Plaza shopping centre (the restaurant opened in 1978; the shopping centre itself opened in 1974, see KCPLACE0005)." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00035]
       source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
       related_person_ids[2]:
         - "TCS-WWKC-PPL-0002"
         - "TCS-WWKC-PPL-0003"
       related_place_ids[1]:
         - "KCPLACE0005"
-      review_flags: []
+      review_flags[1]:
+        - "1978 is the restaurant's opening year, not the shopping centre's (1974: KCSRC00068, KCSRC00065)."
     - id: "KCEVT0003"
       record_type: "timeline_event"
       event_type: | "personal_milestone" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -3855,13 +4008,16 @@ knowledge_file:
       start_time: | "17:00" | u="local_time_24h" | p="approximate_minute" | i=0 | s=[TCS-WWKC-WEB-0001]
       summary: | "Karmein’s body is found in Thomastown by a man walking his dog at around 5 PM." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001]
       source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
-      related_person_ids[1]:
+      related_person_ids[3]:
         - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0081"
+        - "TCS-WWKC-PPL-0082"
       related_place_ids[1]:
         - "KCPLACE0015"
-      review_flags[2]:
+      review_flags[3]:
         - "Canonical time is approximately 17:00 (around 5 PM). Confirmed by the site author (The Cruel Song) on 2026-10-19. Variant: The Age, 12/04/1992, page 2 ('Karmein search ends at grave') reports 4.45PM (16:45); no internal source_id is assigned to that article yet."
         - "Discovery location coordinates: 37°41'29.9\"S 145°00'30.3\"E (see KCPLACE0015)."
+        - "Police response on the same evening (radio message 17:45, skull located 18:00, superintendent 18:06, TV crew 18:49) is recorded separately in KCEVT0051 (KCSRC00066). The canonical ~17:00 time is the dog walker's discovery and is unchanged."
     - id: "KCEVT0047"
       record_type: "timeline_event"
       event_type: | "funeral_service" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -3916,7 +4072,43 @@ knowledge_file:
       review_flags[1]:
         - "Undated status statement from the timeline, not a discrete dated event."
       date: | null | u="undated_status" | p="not_date_bound" | i=0 | s=[TCS-WWKC-WEB-0001]
-  open_questions[29]:
+    - id: "KCEVT0051"
+      record_type: "timeline_event"
+      event_type: | "police_response" | u="event_category" | p="controlled_label" | i=0 | s=[KCSRC00066]
+      title: | "Thomastown police respond and locate the skull" | u="event_title" | p="normalized_from_transcript" | i=0 | s=[KCSRC00066]
+      date: | "1992-04-09" | u="iso8601_date" | p="day" | i=0 | s=[KCSRC00066]
+      start_time: | "17:45" | u="local_time_24h" | p="exact_minute_as_reported" | i=0 | s=[KCSRC00066]
+      summary: | "Constables Gallagher and Farley of Thomastown Police receive a radio message about suspected human remains, meet the dog walker at the station, return with him to the landfill site between the creek and the Thomastown electricity substation, and locate the skull at 6 PM. A superintendent arrives at 6.06 PM and requests full crime scene services; a TV news crew sets up on the western side of the creek at 6.49 PM, before the police surgeon arrives." | u="event_summary" | p="paraphrased_from_transcript" | i=0 | s=[KCSRC00066]
+      police_timeline[4]:
+        -
+          time: | "17:45" | u="local_time_24h" | p="exact_minute_as_reported" | i=0 | s=[KCSRC00066]
+          description: | "Radio message to the Thomastown divisional van: suspected human remains found" | u="event_step" | p="paraphrased_from_transcript" | i=0 | s=[KCSRC00066]
+          source_locator: | "KCSRC00066, 00:05–02:23" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00066]
+        -
+          time: | "18:00" | u="local_time_24h" | p="exact_minute_as_reported" | i=0 | s=[KCSRC00066]
+          description: | "Constables Gallagher and Farley locate the skull, about 20 m up a small rise across freshly graded ground" | u="event_step" | p="paraphrased_from_transcript" | i=0 | s=[KCSRC00066]
+          source_locator: | "KCSRC00066, 00:05–02:23" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00066]
+        -
+          time: | "18:06" | u="local_time_24h" | p="exact_minute_as_reported" | i=0 | s=[KCSRC00066]
+          description: | "A superintendent arrives to organise the recovery; full crime scene services are requested" | u="event_step" | p="paraphrased_from_transcript" | i=0 | s=[KCSRC00066]
+          source_locator: | "KCSRC00066, 00:05–02:23" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00066]
+        -
+          time: | "18:49" | u="local_time_24h" | p="exact_minute_as_reported" | i=0 | s=[KCSRC00066]
+          description: | "A TV news crew sets up on the western side of the creek, before the police surgeon arrives" | u="event_step" | p="paraphrased_from_transcript" | i=0 | s=[KCSRC00066]
+          source_locator: | "KCSRC00066, 00:05–02:23" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00066]
+      source_locator: | "KCSRC00066, 00:05–02:23" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00066]
+      related_person_ids[3]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0081"
+        - "TCS-WWKC-PPL-0082"
+      related_place_ids[1]:
+        - "KCPLACE0015"
+      related_event_ids[1]:
+        - "KCEVT0046"
+      review_flags[2]:
+        - "Single source (Adam Shand, Ep 2); times as narrated, verify against police records or press if possible."
+        - "Follows KCEVT0046 (discovery by the dog walker at around 17:00)."
+  open_questions[30]:
     - id: "KCQST0001"
       record_type: "open_question"
       category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -4222,3 +4414,15 @@ knowledge_file:
       related_place_ids: []
       related_event_ids: []
       review_flags: []
+    - id: "KCQST0030"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00067]
+      question: | "Were John Chan's reported commercial disputes over unpaid restaurant fit-outs ever investigated as a possible alternative motive?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00067]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00067]
+      source_locator: | "KCSRC00067, 07:56–08:43" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00067]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0002"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[1]:
+        - "Based on alleged, unverified, second-hand hearsay. Publication hold: neutral wording only, no implication of guilt; do not name creditors or tradespeople."
