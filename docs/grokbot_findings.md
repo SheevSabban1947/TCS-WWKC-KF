@@ -141,3 +141,18 @@ Sources ajoutées : KCSRC00066 (Ep 2 « The Task Force Begins », 21/06/2026), K
 - **Mariage coutumier** : citation exacte et localisateur (KCSRC00067, 11:48–12:46) ajoutés à PPL-0002 et PPL-0003.
 - **Points connexes** : les variantes du départ de John Chan (Hong Kong ou Queensland) sont notées. PPL-0080 (Glare) reçoit un `review_flag`, car selon Ep 5 il connaissait à peine John Chan.
 - **Modifications du site** : elles sont préparées dans `/workspace/thecruelsong/wp_change_plan.md`, mais pas encore appliquées.
+
+## 2026-10-21 – Mimi (KCQST0011, KCQST0013, KCQST0014) et sources des « Contested facts »
+
+Recherche en lecture seule. Notes complètes dans `/workspace/thecruelsong/mimi.md`.
+
+- **KCQST0011 (« Was Mimi a dog or a cat? ») : en grande partie résolue, c'est un chien.**
+  - Source principale : The Age du 20/04/1991, p. 1, « Sisters in plea to abductor » (**KCSRC00069**). Le résumé de la revue de presse du Backstage dit : « symbols representing the parents, the three children, Mimi the dog and the two family cars ». C'est une formulation du Backstage, il faut relire la légende originale.
+  - Concordent avec elle : un texte de presse de 1991 cité sur Reddit par Melbourne Marvels (« Mimi (the family dog) is sick because she misses you too », journal non nommé) ; Casefile Revisited, transcription automatique (**KCSRC00077**) : « Mimi was the family dog. » ; une camarade d'école sur Reddit (témoignage, personne privée) : « Mimi was a small white dog, not guard dog ».
+  - La seule piste « chat » est *Sensing Murder* (2004, **KCSRC00073**, non visionné). D'après Reddit, l'alarme y aurait été coupée à cause d'un chat. C'est de seconde main, et ce chat n'est pas nommé Mimi.
+- **KCQST0013 (présence de Mimi) : toujours ouverte.** Aucune source ne dit où était Mimi le 13/04/1991. Melbourne Marvels : « It was never mentioned. »
+- **KCQST0014 (absence d'aboiement) : toujours ouverte.** Le point de départ n'est même pas établi : aucune source ne dit si Mimi a aboyé ou non. Tout ce qu'on lit à ce sujet est spéculatif.
+- **Proposition, non appliquée :** passer le `status` de KCQST0011 à « largely_answered » (ou équivalent), source KCSRC00069, après relecture de l'article original. Les enregistrements KCQST n'ont **pas** été modifiés.
+- **Caniche de Serpells Rd (29/03/1991)** : c'est un autre chien (« Jack », caniche noir d'un voisin). Le lien avec Mimi est une spéculation.
+
+Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les entrées marquées [needs KCSRC ID] dans le brouillon « Contested facts » : The Age 20/04/1991 p. 1 ; coupure de 1991 « two Ming's » (journal et date inconnus) ; The Age 12/04/1992 p. 2 ; The Sun 10/05/1992 ; *Sensing Murder* (2004) ; Herald Sun 16/04/2022 (Rule) ; Melbourne Marvels Mr Cruel 7 ; Melbourne Marvels Mr Cruel 9 ; Casefile Revisited (2026). Quatre de ces sources n'ont pas été consultées dans l'original (statut `original_not_consulted`). Aucune n'est encore citée par les autres modules.

@@ -17,7 +17,7 @@ knowledge_file:
         schema_version: "0.1.0"
         updated: "2026-10-21"
         record_key: "sources"
-        record_count: 69
+        record_count: 78
       - file: "people.json"
         schema_version: "0.3.0"
         updated: "2026-10-21"
@@ -45,18 +45,18 @@ knowledge_file:
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
-      sources: 69
+      sources: 78
       people: 78
       contextual_people: 4
       places: 17
       timeline_events: 51
       open_questions: 30
-      total_records: 249
+      total_records: 258
     integrity:
       referenced_source_id_count: 41
-      catalogued_source_id_count: 69
+      catalogued_source_id_count: 78
       missing_source_ids: []
-      unused_catalogue_source_ids[28]:
+      unused_catalogue_source_ids[37]:
         - "KCSRC00009"
         - "KCSRC00010"
         - "KCSRC00013"
@@ -85,6 +85,15 @@ knowledge_file:
         - "KCSRC00062"
         - "KCSRC00063"
         - "KCSRC00064"
+        - "KCSRC00069"
+        - "KCSRC00070"
+        - "KCSRC00071"
+        - "KCSRC00072"
+        - "KCSRC00073"
+        - "KCSRC00074"
+        - "KCSRC00075"
+        - "KCSRC00076"
+        - "KCSRC00077"
       referenced_person_id_count: 28
       catalogued_person_id_count: 82
       missing_person_ids: []
@@ -212,7 +221,7 @@ knowledge_file:
       - code: "CONTROLLED_ROLE_VALUE_REVIEW"
         status: "pending"
         description: "Review individual role values for naming consistency after source-level verification."
-  sources[69]:
+  sources[78]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -1310,6 +1319,157 @@ knowledge_file:
           reference_count: 1
       review_flags[1]:
         - "Independent corroboration of the 1974 opening year (also: SMH 07/02/2017 'Six reasons to visit Bulleen'; the centre's own site, 'Since 1974')."
+    - source_id: "KCSRC00069"
+      record_type: "source"
+      title: | "The Age, 20/04/1991, page 1 – Sisters in plea to abductor" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00069]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00069]
+      publication_date: | "1991-04-20" | u="iso8601_date_or_partial_date" | p="from_tcs_backstage_press_review" | i=0 | s=[KCSRC00069]
+      identifiers[1]:
+        -: | "ProQuest docview 2521727633" | u="source_identifier" | p="from_tcs_backstage_link" | i=0 | s=[KCSRC00069]
+      access: | "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/april-20-1991-page-1-195/docview/2521727633/sem-2?accountid=13905" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00069]
+      facts_supported[2]:
+        -: | "Two letters written by Karen and Karly Chan to their missing sister were published" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00069]
+        -: | "At the bottom of one of the letters, symbols represent the parents, the three children, Mimi the dog and the two family cars (TCS Backstage summary wording, not verbatim from the article)" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00069]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00069]
+      referenced_in_current_files: []
+      review_flags[3]:
+        - "Catalogued from the TCS Backstage press review ('Saturday 20 April 1991 – Page 1 – Sisters in plea to abductor'), which links to this ProQuest record (SLV login required)."
+        - "Article text not re-consulted for this record; the Mimi wording is the Backstage summary. Re-read the original caption before quoting."
+        - "Key source for KCQST0011 (Mimi was a dog)."
+    - source_id: "KCSRC00070"
+      record_type: "source"
+      title: | "Unidentified 1991 newspaper clipping – 'two lucrative Ming's Chinese restaurants' (newspapers.com clipping 22072015)" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00070]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00070]
+      publication_date: | "1991" | u="iso8601_date_or_partial_date" | p="as_stated_by_reddit_poster" | i=1 | s=[KCSRC00070]
+      identifiers[1]:
+        -: | "newspapers.com clipping id 22072015" | u="source_identifier" | p="from_reddit_post" | i=0 | s=[KCSRC00070]
+      access: | "https://www.newspapers.com/image/?clipping_id=22072015 (as posted at https://www.reddit.com/r/MrCruel/comments/j2dqhx/_/g80bonl/ on 2020-10-07; expiring view token removed)" | u="access_locator_or_note" | p="partial" | i=1 | s=[KCSRC00070]
+      facts_supported[1]:
+        -: | "'The Chan's own two lucrative Ming's Chinese restaurants, one in Main Road, Lower Plenty, the other at the Bulleen Plaza, businesses they built from scratch'" | u="fact_summary" | p="verbatim_as_quoted_on_reddit" | i=0 | s=[KCSRC00070]
+      availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00070]
+      referenced_in_current_files: []
+      review_flags[3]:
+        - "Text seen only as quoted in a Reddit comment; clipping image not consulted."
+        - "Newspaper title, exact date, page and author unknown; the year 1991 is the poster's statement."
+        - "Relevant to the Eltham vs Lower Plenty restaurant discrepancy."
+    - source_id: "KCSRC00071"
+      record_type: "source"
+      title: | "The Age, 12/04/1992, page 2 – Karmein search ends at grave" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00071]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00071]
+      publication_date: | "1992-04-12" | u="iso8601_date_or_partial_date" | p="from_tcs_backstage_press_review" | i=0 | s=[KCSRC00071]
+      identifiers[1]:
+        -: | "ProQuest docview 2521489104" | u="source_identifier" | p="from_tcs_backstage_link" | i=0 | s=[KCSRC00071]
+      access: | "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/april-12-1992-page-2-114/docview/2521489104/sem-2?accountid=13905" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00071]
+      facts_supported[1]:
+        -: | "The remains were found by a man walking his dog at 4.45PM on Thursday [9 April 1992]; he discovered a human skull about 20 metres from the eastern side of the creek" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00071]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00071]
+      referenced_in_current_files: []
+      review_flags[2]:
+        - "Catalogued from the TCS Backstage press review, which links to this ProQuest record (SLV login required). Article text not re-consulted for this record."
+        - "Gives 4.45 PM for the discovery; the KF reference time is 17:00 with 16:45 as a variant (KCEVT0046)."
+    - source_id: "KCSRC00072"
+      record_type: "source"
+      title: | "The Sun (Melbourne), 10/05/1992 – The hunt for Karmein's killer: theories tensions plague detectives" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00072]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00072]
+      publication_date: | "1992-05-10" | u="iso8601_date_or_partial_date" | p="as_transcribed_on_reddit" | i=0 | s=[KCSRC00072]
+      identifiers: []
+      access: | "Full text transcribed in four parts on Reddit by a user on 2023-05-21: https://www.reddit.com/r/MrCruel/comments/13o8pzm/ (parts 2–4 in comments jl33h4e, jl33kuj, jl33mz6); original not located" | u="access_locator_or_note" | p="partial" | i=1 | s=[KCSRC00072]
+      facts_supported[2]:
+        -: | "'He does it with three .38 calibre bullets to the side of her head.'" | u="fact_summary" | p="verbatim_as_transcribed_on_reddit" | i=0 | s=[KCSRC00072]
+        -: | "Two-offender theory held by police outside Spectrum and psychologist Ian Joblin; Spectrum dismissed links to Chinese organised crime" | u="fact_summary" | p="as_transcribed_on_reddit" | i=0 | s=[KCSRC00072]
+      availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00072]
+      referenced_in_current_files: []
+      review_flags[4]:
+        - "Text seen only via a Reddit transcription; original not consulted. Author and page unknown."
+        - "The .38 calibre sentence sits inside a dramatised reconstruction ('They are in a room, Karmein and \"Mr Cool\"'), not in a quoted police statement."
+        - "Contains errors: street given as 'Spalvins Rd' (correct: Serpells Rd)."
+        - "Verify on microfilm (SLV) or a news database before quotation."
+    - source_id: "KCSRC00073"
+      record_type: "source"
+      title: | "Sensing Murder – Mr Cruel / Karmein Chan episode (Network Ten, 2004)" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00073]
+      source_type: | "video_still_or_video_source" | u="source_type" | p="category" | i=0 | s=[KCSRC00073]
+      publication_date: | "2004" | u="iso8601_date_or_partial_date" | p="as_stated_by_reddit_users" | i=1 | s=[KCSRC00073]
+      identifiers: []
+      access: | "Not consulted. Described on Reddit: https://www.reddit.com/r/MrCruel/comments/w1g9m7/_/igl4j9g/ (2022-07-18), https://www.reddit.com/r/MrCruel/comments/si6hti/ (2022-02-01), https://www.reddit.com/r/MrCruel/comments/12ngfa5/_/jh9kk09/ (2023-04-22)" | u="access_locator_or_note" | p="partial" | i=1 | s=[KCSRC00073]
+      facts_supported[2]:
+        -: | "A private investigator in the programme claimed the Chans had turned off their house alarm because they thought their cat had been setting it off in the days before the attack (as reported on Reddit)" | u="fact_summary" | p="second_hand_report" | i=1 | s=[KCSRC00073]
+        -: | "The programme is reported as the origin of the tradesman story" | u="fact_summary" | p="second_hand_report" | i=1 | s=[KCSRC00073]
+      availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00073]
+      referenced_in_current_files: []
+      review_flags[3]:
+        - "Programme not watched; content known only from Reddit descriptions. Season, episode number, exact air date and the investigator's name not verified."
+        - "Programme features psychics; Reddit researchers report several factual errors in it. Treat any claim as low authority unless corroborated."
+        - "Only source found for a family cat; it does not say the cat was called Mimi."
+    - source_id: "KCSRC00074"
+      record_type: "source"
+      title: | "Herald Sun, 16/04/2022 – No answers 30 years on from Karmein Chan tragedy (Andrew Rule)" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00074]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00074]
+      publication_date: | "2022-04-16" | u="iso8601_date_or_partial_date" | p="inferred_from_reddit_post_date" | i=1 | s=[KCSRC00074]
+      identifiers: []
+      access: | "Full text pasted on Reddit on 2022-04-16 as 'Article from today in the HS': https://www.reddit.com/r/MrCruel/comments/u4rvb9/ ; original not consulted" | u="access_locator_or_note" | p="partial" | i=1 | s=[KCSRC00074]
+      facts_supported[2]:
+        -: | "'in each case a calm masked and gloved man armed with a knife and a handgun had broken into a family home at night' (series-wide description)" | u="fact_summary" | p="verbatim_as_pasted_on_reddit" | i=0 | s=[KCSRC00074]
+        -: | "A PLC chess coach was visited by police and had his feet measured" | u="fact_summary" | p="as_pasted_on_reddit" | i=0 | s=[KCSRC00074]
+      availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00074]
+      referenced_in_current_files: []
+      review_flags[3]:
+        - "Text seen only via a Reddit copy; original not consulted. Date inferred from the Reddit post ('Article from today', 2022-04-16 UTC); page unknown."
+        - "The 'gloved' wording describes the whole series, not specifically the Chan case; contrast KCSRC00034 ('The kids said he was not wearing gloves')."
+        - "Names a private individual (chess coach) who was never publicly a suspect; do not publish."
+    - source_id: "KCSRC00075"
+      record_type: "source"
+      title: | "Melbourne Marvels podcast – Mr Cruel 7 – Karmein Chan 2" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00075]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[KCSRC00075]
+      publication_date: | "2024-10-20" | u="iso8601_date_or_partial_date" | p="from_publisher_listing" | i=0 | s=[KCSRC00075]
+      identifiers[3]:
+        -: | "Melbourne Marvels (Spotify for Creators / anchor.fm RSS)" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00075]
+        -: | "Blog post: https://melbinmarvels.com/2024/10/21/mr-cruel-7-karmein-chan-2/" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00075]
+        -: | "Part of blog/podcast source KCSRC00007" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00075]
+      access: | "https://podcasters.spotify.com/pod/show/melbourne-marvels/episodes/Mr-Cruel-7---Karmein-Chan-2-e2pu1gj" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00075]
+      facts_supported[1]:
+        -: | "An unnamed former detective who worked on the case and on Spectrum told the host that the offender took some of Karmein's clothes" | u="fact_summary" | p="auto_transcript_~27:55-29:24" | i=1 | s=[KCSRC00075]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00075]
+      referenced_in_current_files: []
+      review_flags[3]:
+        - "RSS pubDate 2024-10-20T23:25:50Z (21 October 2024 in Melbourne)."
+        - "Locator from a machine transcript of the RSS audio made on the box; verify by listening before quotation."
+        - "Clothes claim is single-source and second-hand; the host says on Reddit he does not take it as 100% reliable (https://www.reddit.com/r/MrCruel/comments/1g8gouu/_/lt4nkpz/)."
+    - source_id: "KCSRC00076"
+      record_type: "source"
+      title: | "Melbourne Marvels podcast – Mr Cruel 9 – Special Edition – The Edgar's Creek Suspect Sighting" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00076]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[KCSRC00076]
+      publication_date: | "2024-12-21" | u="iso8601_date_or_partial_date" | p="from_publisher_listing" | i=0 | s=[KCSRC00076]
+      identifiers[3]:
+        -: | "Melbourne Marvels × Who is Mr Cruel? collaboration" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00076]
+        -: | "Blog post: https://melbinmarvels.com/2024/12/21/the-edgars-creek-suspect-sighting/" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00076]
+        -: | "Part of blog/podcast source KCSRC00007" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00076]
+      access: | "https://podcasters.spotify.com/pod/show/melbourne-marvels/episodes/Mr-Cruel-9---Special-Edition---The-Edgars-Creek-Suspect-Sighting-e2sjqfo" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00076]
+      facts_supported[1]:
+        -: | "Host says Karmein is 'believed to have done ballet lessons', based on 'someone who contacted me online who said that they attended the same ballet school as Carmen in High Street Reservoir'; a second speaker: 'I believe it was at the uniting church there'" | u="fact_summary" | p="auto_transcript_~31:12-31:56" | i=1 | s=[KCSRC00076]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00076]
+      referenced_in_current_files: []
+      review_flags[3]:
+        - "RSS pubDate 2024-12-21T11:28:04Z."
+        - "Quote from a machine transcript (Whisper) of the RSS audio made on the box; speakers not identified by the tool; verify by listening."
+        - "Ballet claim rests on one anonymous commenter on an unnamed social-media post (host on Reddit, https://www.reddit.com/r/MrCruel/comments/1n9x0od/_/nglp9ej/). Related: KCQST0029."
+    - source_id: "KCSRC00077"
+      record_type: "source"
+      title: | "Casefile True Crime – Casefile Revisited: Mr Cruel" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00077]
+      source_type: | "podcast_episode" | u="source_type" | p="category" | i=0 | s=[KCSRC00077]
+      publication_date: | "2026-10-17" | u="iso8601_date_or_partial_date" | p="from_transcript_listing" | i=0 | s=[KCSRC00077]
+      identifiers[1]:
+        -: | "Casefile True Crime" | u="source_identifier" | p="from_transcript_listing" | i=0 | s=[KCSRC00077]
+      access: | "Transcript: https://podcastrex.com/shows/casefile-true-crime/casefile-revisited-mr-cruel/transcript" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00077]
+      facts_supported[3]:
+        -: | "Karen's letter of 19 April 1991: 'Mimi is sick because she misses you too. Love from Karen.' Narrator: 'Mimi was the family dog.'" | u="fact_summary" | p="auto_transcript" | i=0 | s=[KCSRC00077]
+        -: | "Narrator: 'It's believed that the intruder entered the house via an unlocked door or window.'" | u="fact_summary" | p="auto_transcript" | i=0 | s=[KCSRC00077]
+        -: | "Narrator: the parents were at 'a Chinese restaurant they owned in nearby Eltham'" | u="fact_summary" | p="auto_transcript" | i=0 | s=[KCSRC00077]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00077]
+      referenced_in_current_files: []
+      review_flags[3]:
+        - "Date as shown on the podcastrex transcript page; the episode says it was originally released in January 2017 and revisited in October 2026."
+        - "Machine transcript (podcastrex); names misspelt ('Carmen', 'Carly', 'Mr. Kruell'). Verify against the audio before quotation."
+        - "Secondary narrative source; does not cite its sources per statement."
   people[78]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
