@@ -1,7 +1,7 @@
 {
   "file": "open_questions.json",
   "schema_version": "0.1.0",
-  "updated": "2026-06-04",
+  "updated": "2026-10-21",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -1328,6 +1328,54 @@
       "related_place_ids": [],
       "related_event_ids": [],
       "review_flags": []
+    },
+    {
+      "id": "KCQST0030",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "question": {
+        "value": "Were John Chan's reported commercial disputes over unpaid restaurant fit-outs ever investigated as a possible alternative motive?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00067, 07:56–08:43",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00067"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0002"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Based on alleged, unverified, second-hand hearsay. Publication hold: neutral wording only, no implication of guilt; do not name creditors or tradespeople."
+      ]
     }
   ]
 }

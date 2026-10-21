@@ -1,7 +1,7 @@
 {
   "file": "places.json",
   "schema_version": "0.3.0",
-  "updated": "2026-08-06",
+  "updated": "2026-10-21",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -365,7 +365,9 @@
           "precision": "year and naming history",
           "inference_score": 0,
           "source_ids": [
-            "KCSRC00011"
+            "KCSRC00011",
+            "KCSRC00068",
+            "KCSRC00065"
           ]
         }
       ],
@@ -391,7 +393,8 @@
         }
       ],
       "review_flags": [
-        "A separate Doncaster Templestowe Historical Society chronology states that Bulleen Village Shopping Centre opened in 1969–70; determine whether this refers to an earlier or distinct centre before describing 1974 as the opening year."
+        "1974 opening year corroborated by Victorian Places (KCSRC00068), SMH 07/02/2017 and the centre's own site ('Since 1974'), and passed on from Adam Shand (KCSRC00065). An earlier '1969–70 / late 1960s' Bulleen Village date appears only in a DTHS chronology and an unsourced deleted Wikipedia article.",
+        "The Chans' Mings restaurant opened at the centre in 1978 (KCEVT0002, KCSRC00035)."
       ]
     },
     {
@@ -724,7 +727,7 @@
       },
       "case_roles": [
         {
-          "value": "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 16 February 1991",
+          "value": "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 17 February 1991",
           "units": null,
           "precision": "date-bounded school activity location",
           "inference_score": 0,
@@ -733,7 +736,9 @@
           ]
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Camp end date corrected from 16 to 17 February 1991. Confirmed by the site author (The Cruel Song) on 2026-10-19."
+      ]
     },
     {
       "id": "KCPLACE0011",
@@ -1067,6 +1072,15 @@
           "source_ids": [
             "KCSRC00037"
           ]
+        },
+        "coordinates_dms": {
+          "value": "37°41'29.9\"S 145°00'30.3\"E",
+          "units": "dms_coordinates",
+          "precision": "reported DMS coordinates",
+          "inference_score": 0,
+          "source_ids": [
+            "TCS-WWKC-WEB-0001"
+          ]
         }
       },
       "case_roles": [
@@ -1080,7 +1094,19 @@
           ]
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Coordinates 37°41'29.9\"S 145°00'30.3\"E (decimal -37.6916389, 145.0084167) and discovery on Thursday 9 April 1992 at around 5 PM by a man walking his dog. Confirmed by the site author (The Cruel Song) on 2026-10-19.",
+        "Site description and police timeline: KCSRC00066, 00:05–02:23 (see KCEVT0051)."
+      ],
+      "site_description": {
+        "value": "Desolate stretch of landfill between the creek and the Thomastown electricity substation; police parked 40 metres south of a large concrete drain and walked about 20 metres up a small rise across freshly graded ground to the skull",
+        "units": "site_description",
+        "precision": "paraphrased_from_transcript",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00066"
+        ]
+      }
     },
     {
       "id": "KCPLACE0016",
