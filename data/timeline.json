@@ -442,21 +442,19 @@
       "start_date": {
         "value": "1991-02-02",
         "units": "iso8601_date",
-        "precision": "day",
-        "inference_score": 0,
+        "precision": "day_author_estimate",
+        "inference_score": 2,
         "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00058"
+          "TCS-WWKC-WEB-0001"
         ]
       },
       "end_date": {
         "value": "1991-02-17",
         "units": "iso8601_date",
-        "precision": "day",
-        "inference_score": 0,
+        "precision": "day_author_estimate",
+        "inference_score": 2,
         "source_ids": [
-          "TCS-WWKC-WEB-0001",
-          "KCSRC00058"
+          "TCS-WWKC-WEB-0001"
         ]
       },
       "summary": {
@@ -486,7 +484,65 @@
         "KCPLACE0002"
       ],
       "review_flags": [
-        "End date corrected from 1991-02-16 to 1991-02-17 (Sunday). Confirmed by the site author (The Cruel Song) on 2026-10-19."
+        "End date corrected from 1991-02-16 to 1991-02-17 (Sunday). Confirmed by the site author (The Cruel Song) on 2026-10-19.",
+        "Dates 1991-02-02 to 1991-02-17 are the site author's own estimate, derived by logic and not sourced (stated by the site author, The Cruel Song, on 2026-10-21). KCSRC00058 (37:33–38:37, auto-transcript, ASR spellings 'Ealdon' = Eildon) says only that the Year 8 camps were held 'in February that year in the first two weeks of school' (plural 'camps'); it does not give exact dates or say that Karmein stayed two weeks. See KCQST0031."
+      ],
+      "date_status": {
+        "value": "author_estimate_by_logic_not_sourced",
+        "units": "date_status",
+        "precision": "controlled_label",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "exact_quotes": [
+        {
+          "exact_quote": {
+            "value": "They actually camped at Jerusalem Creek, which is sort of in the name of Lake Ealdon, in February that year in the first two weeks of school.",
+            "units": "verbatim_quote",
+            "precision": "auto_transcript_unverified",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00058"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00058, 37:49–37:56",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00058"
+            ]
+          }
+        },
+        {
+          "exact_quote": {
+            "value": "The year eight coordinator of PLC said that the camps were held at Jerusalem Inlet near Ealdon and the activities included canoeing, bushcraft, basic first aid, and of course cooking.",
+            "units": "verbatim_quote",
+            "precision": "auto_transcript_unverified",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00058"
+            ]
+          },
+          "source_locator": {
+            "value": "KCSRC00058, 38:22–38:37",
+            "units": "timestamp_range",
+            "precision": "transcript_timestamp",
+            "inference_score": 0,
+            "source_ids": [
+              "KCSRC00058"
+            ]
+          }
+        }
+      ],
+      "related_question_ids": [
+        "KCQST0031",
+        "KCQST0032",
+        "KCQST0033",
+        "KCQST0034"
       ]
     },
     {

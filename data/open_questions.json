@@ -1376,6 +1376,222 @@
       "review_flags": [
         "Based on alleged, unverified, second-hand hearsay. Publication hold: neutral wording only, no implication of guilt; do not name creditors or tradespeople."
       ]
+    },
+    {
+      "id": "KCQST0031",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "question": {
+        "value": "How long did Karmein Chan stay at the February 1991 PLC camp near Jerusalem Creek, and on which exact dates?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 37:33–38:37",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "The site's dates (2–17 February 1991) are an unsourced author estimate; KCSRC00058 says only 'the first two weeks of school' and refers to 'camps' (plural)."
+      ]
+    },
+    {
+      "id": "KCQST0032",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "question": {
+        "value": "Where was the PLC Year 8 coordinator's statement about the 1991 camps at Jerusalem Inlet (quoted in KCSRC00058) originally published?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 38:22–38:37",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "Single, unnamed source relayed second-hand by the podcast; do not name the coordinator."
+      ]
+    },
+    {
+      "id": "KCQST0033",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "question": {
+        "value": "Did police investigate a possible link between the February 1991 Eildon camp and the reported Alexandra sightings?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 36:18–39:09",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "The Alexandra sightings are unverified reports by two unnamed witnesses (The Age, 25 August 1991, page 1, 'Karmein: recent photo prompts new clues', not yet catalogued as a KCSRC). The camp–offender link is explicitly labelled speculation in KCSRC00058 (38:38–39:09). Neutral wording only; no implication about any person."
+      ]
+    },
+    {
+      "id": "KCQST0034",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060"
+        ]
+      },
+      "question": {
+        "value": "Which campsite or facility did PLC use near Jerusalem Creek in 1991?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 37:49–38:37",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (not yet catalogued as a KCSRC)."
+      ]
     }
   ]
 }

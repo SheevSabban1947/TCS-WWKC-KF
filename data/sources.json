@@ -4513,12 +4513,16 @@
       },
       "referenced_in_current_files": [
         {
+          "file": "open_questions.json",
+          "reference_count": 16
+        },
+        {
           "file": "places.json",
-          "reference_count": 6
+          "reference_count": 7
         },
         {
           "file": "timeline.json",
-          "reference_count": 4
+          "reference_count": 6
         }
       ],
       "review_flags": []
@@ -4687,8 +4691,12 @@
       },
       "referenced_in_current_files": [
         {
-          "file": "places.json",
+          "file": "open_questions.json",
           "reference_count": 4
+        },
+        {
+          "file": "places.json",
+          "reference_count": 5
         }
       ],
       "review_flags": []

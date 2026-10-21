@@ -41,7 +41,7 @@ knowledge_file:
         schema_version: "0.1.0"
         updated: "2026-10-21"
         record_key: "open_questions"
-        record_count: 30
+        record_count: 34
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
@@ -50,8 +50,8 @@ knowledge_file:
       contextual_people: 4
       places: 17
       timeline_events: 51
-      open_questions: 30
-      total_records: 258
+      open_questions: 34
+      total_records: 262
     integrity:
       referenced_source_id_count: 41
       catalogued_source_id_count: 78
@@ -237,7 +237,7 @@ knowledge_file:
         - file: "places.json"
           reference_count: 1
         - file: "timeline.json"
-          reference_count: 280
+          reference_count: 281
         - file: "open_questions.json"
           reference_count: 116
       review_flags: []
@@ -1135,11 +1135,13 @@ knowledge_file:
       facts_supported[1]:
         -: | "Karmein Chan was camping at Jerusalem Creek in February 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[2]:
+      referenced_in_current_files[3]:
         - file: "places.json"
-          reference_count: 6
+          reference_count: 7
         - file: "timeline.json"
-          reference_count: 4
+          reference_count: 6
+        - file: "open_questions.json"
+          reference_count: 16
       review_flags: []
     - source_id: "KCSRC00059"
       record_type: "source"
@@ -1168,8 +1170,10 @@ knowledge_file:
       facts_supported[1]:
         -: | "Maps of Alexandra, Eildon and Jerusalem Inlet" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
         - file: "places.json"
+          reference_count: 5
+        - file: "open_questions.json"
           reference_count: 4
       review_flags: []
     - source_id: "KCSRC00061"
@@ -3503,15 +3507,25 @@ knowledge_file:
       review_flags: []
     - id: "KCPLACE0010"
       canonical_name: | "Jerusalem Creek" | p="camping area / locality" | i=0 | s=[KCSRC00058,KCSRC00060]
+      aliases[1]:
+        -: | "Jerusalem Inlet" | p="name as currently present in source text" | i=1 | s=[KCSRC00058,KCSRC00060]
       place_type: | "camping_area" | p="category" | i=0 | s=[KCSRC00058,KCSRC00060]
       location:
         nearby_locality: | "Eildon" | p="nearby locality" | i=0 | s=[KCSRC00058]
         state: | "Victoria" | p="state" | i=0 | s=[KCSRC00058,KCSRC00060]
         country: | "Australia" | p="country" | i=0 | s=[KCSRC00058,KCSRC00060]
       case_roles[1]:
-        -: | "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 17 February 1991" | p="date-bounded school activity location" | i=0 | s=[KCSRC00058]
-      review_flags[1]:
+        -: | "PLC Year 8 outdoor education camp location attended by Karmein Chan in February 1991" | p="month-bounded school activity location" | i=0 | s=[KCSRC00058]
+      review_flags[2]:
         - "Camp end date corrected from 16 to 17 February 1991. Confirmed by the site author (The Cruel Song) on 2026-10-19."
+        - "Exact camp dates (2–17 February 1991) are an unsourced author estimate; see KCEVT0008 and KCQST0031. Alias 'Jerusalem Inlet' is the adjacent arm of Lake Eildon named in KCSRC00058 (38:22, auto-transcript) and in KCSRC00060 map captions; the exact 1991 campsite is unknown (KCQST0034). Parks Victoria's 'Jerusalem Creek Campground' page (Lake Eildon National Park) and visitor guide confirm both names but are not yet catalogued as a KCSRC; a new source ID is proposed, not created."
+      related_event_ids[1]:
+        - "KCEVT0008"
+      related_question_ids[4]:
+        - "KCQST0031"
+        - "KCQST0032"
+        - "KCQST0033"
+        - "KCQST0034"
     - id: "KCPLACE0011"
       canonical_name: | "Bulleen Baptist Church" | p="church name" | i=0 | s=[KCSRC00012,KCSRC00049]
       place_type: | "church" | p="category" | i=0 | s=[KCSRC00012,KCSRC00049]
@@ -3679,8 +3693,8 @@ knowledge_file:
       record_type: "timeline_event"
       event_type: | "school_activity" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
       title: | "Karmein camps at Jerusalem Creek with PLC classmates" | u="event_title" | p="normalized_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
-      start_date: | "1991-02-02" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
-      end_date: | "1991-02-17" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
+      start_date: | "1991-02-02" | u="iso8601_date" | p="day_author_estimate" | i=2 | s=[TCS-WWKC-WEB-0001]
+      end_date: | "1991-02-17" | u="iso8601_date" | p="day_author_estimate" | i=2 | s=[TCS-WWKC-WEB-0001]
       summary: | "Karmein Chan is camping at Jerusalem Creek with her classmates from Presbyterian Ladies’ College." | u="event_summary" | p="paraphrased_from_timeline_entry" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00058]
       source_locator: | "#timeline" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
       related_person_ids[1]:
@@ -3688,8 +3702,22 @@ knowledge_file:
       related_place_ids[2]:
         - "KCPLACE0010"
         - "KCPLACE0002"
-      review_flags[1]:
+      review_flags[2]:
         - "End date corrected from 1991-02-16 to 1991-02-17 (Sunday). Confirmed by the site author (The Cruel Song) on 2026-10-19."
+        - "Dates 1991-02-02 to 1991-02-17 are the site author's own estimate, derived by logic and not sourced (stated by the site author, The Cruel Song, on 2026-10-21). KCSRC00058 (37:33–38:37, auto-transcript, ASR spellings 'Ealdon' = Eildon) says only that the Year 8 camps were held 'in February that year in the first two weeks of school' (plural 'camps'); it does not give exact dates or say that Karmein stayed two weeks. See KCQST0031."
+      date_status: | "author_estimate_by_logic_not_sourced" | u="date_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
+      exact_quotes[2]:
+        -
+          exact_quote: | "They actually camped at Jerusalem Creek, which is sort of in the name of Lake Ealdon, in February that year in the first two weeks of school." | u="verbatim_quote" | p="auto_transcript_unverified" | i=0 | s=[KCSRC00058]
+          source_locator: | "KCSRC00058, 37:49–37:56" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058]
+        -
+          exact_quote: | "The year eight coordinator of PLC said that the camps were held at Jerusalem Inlet near Ealdon and the activities included canoeing, bushcraft, basic first aid, and of course cooking." | u="verbatim_quote" | p="auto_transcript_unverified" | i=0 | s=[KCSRC00058]
+          source_locator: | "KCSRC00058, 38:22–38:37" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058]
+      related_question_ids[4]:
+        - "KCQST0031"
+        - "KCQST0032"
+        - "KCQST0033"
+        - "KCQST0034"
     - id: "KCEVT0009"
       record_type: "timeline_event"
       event_type: | "world_context" | u="event_category" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -4315,7 +4343,7 @@ knowledge_file:
       review_flags[2]:
         - "Single source (Adam Shand, Ep 2); times as narrated, verify against police records or press if possible."
         - "Follows KCEVT0046 (discovery by the dog walker at around 17:00)."
-  open_questions[30]:
+  open_questions[34]:
     - id: "KCQST0001"
       record_type: "open_question"
       category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -4633,3 +4661,63 @@ knowledge_file:
       related_event_ids: []
       review_flags[1]:
         - "Based on alleged, unverified, second-hand hearsay. Publication hold: neutral wording only, no implication of guilt; do not name creditors or tradespeople."
+    - id: "KCQST0031"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058]
+      question: | "How long did Karmein Chan stay at the February 1991 PLC camp near Jerusalem Creek, and on which exact dates?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058]
+      source_locator: | "KCSRC00058, 37:33–38:37" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0010"
+      related_event_ids[1]:
+        - "KCEVT0008"
+      review_flags[2]:
+        - "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio."
+        - "The site's dates (2–17 February 1991) are an unsourced author estimate; KCSRC00058 says only 'the first two weeks of school' and refers to 'camps' (plural)."
+    - id: "KCQST0032"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058]
+      question: | "Where was the PLC Year 8 coordinator's statement about the 1991 camps at Jerusalem Inlet (quoted in KCSRC00058) originally published?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058]
+      source_locator: | "KCSRC00058, 38:22–38:37" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0010"
+      related_event_ids[1]:
+        - "KCEVT0008"
+      review_flags[2]:
+        - "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio."
+        - "Single, unnamed source relayed second-hand by the podcast; do not name the coordinator."
+    - id: "KCQST0033"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058]
+      question: | "Did police investigate a possible link between the February 1991 Eildon camp and the reported Alexandra sightings?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058]
+      source_locator: | "KCSRC00058, 36:18–39:09" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0010"
+      related_event_ids[1]:
+        - "KCEVT0008"
+      review_flags[2]:
+        - "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio."
+        - "The Alexandra sightings are unverified reports by two unnamed witnesses (The Age, 25 August 1991, page 1, 'Karmein: recent photo prompts new clues', not yet catalogued as a KCSRC). The camp–offender link is explicitly labelled speculation in KCSRC00058 (38:38–39:09). Neutral wording only; no implication about any person."
+    - id: "KCQST0034"
+      record_type: "open_question"
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058,KCSRC00060]
+      question: | "Which campsite or facility did PLC use near Jerusalem Creek in 1991?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058,KCSRC00060]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058,KCSRC00060]
+      source_locator: | "KCSRC00058, 37:49–38:37" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058,KCSRC00060]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids[1]:
+        - "KCPLACE0010"
+      related_event_ids[1]:
+        - "KCEVT0008"
+      review_flags[2]:
+        - "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio."
+        - "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (not yet catalogued as a KCSRC)."

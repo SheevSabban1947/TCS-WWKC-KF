@@ -175,3 +175,26 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - Backstage Discrepancies entry "When and how did John and Phyllis Chan arrive in Australia?".
 - **Still open:** the engagement claim ("engaged shortly after their arrival in Australia … early twenties") rests on KCSRC00006 only and sits uneasily with KCSRC00072 ("with his wife"). Check it in KCSRC00005.
 - **Housekeeping note:** `referenced_in_current_files` in `data/sources.json` is stale for several sources (e.g. TCS-WWKC-WEB-0001, KCSRC00007, KCSRC00057). Only the five sources touched here (KCSRC00005/00006/00022/00067/00072) were recomputed. The .toon recomputes every count on rebuild.
+
+## 2026-10-21 – PLC camp at Jerusalem Creek (KCEVT0008, KCPLACE0010, KCQST0031–0034)
+
+- **Author statement:** the site author (The Cruel Song) said on 2026-10-21 that the camp dates 2–17 February 1991 are their own estimate, derived by logic and not sourced.
+- **KCEVT0008 dates:**
+  - `start_date`/`end_date` kept, but now marked `day_author_estimate` with inference 2 (IL-2 "estimating a likely time window", docs/inference-levels.md);
+  - KCSRC00058 removed from the date `source_ids`, since it does not give these dates;
+  - `date_status` set to "author_estimate_by_logic_not_sourced", plus a review flag.
+- **KCSRC00058 locators** (Melbourne Marvels "Mr Cruel 14", faster-whisper auto-transcript, unverified; "Ealdon" = Eildon), added to KCEVT0008 `exact_quotes`:
+  - 37:49–37:56: "They actually camped at Jerusalem Creek, which is sort of in the name of Lake Ealdon, in February that year in the first two weeks of school."
+  - 38:22–38:37: "The year eight coordinator of PLC said that the camps were held at Jerusalem Inlet near Ealdon and the activities included canoeing, bushcraft, basic first aid, and of course cooking."
+  - The source says "camps" (plural) in "the first two weeks of school". It does not say that Karmein stayed two weeks.
+- **KCPLACE0010:**
+  - alias "Jerusalem Inlet" added (KCSRC00058, KCSRC00060);
+  - case role no longer carries the estimated dates;
+  - links to KCEVT0008 and KCQST0031–0034 added.
+- **Parks Victoria "Jerusalem Creek Campground" page and visitor guide:** these confirm both names but are not catalogued. A new KCSRC is proposed, not created.
+- **New open questions** (public questions, inference 1, source KCSRC00058):
+  - KCQST0031: Karmein's length of stay and exact dates;
+  - KCQST0032: original publication of the Year 8 coordinator statement;
+  - KCQST0033: police and a possible camp–Alexandra sightings link (unverified sightings: The Age, 25/08/1991, p. 1, not yet catalogued; the offender link is speculation in KCSRC00058);
+  - KCQST0034: the exact 1991 campsite or facility.
+- **Housekeeping:** only KCSRC00058 and KCSRC00060 had `referenced_in_current_files` recomputed in sources.json.

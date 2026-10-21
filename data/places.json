@@ -684,6 +684,18 @@
           "KCSRC00060"
         ]
       },
+      "aliases": [
+        {
+          "value": "Jerusalem Inlet",
+          "units": null,
+          "precision": "name as currently present in source text",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00058",
+            "KCSRC00060"
+          ]
+        }
+      ],
       "place_type": {
         "value": "camping_area",
         "units": null,
@@ -727,9 +739,9 @@
       },
       "case_roles": [
         {
-          "value": "PLC outdoor education camp attended by Karmein Chan from 2 February 1991 to 17 February 1991",
+          "value": "PLC Year 8 outdoor education camp location attended by Karmein Chan in February 1991",
           "units": null,
-          "precision": "date-bounded school activity location",
+          "precision": "month-bounded school activity location",
           "inference_score": 0,
           "source_ids": [
             "KCSRC00058"
@@ -737,7 +749,17 @@
         }
       ],
       "review_flags": [
-        "Camp end date corrected from 16 to 17 February 1991. Confirmed by the site author (The Cruel Song) on 2026-10-19."
+        "Camp end date corrected from 16 to 17 February 1991. Confirmed by the site author (The Cruel Song) on 2026-10-19.",
+        "Exact camp dates (2–17 February 1991) are an unsourced author estimate; see KCEVT0008 and KCQST0031. Alias 'Jerusalem Inlet' is the adjacent arm of Lake Eildon named in KCSRC00058 (38:22, auto-transcript) and in KCSRC00060 map captions; the exact 1991 campsite is unknown (KCQST0034). Parks Victoria's 'Jerusalem Creek Campground' page (Lake Eildon National Park) and visitor guide confirm both names but are not yet catalogued as a KCSRC; a new source ID is proposed, not created."
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "related_question_ids": [
+        "KCQST0031",
+        "KCQST0032",
+        "KCQST0033",
+        "KCQST0034"
       ]
     },
     {
