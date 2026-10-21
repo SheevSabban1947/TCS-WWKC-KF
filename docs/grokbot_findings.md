@@ -198,3 +198,20 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - KCQST0033: police and a possible camp–Alexandra sightings link (unverified sightings: The Age, 25/08/1991, p. 1, not yet catalogued; the offender link is speculation in KCSRC00058);
   - KCQST0034: the exact 1991 campsite or facility.
 - **Housekeeping:** only KCSRC00058 and KCSRC00060 had `referenced_in_current_files` recomputed in sources.json.
+
+## 2026-10-22 – New sources KCSRC00078 and KCSRC00079 (camp and Alexandra sightings)
+
+- **KCSRC00078:** The Age, 25/08/1991, page 1, "Karmein: recent photo prompts new clues".
+  - Taken from the TCS Backstage press review, with ProQuest docview 2676397606 (EZproxy link).
+  - The fact is the Backstage summary of two unverified sightings in Alexandra; the article was not re-consulted.
+  - Linked to KCQST0033.
+  - The ISSN follows the site convention for The Age. 25/08/1991 is a Sunday, so check whether ProQuest files this page under The Age or The Sunday Age.
+- **KCSRC00079:** Parks Victoria, "Jerusalem Creek Campground" web page, accessed 2026-10-22.
+  - Two verbatim location facts (the page says both "south" and "east" of Eildon).
+  - Linked to KCPLACE0010: new `park` and `street_context` location fields, plus `nearby_locality`.
+  - Also linked to KCQST0034.
+  - **Not linked to the "Jerusalem Inlet" alias:** the page does not use that name. It appears in the Parks Victoria visitor guide, which is not catalogued.
+- **Site (applied 2026-10-22):**
+  - home: source rows KCSRC00078/00079, camp paragraph reworded (dates labelled as an estimate), [KCSRC00058] on the activities sentence, Timeline date cell "February 1991 (estimated: Saturday 2 - Sunday 17 February 1991)";
+  - Backstage: KCQST0031–0034 in "Public questions", [KCSRC00078] after the 25/08/1991 press-review title.
+- **.toon header:** sources 80, total_records 264, catalogued_source_id_count 80. `referenced_source_id_count` was corrected from 41 (stale) to 45 (80 catalogued − 35 unused).

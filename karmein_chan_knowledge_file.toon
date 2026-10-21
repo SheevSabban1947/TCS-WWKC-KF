@@ -17,7 +17,7 @@ knowledge_file:
         schema_version: "0.1.0"
         updated: "2026-10-21"
         record_key: "sources"
-        record_count: 78
+        record_count: 80
       - file: "people.json"
         schema_version: "0.3.0"
         updated: "2026-10-21"
@@ -45,16 +45,16 @@ knowledge_file:
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
-      sources: 78
+      sources: 80
       people: 78
       contextual_people: 4
       places: 17
       timeline_events: 51
       open_questions: 34
-      total_records: 262
+      total_records: 264
     integrity:
-      referenced_source_id_count: 41
-      catalogued_source_id_count: 78
+      referenced_source_id_count: 45
+      catalogued_source_id_count: 80
       missing_source_ids: []
       unused_catalogue_source_ids[35]:
         - "KCSRC00009"
@@ -219,7 +219,7 @@ knowledge_file:
       - code: "CONTROLLED_ROLE_VALUE_REVIEW"
         status: "pending"
         description: "Review individual role values for naming consistency after source-level verification."
-  sources[78]:
+  sources[80]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -1479,6 +1479,48 @@ knowledge_file:
         - "Date as shown on the podcastrex transcript page; the episode says it was originally released in January 2017 and revisited in October 2026."
         - "Machine transcript (podcastrex); names misspelt ('Carmen', 'Carly', 'Mr. Kruell'). Verify against the audio before quotation."
         - "Secondary narrative source; does not cite its sources per statement."
+    - source_id: "KCSRC00078"
+      record_type: "source"
+      title: | "The Age, 25/08/1991, page 1 – Karmein: recent photo prompts new clues" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00078]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00078]
+      publication_date: | "1991-08-25" | u="iso8601_date_or_partial_date" | p="from_tcs_backstage_press_review" | i=0 | s=[KCSRC00078]
+      identifiers[3]:
+        -: | "ProQuest docview 2676397606" | u="source_identifier" | p="from_tcs_backstage_link" | i=0 | s=[KCSRC00078]
+        -: | "ISSN: 2203-580X" | u="source_identifier" | p="from_tcs_source_index_convention_for_the_age" | i=0 | s=[KCSRC00078]
+        -: | "e-ISSN: 0312-6307" | u="source_identifier" | p="from_tcs_source_index_convention_for_the_age" | i=0 | s=[KCSRC00078]
+      access: | "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/august-25-1991-page-1-69/docview/2676397606/sem-2?accountid=13905" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00078]
+      facts_supported[1]:
+        -: | "Two people have contacted police claiming to have seen Karmein, 13, in Alexandra, about a 100 kilometres north of Melbourne, about two weeks after she was taken" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00078]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00078]
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 3
+      review_flags[4]:
+        - "Catalogued from the TCS Backstage press review ('Sunday 25 August 1991 – Page 1 – \"Karmein: recent photo prompts new clues\"'), which links to this ProQuest record (SLV login required). Added to the TCS home source index as KCSRC00078 on 2026-10-22."
+        - "Article text not re-consulted for this record; the fact wording is the Backstage summary. KCSRC00058 (36:02–37:09, auto-transcript) attributes the article to a by-lined journalist (ASR 'Anthony Catalana'; spelling unverified) and transcribes the page as 'page to'; the ProQuest URL and Backstage say page 1. Re-read the original before quoting."
+        - "The sightings are unverified reports by two unnamed witnesses; do not present them as established. Key source for KCQST0033."
+        - "ISSN/e-ISSN follow the TCS source-index convention for The Age; 25/08/1991 is a Sunday, so check whether ProQuest files this page under The Age or The Sunday Age."
+    - source_id: "KCSRC00079"
+      record_type: "source"
+      title: | "Parks Victoria – Jerusalem Creek Campground" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00079]
+      source_type: | "website_page" | u="source_type" | p="category" | i=0 | s=[KCSRC00079]
+      publication_date: null
+      identifiers[1]:
+        -: | "Accessed 2026-10-22" | u="source_identifier" | p="access_date" | i=0 | s=[KCSRC00079]
+      access: | "https://www.parks.vic.gov.au/places-to-see/parks/lake-eildon-national-park/where-to-stay/jerusalem-creek-campground" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00079]
+      facts_supported[2]:
+        -: | "Just south of Eildon township, the Jerusalem Creek Camping areas lie among tall eucalypt trees on the southern edge of Lake Eildon." | u="fact_summary" | p="verbatim_from_source" | i=0 | s=[KCSRC00079]
+        -: | "The eight Jerusalem Creek Camping areas are located approximately 10-kilometres east of Eildon Township, along Jerusalem Creek Road." | u="fact_summary" | p="verbatim_from_source" | i=0 | s=[KCSRC00079]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00079]
+      referenced_in_current_files[2]:
+        - file: "places.json"
+          reference_count: 3
+        - file: "open_questions.json"
+          reference_count: 3
+      review_flags[3]:
+        - "Current (2026) description of the public campground; it does not document the 1991 PLC campsite (see KCQST0034)."
+        - "The page gives both 'south' and 'east' of Eildon township for the camping areas."
+        - "The page does not mention 'Jerusalem Inlet'; that name appears in the Parks Victoria Lake Eildon National Park Visitor Guide (not catalogued), in KCSRC00058 and in KCSRC00060."
   people[78]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
@@ -3511,14 +3553,16 @@ knowledge_file:
         -: | "Jerusalem Inlet" | p="name as currently present in source text" | i=1 | s=[KCSRC00058,KCSRC00060]
       place_type: | "camping_area" | p="category" | i=0 | s=[KCSRC00058,KCSRC00060]
       location:
-        nearby_locality: | "Eildon" | p="nearby locality" | i=0 | s=[KCSRC00058]
+        nearby_locality: | "Eildon" | p="nearby locality" | i=0 | s=[KCSRC00058,KCSRC00079]
+        park: | "Lake Eildon National Park" | p="park" | i=0 | s=[KCSRC00079]
+        street_context: | "along Jerusalem Creek Road, approximately 10 km east of Eildon township (current campground description)" | p="publicly listed access road" | i=0 | s=[KCSRC00079]
         state: | "Victoria" | p="state" | i=0 | s=[KCSRC00058,KCSRC00060]
         country: | "Australia" | p="country" | i=0 | s=[KCSRC00058,KCSRC00060]
       case_roles[1]:
         -: | "PLC Year 8 outdoor education camp location attended by Karmein Chan in February 1991" | p="month-bounded school activity location" | i=0 | s=[KCSRC00058]
       review_flags[2]:
         - "Camp end date corrected from 16 to 17 February 1991. Confirmed by the site author (The Cruel Song) on 2026-10-19."
-        - "Exact camp dates (2–17 February 1991) are an unsourced author estimate; see KCEVT0008 and KCQST0031. Alias 'Jerusalem Inlet' is the adjacent arm of Lake Eildon named in KCSRC00058 (38:22, auto-transcript) and in KCSRC00060 map captions; the exact 1991 campsite is unknown (KCQST0034). Parks Victoria's 'Jerusalem Creek Campground' page (Lake Eildon National Park) and visitor guide confirm both names but are not yet catalogued as a KCSRC; a new source ID is proposed, not created."
+        - "Exact camp dates (2–17 February 1991) are an unsourced author estimate; see KCEVT0008 and KCQST0031. Alias 'Jerusalem Inlet' is the adjacent arm of Lake Eildon named in KCSRC00058 (38:22, auto-transcript) and in KCSRC00060 map captions; the exact 1991 campsite is unknown (KCQST0034). Parks Victoria's 'Jerusalem Creek Campground' page is catalogued as KCSRC00079 (location only; it does not use the name 'Jerusalem Inlet', which appears in the uncatalogued Parks Victoria visitor guide)."
       related_event_ids[1]:
         - "KCEVT0008"
       related_question_ids[4]:
@@ -4693,9 +4737,9 @@ knowledge_file:
         - "Single, unnamed source relayed second-hand by the podcast; do not name the coordinator."
     - id: "KCQST0033"
       record_type: "open_question"
-      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058]
-      question: | "Did police investigate a possible link between the February 1991 Eildon camp and the reported Alexandra sightings?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058]
-      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058]
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058,KCSRC00078]
+      question: | "Did police investigate a possible link between the February 1991 Eildon camp and the reported Alexandra sightings?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058,KCSRC00078]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058,KCSRC00078]
       source_locator: | "KCSRC00058, 36:18–39:09" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058]
       related_person_ids[1]:
         - "TCS-WWKC-PPL-0001"
@@ -4705,12 +4749,12 @@ knowledge_file:
         - "KCEVT0008"
       review_flags[2]:
         - "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio."
-        - "The Alexandra sightings are unverified reports by two unnamed witnesses (The Age, 25 August 1991, page 1, 'Karmein: recent photo prompts new clues', not yet catalogued as a KCSRC). The camp–offender link is explicitly labelled speculation in KCSRC00058 (38:38–39:09). Neutral wording only; no implication about any person."
+        - "The Alexandra sightings are unverified reports by two unnamed witnesses (KCSRC00078, The Age, 25 August 1991, page 1, 'Karmein: recent photo prompts new clues'). The camp–offender link is explicitly labelled speculation in KCSRC00058 (38:38–39:09). Neutral wording only; no implication about any person."
     - id: "KCQST0034"
       record_type: "open_question"
-      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058,KCSRC00060]
-      question: | "Which campsite or facility did PLC use near Jerusalem Creek in 1991?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058,KCSRC00060]
-      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058,KCSRC00060]
+      category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[KCSRC00058,KCSRC00060,KCSRC00079]
+      question: | "Which campsite or facility did PLC use near Jerusalem Creek in 1991?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00058,KCSRC00060,KCSRC00079]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00058,KCSRC00060,KCSRC00079]
       source_locator: | "KCSRC00058, 37:49–38:37" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00058,KCSRC00060]
       related_person_ids[1]:
         - "TCS-WWKC-PPL-0001"
@@ -4720,4 +4764,4 @@ knowledge_file:
         - "KCEVT0008"
       review_flags[2]:
         - "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio."
-        - "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (not yet catalogued as a KCSRC)."
+        - "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (KCSRC00079, current description, not evidence for 1991)."

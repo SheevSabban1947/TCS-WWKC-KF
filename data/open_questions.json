@@ -1492,7 +1492,8 @@
         "precision": "section_slug",
         "inference_score": 0,
         "source_ids": [
-          "KCSRC00058"
+          "KCSRC00058",
+          "KCSRC00078"
         ]
       },
       "question": {
@@ -1501,7 +1502,8 @@
         "precision": "editorial_question_from_source",
         "inference_score": 1,
         "source_ids": [
-          "KCSRC00058"
+          "KCSRC00058",
+          "KCSRC00078"
         ]
       },
       "status": {
@@ -1510,7 +1512,8 @@
         "precision": "current_status",
         "inference_score": 0,
         "source_ids": [
-          "KCSRC00058"
+          "KCSRC00058",
+          "KCSRC00078"
         ]
       },
       "source_locator": {
@@ -1533,7 +1536,7 @@
       ],
       "review_flags": [
         "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
-        "The Alexandra sightings are unverified reports by two unnamed witnesses (The Age, 25 August 1991, page 1, 'Karmein: recent photo prompts new clues', not yet catalogued as a KCSRC). The camp–offender link is explicitly labelled speculation in KCSRC00058 (38:38–39:09). Neutral wording only; no implication about any person."
+        "The Alexandra sightings are unverified reports by two unnamed witnesses (KCSRC00078, The Age, 25 August 1991, page 1, 'Karmein: recent photo prompts new clues'). The camp–offender link is explicitly labelled speculation in KCSRC00058 (38:38–39:09). Neutral wording only; no implication about any person."
       ]
     },
     {
@@ -1546,7 +1549,8 @@
         "inference_score": 0,
         "source_ids": [
           "KCSRC00058",
-          "KCSRC00060"
+          "KCSRC00060",
+          "KCSRC00079"
         ]
       },
       "question": {
@@ -1556,7 +1560,8 @@
         "inference_score": 1,
         "source_ids": [
           "KCSRC00058",
-          "KCSRC00060"
+          "KCSRC00060",
+          "KCSRC00079"
         ]
       },
       "status": {
@@ -1566,7 +1571,8 @@
         "inference_score": 0,
         "source_ids": [
           "KCSRC00058",
-          "KCSRC00060"
+          "KCSRC00060",
+          "KCSRC00079"
         ]
       },
       "source_locator": {
@@ -1590,7 +1596,7 @@
       ],
       "review_flags": [
         "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
-        "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (not yet catalogued as a KCSRC)."
+        "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (KCSRC00079, current description, not evidence for 1991)."
       ]
     }
   ]

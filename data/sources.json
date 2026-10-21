@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 78,
+    "source_count": 80,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -6240,6 +6240,194 @@
         "Date as shown on the podcastrex transcript page; the episode says it was originally released in January 2017 and revisited in October 2026.",
         "Machine transcript (podcastrex); names misspelt ('Carmen', 'Carly', 'Mr. Kruell'). Verify against the audio before quotation.",
         "Secondary narrative source; does not cite its sources per statement."
+      ]
+    },
+    {
+      "source_id": "KCSRC00078",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 25/08/1991, page 1 – Karmein: recent photo prompts new clues",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-08-25",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_tcs_backstage_press_review",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ProQuest docview 2676397606",
+          "units": "source_identifier",
+          "precision": "from_tcs_backstage_link",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_tcs_source_index_convention_for_the_age",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_tcs_source_index_convention_for_the_age",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/august-25-1991-page-1-69/docview/2676397606/sem-2?accountid=13905",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Two people have contacted police claiming to have seen Karmein, 13, in Alexandra, about a 100 kilometres north of Melbourne, about two weeks after she was taken",
+          "units": "fact_summary",
+          "precision": "tcs_backstage_summary",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": [
+        "Catalogued from the TCS Backstage press review ('Sunday 25 August 1991 – Page 1 – \"Karmein: recent photo prompts new clues\"'), which links to this ProQuest record (SLV login required). Added to the TCS home source index as KCSRC00078 on 2026-10-22.",
+        "Article text not re-consulted for this record; the fact wording is the Backstage summary. KCSRC00058 (36:02–37:09, auto-transcript) attributes the article to a by-lined journalist (ASR 'Anthony Catalana'; spelling unverified) and transcribes the page as 'page to'; the ProQuest URL and Backstage say page 1. Re-read the original before quoting.",
+        "The sightings are unverified reports by two unnamed witnesses; do not present them as established. Key source for KCQST0033.",
+        "ISSN/e-ISSN follow the TCS source-index convention for The Age; 25/08/1991 is a Sunday, so check whether ProQuest files this page under The Age or The Sunday Age."
+      ]
+    },
+    {
+      "source_id": "KCSRC00079",
+      "record_type": "source",
+      "title": {
+        "value": "Parks Victoria – Jerusalem Creek Campground",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "source_type": {
+        "value": "website_page",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Accessed 2026-10-22",
+          "units": "source_identifier",
+          "precision": "access_date",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00079"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://www.parks.vic.gov.au/places-to-see/parks/lake-eildon-national-park/where-to-stay/jerusalem-creek-campground",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Just south of Eildon township, the Jerusalem Creek Camping areas lie among tall eucalypt trees on the southern edge of Lake Eildon.",
+          "units": "fact_summary",
+          "precision": "verbatim_from_source",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00079"
+          ]
+        },
+        {
+          "value": "The eight Jerusalem Creek Camping areas are located approximately 10-kilometres east of Eildon Township, along Jerusalem Creek Road.",
+          "units": "fact_summary",
+          "precision": "verbatim_from_source",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00079"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 3
+        },
+        {
+          "file": "places.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": [
+        "Current (2026) description of the public campground; it does not document the 1991 PLC campsite (see KCQST0034).",
+        "The page gives both 'south' and 'east' of Eildon township for the camping areas.",
+        "The page does not mention 'Jerusalem Inlet'; that name appears in the Parks Victoria Lake Eildon National Park Visitor Guide (not catalogued), in KCSRC00058 and in KCSRC00060."
       ]
     }
   ]
