@@ -156,3 +156,22 @@ Recherche en lecture seule. Notes complètes dans `/workspace/thecruelsong/mimi.
 - **Caniche de Serpells Rd (29/03/1991)** : c'est un autre chien (« Jack », caniche noir d'un voisin). Le lien avec Mimi est une spéculation.
 
 Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les entrées marquées [needs KCSRC ID] dans le brouillon « Contested facts » : The Age 20/04/1991 p. 1 ; coupure de 1991 « two Ming's » (journal et date inconnus) ; The Age 12/04/1992 p. 2 ; The Sun 10/05/1992 ; *Sensing Murder* (2004) ; Herald Sun 16/04/2022 (Rule) ; Melbourne Marvels Mr Cruel 7 ; Melbourne Marvels Mr Cruel 9 ; Casefile Revisited (2026). Quatre de ces sources n'ont pas été consultées dans l'original (statut `original_not_consulted`). Aucune n'est encore citée par les autres modules.
+
+## 2026-10-21 – Chan parents' arrival in Australia: Wikipedia miscitation and circular KF source
+
+- **Book check (by the user):** *Dirty Dozen: Shocking Australian True Crime Stories* (KCSRC00005, ISBN 978-1-74066-572-8), **page 3**: "Both had moved to Australia from Hong Kong in the mid-1970s." The book gives no year and does not say "separately".
+- **Wikipedia miscitation (KCSRC00006, "Murder of Karmein Chan", Background > Childhood):** "to parents who had separately migrated from Hong Kong to Australia the year prior to her birth", cited to *Dirty Dozen* **p. 26**. Both the page number and the wording ("1976" / "the year prior", "separately") are unsupported by the book. Flagged in the KCSRC00005 and KCSRC00006 source records.
+- **Circular KF source fixed:** PPL-0002 (John Chan) and PPL-0003 (Phyllis Chan) had `events.parents_migrated_to_melbourne` = 1976 / Melbourne, sourced only by TCS-WWKC-WEB-0001. The site's sentence matched Wikipedia's wording. This event is replaced by `events.moved_to_australia_from_hong_kong`:
+  - date "mid-1970s", origin "Hong Kong", destination "Australia";
+  - exact quote, locator "KCSRC00005, page 3", source_status "resolved".
+- **Variants recorded** (statement, variant_status, exact_quote, source_locator):
+  - KCSRC00006: "separately", "the year prior". Status `unsupported_by_cited_source`. Recorded for John and Phyllis.
+  - KCSRC00072 (The Sun, 10/05/1992, Reddit transcription): John emigrated "with his wife, Phyllis", "more than 17 years" before May 1992 (before about May 1975). Status `reddit_transcription_original_not_consulted`. Recorded for John and Phyllis.
+  - KCSRC00067 (Adam Shand Ep 5, 06:16–07:02): John "Has lived in Australia since 1975". Status `auto_transcript_unverified`. Recorded for John.
+  - KCSRC00022 (pwurg, 2026-03-09): "some 18 years after he first arrived in Melbourne", i.e. about 1976. Status `approximate_unsourced_user_claim`. Recorded for John.
+- **Site (already applied on 2026-10-21):**
+  - home Timeline row "Mid-1970s" [KCSRC00005];
+  - "Born on a Saturday" paragraph reworded ("both moved there from Hong Kong in the mid-1970s" [KCSRC00005]);
+  - Backstage Discrepancies entry "When and how did John and Phyllis Chan arrive in Australia?".
+- **Still open:** the engagement claim ("engaged shortly after their arrival in Australia … early twenties") rests on KCSRC00006 only and sits uneasily with KCSRC00072 ("with his wife"). Check it in KCSRC00005.
+- **Housekeeping note:** `referenced_in_current_files` in `data/sources.json` is stale for several sources (e.g. TCS-WWKC-WEB-0001, KCSRC00007, KCSRC00057). Only the five sources touched here (KCSRC00005/00006/00022/00067/00072) were recomputed. The .toon recomputes every count on rebuild.

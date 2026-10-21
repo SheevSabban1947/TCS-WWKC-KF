@@ -56,7 +56,7 @@ knowledge_file:
       referenced_source_id_count: 41
       catalogued_source_id_count: 78
       missing_source_ids: []
-      unused_catalogue_source_ids[37]:
+      unused_catalogue_source_ids[35]:
         - "KCSRC00009"
         - "KCSRC00010"
         - "KCSRC00013"
@@ -66,7 +66,6 @@ knowledge_file:
         - "KCSRC00017"
         - "KCSRC00020"
         - "KCSRC00021"
-        - "KCSRC00022"
         - "KCSRC00023"
         - "KCSRC00024"
         - "KCSRC00025"
@@ -88,7 +87,6 @@ knowledge_file:
         - "KCSRC00069"
         - "KCSRC00070"
         - "KCSRC00071"
-        - "KCSRC00072"
         - "KCSRC00073"
         - "KCSRC00074"
         - "KCSRC00075"
@@ -235,7 +233,7 @@ knowledge_file:
       availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[4]:
         - file: "people.json"
-          reference_count: 267
+          reference_count: 263
         - file: "places.json"
           reference_count: 1
         - file: "timeline.json"
@@ -323,17 +321,19 @@ knowledge_file:
       identifiers[1]:
         -: | "ISBN: 9781740665728" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
-      facts_supported[1]:
+      facts_supported[2]:
         -: | "Interview of Phyllis Chan/Lam" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Page 3: John and Phyllis Chan moved to Australia from Hong Kong in the mid-1970s ('Both had moved to Australia from Hong Kong in the mid-1970s.')" | u="fact_summary" | p="verbatim_with_page_locator_user_checked" | i=0 | s=[KCSRC00005]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[3]:
         - file: "people.json"
-          reference_count: 1
+          reference_count: 13
         - file: "places.json"
           reference_count: 6
         - file: "timeline.json"
           reference_count: 5
-      review_flags: []
+      review_flags[1]:
+        - "Page 3 checked by the user on 2026-10-21 for the parents' arrival: 'Both had moved to Australia from Hong Kong in the mid-1970s.' Wikipedia (KCSRC00006) cites this book at p. 26 for '1976 / separately'; that page reference and wording are not supported."
     - source_id: "KCSRC00006"
       record_type: "source"
       title: | "Wikipedia – Murder of Karmein Chan" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -348,10 +348,11 @@ knowledge_file:
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[2]:
         - file: "people.json"
-          reference_count: 62
+          reference_count: 70
         - file: "timeline.json"
           reference_count: 3
-      review_flags: []
+      review_flags[1]:
+        - "Miscitation (2026-10-21): the Childhood sentence 'separately migrated from Hong Kong to Australia the year prior to her birth' cites Dirty Dozen p. 26, but the book (KCSRC00005) says on page 3 only 'Both had moved to Australia from Hong Kong in the mid-1970s.' Treat '1976' and 'separately' as unsupported."
     - source_id: "KCSRC00007"
       record_type: "source"
       title: | "Blog – Melbourne Marvels" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -580,7 +581,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Photo of the intercom system installed in the former Chan residence" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 4
       review_flags[1]:
         - "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
     - source_id: "KCSRC00023"
@@ -1295,7 +1298,7 @@ knowledge_file:
       availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00067]
       referenced_in_current_files[2]:
         - file: "people.json"
-          reference_count: 26
+          reference_count: 30
         - file: "open_questions.json"
           reference_count: 4
       review_flags[4]:
@@ -1378,7 +1381,9 @@ knowledge_file:
         -: | "'He does it with three .38 calibre bullets to the side of her head.'" | u="fact_summary" | p="verbatim_as_transcribed_on_reddit" | i=0 | s=[KCSRC00072]
         -: | "Two-offender theory held by police outside Spectrum and psychologist Ian Joblin; Spectrum dismissed links to Chinese organised crime" | u="fact_summary" | p="as_transcribed_on_reddit" | i=0 | s=[KCSRC00072]
       availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00072]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 8
       review_flags[4]:
         - "Text seen only via a Reddit transcription; original not consulted. Author and page unknown."
         - "The .38 calibre sentence sits inside a dramatised reconstruction ('They are in a room, Karmein and \"Mr Cool\"'), not in a quoted police statement."
@@ -1553,9 +1558,34 @@ knowledge_file:
           relationship: | "wife" | u="family_relationship" | p="case_period_relationship" | i=0 | s=[TCS-WWKC-WEB-0001]
           person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
       events:
-        parents_migrated_to_melbourne:
-          date: | "1976" | u="iso8601_year" | p="year" | i=1 | s=[TCS-WWKC-WEB-0001]
-          place: | "Melbourne, Victoria, Australia" | u="place_name" | p="city" | i=0 | s=[TCS-WWKC-WEB-0001]
+        moved_to_australia_from_hong_kong:
+          date: | "mid-1970s" | u="approximate_period" | p="part_of_decade" | i=0 | s=[KCSRC00005]
+          origin: | "Hong Kong" | u="place_name" | p="territory" | i=0 | s=[KCSRC00005]
+          destination: | "Australia" | u="place_name" | p="country" | i=0 | s=[KCSRC00005]
+          exact_quote: | "Both had moved to Australia from Hong Kong in the mid-1970s." | u="verbatim_quote" | p="book_quote_user_checked" | i=0 | s=[KCSRC00005]
+          source_locator: | "KCSRC00005, page 3" | u="page_number" | p="book_page" | i=0 | s=[KCSRC00005]
+          source_status: | "resolved" | u="source_status" | p="resolved_to_catalogued_source" | i=0 | s=[KCSRC00005]
+          variants[4]:
+            -
+              statement: | "John and Phyllis Chan 'separately migrated' from Hong Kong to Australia 'the year prior to' Karmein's birth (i.e. 1976 or the 12 months before 5 November 1977)" | u="variant_summary" | p="source_claim" | i=1 | s=[KCSRC00006]
+              variant_status: | "unsupported_by_cited_source" | u="variant_status" | p="controlled_label" | i=0 | s=[KCSRC00006]
+              exact_quote: | "to parents who had separately migrated from Hong Kong to Australia the year prior to her birth" | u="verbatim_quote" | p="wikipedia_quote" | i=0 | s=[KCSRC00006]
+              source_locator: | "KCSRC00006, section 'Background > Childhood'; cites Dirty Dozen (KCSRC00005) p. 26, but the passage is on page 3 and gives only 'the mid-1970s' (no year, no 'separately')" | u="source_locator" | p="exact_reference" | i=0 | s=[KCSRC00006]
+            -
+              statement: | "John Chan emigrated from Hong Kong to Australia with his wife, Phyllis, 'more than 17 years' before May 1992 (i.e. before about May 1975)" | u="variant_summary" | p="source_claim" | i=1 | s=[KCSRC00072]
+              variant_status: | "reddit_transcription_original_not_consulted" | u="variant_status" | p="controlled_label" | i=0 | s=[KCSRC00072]
+              exact_quote: | "This supposes something in Karmien's father's background, perhaps in Hong Kong where he lived more than 17 years ago before emigrating to Australia with his wife, Phyllis." | u="verbatim_quote" | p="verbatim_as_transcribed_on_reddit" | i=0 | s=[KCSRC00072]
+              source_locator: | "KCSRC00072, text as transcribed on Reddit (part 2, comment jl33h4e on https://www.reddit.com/r/MrCruel/comments/13o8pzm/)" | u="source_locator" | p="exact_reference" | i=0 | s=[KCSRC00072]
+            -
+              statement: | "John Chan has lived in Australia since 1975 (Spectrum crime-analysis summary read by crime analyst Stewie Cooper)" | u="variant_summary" | p="source_claim" | i=0 | s=[KCSRC00067]
+              variant_status: | "auto_transcript_unverified" | u="variant_status" | p="controlled_label" | i=0 | s=[KCSRC00067]
+              exact_quote: | "Parental background, father. Has lived in Australia since 1975, is a restaurateur and property developer by profession." | u="verbatim_quote" | p="auto_transcript_quote" | i=0 | s=[KCSRC00067]
+              source_locator: | "KCSRC00067, 06:16–07:02" | u="source_locator" | p="exact_reference" | i=0 | s=[KCSRC00067]
+            -
+              statement: | "John Chan first arrived in Melbourne 'some 18 years' before leaving for Hong Kong 'at least' in 1994 (i.e. about 1976)" | u="variant_summary" | p="source_claim" | i=1 | s=[KCSRC00022]
+              variant_status: | "approximate_unsourced_user_claim" | u="variant_status" | p="controlled_label" | i=0 | s=[KCSRC00022]
+              exact_quote: | "If he did indeed go back to Hong Kong, it wasn’t until at least 1994, perhaps three years after his daughter went missing (and some 18 years after he first arrived in Melbourne)." | u="verbatim_quote" | p="reddit_comment_quote" | i=0 | s=[KCSRC00022]
+              source_locator: | "KCSRC00022, Reddit comment of 2026-03-09: https://www.reddit.com/r/MrCruel/comments/1rooi50/_/o9gosyz/" | u="source_locator" | p="exact_reference" | i=0 | s=[KCSRC00022]
         d24_call:
           date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
           time: | "21:35" | u="local_time_24h" | p="minute" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00046]
@@ -1576,11 +1606,12 @@ knowledge_file:
             -: | "Returned to Hong Kong" | u="place_name" | p="press_report" | i=0 | s=[KCSRC00034]
             -: | "Went to Queensland ('I think'), per former Chief Commissioner Kel Glare" | u="place_name" | p="uncertain_recollection" | i=0 | s=[KCSRC00067]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags[4]:
+      review_flags[5]:
         - "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
         - "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them."
         - "Fact 3 (unpaid fit-outs) is alleged, unverified, second-hand hearsay (KCSRC00067, 07:56–08:43). Publication hold: present only as an allegation reported by a former investigator; no implication of guilt or involvement in the abduction. Do not name creditors or tradespeople."
         - "Departure destination unresolved: Hong Kong (The Age, 11/04/2025, KCSRC00034) vs Queensland (Kel Glare, uncertain, KCSRC00067 04:13–05:00)."
+        - "Arrival in Australia revised on 2026-10-21: the former event 'parents_migrated_to_melbourne' (1976, Melbourne) cited only TCS-WWKC-WEB-0001, i.e. the site itself, whose wording matches Wikipedia (circular source). It is replaced by 'moved_to_australia_from_hong_kong' (mid-1970s, KCSRC00005 page 3, checked by the user). Wikipedia's '1976 / separately' wording (KCSRC00006, citing p. 26) is unsupported by KCSRC00005; KCSRC00072 says John emigrated 'with his wife, Phyllis'."
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:
@@ -1622,9 +1653,24 @@ knowledge_file:
           relationship: | "husband" | u="family_relationship" | p="case_period_relationship" | i=0 | s=[TCS-WWKC-WEB-0001]
           person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
       events:
-        parents_migrated_to_melbourne:
-          date: | "1976" | u="iso8601_year" | p="year" | i=1 | s=[TCS-WWKC-WEB-0001]
-          place: | "Melbourne, Victoria, Australia" | u="place_name" | p="city" | i=0 | s=[TCS-WWKC-WEB-0001]
+        moved_to_australia_from_hong_kong:
+          date: | "mid-1970s" | u="approximate_period" | p="part_of_decade" | i=0 | s=[KCSRC00005]
+          origin: | "Hong Kong" | u="place_name" | p="territory" | i=0 | s=[KCSRC00005]
+          destination: | "Australia" | u="place_name" | p="country" | i=0 | s=[KCSRC00005]
+          exact_quote: | "Both had moved to Australia from Hong Kong in the mid-1970s." | u="verbatim_quote" | p="book_quote_user_checked" | i=0 | s=[KCSRC00005]
+          source_locator: | "KCSRC00005, page 3" | u="page_number" | p="book_page" | i=0 | s=[KCSRC00005]
+          source_status: | "resolved" | u="source_status" | p="resolved_to_catalogued_source" | i=0 | s=[KCSRC00005]
+          variants[2]:
+            -
+              statement: | "John and Phyllis Chan 'separately migrated' from Hong Kong to Australia 'the year prior to' Karmein's birth (i.e. 1976 or the 12 months before 5 November 1977)" | u="variant_summary" | p="source_claim" | i=1 | s=[KCSRC00006]
+              variant_status: | "unsupported_by_cited_source" | u="variant_status" | p="controlled_label" | i=0 | s=[KCSRC00006]
+              exact_quote: | "to parents who had separately migrated from Hong Kong to Australia the year prior to her birth" | u="verbatim_quote" | p="wikipedia_quote" | i=0 | s=[KCSRC00006]
+              source_locator: | "KCSRC00006, section 'Background > Childhood'; cites Dirty Dozen (KCSRC00005) p. 26, but the passage is on page 3 and gives only 'the mid-1970s' (no year, no 'separately')" | u="source_locator" | p="exact_reference" | i=0 | s=[KCSRC00006]
+            -
+              statement: | "John Chan emigrated from Hong Kong to Australia with his wife, Phyllis, 'more than 17 years' before May 1992 (i.e. before about May 1975)" | u="variant_summary" | p="source_claim" | i=1 | s=[KCSRC00072]
+              variant_status: | "reddit_transcription_original_not_consulted" | u="variant_status" | p="controlled_label" | i=0 | s=[KCSRC00072]
+              exact_quote: | "This supposes something in Karmien's father's background, perhaps in Hong Kong where he lived more than 17 years ago before emigrating to Australia with his wife, Phyllis." | u="verbatim_quote" | p="verbatim_as_transcribed_on_reddit" | i=0 | s=[KCSRC00072]
+              source_locator: | "KCSRC00072, text as transcribed on Reddit (part 2, comment jl33h4e on https://www.reddit.com/r/MrCruel/comments/13o8pzm/)" | u="source_locator" | p="exact_reference" | i=0 | s=[KCSRC00072]
         breakfast_with_karmein:
           date: | "1991-04-13" | u="iso8601_date" | p="day" | i=0 | s=[TCS-WWKC-WEB-0001]
           place: | "Bulleen Plaza shopping centre, Bulleen, Victoria, Australia" | u="place_name" | p="specific_location" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -1647,10 +1693,11 @@ knowledge_file:
           person_id: | "TCS-WWKC-PPL-0002" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
           divorce: | false | u="boolean" | p="from_site_text" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
-      review_flags[3]:
+      review_flags[4]:
         - "returned_to_family_name date was previously anchored to the invalid 1993 divorce ('after_1993'); exact date unresolved."
         - "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
         - "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them."
+        - "Arrival in Australia revised on 2026-10-21: the former event 'parents_migrated_to_melbourne' (1976, Melbourne) cited only TCS-WWKC-WEB-0001, i.e. the site itself, whose wording matches Wikipedia (circular source). It is replaced by 'moved_to_australia_from_hong_kong' (mid-1970s, KCSRC00005 page 3, checked by the user). Wikipedia's '1976 / separately' wording (KCSRC00006, citing p. 26) is unsupported by KCSRC00005; KCSRC00072 says John emigrated 'with his wife, Phyllis'."
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
       verification:

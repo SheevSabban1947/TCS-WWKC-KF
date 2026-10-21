@@ -549,6 +549,15 @@
           "source_ids": [
             "TCS-WWKC-WEB-0001"
           ]
+        },
+        {
+          "value": "Page 3: John and Phyllis Chan moved to Australia from Hong Kong in the mid-1970s ('Both had moved to Australia from Hong Kong in the mid-1970s.')",
+          "units": "fact_summary",
+          "precision": "verbatim_with_page_locator_user_checked",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00005"
+          ]
         }
       ],
       "availability_status": {
@@ -563,7 +572,7 @@
       "referenced_in_current_files": [
         {
           "file": "people.json",
-          "reference_count": 1
+          "reference_count": 13
         },
         {
           "file": "places.json",
@@ -574,7 +583,9 @@
           "reference_count": 5
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Page 3 checked by the user on 2026-10-21 for the parents' arrival: 'Both had moved to Australia from Hong Kong in the mid-1970s.' Wikipedia (KCSRC00006) cites this book at p. 26 for '1976 / separately'; that page reference and wording are not supported."
+      ]
     },
     {
       "source_id": "KCSRC00006",
@@ -650,14 +661,16 @@
       "referenced_in_current_files": [
         {
           "file": "people.json",
-          "reference_count": 43
+          "reference_count": 70
         },
         {
           "file": "timeline.json",
           "reference_count": 3
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Miscitation (2026-10-21): the Childhood sentence 'separately migrated from Hong Kong to Australia the year prior to her birth' cites Dirty Dozen p. 26, but the book (KCSRC00005) says on page 3 only 'Both had moved to Australia from Hong Kong in the mid-1970s.' Treat '1976' and 'separately' as unsupported."
+      ]
     },
     {
       "source_id": "KCSRC00007",
@@ -1759,7 +1772,12 @@
           "TCS-WWKC-WEB-0001"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 4
+        }
+      ],
       "review_flags": [
         "User-generated or private-contact source; treat as lower authority than primary documents unless corroborated."
       ]
@@ -5372,7 +5390,7 @@
       "referenced_in_current_files": [
         {
           "file": "people.json",
-          "reference_count": 26
+          "reference_count": 30
         },
         {
           "file": "open_questions.json",
@@ -5766,7 +5784,12 @@
           "KCSRC00072"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 8
+        }
+      ],
       "review_flags": [
         "Text seen only via a Reddit transcription; original not consulted. Author and page unknown.",
         "The .38 calibre sentence sits inside a dramatised reconstruction ('They are in a room, Karmein and \"Mr Cool\"'), not in a quoted police statement.",
