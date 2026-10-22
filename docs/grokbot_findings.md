@@ -284,3 +284,38 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - new 2nd bullet in "About the Chan family";
   - source row KCSRC00089 added after KCSRC00088.
 - **.toon header:** sources 90, open_questions 58, total_records 298, referenced 61 / catalogued 90, unused 29.
+
+## 2026-10-22 – Knowledge File v0.4.0 (zip for the site)
+
+- **KF version** 0.3.0 → **0.4.0**. This is the `.toon` top-level `schema_version`; the module schema versions are unchanged.
+- **New zip** `karmein_chan_knowledge_file-v0.4.0-tcs-wwkc-0049.zip`, at the repo root. It contains only `karmein_chan_knowledge_file.toon`.
+  - It is meant to replace the v0.3.0 download on thecruelsong.com (section "AI Knowledge File").
+  - The v0.3.0 zip (`karmein_chan_knowledge_file-v0.3.0-tcs-wwkc-0044.zip`) is unchanged.
+- **N4 closed.** TCS-WWKC-WEB-0001 now records the site version as TCS-WWKC-0049, checked on the live home page on 2026-10-22 (was TCS-WWKC-0038).
+  - Its `publication_date` goes from 2026-06-07 to 2026-10-22: page 2152's WordPress `modified` timestamp (2026-10-22T19:13:25, site local time). The Version block shows no date, so this dates the page state showing TCS-WWKC-0049, not necessarily when 0049 was introduced.
+- **Changes since v0.3.0** (2026-08-06):
+
+| | v0.3.0 | v0.4.0 |
+|---|---|---|
+| sources | 65 | 90 |
+| core people | 76 | 78 |
+| contextual people | 4 | 4 |
+| places | 17 | 17 |
+| timeline events | 50 | 51 |
+| open questions | 29 | 58 |
+| total records | 241 | 298 |
+| referenced / catalogued sources | 37 / 65 | 61 / 90 |
+
+- **Corrections since v0.3.0** (see the entries above):
+  - camp end 1991-02-17; PLC camp dates are an author estimate;
+  - the invalid 1993 divorce removed (customary marriage and 1993 separation, KCSRC00065);
+  - body discovery at 5 PM, with DMS coordinates;
+  - the Chan parents arrived in the mid-1970s (KCSRC00005 p.3).
+- **Additions since v0.3.0:**
+  - Adam Shand facts (KCSRC00065-68);
+  - Contested facts sources (KCSRC00069-77);
+  - Alexandra sightings and Jerusalem Creek (KCSRC00078-79);
+  - birthday-party footage (KCSRC00080-82);
+  - questions about Karmein herself (KCSRC00083-86, KCQST0038-0056);
+  - Memorial Scholarship (KCSRC00087-88, KCQST0057-0058);
+  - ASIC record for Mings (Eltham) Restaurant Pty. Ltd. (KCSRC00089).

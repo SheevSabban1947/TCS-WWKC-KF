@@ -1,6 +1,6 @@
 knowledge_file:
   file: "karmein_chan_knowledge_file.toon"
-  schema_version: "0.3.0"
+  schema_version: "0.4.0"
   updated: "2026-10-22"
   format: "TOON"
   project: "Who Was Karmein Chan? / The Cruel Song Knowledge File"
@@ -218,9 +218,9 @@ knowledge_file:
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
       source_type: | "website_page" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
-      publication_date: | "2026-06-07" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+      publication_date: | "2026-10-22" | u="iso8601_date_or_partial_date" | p="page_last_modified (WordPress page 2152 modified 2026-10-22T19:13:25, site local time; the Version block shows no date, so this dates the page state showing TCS-WWKC-0049, not necessarily when 0049 was introduced)" | i=0 | s=[TCS-WWKC-WEB-0001]
       identifiers[1]:
-        -: | "Website version visible on source page: TCS-WWKC-0038" | u="source_identifier" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "Website version visible on source page: TCS-WWKC-0049 (live home page, checked 2026-10-22)" | u="source_identifier" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
       access: | "https://thecruelsong.com/" | u="access_locator_or_note" | p="catalogued" | i=0 | s=[TCS-WWKC-WEB-0001]
       facts_supported[1]:
         -: | "Main public source page used to seed the Knowledge File source catalogue, timeline, open questions, people and places records." | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
