@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 89,
+    "source_count": 90,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -7379,6 +7379,122 @@
       ],
       "review_flags": [
         "Third-party copy (docest.com); RCH original not found; eligibility criteria referred to the RCH website but not found."
+      ]
+    },
+    {
+      "source_id": "KCSRC00089",
+      "record_type": "source",
+      "title": {
+        "value": "ASIC companies register - MINGS (ELTHAM) RESTAURANT PTY. LTD. (organisation profile)",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00089"
+        ]
+      },
+      "source_type": {
+        "value": "government_register_record",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00089"
+        ]
+      },
+      "publication_date": {
+        "value": "2026-10-22",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "date_consulted",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00089"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Publisher: Australian Securities & Investments Commission (ASIC), companies register search service (public beta, free information)",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00089"
+          ]
+        },
+        {
+          "value": "ACN 007 257 927",
+          "units": "source_identifier",
+          "precision": "exact",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00089"
+          ]
+        },
+        {
+          "value": "Previous state number C0327294F (Victoria)",
+          "units": "source_identifier",
+          "precision": "exact",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00089"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://service.asic.gov.au/companysearch/OrgProfile?Query=RG9jTnVtYmVyPTAmRW50aXR5SWQ9MDA3MjU3OTI3JkVudGl0eU5hbWU9JlRpbWVzdGFtcD0mRW50aXR5VHlwZT0%253D",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00089"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Company 'MINGS (ELTHAM) RESTAURANT PTY. LTD.', Australian Proprietary Company limited by shares, registered on 22/06/1989",
+          "units": "fact_summary",
+          "precision": "exact_register_entry",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00089"
+          ]
+        },
+        {
+          "value": "Status deregistered; deregistered on 26/04/1994",
+          "units": "fact_summary",
+          "precision": "exact_register_entry",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00089"
+          ]
+        },
+        {
+          "value": "The free record does not show officeholders, shareholders or registered office; it lists six lodged documents (pre-1991 memorandum and articles, pre-1991 officeholders/registered office, annual returns 1990 and 1991, 1992 change to officeholders and change of address), copies of which are paid",
+          "units": "fact_summary",
+          "precision": "exact_register_entry",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00089"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00089"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "places.json",
+          "reference_count": 1
+        }
+      ],
+      "review_flags": [
+        "The free register record does not name John or Phyllis Chan; the link between this company and the Chans' Eltham restaurant rests on the company name and dates only. A paid ASIC current and historical extract would show the officeholders."
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "file": "places.json",
   "schema_version": "0.3.0",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -304,6 +304,17 @@
       ],
       "review_flags": [
         "Resolve restaurant name conflict before treating alias as canonical."
+      ],
+      "historical_facts": [
+        {
+          "value": "A company named Mings (Eltham) Restaurant Pty. Ltd. (ACN 007 257 927) was registered in Victoria on 22 June 1989 and deregistered on 26 April 1994; the free public register does not name its officeholders.",
+          "units": null,
+          "precision": "register dates; link to this restaurant inferred from the company name only",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00089"
+          ]
+        }
       ]
     },
     {
