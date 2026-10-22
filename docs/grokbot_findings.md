@@ -268,3 +268,19 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - home page: new h3 section "Karmein Chan Memorial Scholarship" after 'Her "favorite dress"'; rows KCSRC00087–00088 added after KCSRC00086; KCSRC00083 row extended;
   - Backstage: KCQST0057–0058 added after KCQST0056.
 - **.toon header:** sources 89, open_questions 58, total_records 297, referenced 60 / catalogued 89, unused 29.
+
+## 2026-10-22 – ASIC record for Mings (Eltham) Restaurant Pty. Ltd. (KCSRC00089)
+
+- **New source:** KCSRC00089, the ASIC companies register organisation profile for MINGS (ELTHAM) RESTAURANT PTY. LTD., consulted 22/10/2026 (free information, public beta search service).
+  - ACN 007 257 927; previous state number C0327294F (Victoria).
+  - Australian Proprietary Company, limited by shares.
+  - Registered 22/06/1989; deregistered 26/04/1994.
+  - The free record shows no officeholders, shareholders or registered office. It lists six lodged documents (paid copies).
+  - **It does not name John or Phyllis Chan.** The link to the Chans' Eltham restaurant rests on the company name and dates only. A paid current and historical extract would show the officeholders.
+  - New `source_type` value: `government_register_record`.
+- **places.json:** KCPLACE0004 (Eltham restaurant operated by the Chan family) gains `historical_facts` with the same wording as the site bullet. It has inference_score 1, because the link to this restaurant is inferred from the company name.
+- **Not changed:** the "opened in 1980" date (KCSRC00052), the Melbourne Marvels map's "from June 1989" (KCSRC00014; deliberately not cited) and the parents' full names (still sourced only to TCS-WWKC-WEB-0001).
+- **Site:** published 22/10/2026 on the home page:
+  - new 2nd bullet in "About the Chan family";
+  - source row KCSRC00089 added after KCSRC00088.
+- **.toon header:** sources 90, open_questions 58, total_records 298, referenced 61 / catalogued 90, unused 29.
