@@ -292,7 +292,7 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - It is meant to replace the v0.3.0 download on thecruelsong.com (section "AI Knowledge File").
   - The v0.3.0 zip (`karmein_chan_knowledge_file-v0.3.0-tcs-wwkc-0044.zip`) is unchanged.
 - **N4 closed.** TCS-WWKC-WEB-0001 now records the site version as TCS-WWKC-0049, checked on the live home page on 2026-10-22 (was TCS-WWKC-0038).
-  - Its `publication_date` (2026-06-07, from the source index) is unchanged.
+  - Its `publication_date` goes from 2026-06-07 to 2026-10-22: page 2152's WordPress `modified` timestamp (2026-10-22T19:13:25, site local time). The Version block shows no date, so this dates the page state showing TCS-WWKC-0049, not necessarily when 0049 was introduced.
 - **Changes since v0.3.0** (2026-08-06):
 
 | | v0.3.0 | v0.4.0 |

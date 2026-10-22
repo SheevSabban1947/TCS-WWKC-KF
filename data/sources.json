@@ -42,9 +42,9 @@
         ]
       },
       "publication_date": {
-        "value": "2026-06-07",
+        "value": "2026-10-22",
         "units": "iso8601_date_or_partial_date",
-        "precision": "from_source_index",
+        "precision": "page_last_modified (WordPress page 2152 modified 2026-10-22T19:13:25, site local time; the Version block shows no date, so this dates the page state showing TCS-WWKC-0049, not necessarily when 0049 was introduced)",
         "inference_score": 0,
         "source_ids": [
           "TCS-WWKC-WEB-0001"
