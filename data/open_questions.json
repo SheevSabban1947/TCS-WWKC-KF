@@ -18,7 +18,8 @@
       "url": "https://thecruelsong.com/",
       "locators": [
         "#public-questions-about-the-karmein-chan-case",
-        "#questions-about-karmein-chan-herself"
+        "#questions-about-karmein-chan-herself",
+        "#karmein-chan-memorial-scholarship"
       ]
     }
   ],
@@ -2723,6 +2724,110 @@
       "review_flags": [
         "Circular sourcing (TCS-WWKC-WEB-0001 only).",
         "Year of death 1991 is an inference: date of death unknown; remains found 09/04/1992."
+      ]
+    },
+    {
+      "id": "KCQST0057",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "When was the Karmein Chan Scholarship established? The 2011 Leader article says that Phyllis Lam \"has established\" it (KCSRC00083) but gives no year, and the earliest RCH Foundation listing found is in the 2013/2014 report (KCSRC00087).",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00083",
+          "KCSRC00087"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00083",
+          "KCSRC00087"
+        ]
+      },
+      "source_locator": {
+        "value": "#karmein-chan-memorial-scholarship (home)",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0003"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Founding year not found; 'has established' (KCSRC00083, 2011) is the earliest dated mention found, then the 2013/2014 RCHF report (KCSRC00087).",
+        "Trove was unavailable on 2026-10-22; Melbourne press 1992-2010 to check in ProQuest."
+      ]
+    },
+    {
+      "id": "KCQST0058",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What is the value of the Karmein Chan Memorial Scholarship, how often is it awarded, how many staff members have received it, and can donations be directed to it?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00087",
+          "KCSRC00088"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00087",
+          "KCSRC00088"
+        ]
+      },
+      "source_locator": {
+        "value": "#karmein-chan-memorial-scholarship (home)",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001",
+        "TCS-WWKC-PPL-0003"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "No amount, frequency or recipient found in KCSRC00087 or KCSRC00088.",
+        "Do not publish recipient names without a privacy review."
       ]
     }
   ]

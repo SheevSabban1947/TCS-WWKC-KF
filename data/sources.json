@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 87,
+    "source_count": 89,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -93,7 +93,7 @@
       "referenced_in_current_files": [
         {
           "file": "open_questions.json",
-          "reference_count": 159
+          "reference_count": 163
         },
         {
           "file": "people.json",
@@ -6905,6 +6905,26 @@
             "KCSRC00083",
             "KCSRC00028"
           ]
+        },
+        {
+          "value": "Phyllis Lam established the Karmein Chan Scholarship, which 'pays for doctors, nurses and health workers to undertake further training'",
+          "units": "fact_summary",
+          "precision": "verbatim_as_shown_in_KCSRC00028_copy",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00083",
+            "KCSRC00028"
+          ]
+        },
+        {
+          "value": "Karmein was treated for asthma at the Royal Children's Hospital (per Phyllis Lam)",
+          "units": "fact_summary",
+          "precision": "as_shown_in_KCSRC00028_copy",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00083",
+            "KCSRC00028"
+          ]
         }
       ],
       "availability_status": {
@@ -6919,7 +6939,7 @@
       "referenced_in_current_files": [
         {
           "file": "open_questions.json",
-          "reference_count": 4
+          "reference_count": 6
         }
       ],
       "review_flags": [
@@ -7170,6 +7190,195 @@
       ],
       "review_flags": [
         "Original not consulted: title, page and wording as read aloud in KCSRC00075 and transcribed by machine. Check against the original before quotation."
+      ]
+    },
+    {
+      "source_id": "KCSRC00087",
+      "record_type": "source",
+      "title": {
+        "value": "The Royal Children's Hospital Foundation - Impact of Giving annual reports, 2013/2014 to 2024/2025",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00087"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00087"
+        ]
+      },
+      "publication_date": {
+        "value": "2014/2025",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "range_of_report_years",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00087"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Publisher: The Royal Children's Hospital Foundation",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00087"
+          ]
+        },
+        {
+          "value": "Name as printed: 'Karmien' (sic) in all editions checked",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00087"
+          ]
+        }
+      ],
+      "access": {
+        "value": "2013/2014: https://www.rchfoundation.org.au/wp-content/uploads/2017/01/RCHF-Impact-of-Giving_2014.pdf; 2016: https://www.rchfoundation.org.au/wp-content/uploads/2017/01/RCHF-Impact-of-Giving_2016sml.pdf; 2017/2018: https://www.rchfoundation.org.au/wp-content/uploads/2018/10/RCHF-Impact-of-Giving_2018_LR.pdf; 2018/2019: https://www.rchfoundation.org.au/wp-content/uploads/2019/10/RCHF-Impact-of-Giving_2019_LR.pdf; 2019/2020: https://www.rchfoundation.org.au/wp-content/uploads/2020/12/RCHF-The-Impact-of-Giving-2020.pdf; 2020/2021: https://www.rchfoundation.org.au/wp-content/uploads/2022/12/The-Impact-of-Giving-2021_210x297_LR.pdf; 2021/2022 (not named): https://www.rchfoundation.org.au/wp-content/uploads/2022/11/RCHF-Impact-of-Giving_2022_LR.pdf; 2022/2023: https://www.rchfoundation.org.au/wp-content/uploads/2023/12/The-Impact-of-Giving_2023_Web-1.pdf; 2023/2024: https://www.rchfoundation.org.au/wp-content/uploads/2024/11/Impact-of-Giving_2024_Digital.pdf; 2024/2025: https://www.rchfoundation.org.au/wp-content/uploads/2025/12/RCH-Foundation_Impact-of-Giving_2025_Digital.pdf",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00087"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Listed as 'Karmien Chan Scholarship' (2013/2014), 'The Karmien Chan Memorial Scholarship' (2016), 'The Karmien Chan Memorial Travelling Scholarship' (2017/2018 to 2020/2021) and 'Karmien Chan Memorial Scholarship' (2022/2023 to 2024/2025) among philanthropically funded scholarships",
+          "units": "fact_summary",
+          "precision": "verbatim_list_entry",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00087"
+          ]
+        },
+        {
+          "value": "Still listed in the 2024/2025 report (published December 2025)",
+          "units": "fact_summary",
+          "precision": "verbatim_list_entry",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00087"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00087"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
+      "review_flags": [
+        "Spelling 'Karmien' is the publisher's; the site uses 'Karmein' and quotes the RCHF names with (sic).",
+        "Not named in the 2021/2022 report (generic 'RCH Travelling Scholarships'); 2015 and 2017 editions not checked.",
+        "No amounts, founding year or recipients given."
+      ]
+    },
+    {
+      "source_id": "KCSRC00088",
+      "record_type": "source",
+      "title": {
+        "value": "Royal Children's Hospital Travelling Scholarships - February 2018 - Application form",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00088"
+        ]
+      },
+      "source_type": {
+        "value": "website_resource",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00088"
+        ]
+      },
+      "publication_date": {
+        "value": "2018-02",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "as_printed",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00088"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Due date printed: Wednesday, 28th February 2018",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00088"
+          ]
+        },
+        {
+          "value": "Applications to the Scholarship Coordinator, Department of Paediatrics, The University of Melbourne",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00088"
+          ]
+        }
+      ],
+      "access": {
+        "value": "Third-party copy: https://docest.com/doc/95848/royal-children-s-hospital-travelling-scholarships-2002 (page title says 2002; document says February 2018)",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00088"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "'Karmien Chan Memorial Scholarship' (sic) offered in the August round of the RCH Travelling Scholarships",
+          "units": "fact_summary",
+          "precision": "verbatim_list_entry",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00088"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "original_not_consulted",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00088"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
+        }
+      ],
+      "review_flags": [
+        "Third-party copy (docest.com); RCH original not found; eligibility criteria referred to the RCH website but not found."
       ]
     }
   ]

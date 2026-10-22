@@ -17,7 +17,7 @@ knowledge_file:
         schema_version: "0.1.0"
         updated: "2026-10-22"
         record_key: "sources"
-        record_count: 87
+        record_count: 89
       - file: "people.json"
         schema_version: "0.3.0"
         updated: "2026-10-21"
@@ -41,20 +41,20 @@ knowledge_file:
         schema_version: "0.1.0"
         updated: "2026-10-22"
         record_key: "open_questions"
-        record_count: 56
+        record_count: 58
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
-      sources: 87
+      sources: 89
       people: 78
       contextual_people: 4
       places: 17
       timeline_events: 51
-      open_questions: 56
-      total_records: 293
+      open_questions: 58
+      total_records: 297
     integrity:
-      referenced_source_id_count: 58
-      catalogued_source_id_count: 87
+      referenced_source_id_count: 60
+      catalogued_source_id_count: 89
       missing_source_ids: []
       unused_catalogue_source_ids[29]:
         - "KCSRC00009"
@@ -213,7 +213,7 @@ knowledge_file:
       - code: "CONTROLLED_ROLE_VALUE_REVIEW"
         status: "pending"
         description: "Review individual role values for naming consistency after source-level verification."
-  sources[87]:
+  sources[89]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -233,7 +233,7 @@ knowledge_file:
         - file: "timeline.json"
           reference_count: 281
         - file: "open_questions.json"
-          reference_count: 159
+          reference_count: 163
       review_flags: []
     - source_id: "KCSRC00001"
       record_type: "source"
@@ -1617,14 +1617,16 @@ knowledge_file:
         -: | "Author: Shaun Turton" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00083]
         -: | "Copy dated '13 Apr 11 @ 07:00am' on the Missing and Murdered blog (KCSRC00028); the copy says 'Morningham Leader'" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00083]
       access: | "Original not consulted; full text seen via KCSRC00028: http://missingandmurderedaustralia.blogspot.com/1991/04/karmein-chan.html" | u="access_locator_or_note" | p="partial" | i=0 | s=[KCSRC00083]
-      facts_supported[3]:
+      facts_supported[5]:
         -: | "Phyllis Lam's description of Karmein (see character_quotes_sourcing.md for the verbatim wording)" | u="fact_summary" | p="verbatim_as_shown_in_KCSRC00028_copy" | i=1 | s=[KCSRC00083,KCSRC00028]
         -: | "Karmein wanted to become a doctor / 'mobile doctor'" | u="fact_summary" | p="as_shown_in_KCSRC00028_copy" | i=1 | s=[KCSRC00083,KCSRC00028]
         -: | "Phyllis Lam converted from Buddhism to Christianity after the funeral" | u="fact_summary" | p="as_shown_in_KCSRC00028_copy" | i=1 | s=[KCSRC00083,KCSRC00028]
+        -: | "Phyllis Lam established the Karmein Chan Scholarship, which 'pays for doctors, nurses and health workers to undertake further training'" | u="fact_summary" | p="verbatim_as_shown_in_KCSRC00028_copy" | i=0 | s=[KCSRC00083,KCSRC00028]
+        -: | "Karmein was treated for asthma at the Royal Children's Hospital (per Phyllis Lam)" | u="fact_summary" | p="as_shown_in_KCSRC00028_copy" | i=1 | s=[KCSRC00083,KCSRC00028]
       availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00083]
       referenced_in_current_files[1]:
         - file: "open_questions.json"
-          reference_count: 4
+          reference_count: 6
       review_flags[1]:
         - "Original newspaper not consulted; text known from a blog copy (KCSRC00028). Check against the Leader original before quotation."
     - source_id: "KCSRC00084"
@@ -1675,6 +1677,43 @@ knowledge_file:
           reference_count: 2
       review_flags[1]:
         - "Original not consulted: title, page and wording as read aloud in KCSRC00075 and transcribed by machine. Check against the original before quotation."
+    - source_id: "KCSRC00087"
+      record_type: "source"
+      title: | "The Royal Children's Hospital Foundation - Impact of Giving annual reports, 2013/2014 to 2024/2025" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00087]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[KCSRC00087]
+      publication_date: | "2014/2025" | u="iso8601_date_or_partial_date" | p="range_of_report_years" | i=0 | s=[KCSRC00087]
+      identifiers[2]:
+        -: | "Publisher: The Royal Children's Hospital Foundation" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00087]
+        -: | "Name as printed: 'Karmien' (sic) in all editions checked" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00087]
+      access: | "2013/2014: https://www.rchfoundation.org.au/wp-content/uploads/2017/01/RCHF-Impact-of-Giving_2014.pdf; 2016: https://www.rchfoundation.org.au/wp-content/uploads/2017/01/RCHF-Impact-of-Giving_2016sml.pdf; 2017/2018: https://www.rchfoundation.org.au/wp-content/uploads/2018/10/RCHF-Impact-of-Giving_2018_LR.pdf; 2018/2019: https://www.rchfoundation.org.au/wp-content/uploads/2019/10/RCHF-Impact-of-Giving_2019_LR.pdf; 2019/2020: https://www.rchfoundation.org.au/wp-content/uploads/2020/12/RCHF-The-Impact-of-Giving-2020.pdf; 2020/2021: https://www.rchfoundation.org.au/wp-content/uploads/2022/12/The-Impact-of-Giving-2021_210x297_LR.pdf; 2021/2022 (not named): https://www.rchfoundation.org.au/wp-content/uploads/2022/11/RCHF-Impact-of-Giving_2022_LR.pdf; 2022/2023: https://www.rchfoundation.org.au/wp-content/uploads/2023/12/The-Impact-of-Giving_2023_Web-1.pdf; 2023/2024: https://www.rchfoundation.org.au/wp-content/uploads/2024/11/Impact-of-Giving_2024_Digital.pdf; 2024/2025: https://www.rchfoundation.org.au/wp-content/uploads/2025/12/RCH-Foundation_Impact-of-Giving_2025_Digital.pdf" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00087]
+      facts_supported[2]:
+        -: | "Listed as 'Karmien Chan Scholarship' (2013/2014), 'The Karmien Chan Memorial Scholarship' (2016), 'The Karmien Chan Memorial Travelling Scholarship' (2017/2018 to 2020/2021) and 'Karmien Chan Memorial Scholarship' (2022/2023 to 2024/2025) among philanthropically funded scholarships" | u="fact_summary" | p="verbatim_list_entry" | i=0 | s=[KCSRC00087]
+        -: | "Still listed in the 2024/2025 report (published December 2025)" | u="fact_summary" | p="verbatim_list_entry" | i=0 | s=[KCSRC00087]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00087]
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 4
+      review_flags[3]:
+        - "Spelling 'Karmien' is the publisher's; the site uses 'Karmein' and quotes the RCHF names with (sic)."
+        - "Not named in the 2021/2022 report (generic 'RCH Travelling Scholarships'); 2015 and 2017 editions not checked."
+        - "No amounts, founding year or recipients given."
+    - source_id: "KCSRC00088"
+      record_type: "source"
+      title: | "Royal Children's Hospital Travelling Scholarships - February 2018 - Application form" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00088]
+      source_type: | "website_resource" | u="source_type" | p="category" | i=0 | s=[KCSRC00088]
+      publication_date: | "2018-02" | u="iso8601_date_or_partial_date" | p="as_printed" | i=0 | s=[KCSRC00088]
+      identifiers[2]:
+        -: | "Due date printed: Wednesday, 28th February 2018" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00088]
+        -: | "Applications to the Scholarship Coordinator, Department of Paediatrics, The University of Melbourne" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00088]
+      access: | "Third-party copy: https://docest.com/doc/95848/royal-children-s-hospital-travelling-scholarships-2002 (page title says 2002; document says February 2018)" | u="access_locator_or_note" | p="partial" | i=0 | s=[KCSRC00088]
+      facts_supported[1]:
+        -: | "'Karmien Chan Memorial Scholarship' (sic) offered in the August round of the RCH Travelling Scholarships" | u="fact_summary" | p="verbatim_list_entry" | i=0 | s=[KCSRC00088]
+      availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00088]
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 2
+      review_flags[1]:
+        - "Third-party copy (docest.com); RCH original not found; eligibility criteria referred to the RCH website but not found."
   people[78]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
@@ -4541,7 +4580,7 @@ knowledge_file:
       review_flags[2]:
         - "Single source (Adam Shand, Ep 2); times as narrated, verify against police records or press if possible."
         - "Follows KCEVT0046 (discovery by the dog walker at around 17:00)."
-  open_questions[56]:
+  open_questions[58]:
     - id: "KCQST0001"
       record_type: "open_question"
       category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -5207,3 +5246,31 @@ knowledge_file:
       review_flags[2]:
         - "Circular sourcing (TCS-WWKC-WEB-0001 only)."
         - "Year of death 1991 is an inference: date of death unknown; remains found 09/04/1992."
+    - id: "KCQST0057"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "When was the Karmein Chan Scholarship established? The 2011 Leader article says that Phyllis Lam \"has established\" it (KCSRC00083) but gives no year, and the earliest RCH Foundation listing found is in the 2013/2014 report (KCSRC00087)." | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00083,KCSRC00087]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00083,KCSRC00087]
+      source_locator: | "#karmein-chan-memorial-scholarship (home)" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0003"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[2]:
+        - "Founding year not found; 'has established' (KCSRC00083, 2011) is the earliest dated mention found, then the 2013/2014 RCHF report (KCSRC00087)."
+        - "Trove was unavailable on 2026-10-22; Melbourne press 1992-2010 to check in ProQuest."
+    - id: "KCQST0058"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What is the value of the Karmein Chan Memorial Scholarship, how often is it awarded, how many staff members have received it, and can donations be directed to it?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00087,KCSRC00088]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00087,KCSRC00088]
+      source_locator: | "#karmein-chan-memorial-scholarship (home)" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[2]:
+        - "TCS-WWKC-PPL-0001"
+        - "TCS-WWKC-PPL-0003"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[2]:
+        - "No amount, frequency or recipient found in KCSRC00087 or KCSRC00088."
+        - "Do not publish recipient names without a privacy review."
