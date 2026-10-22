@@ -1,7 +1,7 @@
 {
   "file": "sources.json",
   "schema_version": "0.1.0",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 78,
+    "source_count": 83,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -4513,12 +4513,16 @@
       },
       "referenced_in_current_files": [
         {
+          "file": "open_questions.json",
+          "reference_count": 16
+        },
+        {
           "file": "places.json",
-          "reference_count": 6
+          "reference_count": 7
         },
         {
           "file": "timeline.json",
-          "reference_count": 4
+          "reference_count": 6
         }
       ],
       "review_flags": []
@@ -4687,8 +4691,12 @@
       },
       "referenced_in_current_files": [
         {
-          "file": "places.json",
+          "file": "open_questions.json",
           "reference_count": 4
+        },
+        {
+          "file": "places.json",
+          "reference_count": 5
         }
       ],
       "review_flags": []
@@ -6232,6 +6240,499 @@
         "Date as shown on the podcastrex transcript page; the episode says it was originally released in January 2017 and revisited in October 2026.",
         "Machine transcript (podcastrex); names misspelt ('Carmen', 'Carly', 'Mr. Kruell'). Verify against the audio before quotation.",
         "Secondary narrative source; does not cite its sources per statement."
+      ]
+    },
+    {
+      "source_id": "KCSRC00078",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 25/08/1991, page 1 – Karmein: recent photo prompts new clues",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-08-25",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_tcs_backstage_press_review",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ProQuest docview 2676397606",
+          "units": "source_identifier",
+          "precision": "from_tcs_backstage_link",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X",
+          "units": "source_identifier",
+          "precision": "from_tcs_source_index_convention_for_the_age",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        },
+        {
+          "value": "e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_tcs_source_index_convention_for_the_age",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/august-25-1991-page-1-69/docview/2676397606/sem-2?accountid=13905",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Two people have contacted police claiming to have seen Karmein, 13, in Alexandra, about a 100 kilometres north of Melbourne, about two weeks after she was taken",
+          "units": "fact_summary",
+          "precision": "tcs_backstage_summary",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00078"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00078"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": [
+        "Catalogued from the TCS Backstage press review ('Sunday 25 August 1991 – Page 1 – \"Karmein: recent photo prompts new clues\"'), which links to this ProQuest record (SLV login required). Added to the TCS home source index as KCSRC00078 on 2026-10-22.",
+        "Article text not re-consulted for this record; the fact wording is the Backstage summary. KCSRC00058 (36:02–37:09, auto-transcript) attributes the article to a by-lined journalist (ASR 'Anthony Catalana'; spelling unverified) and transcribes the page as 'page to'; the ProQuest URL and Backstage say page 1. Re-read the original before quoting.",
+        "The sightings are unverified reports by two unnamed witnesses; do not present them as established. Key source for KCQST0033.",
+        "ISSN/e-ISSN follow the TCS source-index convention for The Age; 25/08/1991 is a Sunday, so check whether ProQuest files this page under The Age or The Sunday Age."
+      ]
+    },
+    {
+      "source_id": "KCSRC00079",
+      "record_type": "source",
+      "title": {
+        "value": "Parks Victoria – Jerusalem Creek Campground",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "source_type": {
+        "value": "website_page",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "publication_date": null,
+      "identifiers": [
+        {
+          "value": "Accessed 2026-10-22",
+          "units": "source_identifier",
+          "precision": "access_date",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00079"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://www.parks.vic.gov.au/places-to-see/parks/lake-eildon-national-park/where-to-stay/jerusalem-creek-campground",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Just south of Eildon township, the Jerusalem Creek Camping areas lie among tall eucalypt trees on the southern edge of Lake Eildon.",
+          "units": "fact_summary",
+          "precision": "verbatim_from_source",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00079"
+          ]
+        },
+        {
+          "value": "The eight Jerusalem Creek Camping areas are located approximately 10-kilometres east of Eildon Township, along Jerusalem Creek Road.",
+          "units": "fact_summary",
+          "precision": "verbatim_from_source",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00079"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00079"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 3
+        },
+        {
+          "file": "places.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": [
+        "Current (2026) description of the public campground; it does not document the 1991 PLC campsite (see KCQST0034).",
+        "The page gives both 'south' and 'east' of Eildon township for the camping areas.",
+        "The page does not mention 'Jerusalem Inlet'; that name appears in the Parks Victoria Lake Eildon National Park Visitor Guide (not catalogued), in KCSRC00058 and in KCSRC00060."
+      ]
+    },
+    {
+      "source_id": "KCSRC00080",
+      "record_type": "source",
+      "title": {
+        "value": "Melbourne Marvels podcast – Mr Cruel 8 – Karmein Chan 3",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "source_type": {
+        "value": "podcast_episode",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "publication_date": {
+        "value": "2024-11-26",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_publisher_listing",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Melbourne Marvels (Spotify for Creators / anchor.fm RSS)",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        },
+        {
+          "value": "RSS guid fd40ecf5-f09a-4649-a21a-972c33d7f79b",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        },
+        {
+          "value": "Part of blog/podcast source KCSRC00007",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://podcasters.spotify.com/pod/show/melbourne-marvels/episodes/Mr-Cruel-8---Karmein-Chan-3-e2rgv3s",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Hosts read a Herald Sun article of 17 April 1991 (page 3): 'The two girls have been staying with the godparents. Mr. Chan said he might be forced to send them overseas until the ordeal was over.'",
+          "units": "fact_summary",
+          "precision": "auto_transcript_~22:36-23:52",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        },
+        {
+          "value": "A host says, 'from memory', that the family was at the godparents' house 'the weekend before the abduction as well for a birthday party'",
+          "units": "fact_summary",
+          "precision": "auto_transcript_~25:00-25:27",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        },
+        {
+          "value": "A second host describes footage of Karmein at the birthday party of a young boy ('I think it's his second or third birthday') of a couple who were friends of John and Phyllis Chan, 'from the weekend before she was abducted at the home of the godparents of Carly and Karen', and adds: 'I believe in Brighton or Brighton East of thereabouts'",
+          "units": "fact_summary",
+          "precision": "auto_transcript_~25:27-26:27",
+          "inference_score": 2,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        },
+        {
+          "value": "The same host says Karmein is seen 'spraying around some party foam' in that footage",
+          "units": "fact_summary",
+          "precision": "auto_transcript_~26:04-26:12",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 11
+        }
+      ],
+      "review_flags": [
+        "RSS pubDate 2024-11-26T09:45:04Z (26 November 2024 in Melbourne).",
+        "Quotes from a machine transcript (faster-whisper) of the RSS audio made on the box; the ASR writes 'Carmen' for Karmein; speakers not identified by the tool; verify by listening.",
+        "The party details (date 'the weekend before', host family, godparents' home, Brighton/Brighton East, party foam) are the hosts' recollection ('from memory', 'we believe', 'I believe'), not attributed to a document. Single source for the date and place of the party. The Herald Sun passage they read (KCSRC00082) does not mention a party.",
+        "The episode describes the host couple and their children and attributes later public roles to the father, without naming them. Private individuals: do not identify or cross-match them with any named person.",
+        "The 'party foam' is not visible in the party footage examined in KCSRC00081; possibly a different scene or excerpt. Related: KCQST0035-0037."
+      ]
+    },
+    {
+      "source_id": "KCSRC00081",
+      "record_type": "source",
+      "title": {
+        "value": "Under Investigation with Liz Hayes – S3E4 'Mapping Mr Cruel' (Nine Network, 2022)",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081"
+        ]
+      },
+      "source_type": {
+        "value": "youtube_video",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081"
+        ]
+      },
+      "publication_date": {
+        "value": "2022-03-02",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_broadcaster_listing",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Nine Network, Under Investigation with Liz Hayes, season 3, episode 4, first aired Wednesday 2 March 2022, 9pm (TVmaze; Apple TV AU '2 Mar 2022 · 46m'; 9Now https://www.9now.com.au/under-investigation/season-3/episode-4)",
+          "units": "source_identifier",
+          "precision": "from_broadcaster_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00081"
+          ]
+        },
+        {
+          "value": "YouTube, channel 60 Minutes Australia: 'Hunting Mr. Cruel: Where is Australia's worst serial killer? | Under Investigation', uploaded 2022-03-02, video id Jaq001Evc_c",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00081"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://www.youtube.com/watch?v=Jaq001Evc_c",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "The programme includes home-video footage of Karmein Chan at a young children's party (children in party hats around a table with food, wood-panelled wall), at about 31:17-31:31 and 41:34-41:42 of the YouTube upload",
+          "units": "fact_summary",
+          "precision": "viewed_on_box_timestamps_approximate",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00081"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 10
+        }
+      ],
+      "review_flags": [
+        "The footage carries no caption, date or credit (only the 'UI' programme watermark), and the narration does not mention the party; 'party' is a visual description, and the date and occasion are not stated by the programme.",
+        "Archive footage reused in 2022; its original broadcast or supplier (Nine archive, family or police) is not identified. See KCQST0036.",
+        "Earliest identified use of this footage, not necessarily its first broadcast. The separate ABC home-video shot of Karmein laughing by a car (1991 ABC news reports) is a different scene.",
+        "Other children and adults appear in the footage; private individuals: do not identify them."
+      ]
+    },
+    {
+      "source_id": "KCSRC00082",
+      "record_type": "source",
+      "title": {
+        "value": "Herald Sun, 17/04/1991, page 3 – 'Mother's plea to kidnapper' (title as heard in KCSRC00080, unverified)",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00082",
+          "KCSRC00080"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00082"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-17",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "as_read_in_KCSRC00080",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Reporters as transcribed in KCSRC00080: 'Greg Tom and Michelle Coffey' (ASR; spelling unverified)",
+          "units": "source_identifier",
+          "precision": "as_read_in_KCSRC00080",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00080"
+          ]
+        }
+      ],
+      "access": {
+        "value": "Original not consulted; known only from the reading in KCSRC00080 (auto-transcript ~22:36-23:52)",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "'The two girls have been staying with the godparents. Mr. Chan said he might be forced to send them overseas until the ordeal was over.'",
+          "units": "fact_summary",
+          "precision": "verbatim_as_read_in_KCSRC00080_auto_transcript",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00082",
+            "KCSRC00080"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "original_not_consulted",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00082"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 3
+        }
+      ],
+      "review_flags": [
+        "Original not consulted: title, page, reporters and wording are as read aloud in KCSRC00080 and transcribed by machine (title transcribed 'Mother's Plei-fect Kidnapper'). Check against the original (Herald Sun, 17 April 1991) before quotation.",
+        "The passage read does not mention a birthday party; the party details in KCSRC00080 are the hosts' own recollection.",
+        "The godparents are private individuals and are not named here."
       ]
     }
   ]

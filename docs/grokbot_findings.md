@@ -175,3 +175,62 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - Backstage Discrepancies entry "When and how did John and Phyllis Chan arrive in Australia?".
 - **Still open:** the engagement claim ("engaged shortly after their arrival in Australia … early twenties") rests on KCSRC00006 only and sits uneasily with KCSRC00072 ("with his wife"). Check it in KCSRC00005.
 - **Housekeeping note:** `referenced_in_current_files` in `data/sources.json` is stale for several sources (e.g. TCS-WWKC-WEB-0001, KCSRC00007, KCSRC00057). Only the five sources touched here (KCSRC00005/00006/00022/00067/00072) were recomputed. The .toon recomputes every count on rebuild.
+
+## 2026-10-21 – PLC camp at Jerusalem Creek (KCEVT0008, KCPLACE0010, KCQST0031–0034)
+
+- **Author statement:** the site author (The Cruel Song) said on 2026-10-21 that the camp dates 2–17 February 1991 are their own estimate, derived by logic and not sourced.
+- **KCEVT0008 dates:**
+  - `start_date`/`end_date` kept, but now marked `day_author_estimate` with inference 2 (IL-2 "estimating a likely time window", docs/inference-levels.md);
+  - KCSRC00058 removed from the date `source_ids`, since it does not give these dates;
+  - `date_status` set to "author_estimate_by_logic_not_sourced", plus a review flag.
+- **KCSRC00058 locators** (Melbourne Marvels "Mr Cruel 14", faster-whisper auto-transcript, unverified; "Ealdon" = Eildon), added to KCEVT0008 `exact_quotes`:
+  - 37:49–37:56: "They actually camped at Jerusalem Creek, which is sort of in the name of Lake Ealdon, in February that year in the first two weeks of school."
+  - 38:22–38:37: "The year eight coordinator of PLC said that the camps were held at Jerusalem Inlet near Ealdon and the activities included canoeing, bushcraft, basic first aid, and of course cooking."
+  - The source says "camps" (plural) in "the first two weeks of school". It does not say that Karmein stayed two weeks.
+- **KCPLACE0010:**
+  - alias "Jerusalem Inlet" added (KCSRC00058, KCSRC00060);
+  - case role no longer carries the estimated dates;
+  - links to KCEVT0008 and KCQST0031–0034 added.
+- **Parks Victoria "Jerusalem Creek Campground" page and visitor guide:** these confirm both names but are not catalogued. A new KCSRC is proposed, not created.
+- **New open questions** (public questions, inference 1, source KCSRC00058):
+  - KCQST0031: Karmein's length of stay and exact dates;
+  - KCQST0032: original publication of the Year 8 coordinator statement;
+  - KCQST0033: police and a possible camp–Alexandra sightings link (unverified sightings: The Age, 25/08/1991, p. 1, not yet catalogued; the offender link is speculation in KCSRC00058);
+  - KCQST0034: the exact 1991 campsite or facility.
+- **Housekeeping:** only KCSRC00058 and KCSRC00060 had `referenced_in_current_files` recomputed in sources.json.
+
+## 2026-10-22 – New sources KCSRC00078 and KCSRC00079 (camp and Alexandra sightings)
+
+- **KCSRC00078:** The Age, 25/08/1991, page 1, "Karmein: recent photo prompts new clues".
+  - Taken from the TCS Backstage press review, with ProQuest docview 2676397606 (EZproxy link).
+  - The fact is the Backstage summary of two unverified sightings in Alexandra; the article was not re-consulted.
+  - Linked to KCQST0033.
+  - The ISSN follows the site convention for The Age. 25/08/1991 is a Sunday, so check whether ProQuest files this page under The Age or The Sunday Age.
+- **KCSRC00079:** Parks Victoria, "Jerusalem Creek Campground" web page, accessed 2026-10-22.
+  - Two verbatim location facts (the page says both "south" and "east" of Eildon).
+  - Linked to KCPLACE0010: new `park` and `street_context` location fields, plus `nearby_locality`.
+  - Also linked to KCQST0034.
+  - **Not linked to the "Jerusalem Inlet" alias:** the page does not use that name. It appears in the Parks Victoria visitor guide, which is not catalogued.
+- **Site (applied 2026-10-22):**
+  - home: source rows KCSRC00078/00079, camp paragraph reworded (dates labelled as an estimate), [KCSRC00058] on the activities sentence, Timeline date cell "February 1991 (estimated: Saturday 2 - Sunday 17 February 1991)";
+  - Backstage: KCQST0031–0034 in "Public questions", [KCSRC00078] after the 25/08/1991 press-review title.
+- **.toon header:** sources 80, total_records 264, catalogued_source_id_count 80. `referenced_source_id_count` was corrected from 41 (stale) to 45 (80 catalogued − 35 unused).
+
+## 2026-10-22 – Birthday party footage (KCSRC00080–00082, KCQST0035–0037)
+
+- **KCSRC00080:** Melbourne Marvels, "Mr Cruel 8 – Karmein Chan 3" (RSS 2024-11-26).
+  - Locator 22:36–26:48 (auto-transcript, faster-whisper).
+  - The hosts say "from memory" that the family attended a birthday party at the godparents' home "the weekend before the abduction", possibly in "Brighton or Brighton East".
+  - Single source, with no document cited.
+- **KCSRC00081:** Under Investigation with Liz Hayes S3E4 "Mapping Mr Cruel" (Nine, 2 March 2022; YouTube 60 Minutes Australia Jaq001Evc_c).
+  - Party footage at about 31:17–31:31 and 41:34–41:42.
+  - Uncaptioned, undated and uncredited; the narration does not mention the party.
+  - Earliest identified use of the footage, not necessarily the first broadcast.
+- **KCSRC00082:** Herald Sun, 17/04/1991, p. 3. **Original not consulted.** Known only as read in KCSRC00080: the sisters were "staying with the godparents". No mention of a party.
+- **Open questions:**
+  - KCQST0035: date and place of the filming; is "the weekend before" documented?
+  - KCQST0036: first broadcast and supplier.
+  - KCQST0037: did police examine the guests or the footage?
+- **Privacy:** no private individual is named (children, host family, godparents).
+- **Not linked in:** the footage is not linked to KCEVT/KCPLACE records, because the date and place are unsourced.
+- **Site:** published on 22/10/2026: KCSRC00080–00082 rows added to the home page sources table, and KCQST0035–0037 added to Backstage "Public questions". **.toon header:** sources 83, open_questions 37, total_records 270, referenced 48 / catalogued 83, unused 35 (unchanged).

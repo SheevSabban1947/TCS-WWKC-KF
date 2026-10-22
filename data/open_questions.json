@@ -1,7 +1,7 @@
 {
   "file": "open_questions.json",
   "schema_version": "0.1.0",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -1375,6 +1375,395 @@
       "related_event_ids": [],
       "review_flags": [
         "Based on alleged, unverified, second-hand hearsay. Publication hold: neutral wording only, no implication of guilt; do not name creditors or tradespeople."
+      ]
+    },
+    {
+      "id": "KCQST0031",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "question": {
+        "value": "How long did Karmein Chan stay at the February 1991 PLC camp near Jerusalem Creek, and on which exact dates?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 37:33–38:37",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "The site's dates (2–17 February 1991) are an unsourced author estimate; KCSRC00058 says only 'the first two weeks of school' and refers to 'camps' (plural)."
+      ]
+    },
+    {
+      "id": "KCQST0032",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "question": {
+        "value": "Where was the PLC Year 8 coordinator's statement about the 1991 camps at Jerusalem Inlet (quoted in KCSRC00058) originally published?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 38:22–38:37",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "Single, unnamed source relayed second-hand by the podcast; do not name the coordinator."
+      ]
+    },
+    {
+      "id": "KCQST0033",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00078"
+        ]
+      },
+      "question": {
+        "value": "Did police investigate a possible link between the February 1991 Eildon camp and the reported Alexandra sightings?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00078"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00078"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 36:18–39:09",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "The Alexandra sightings are unverified reports by two unnamed witnesses (KCSRC00078, The Age, 25 August 1991, page 1, 'Karmein: recent photo prompts new clues'). The camp–offender link is explicitly labelled speculation in KCSRC00058 (38:38–39:09). Neutral wording only; no implication about any person."
+      ]
+    },
+    {
+      "id": "KCQST0034",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060",
+          "KCSRC00079"
+        ]
+      },
+      "question": {
+        "value": "Which campsite or facility did PLC use near Jerusalem Creek in 1991?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060",
+          "KCSRC00079"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060",
+          "KCSRC00079"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00058, 37:49–38:37",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00058",
+          "KCSRC00060"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [
+        "KCPLACE0010"
+      ],
+      "related_event_ids": [
+        "KCEVT0008"
+      ],
+      "review_flags": [
+        "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
+        "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (KCSRC00079, current description, not evidence for 1991)."
+      ]
+    },
+    {
+      "id": "KCQST0035",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081",
+          "KCSRC00082"
+        ]
+      },
+      "question": {
+        "value": "When and where was the birthday party footage of Karmein Chan filmed, and is \"the weekend before the abduction\" documented?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081",
+          "KCSRC00082"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081",
+          "KCSRC00082"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00080, 25:00–26:27",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0023"
+      ],
+      "review_flags": [
+        "KCSRC00080 is an auto-transcript (faster-whisper) and the hosts speak from memory; verify wording against the audio.",
+        "Only KCSRC00080 dates the party ('the weekend before the abduction', i.e. about 6–7 April 1991, a calculation) and places it ('I believe in Brighton or Brighton East'). KCSRC00081 shows the footage without any date or place. KCSRC00082, as read in KCSRC00080, mentions the godparents but not a party.",
+        "Private individuals (other children, the host family, the godparents) must not be identified."
+      ]
+    },
+    {
+      "id": "KCQST0036",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081",
+          "KCSRC00080"
+        ]
+      },
+      "question": {
+        "value": "Who first broadcast the birthday party footage (channel, programme, date), and was it supplied by the family or by police?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00081",
+          "KCSRC00080"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081",
+          "KCSRC00080"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00081, ~31:17–31:31 and ~41:34–41:42",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0023"
+      ],
+      "review_flags": [
+        "Earliest identified use: Nine, Under Investigation with Liz Hayes S3E4, 2 March 2022 (KCSRC00081), uncaptioned and uncredited. A 1991 TV news use is reported but not identified. KCSRC00080 (26:04) says listeners 'may recall footage', without a broadcast reference.",
+        "The ABC 1991 news reports reuse a different home-video shot (Karmein laughing by a car); do not conflate."
+      ]
+    },
+    {
+      "id": "KCQST0037",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081"
+        ]
+      },
+      "question": {
+        "value": "Did police examine the guests of this birthday party, or the footage itself?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00080, 25:27–26:48",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0023"
+      ],
+      "review_flags": [
+        "KCSRC00080 is an auto-transcript (faster-whisper) and the hosts speak from memory; verify wording against the audio.",
+        "No source found on any police examination of the party, its guests or the footage. Neutral wording only; no implication about any person.",
+        "Private individuals (other children, the host family, the godparents) must not be identified."
       ]
     }
   ]
