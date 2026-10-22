@@ -1,7 +1,7 @@
 {
   "file": "open_questions.json",
   "schema_version": "0.1.0",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -1597,6 +1597,173 @@
       "review_flags": [
         "KCSRC00058 is an auto-transcript (faster-whisper); verify wording against the audio.",
         "KCSRC00058 names both 'Jerusalem Creek' and 'Jerusalem Inlet'; Parks Victoria lists eight Jerusalem Creek camping areas along Jerusalem Creek Road (KCSRC00079, current description, not evidence for 1991)."
+      ]
+    },
+    {
+      "id": "KCQST0035",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081",
+          "KCSRC00082"
+        ]
+      },
+      "question": {
+        "value": "When and where was the birthday party footage of Karmein Chan filmed, and is \"the weekend before the abduction\" documented?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081",
+          "KCSRC00082"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081",
+          "KCSRC00082"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00080, 25:00–26:27",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0023"
+      ],
+      "review_flags": [
+        "KCSRC00080 is an auto-transcript (faster-whisper) and the hosts speak from memory; verify wording against the audio.",
+        "Only KCSRC00080 dates the party ('the weekend before the abduction', i.e. about 6–7 April 1991, a calculation) and places it ('I believe in Brighton or Brighton East'). KCSRC00081 shows the footage without any date or place. KCSRC00082, as read in KCSRC00080, mentions the godparents but not a party.",
+        "Private individuals (other children, the host family, the godparents) must not be identified."
+      ]
+    },
+    {
+      "id": "KCQST0036",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081",
+          "KCSRC00080"
+        ]
+      },
+      "question": {
+        "value": "Who first broadcast the birthday party footage (channel, programme, date), and was it supplied by the family or by police?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00081",
+          "KCSRC00080"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081",
+          "KCSRC00080"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00081, ~31:17–31:31 and ~41:34–41:42",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00081"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0023"
+      ],
+      "review_flags": [
+        "Earliest identified use: Nine, Under Investigation with Liz Hayes S3E4, 2 March 2022 (KCSRC00081), uncaptioned and uncredited. A 1991 TV news use is reported but not identified. KCSRC00080 (26:04) says listeners 'may recall footage', without a broadcast reference.",
+        "The ABC 1991 news reports reuse a different home-video shot (Karmein laughing by a car); do not conflate."
+      ]
+    },
+    {
+      "id": "KCQST0037",
+      "record_type": "open_question",
+      "category": {
+        "value": "public_questions_about_the_karmein_chan_case",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081"
+        ]
+      },
+      "question": {
+        "value": "Did police examine the guests of this birthday party, or the footage itself?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080",
+          "KCSRC00081"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00080, 25:27–26:48",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00080"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0023"
+      ],
+      "review_flags": [
+        "KCSRC00080 is an auto-transcript (faster-whisper) and the hosts speak from memory; verify wording against the audio.",
+        "No source found on any police examination of the party, its guests or the footage. Neutral wording only; no implication about any person.",
+        "Private individuals (other children, the host family, the godparents) must not be identified."
       ]
     }
   ]

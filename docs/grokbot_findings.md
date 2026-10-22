@@ -215,3 +215,22 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - home: source rows KCSRC00078/00079, camp paragraph reworded (dates labelled as an estimate), [KCSRC00058] on the activities sentence, Timeline date cell "February 1991 (estimated: Saturday 2 - Sunday 17 February 1991)";
   - Backstage: KCQST0031–0034 in "Public questions", [KCSRC00078] after the 25/08/1991 press-review title.
 - **.toon header:** sources 80, total_records 264, catalogued_source_id_count 80. `referenced_source_id_count` was corrected from 41 (stale) to 45 (80 catalogued − 35 unused).
+
+## 2026-10-22 – Birthday party footage (KCSRC00080–00082, KCQST0035–0037)
+
+- **KCSRC00080:** Melbourne Marvels, "Mr Cruel 8 – Karmein Chan 3" (RSS 2024-11-26).
+  - Locator 22:36–26:48 (auto-transcript, faster-whisper).
+  - The hosts say "from memory" that the family attended a birthday party at the godparents' home "the weekend before the abduction", possibly in "Brighton or Brighton East".
+  - Single source, with no document cited.
+- **KCSRC00081:** Under Investigation with Liz Hayes S3E4 "Mapping Mr Cruel" (Nine, 2 March 2022; YouTube 60 Minutes Australia Jaq001Evc_c).
+  - Party footage at about 31:17–31:31 and 41:34–41:42.
+  - Uncaptioned, undated and uncredited; the narration does not mention the party.
+  - Earliest identified use of the footage, not necessarily the first broadcast.
+- **KCSRC00082:** Herald Sun, 17/04/1991, p. 3. **Original not consulted.** Known only as read in KCSRC00080: the sisters were "staying with the godparents". No mention of a party.
+- **Open questions:**
+  - KCQST0035: date and place of the filming; is "the weekend before" documented?
+  - KCQST0036: first broadcast and supplier.
+  - KCQST0037: did police examine the guests or the footage?
+- **Privacy:** no private individual is named (children, host family, godparents).
+- **Not linked in:** the footage is not linked to KCEVT/KCPLACE records, because the date and place are unsourced.
+- **Site:** not updated in this commit (see report). **.toon header:** sources 83, open_questions 37, total_records 270, referenced 48 / catalogued 83, unused 35 (unchanged).
