@@ -247,3 +247,24 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
 - **Housekeeping:** `referenced_in_current_files` was recomputed only for the sources cited by the new entries. Other sources still carry stale values (notably those referenced only from people.json, e.g. KCSRC00007, 00008, 00026, 00031, 00055, 00057); left for a separate cleanup.
 - **Site:** published 22/10/2026: the four source rows were added to the home page sources table after KCSRC00082, and KCQST0038–0056 were added to the Backstage section "Questions about Karmein Chan herself" after KCQST0029 (hyphen style).
 - **.toon header:** sources 87, open_questions 56, total_records 293, referenced 58 / catalogued 87, unused 29.
+
+## 2026-10-22 – Karmein Chan Memorial Scholarship (KCSRC00087–00088, KCQST0057–0058)
+
+- **New sources:**
+  - KCSRC00087: The Royal Children's Hospital Foundation, *Impact of Giving* annual reports, 2013/2014 to 2024/2025 (one consolidated entry, one URL per edition).
+    - The scholarship is listed among philanthropically funded scholarships as "Karmien Chan Scholarship" (2013/2014), "The Karmien Chan Memorial Scholarship" (2016), "The Karmien Chan Memorial Travelling Scholarship" (2017/2018–2020/2021) and "Karmien Chan Memorial Scholarship" (2022/2023–2024/2025).
+    - The spelling "Karmien" is the publisher's.
+    - Not named in the 2021/2022 report; the 2015 and 2017 editions were not checked.
+  - KCSRC00088: "Royal Children's Hospital Travelling Scholarships – February 2018" application form. It lists the scholarship in the August round. **Third-party copy (docest.com); RCH original not found.**
+- **KCSRC00083:** two facts added (the scholarship was established by Phyllis Lam; Karmein was treated for asthma at the RCH), both via the KCSRC00028 blog copy.
+- **Open questions:**
+  - KCQST0057: founding year.
+  - KCQST0058: value, frequency, recipients, earmarked donations.
+  - Both in category `questions_about_karmein_chan_herself`.
+- **Unknowns:** founding year, amounts and recipients were not found in published sources.
+- **Privacy:** a private 2020 funeral notice supplied by the user (which showed the scholarship was accepting donations in December 2020) is deliberately not catalogued, cited or described.
+- **Housekeeping:** `referenced_in_current_files` recomputed for TCS-WWKC-WEB-0001, KCSRC00083, KCSRC00087 and KCSRC00088 only.
+- **Site:** published 22/10/2026:
+  - home page: new h3 section "Karmein Chan Memorial Scholarship" after 'Her "favorite dress"'; rows KCSRC00087–00088 added after KCSRC00086; KCSRC00083 row extended;
+  - Backstage: KCQST0057–0058 added after KCQST0056.
+- **.toon header:** sources 89, open_questions 58, total_records 297, referenced 60 / catalogued 89, unused 29.
