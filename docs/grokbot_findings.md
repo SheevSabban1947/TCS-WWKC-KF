@@ -233,4 +233,4 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - KCQST0037: did police examine the guests or the footage?
 - **Privacy:** no private individual is named (children, host family, godparents).
 - **Not linked in:** the footage is not linked to KCEVT/KCPLACE records, because the date and place are unsourced.
-- **Site:** not updated in this commit (see report). **.toon header:** sources 83, open_questions 37, total_records 270, referenced 48 / catalogued 83, unused 35 (unchanged).
+- **Site:** published on 22/10/2026: KCSRC00080–00082 rows added to the home page sources table, and KCQST0035–0037 added to Backstage "Public questions". **.toon header:** sources 83, open_questions 37, total_records 270, referenced 48 / catalogued 83, unused 35 (unchanged).
