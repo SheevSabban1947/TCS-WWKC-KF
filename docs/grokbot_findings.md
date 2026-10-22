@@ -234,3 +234,16 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
 - **Privacy:** no private individual is named (children, host family, godparents).
 - **Not linked in:** the footage is not linked to KCEVT/KCPLACE records, because the date and place are unsourced.
 - **Site:** published on 22/10/2026: KCSRC00080–00082 rows added to the home page sources table, and KCQST0035–0037 added to Backstage "Public questions". **.toon header:** sources 83, open_questions 37, total_records 270, referenced 48 / catalogued 83, unused 35 (unchanged).
+
+## 2026-10-22 – Questions about Karmein Chan herself (KCSRC00083–00086, KCQST0038–0056)
+
+- **New sources:**
+  - KCSRC00083: Leader, 13/04/2011, "Mother marks 20 years since Karmein Chan's murder" (Shaun Turton). **Original not consulted**; text seen via the Missing and Murdered blog copy (KCSRC00028).
+  - KCSRC00084: SBS News (AAP), 13/04/2016, "Mr Cruel victim 'wasn't going willingly'". Not cited by any question yet (unused).
+  - KCSRC00085: The Age, 01/05/1991, p. 1, "Taskforce set up to hunt kidnapper" (ProQuest docview 2521717455). Mackay quote "fairly reserved student" taken from the TCS Backstage summary; the ProQuest URL slug says "page-56" while the Backstage label says page 1, so check.
+  - KCSRC00086: Herald Sun, 16/04/1991, "Mum Begs Abductor, Take Me" (title to verify). **Original not consulted**; known only as read in KCSRC00075 (auto-transcript).
+- **Open questions KCQST0038–0056** (category `questions_about_karmein_chan_herself`): friends' quote; Mackay wording variants; career ambition; PLC writings and tributes; police height and description; inhaler wording; glandular fever dates; PLC subjects and house; PLC memorial service source; grave inscription; 3AW recording date; Twin Peaks; Phantom of the Opera; ski photo; lasagne; church; Karly's letter and homework; Chinese language (Mandarin or Cantonese, based on the Hong Kong origins in KCSRC00005 p. 3); circular TCS-only sourcing of KF fields.
+- **Privacy:** no private living person named beyond names already public on the site.
+- **Housekeeping:** `referenced_in_current_files` was recomputed only for the sources cited by the new entries. Other sources still carry stale values (notably those referenced only from people.json, e.g. KCSRC00007, 00008, 00026, 00031, 00055, 00057); left for a separate cleanup.
+- **Site:** published 22/10/2026: the four source rows were added to the home page sources table after KCSRC00082, and KCQST0038–0056 were added to the Backstage section "Questions about Karmein Chan herself" after KCQST0029 (hyphen style).
+- **.toon header:** sources 87, open_questions 56, total_records 293, referenced 58 / catalogued 87, unused 29.

@@ -17,7 +17,7 @@ knowledge_file:
         schema_version: "0.1.0"
         updated: "2026-10-22"
         record_key: "sources"
-        record_count: 83
+        record_count: 87
       - file: "people.json"
         schema_version: "0.3.0"
         updated: "2026-10-21"
@@ -41,22 +41,22 @@ knowledge_file:
         schema_version: "0.1.0"
         updated: "2026-10-22"
         record_key: "open_questions"
-        record_count: 37
+        record_count: 56
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
-      sources: 83
+      sources: 87
       people: 78
       contextual_people: 4
       places: 17
       timeline_events: 51
-      open_questions: 37
-      total_records: 270
+      open_questions: 56
+      total_records: 293
     integrity:
-      referenced_source_id_count: 48
-      catalogued_source_id_count: 83
+      referenced_source_id_count: 58
+      catalogued_source_id_count: 87
       missing_source_ids: []
-      unused_catalogue_source_ids[35]:
+      unused_catalogue_source_ids[29]:
         - "KCSRC00009"
         - "KCSRC00010"
         - "KCSRC00013"
@@ -66,32 +66,26 @@ knowledge_file:
         - "KCSRC00017"
         - "KCSRC00020"
         - "KCSRC00021"
-        - "KCSRC00023"
-        - "KCSRC00024"
         - "KCSRC00025"
         - "KCSRC00027"
         - "KCSRC00028"
         - "KCSRC00030"
         - "KCSRC00033"
-        - "KCSRC00036"
         - "KCSRC00039"
         - "KCSRC00040"
         - "KCSRC00045"
         - "KCSRC00052"
-        - "KCSRC00056"
         - "KCSRC00059"
         - "KCSRC00061"
         - "KCSRC00062"
         - "KCSRC00063"
         - "KCSRC00064"
-        - "KCSRC00069"
         - "KCSRC00070"
         - "KCSRC00071"
         - "KCSRC00073"
         - "KCSRC00074"
-        - "KCSRC00075"
         - "KCSRC00076"
-        - "KCSRC00077"
+        - "KCSRC00084"
       referenced_person_id_count: 28
       catalogued_person_id_count: 82
       missing_person_ids: []
@@ -219,7 +213,7 @@ knowledge_file:
       - code: "CONTROLLED_ROLE_VALUE_REVIEW"
         status: "pending"
         description: "Review individual role values for naming consistency after source-level verification."
-  sources[83]:
+  sources[87]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -239,7 +233,7 @@ knowledge_file:
         - file: "timeline.json"
           reference_count: 281
         - file: "open_questions.json"
-          reference_count: 116
+          reference_count: 159
       review_flags: []
     - source_id: "KCSRC00001"
       record_type: "source"
@@ -254,13 +248,15 @@ knowledge_file:
       facts_supported[1]:
         -: | "Karmein Chan’s class at PLC" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[3]:
+      referenced_in_current_files[4]:
         - file: "people.json"
           reference_count: 3
         - file: "places.json"
           reference_count: 9
         - file: "timeline.json"
           reference_count: 3
+        - file: "open_questions.json"
+          reference_count: 4
       review_flags: []
     - source_id: "KCSRC00002"
       record_type: "source"
@@ -275,9 +271,11 @@ knowledge_file:
       facts_supported[1]:
         -: | "Karmein Chan’s first year at PLC" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
         - file: "places.json"
           reference_count: 5
+        - file: "open_questions.json"
+          reference_count: 2
       review_flags: []
     - source_id: "KCSRC00003"
       record_type: "source"
@@ -325,13 +323,15 @@ knowledge_file:
         -: | "Interview of Phyllis Chan/Lam" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "Page 3: John and Phyllis Chan moved to Australia from Hong Kong in the mid-1970s ('Both had moved to Australia from Hong Kong in the mid-1970s.')" | u="fact_summary" | p="verbatim_with_page_locator_user_checked" | i=0 | s=[KCSRC00005]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[3]:
+      referenced_in_current_files[4]:
         - file: "people.json"
           reference_count: 13
         - file: "places.json"
           reference_count: 6
         - file: "timeline.json"
           reference_count: 5
+        - file: "open_questions.json"
+          reference_count: 2
       review_flags[1]:
         - "Page 3 checked by the user on 2026-10-21 for the parents' arrival: 'Both had moved to Australia from Hong Kong in the mid-1970s.' Wikipedia (KCSRC00006) cites this book at p. 26 for '1976 / separately'; that page reference and wording are not supported."
     - source_id: "KCSRC00006"
@@ -346,10 +346,12 @@ knowledge_file:
         -: | "Information about the Chan family" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "Detailed review of the abduction" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[2]:
+      referenced_in_current_files[3]:
         - file: "people.json"
           reference_count: 70
         - file: "timeline.json"
+          reference_count: 3
+        - file: "open_questions.json"
           reference_count: 3
       review_flags[1]:
         - "Miscitation (2026-10-21): the Childhood sentence 'separately migrated from Hong Kong to Australia the year prior to her birth' cites Dirty Dozen p. 26, but the book (KCSRC00005) says on page 3 only 'Both had moved to Australia from Hong Kong in the mid-1970s.' Treat '1976' and 'separately' as unsupported."
@@ -517,11 +519,13 @@ knowledge_file:
         -: | "Karmein’s glandular fever" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
         -: | "Phone call from Karly Chan to her father on the night of the abduction" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[2]:
+      referenced_in_current_files[3]:
         - file: "places.json"
           reference_count: 14
         - file: "timeline.json"
           reference_count: 3
+        - file: "open_questions.json"
+          reference_count: 8
       review_flags: []
     - source_id: "KCSRC00019"
       record_type: "source"
@@ -597,7 +601,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Karmein Chan during winter" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 4
       review_flags: []
     - source_id: "KCSRC00024"
       record_type: "source"
@@ -609,7 +615,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Karmein Chan height in 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "low_confidence_ai_assisted_claim" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 4
       review_flags[1]:
         - "AI-derived claim; should be replaced or corroborated with a primary or archival source."
     - source_id: "KCSRC00025"
@@ -783,7 +791,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Chan sister’s favourite dish" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "non_disclosable_source_details" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 4
       review_flags[1]:
         - "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
     - source_id: "KCSRC00037"
@@ -858,9 +868,11 @@ knowledge_file:
       facts_supported[1]:
         -: | "Quotes from the interview given by the Chan parents on Tuesday 16 April 1991" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
         - file: "people.json"
           reference_count: 1
+        - file: "open_questions.json"
+          reference_count: 2
       review_flags: []
     - source_id: "KCSRC00042"
       record_type: "source"
@@ -979,9 +991,11 @@ knowledge_file:
       facts_supported[1]:
         -: | "Information about Karmein Chan’s funeral service" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
         - file: "people.json"
           reference_count: 7
+        - file: "open_questions.json"
+          reference_count: 4
       review_flags: []
     - source_id: "KCSRC00049"
       record_type: "source"
@@ -1013,9 +1027,11 @@ knowledge_file:
       facts_supported[1]:
         -: | "Audio recording of radio broadcast about Karmein Chan’s funeral ceremony" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files[1]:
+      referenced_in_current_files[2]:
         - file: "people.json"
           reference_count: 7
+        - file: "open_questions.json"
+          reference_count: 4
       review_flags: []
     - source_id: "KCSRC00051"
       record_type: "source"
@@ -1107,7 +1123,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "Karmein Chan wanted to become a paediatrician" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
       availability_status: | "non_disclosable_source_details" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 2
       review_flags[1]:
         - "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
     - source_id: "KCSRC00057"
@@ -1338,7 +1356,9 @@ knowledge_file:
         -: | "Two letters written by Karen and Karly Chan to their missing sister were published" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00069]
         -: | "At the bottom of one of the letters, symbols represent the parents, the three children, Mimi the dog and the two family cars (TCS Backstage summary wording, not verbatim from the article)" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00069]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00069]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 3
       review_flags[3]:
         - "Catalogued from the TCS Backstage press review ('Saturday 20 April 1991 – Page 1 – Sisters in plea to abductor'), which links to this ProQuest record (SLV login required)."
         - "Article text not re-consulted for this record; the Mimi wording is the Backstage summary. Re-read the original caption before quoting."
@@ -1438,7 +1458,9 @@ knowledge_file:
       facts_supported[1]:
         -: | "An unnamed former detective who worked on the case and on Spectrum told the host that the offender took some of Karmein's clothes" | u="fact_summary" | p="auto_transcript_~27:55-29:24" | i=1 | s=[KCSRC00075]
       availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00075]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 7
       review_flags[3]:
         - "RSS pubDate 2024-10-20T23:25:50Z (21 October 2024 in Melbourne)."
         - "Locator from a machine transcript of the RSS audio made on the box; verify by listening before quotation."
@@ -1474,7 +1496,9 @@ knowledge_file:
         -: | "Narrator: 'It's believed that the intruder entered the house via an unlocked door or window.'" | u="fact_summary" | p="auto_transcript" | i=0 | s=[KCSRC00077]
         -: | "Narrator: the parents were at 'a Chinese restaurant they owned in nearby Eltham'" | u="fact_summary" | p="auto_transcript" | i=0 | s=[KCSRC00077]
       availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00077]
-      referenced_in_current_files: []
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 2
       review_flags[3]:
         - "Date as shown on the podcastrex transcript page; the episode says it was originally released in January 2017 and revisited in October 2026."
         - "Machine transcript (podcastrex); names misspelt ('Carmen', 'Carly', 'Mr. Kruell'). Verify against the audio before quotation."
@@ -1584,6 +1608,73 @@ knowledge_file:
         - "Original not consulted: title, page, reporters and wording are as read aloud in KCSRC00080 and transcribed by machine (title transcribed 'Mother's Plei-fect Kidnapper'). Check against the original (Herald Sun, 17 April 1991) before quotation."
         - "The passage read does not mention a birthday party; the party details in KCSRC00080 are the hosts' own recollection."
         - "The godparents are private individuals and are not named here."
+    - source_id: "KCSRC00083"
+      record_type: "source"
+      title: | "Leader (Manningham), 13/04/2011 – 'Mother marks 20 years since Karmein Chan's murder' (Shaun Turton)" | u="source_title" | p="catalogued_title" | i=1 | s=[KCSRC00083]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00083]
+      publication_date: | "2011-04-13" | u="iso8601_date_or_partial_date" | p="as_shown_in_KCSRC00028_copy" | i=0 | s=[KCSRC00083]
+      identifiers[2]:
+        -: | "Author: Shaun Turton" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00083]
+        -: | "Copy dated '13 Apr 11 @ 07:00am' on the Missing and Murdered blog (KCSRC00028); the copy says 'Morningham Leader'" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00083]
+      access: | "Original not consulted; full text seen via KCSRC00028: http://missingandmurderedaustralia.blogspot.com/1991/04/karmein-chan.html" | u="access_locator_or_note" | p="partial" | i=0 | s=[KCSRC00083]
+      facts_supported[3]:
+        -: | "Phyllis Lam's description of Karmein (see character_quotes_sourcing.md for the verbatim wording)" | u="fact_summary" | p="verbatim_as_shown_in_KCSRC00028_copy" | i=1 | s=[KCSRC00083,KCSRC00028]
+        -: | "Karmein wanted to become a doctor / 'mobile doctor'" | u="fact_summary" | p="as_shown_in_KCSRC00028_copy" | i=1 | s=[KCSRC00083,KCSRC00028]
+        -: | "Phyllis Lam converted from Buddhism to Christianity after the funeral" | u="fact_summary" | p="as_shown_in_KCSRC00028_copy" | i=1 | s=[KCSRC00083,KCSRC00028]
+      availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00083]
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 4
+      review_flags[1]:
+        - "Original newspaper not consulted; text known from a blog copy (KCSRC00028). Check against the Leader original before quotation."
+    - source_id: "KCSRC00084"
+      record_type: "source"
+      title: | "SBS News (AAP), 13/04/2016 – 'Mr Cruel victim 'wasn't going willingly''" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00084]
+      source_type: | "website_page" | u="source_type" | p="category" | i=0 | s=[KCSRC00084]
+      publication_date: | "2016-04-13" | u="iso8601_date_or_partial_date" | p="from_publisher_listing" | i=0 | s=[KCSRC00084]
+      identifiers[2]:
+        -: | "Source: AAP" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00084]
+        -: | "Same text on SBS Chinese (English): https://www.sbs.com.au/language/chinese/en/article/mr-cruel-victim-wasnt-going-willingly/ucr0debjg" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00084]
+      access: | "https://www.sbs.com.au/news/article/mr-cruel-victim-wasnt-going-willingly/kd2q33syw" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00084]
+      facts_supported[1]:
+        -: | "Karmein told her mother she would not go willingly, after the abduction of Nicola Lynas (family account relayed by AAP in 2016)" | u="fact_summary" | p="publisher_text_summary" | i=1 | s=[KCSRC00084]
+      availability_status: | "public" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00084]
+      referenced_in_current_files: []
+      review_flags[1]:
+        - "Second-hand family account reported in 2016; the original 1990/91 conversation is not documented."
+    - source_id: "KCSRC00085"
+      record_type: "source"
+      title: | "The Age, 01/05/1991, page 1 – 'Taskforce set up to hunt kidnapper'" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00085]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00085]
+      publication_date: | "1991-05-01" | u="iso8601_date_or_partial_date" | p="from_tcs_backstage_press_review" | i=0 | s=[KCSRC00085]
+      identifiers[2]:
+        -: | "ProQuest docview 2521717455" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00085]
+        -: | "ISSN: 2203-580X; e-ISSN: 0312-6307" | u="source_identifier" | p="from_publisher_listing" | i=0 | s=[KCSRC00085]
+      access: | "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/may-1-1991-page-56/docview/2521717455/sem-2?accountid=13905" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00085]
+      facts_supported[1]:
+        -: | "William Mackay: 'Karmein was a fairly reserved student'" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00085]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00085]
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 2
+      review_flags[2]:
+        - "Wording from the TCS Backstage press summary; verify against the scan (ProQuest via SLV, user-only)."
+        - "The ProQuest URL slug says 'page-56' while the Backstage label says page 1; check."
+    - source_id: "KCSRC00086"
+      record_type: "source"
+      title: | "Herald Sun, 16/04/1991 (morning edition) – title as heard in KCSRC00075 'Mum Begs Abductor, Take Me' (unverified)" | u="source_title" | p="catalogued_title" | i=1 | s=[KCSRC00086,KCSRC00075]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00086]
+      publication_date: | "1991-04-16" | u="iso8601_date_or_partial_date" | p="as_read_in_KCSRC00075" | i=1 | s=[KCSRC00075]
+      identifiers: []
+      access: | "Original not consulted; known only from the reading in KCSRC00075 (auto-transcript ~21:03-21:15)" | u="access_locator_or_note" | p="partial" | i=0 | s=[KCSRC00086]
+      facts_supported[1]:
+        -: | "William Mackay described Karmein as an 'enthusiastic and positive' year eight student" | u="fact_summary" | p="verbatim_as_read_in_KCSRC00075_auto_transcript" | i=1 | s=[KCSRC00086,KCSRC00075]
+      availability_status: | "original_not_consulted" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00086]
+      referenced_in_current_files[1]:
+        - file: "open_questions.json"
+          reference_count: 2
+      review_flags[1]:
+        - "Original not consulted: title, page and wording as read aloud in KCSRC00075 and transcribed by machine. Check against the original before quotation."
   people[78]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
@@ -4450,7 +4541,7 @@ knowledge_file:
       review_flags[2]:
         - "Single source (Adam Shand, Ep 2); times as narrated, verify against police records or press if possible."
         - "Follows KCEVT0046 (discovery by the dog walker at around 17:00)."
-  open_questions[37]:
+  open_questions[56]:
     - id: "KCQST0001"
       record_type: "open_question"
       category: | "public_questions_about_the_karmein_chan_case" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -4872,3 +4963,247 @@ knowledge_file:
         - "KCSRC00080 is an auto-transcript (faster-whisper) and the hosts speak from memory; verify wording against the audio."
         - "No source found on any police examination of the party, its guests or the footage. Neutral wording only; no implication about any person."
         - "Private individuals (other children, the host family, the godparents) must not be identified."
+    - id: "KCQST0038"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Where was the description of Karmein by her friends quoted on the home page (\"a very friendly person with a strong personality who had a bubbly sense of humour and who lived life to the fullest\") originally published?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#about-karmein-chan (home, Essential facts)" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[1]:
+        - "Quote not found outside The Cruel Song (web, Wikipedia, Reddit dump, Melbourne Marvels and Casefile transcripts); ProQuest check needed."
+    - id: "KCQST0039"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Where did William Mackay describe Karmein as \"charming, polite, enthusiastic and lively\"? The published variants found so far are \"enthusiastic and positive\" (Herald Sun, 16 April 1991, KCSRC00086, as read in KCSRC00075) and \"a fairly reserved student\" (KCSRC00085)." | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00075,KCSRC00085,KCSRC00086]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00075,KCSRC00085,KCSRC00086]
+      source_locator: | "KCSRC00075, 21:03–21:15" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00075]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[3]:
+        - "KCSRC00086 is known only as read in KCSRC00075 (auto-transcript); original not consulted."
+        - "KCSRC00085 wording is the TCS Backstage press summary of The Age, 01/05/1991, p. 1; verify against the scan."
+        - "The site wording 'charming, polite, enthusiastic and lively' was not found in any source."
+    - id: "KCQST0040"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What did Karmein want to become? The claims to verify are a barrister (attributed by KCSRC00006 to KCSRC00018), a doctor or \"mobile doctor\" (KCSRC00083), and a paediatrician (KCSRC00056, a single anonymous source)." | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00006,KCSRC00018,KCSRC00056,KCSRC00083]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00006,KCSRC00018,KCSRC00056,KCSRC00083]
+      source_locator: | "KCSRC00083 (Leader, 13/04/2011)" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00006]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[3]:
+        - "'barrister' is Wikipedia's (KCSRC00006) attribution to KCSRC00018, not checked against the original."
+        - "'paediatrician' rests on a single anonymous informant (KCSRC00056)."
+        - "KCSRC00083 is read via a blog copy (KCSRC00028)."
+    - id: "KCQST0041"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Did PLC publications (school magazine or yearbooks, 1990-1992) print any of Karmein's own writing, or a tribute to her in 1992?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "PLC archives (not catalogued)" | u="source_locator_note" | p="locator_note" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids[1]:
+        - "KCEVT0049"
+      review_flags[1]:
+        - "No writing by Karmein found; PLC archives and yearbooks are the realistic source."
+    - id: "KCQST0042"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "What height and physical description of Karmein did Victoria Police publish in April 1991? The height currently shown (154cm) comes from an AI tool (KCSRC00024) and needs a primary source." | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00024]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00024]
+      source_locator: | "KCSRC00024" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00024]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids[1]:
+        - "KCEVT0023"
+      review_flags[1]:
+        - "KCSRC00024 is AI-derived (moderate risk of hallucination); replace with the April 1991 police description (press 14–16/04/1991)."
+    - id: "KCQST0043"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which source supports the claim that Karmein needed her inhaler \"whenever she got too tired or emotional\"?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001,KCSRC00041,KCSRC00075]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00041,KCSRC00075]
+      source_locator: | "#about-karmein-chan (home, Essential facts)" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[3]:
+        - "Wording 'too tired or emotional' not found in any source."
+        - "KCSRC00075 [auto-transcript, police statement as read]: 'she normally has a pump beside her bed'."
+        - "KCSRC00041: 'She can't get very tired.'"
+    - id: "KCQST0044"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "When did Karmein have glandular fever? The sources give September 1989 (KCSRC00018), \"two years ago\" (Herald Sun, April 1991, as read in KCSRC00075) and still recovering in April 1991 (KCSRC00018)." | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00018,KCSRC00075]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00018,KCSRC00075]
+      source_locator: | "KCSRC00075, ~13:48" | u="timestamp_range" | p="transcript_timestamp" | i=0 | s=[KCSRC00018]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids[1]:
+        - "KCEVT0005"
+      review_flags[1]:
+        - "Three versions: September 1989 (KCEVT0005, KCSRC00018); 'glandular fever two years ago' (Herald Sun as read in KCSRC00075, auto-transcript); recovering in April 1991 (KCSRC00018; Canberra Times 16/04/1991 p. 5, Trove 122357296, not catalogued)."
+    - id: "KCQST0045"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which subjects, house and co-curricular activities did Karmein take at PLC in 1990 and 1991?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00001,KCSRC00002]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00001,KCSRC00002]
+      source_locator: | "KCSRC00001" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[1]:
+        - "Only Year 8, class 8H and entry in 1983 are documented."
+    - id: "KCQST0046"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which source documents the PLC memorial service at Scots Church on Wednesday 20 May 1992, and what was said about Karmein there?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#burial-ceremony (home)" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids[1]:
+        - "KCEVT0049"
+      review_flags[1]:
+        - "The site sentence on the memorial service carries no KCSRC; likely The Age of about 21/05/1992 (ProQuest check needed)."
+    - id: "KCQST0047"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Where is Karmein's grave, and what exactly does its inscription say, according to a published photograph or cemetery record?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "Reddit comment /1gzt6f/_/lz0uny4/ (not catalogued)" | u="source_locator_note" | p="locator_note" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[2]:
+        - "Grave location and inscription known only from a Reddit transcription; cite a published photograph or cemetery record."
+        - "Do not publish visiting directions."
+    - id: "KCQST0048"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "When was the 3AW recording of the funeral (KCSRC00050) broadcast, and does it include a eulogy describing Karmein?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00050]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00050]
+      source_locator: | "KCSRC00050" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00050]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids[1]:
+        - "KCEVT0047"
+      review_flags[1]:
+        - "KCSRC00050 is undated with no URL; currently only cited for the choir hymn."
+    - id: "KCQST0049"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which source supports the claim that Karmein watched Twin Peaks and was reading \"The Secret Diary of Laura Palmer\"?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#about-saturday-13-april-1991 (home, Trivia)" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[1]:
+        - "The site says 'reportedly' with no source; nothing found on the web or Reddit."
+    - id: "KCQST0050"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which source supports the claim that Karmein used her pocket money to see The Phantom of the Opera musical, and in which year?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "#about-karmein-chan (home)" | u="html_anchor" | p="section_anchor" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[1]:
+        - "No source; year uncertain."
+    - id: "KCQST0051"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Where and when was the \"ski station\" photo (KCSRC00023) taken, and did Karmein ski regularly?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00023]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00023]
+      source_locator: | "KCSRC00023" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00023]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[1]:
+        - "Only a photo caption ('Karmein Chan at the ski station'); see also KCQST0028 (skating)."
+    - id: "KCQST0052"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Can a published source confirm that lasagne was Karmein's favourite dish (KCSRC00036, a single private message)?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00036]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00036]
+      source_locator: | "KCSRC00036" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00036]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[1]:
+        - "Single, non-disclosable private message; answers KCQST0024 only provisionally."
+    - id: "KCQST0053"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which church did Karmein attend with her sisters before April 1991 (KCSRC00048), given her mother's account of converting from Buddhism to Christianity after the funeral (KCSRC00083)?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00048,KCSRC00083]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00048,KCSRC00083]
+      source_locator: | "KCSRC00048" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00048]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids[1]:
+        - "KCEVT0047"
+      review_flags[1]:
+        - "KCSRC00048: the sisters sang a song learned in church with Karmein; KCSRC00083: mother's conversion after the funeral; the church is not named."
+    - id: "KCQST0054"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Does the original text of Karly's letter of 19 April 1991 (KCSRC00069, as read in KCSRC00077) say that Karmein helped her with her homework?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00069,KCSRC00077]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00069,KCSRC00077]
+      source_locator: | "KCSRC00077 (letter as read, auto-transcript)" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00069]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids[1]:
+        - "KCEVT0034"
+      review_flags[1]:
+        - "Letter text known via a machine transcript of KCSRC00077; check against The Age, 20/04/1991, p. 1 (KCSRC00069)."
+    - id: "KCQST0055"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which Chinese language did Karmein study or speak? The home page lists Mandarin, but the Backstage summary of KCSRC00018 only mentions weekly \"Chinese lessons\"; given the family's Hong Kong origins (KCSRC00005), Cantonese is also possible." | u="question_text" | p="editorial_question_from_source" | i=1 | s=[KCSRC00018,KCSRC00005]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[KCSRC00018,KCSRC00005]
+      source_locator: | "KCSRC00018 (Backstage summary)" | u="source_locator_note" | p="locator_note" | i=0 | s=[KCSRC00018]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[2]:
+        - "Backstage summary of KCSRC00018: 'Chinese (assuming Mandarin) lessons'."
+        - "KCSRC00005 p. 3: 'Both had moved to Australia from Hong Kong in the mid-1970s.' Cantonese is a possibility, not a documented fact."
+    - id: "KCQST0056"
+      record_type: "open_question"
+      category: | "questions_about_karmein_chan_herself" | u="open_question_category" | p="section_slug" | i=0 | s=[TCS-WWKC-WEB-0001]
+      question: | "Which primary sources support the facts about Karmein that the Knowledge File currently sources only to The Cruel Song itself (birth place, residences, Mandarin, year of death)?" | u="question_text" | p="editorial_question_from_source" | i=1 | s=[TCS-WWKC-WEB-0001]
+      status: | "open" | u="question_status" | p="current_status" | i=0 | s=[TCS-WWKC-WEB-0001]
+      source_locator: | "TCS-WWKC-PPL-0001" | u="source_locator_note" | p="locator_note" | i=0 | s=[TCS-WWKC-WEB-0001]
+      related_person_ids[1]:
+        - "TCS-WWKC-PPL-0001"
+      related_place_ids: []
+      related_event_ids: []
+      review_flags[2]:
+        - "Circular sourcing (TCS-WWKC-WEB-0001 only)."
+        - "Year of death 1991 is an inference: date of death unknown; remains found 09/04/1992."

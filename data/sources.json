@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 83,
+    "source_count": 87,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -93,15 +93,19 @@
       "referenced_in_current_files": [
         {
           "file": "open_questions.json",
-          "reference_count": 116
+          "reference_count": 159
         },
         {
           "file": "people.json",
-          "reference_count": 111
+          "reference_count": 263
         },
         {
           "file": "timeline.json",
-          "reference_count": 280
+          "reference_count": 281
+        },
+        {
+          "file": "places.json",
+          "reference_count": 1
         }
       ],
       "review_flags": []
@@ -206,6 +210,10 @@
         {
           "file": "timeline.json",
           "reference_count": 3
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
         }
       ],
       "review_flags": []
@@ -302,6 +310,10 @@
         {
           "file": "places.json",
           "reference_count": 5
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
         }
       ],
       "review_flags": []
@@ -581,6 +593,10 @@
         {
           "file": "timeline.json",
           "reference_count": 5
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
         }
       ],
       "review_flags": [
@@ -665,6 +681,10 @@
         },
         {
           "file": "timeline.json",
+          "reference_count": 3
+        },
+        {
+          "file": "open_questions.json",
           "reference_count": 3
         }
       ],
@@ -1485,6 +1505,10 @@
         {
           "file": "timeline.json",
           "reference_count": 3
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 8
         }
       ],
       "review_flags": []
@@ -1844,7 +1868,12 @@
           "TCS-WWKC-WEB-0001"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
       "review_flags": []
     },
     {
@@ -1899,7 +1928,12 @@
           "TCS-WWKC-WEB-0001"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
       "review_flags": [
         "AI-derived claim; should be replaced or corroborated with a primary or archival source."
       ]
@@ -2700,7 +2734,12 @@
           "TCS-WWKC-WEB-0001"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
       "review_flags": [
         "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
       ]
@@ -3076,6 +3115,10 @@
         {
           "file": "people.json",
           "reference_count": 1
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
         }
       ],
       "review_flags": []
@@ -3743,7 +3786,16 @@
           "TCS-WWKC-WEB-0001"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 7
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
       "review_flags": []
     },
     {
@@ -3904,7 +3956,16 @@
           "TCS-WWKC-WEB-0001"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 7
+        },
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
       "review_flags": []
     },
     {
@@ -4373,7 +4434,12 @@
           "TCS-WWKC-WEB-0001"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
+        }
+      ],
       "review_flags": [
         "Source details are intentionally non-disclosable; preserve privacy and evidentiary boundaries."
       ]
@@ -5563,7 +5629,12 @@
           "KCSRC00069"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 3
+        }
+      ],
       "review_flags": [
         "Catalogued from the TCS Backstage press review ('Saturday 20 April 1991 – Page 1 – Sisters in plea to abductor'), which links to this ProQuest record (SLV login required).",
         "Article text not re-consulted for this record; the Mimi wording is the Backstage summary. Re-read the original caption before quoting.",
@@ -6045,7 +6116,12 @@
           "KCSRC00075"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 7
+        }
+      ],
       "review_flags": [
         "RSS pubDate 2024-10-20T23:25:50Z (21 October 2024 in Melbourne).",
         "Locator from a machine transcript of the RSS audio made on the box; verify by listening before quotation.",
@@ -6235,7 +6311,12 @@
           "KCSRC00077"
         ]
       },
-      "referenced_in_current_files": [],
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
+        }
+      ],
       "review_flags": [
         "Date as shown on the podcastrex transcript page; the episode says it was originally released in January 2017 and revisited in October 2026.",
         "Machine transcript (podcastrex); names misspelt ('Carmen', 'Carly', 'Mr. Kruell'). Verify against the audio before quotation.",
@@ -6733,6 +6814,362 @@
         "Original not consulted: title, page, reporters and wording are as read aloud in KCSRC00080 and transcribed by machine (title transcribed 'Mother's Plei-fect Kidnapper'). Check against the original (Herald Sun, 17 April 1991) before quotation.",
         "The passage read does not mention a birthday party; the party details in KCSRC00080 are the hosts' own recollection.",
         "The godparents are private individuals and are not named here."
+      ]
+    },
+    {
+      "source_id": "KCSRC00083",
+      "record_type": "source",
+      "title": {
+        "value": "Leader (Manningham), 13/04/2011 – 'Mother marks 20 years since Karmein Chan's murder' (Shaun Turton)",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00083"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00083"
+        ]
+      },
+      "publication_date": {
+        "value": "2011-04-13",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "as_shown_in_KCSRC00028_copy",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00083"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Author: Shaun Turton",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00083"
+          ]
+        },
+        {
+          "value": "Copy dated '13 Apr 11 @ 07:00am' on the Missing and Murdered blog (KCSRC00028); the copy says 'Morningham Leader'",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00083"
+          ]
+        }
+      ],
+      "access": {
+        "value": "Original not consulted; full text seen via KCSRC00028: http://missingandmurderedaustralia.blogspot.com/1991/04/karmein-chan.html",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00083"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Phyllis Lam's description of Karmein (see character_quotes_sourcing.md for the verbatim wording)",
+          "units": "fact_summary",
+          "precision": "verbatim_as_shown_in_KCSRC00028_copy",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00083",
+            "KCSRC00028"
+          ]
+        },
+        {
+          "value": "Karmein wanted to become a doctor / 'mobile doctor'",
+          "units": "fact_summary",
+          "precision": "as_shown_in_KCSRC00028_copy",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00083",
+            "KCSRC00028"
+          ]
+        },
+        {
+          "value": "Phyllis Lam converted from Buddhism to Christianity after the funeral",
+          "units": "fact_summary",
+          "precision": "as_shown_in_KCSRC00028_copy",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00083",
+            "KCSRC00028"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "original_not_consulted",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00083"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 4
+        }
+      ],
+      "review_flags": [
+        "Original newspaper not consulted; text known from a blog copy (KCSRC00028). Check against the Leader original before quotation."
+      ]
+    },
+    {
+      "source_id": "KCSRC00084",
+      "record_type": "source",
+      "title": {
+        "value": "SBS News (AAP), 13/04/2016 – 'Mr Cruel victim 'wasn't going willingly''",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00084"
+        ]
+      },
+      "source_type": {
+        "value": "website_page",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00084"
+        ]
+      },
+      "publication_date": {
+        "value": "2016-04-13",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_publisher_listing",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00084"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "Source: AAP",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00084"
+          ]
+        },
+        {
+          "value": "Same text on SBS Chinese (English): https://www.sbs.com.au/language/chinese/en/article/mr-cruel-victim-wasnt-going-willingly/ucr0debjg",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00084"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://www.sbs.com.au/news/article/mr-cruel-victim-wasnt-going-willingly/kd2q33syw",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00084"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "Karmein told her mother she would not go willingly, after the abduction of Nicola Lynas (family account relayed by AAP in 2016)",
+          "units": "fact_summary",
+          "precision": "publisher_text_summary",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00084"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "public",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00084"
+        ]
+      },
+      "referenced_in_current_files": [],
+      "review_flags": [
+        "Second-hand family account reported in 2016; the original 1990/91 conversation is not documented."
+      ]
+    },
+    {
+      "source_id": "KCSRC00085",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 01/05/1991, page 1 – 'Taskforce set up to hunt kidnapper'",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00085"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00085"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-05-01",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_tcs_backstage_press_review",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00085"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ProQuest docview 2521717455",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00085"
+          ]
+        },
+        {
+          "value": "ISSN: 2203-580X; e-ISSN: 0312-6307",
+          "units": "source_identifier",
+          "precision": "from_publisher_listing",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00085"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/may-1-1991-page-56/docview/2521717455/sem-2?accountid=13905",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00085"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "William Mackay: 'Karmein was a fairly reserved student'",
+          "units": "fact_summary",
+          "precision": "tcs_backstage_summary",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00085"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00085"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
+        }
+      ],
+      "review_flags": [
+        "Wording from the TCS Backstage press summary; verify against the scan (ProQuest via SLV, user-only).",
+        "The ProQuest URL slug says 'page-56' while the Backstage label says page 1; check."
+      ]
+    },
+    {
+      "source_id": "KCSRC00086",
+      "record_type": "source",
+      "title": {
+        "value": "Herald Sun, 16/04/1991 (morning edition) – title as heard in KCSRC00075 'Mum Begs Abductor, Take Me' (unverified)",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00086",
+          "KCSRC00075"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00086"
+        ]
+      },
+      "publication_date": {
+        "value": "1991-04-16",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "as_read_in_KCSRC00075",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00075"
+        ]
+      },
+      "identifiers": [],
+      "access": {
+        "value": "Original not consulted; known only from the reading in KCSRC00075 (auto-transcript ~21:03-21:15)",
+        "units": "access_locator_or_note",
+        "precision": "partial",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00086"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "William Mackay described Karmein as an 'enthusiastic and positive' year eight student",
+          "units": "fact_summary",
+          "precision": "verbatim_as_read_in_KCSRC00075_auto_transcript",
+          "inference_score": 1,
+          "source_ids": [
+            "KCSRC00086",
+            "KCSRC00075"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "original_not_consulted",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00086"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "open_questions.json",
+          "reference_count": 2
+        }
+      ],
+      "review_flags": [
+        "Original not consulted: title, page and wording as read aloud in KCSRC00075 and transcribed by machine. Check against the original before quotation."
       ]
     }
   ]

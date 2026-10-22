@@ -1765,6 +1765,965 @@
         "No source found on any police examination of the party, its guests or the footage. Neutral wording only; no implication about any person.",
         "Private individuals (other children, the host family, the godparents) must not be identified."
       ]
+    },
+    {
+      "id": "KCQST0038",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Where was the description of Karmein by her friends quoted on the home page (\"a very friendly person with a strong personality who had a bubbly sense of humour and who lived life to the fullest\") originally published?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#about-karmein-chan (home, Essential facts)",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Quote not found outside The Cruel Song (web, Wikipedia, Reddit dump, Melbourne Marvels and Casefile transcripts); ProQuest check needed."
+      ]
+    },
+    {
+      "id": "KCQST0039",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Where did William Mackay describe Karmein as \"charming, polite, enthusiastic and lively\"? The published variants found so far are \"enthusiastic and positive\" (Herald Sun, 16 April 1991, KCSRC00086, as read in KCSRC00075) and \"a fairly reserved student\" (KCSRC00085).",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00075",
+          "KCSRC00085",
+          "KCSRC00086"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00075",
+          "KCSRC00085",
+          "KCSRC00086"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00075, 21:03–21:15",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00075"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "KCSRC00086 is known only as read in KCSRC00075 (auto-transcript); original not consulted.",
+        "KCSRC00085 wording is the TCS Backstage press summary of The Age, 01/05/1991, p. 1; verify against the scan.",
+        "The site wording 'charming, polite, enthusiastic and lively' was not found in any source."
+      ]
+    },
+    {
+      "id": "KCQST0040",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What did Karmein want to become? The claims to verify are a barrister (attributed by KCSRC00006 to KCSRC00018), a doctor or \"mobile doctor\" (KCSRC00083), and a paediatrician (KCSRC00056, a single anonymous source).",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00006",
+          "KCSRC00018",
+          "KCSRC00056",
+          "KCSRC00083"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00006",
+          "KCSRC00018",
+          "KCSRC00056",
+          "KCSRC00083"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00083 (Leader, 13/04/2011)",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00006"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "'barrister' is Wikipedia's (KCSRC00006) attribution to KCSRC00018, not checked against the original.",
+        "'paediatrician' rests on a single anonymous informant (KCSRC00056).",
+        "KCSRC00083 is read via a blog copy (KCSRC00028)."
+      ]
+    },
+    {
+      "id": "KCQST0041",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Did PLC publications (school magazine or yearbooks, 1990-1992) print any of Karmein's own writing, or a tribute to her in 1992?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "PLC archives (not catalogued)",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0049"
+      ],
+      "review_flags": [
+        "No writing by Karmein found; PLC archives and yearbooks are the realistic source."
+      ]
+    },
+    {
+      "id": "KCQST0042",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "What height and physical description of Karmein did Victoria Police publish in April 1991? The height currently shown (154cm) comes from an AI tool (KCSRC00024) and needs a primary source.",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00024"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00024"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00024",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00024"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0023"
+      ],
+      "review_flags": [
+        "KCSRC00024 is AI-derived (moderate risk of hallucination); replace with the April 1991 police description (press 14–16/04/1991)."
+      ]
+    },
+    {
+      "id": "KCQST0043",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which source supports the claim that Karmein needed her inhaler \"whenever she got too tired or emotional\"?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00041",
+          "KCSRC00075"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001",
+          "KCSRC00041",
+          "KCSRC00075"
+        ]
+      },
+      "source_locator": {
+        "value": "#about-karmein-chan (home, Essential facts)",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Wording 'too tired or emotional' not found in any source.",
+        "KCSRC00075 [auto-transcript, police statement as read]: 'she normally has a pump beside her bed'.",
+        "KCSRC00041: 'She can't get very tired.'"
+      ]
+    },
+    {
+      "id": "KCQST0044",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "When did Karmein have glandular fever? The sources give September 1989 (KCSRC00018), \"two years ago\" (Herald Sun, April 1991, as read in KCSRC00075) and still recovering in April 1991 (KCSRC00018).",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00018",
+          "KCSRC00075"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00018",
+          "KCSRC00075"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00075, ~13:48",
+        "units": "timestamp_range",
+        "precision": "transcript_timestamp",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00018"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0005"
+      ],
+      "review_flags": [
+        "Three versions: September 1989 (KCEVT0005, KCSRC00018); 'glandular fever two years ago' (Herald Sun as read in KCSRC00075, auto-transcript); recovering in April 1991 (KCSRC00018; Canberra Times 16/04/1991 p. 5, Trove 122357296, not catalogued)."
+      ]
+    },
+    {
+      "id": "KCQST0045",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which subjects, house and co-curricular activities did Karmein take at PLC in 1990 and 1991?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00001",
+          "KCSRC00002"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00001",
+          "KCSRC00002"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00001",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Only Year 8, class 8H and entry in 1983 are documented."
+      ]
+    },
+    {
+      "id": "KCQST0046",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which source documents the PLC memorial service at Scots Church on Wednesday 20 May 1992, and what was said about Karmein there?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#burial-ceremony (home)",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0049"
+      ],
+      "review_flags": [
+        "The site sentence on the memorial service carries no KCSRC; likely The Age of about 21/05/1992 (ProQuest check needed)."
+      ]
+    },
+    {
+      "id": "KCQST0047",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Where is Karmein's grave, and what exactly does its inscription say, according to a published photograph or cemetery record?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "Reddit comment /1gzt6f/_/lz0uny4/ (not catalogued)",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Grave location and inscription known only from a Reddit transcription; cite a published photograph or cemetery record.",
+        "Do not publish visiting directions."
+      ]
+    },
+    {
+      "id": "KCQST0048",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "When was the 3AW recording of the funeral (KCSRC00050) broadcast, and does it include a eulogy describing Karmein?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00050"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00050"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00050",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00050"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0047"
+      ],
+      "review_flags": [
+        "KCSRC00050 is undated with no URL; currently only cited for the choir hymn."
+      ]
+    },
+    {
+      "id": "KCQST0049",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which source supports the claim that Karmein watched Twin Peaks and was reading \"The Secret Diary of Laura Palmer\"?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#about-saturday-13-april-1991 (home, Trivia)",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "The site says 'reportedly' with no source; nothing found on the web or Reddit."
+      ]
+    },
+    {
+      "id": "KCQST0050",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which source supports the claim that Karmein used her pocket money to see The Phantom of the Opera musical, and in which year?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "#about-karmein-chan (home)",
+        "units": "html_anchor",
+        "precision": "section_anchor",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "No source; year uncertain."
+      ]
+    },
+    {
+      "id": "KCQST0051",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Where and when was the \"ski station\" photo (KCSRC00023) taken, and did Karmein ski regularly?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00023"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00023"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00023",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00023"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Only a photo caption ('Karmein Chan at the ski station'); see also KCQST0028 (skating)."
+      ]
+    },
+    {
+      "id": "KCQST0052",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Can a published source confirm that lasagne was Karmein's favourite dish (KCSRC00036, a single private message)?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00036"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00036"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00036",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00036"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Single, non-disclosable private message; answers KCQST0024 only provisionally."
+      ]
+    },
+    {
+      "id": "KCQST0053",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which church did Karmein attend with her sisters before April 1991 (KCSRC00048), given her mother's account of converting from Buddhism to Christianity after the funeral (KCSRC00083)?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00048",
+          "KCSRC00083"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00048",
+          "KCSRC00083"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00048",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00048"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0047"
+      ],
+      "review_flags": [
+        "KCSRC00048: the sisters sang a song learned in church with Karmein; KCSRC00083: mother's conversion after the funeral; the church is not named."
+      ]
+    },
+    {
+      "id": "KCQST0054",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Does the original text of Karly's letter of 19 April 1991 (KCSRC00069, as read in KCSRC00077) say that Karmein helped her with her homework?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00069",
+          "KCSRC00077"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00069",
+          "KCSRC00077"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00077 (letter as read, auto-transcript)",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00069"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [
+        "KCEVT0034"
+      ],
+      "review_flags": [
+        "Letter text known via a machine transcript of KCSRC00077; check against The Age, 20/04/1991, p. 1 (KCSRC00069)."
+      ]
+    },
+    {
+      "id": "KCQST0055",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which Chinese language did Karmein study or speak? The home page lists Mandarin, but the Backstage summary of KCSRC00018 only mentions weekly \"Chinese lessons\"; given the family's Hong Kong origins (KCSRC00005), Cantonese is also possible.",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "KCSRC00018",
+          "KCSRC00005"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00018",
+          "KCSRC00005"
+        ]
+      },
+      "source_locator": {
+        "value": "KCSRC00018 (Backstage summary)",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00018"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Backstage summary of KCSRC00018: 'Chinese (assuming Mandarin) lessons'.",
+        "KCSRC00005 p. 3: 'Both had moved to Australia from Hong Kong in the mid-1970s.' Cantonese is a possibility, not a documented fact."
+      ]
+    },
+    {
+      "id": "KCQST0056",
+      "record_type": "open_question",
+      "category": {
+        "value": "questions_about_karmein_chan_herself",
+        "units": "open_question_category",
+        "precision": "section_slug",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "question": {
+        "value": "Which primary sources support the facts about Karmein that the Knowledge File currently sources only to The Cruel Song itself (birth place, residences, Mandarin, year of death)?",
+        "units": "question_text",
+        "precision": "editorial_question_from_source",
+        "inference_score": 1,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "status": {
+        "value": "open",
+        "units": "question_status",
+        "precision": "current_status",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "source_locator": {
+        "value": "TCS-WWKC-PPL-0001",
+        "units": "source_locator_note",
+        "precision": "locator_note",
+        "inference_score": 0,
+        "source_ids": [
+          "TCS-WWKC-WEB-0001"
+        ]
+      },
+      "related_person_ids": [
+        "TCS-WWKC-PPL-0001"
+      ],
+      "related_place_ids": [],
+      "related_event_ids": [],
+      "review_flags": [
+        "Circular sourcing (TCS-WWKC-WEB-0001 only).",
+        "Year of death 1991 is an inference: date of death unknown; remains found 09/04/1992."
+      ]
     }
   ]
 }
