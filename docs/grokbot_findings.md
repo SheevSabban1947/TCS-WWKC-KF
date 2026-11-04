@@ -330,3 +330,4 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
 - **people.json, PPL-0002 `departure_after_separation`:** new variant "Somewhere in China (January 1995)" (KCSRC00090), next to Hong Kong (KCSRC00034) and Queensland (Kel Glare, KCSRC00067). The destination stays `unresolved`. Hong Kong was British until 1 July 1997, so "China" in 1995 and "Hong Kong" in 2025 do not necessarily conflict.
 - **Not added:** r/MrCruel forum claims about where John Chan lives now. They are not sources, and he may be alive.
 - **.toon header:** sources 91, total_records 299, referenced 62 / catalogued 91, unused 29. The KF version stays 0.4.0, with no new zip.
+- **Site:** published 04/11/2026: KCSRC00090 row added to the home page sources table after KCSRC00089 (checked on the live page).
