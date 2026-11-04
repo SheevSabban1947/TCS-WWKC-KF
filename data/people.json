@@ -1,7 +1,7 @@
 {
   "file": "people.json",
   "schema_version": "0.3.0",
-  "updated": "2026-10-21",
+  "updated": "2026-11-04",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -28,7 +28,8 @@
       "Added controlled-vocabulary and layer definitions.",
       "Added Kelvin “Kel” Glare, Chief Commissioner of Victoria Police at the time of Karmein Chan’s abduction and a reported acquaintance of John Chan.",
       "2026-10-21: integrated Adam Shand facts (KCSRC00066/KCSRC00067): Constables Gallagher and Farley (PPL-0081, PPL-0082); customary-marriage quote and locator; babysitter/house-cleaner detail (PPL-0037); alleged unpaid fit-outs (PPL-0002, alleged/unverified); John Chan departure variants.",
-      "2026-10-21: John and Phyllis Chan (PPL-0002, PPL-0003): 'parents_migrated_to_melbourne' (1976, circular site source) replaced by 'moved_to_australia_from_hong_kong' (mid-1970s, KCSRC00005 page 3, exact quote), with variants from KCSRC00006 (unsupported), KCSRC00072, KCSRC00067 and KCSRC00022."
+      "2026-10-21: John and Phyllis Chan (PPL-0002, PPL-0003): 'parents_migrated_to_melbourne' (1976, circular site source) replaced by 'moved_to_australia_from_hong_kong' (mid-1970s, KCSRC00005 page 3, exact quote), with variants from KCSRC00006 (unsupported), KCSRC00072, KCSRC00067 and KCSRC00022.",
+      "2026-11-04: John Chan (PPL-0002) departure_after_separation: added the 1995 variant 'somewhere in China' (KCSRC00090, The Age 29/01/1995 page 2); KCSRC00034 now has its URL and the 'returned to Hong Kong' quote."
     ],
     "factual_certification_status": "not_certified_pending_exact_source_locators",
     "identity_handling_note": "Mr Cruel, Karmein Chan’s abductor, the Parer Street stalker, the Edgars Creek armed man and the man reportedly seen digging remain separate entities linked only by unresolved hypotheses."
@@ -971,6 +972,7 @@
             "precision": "conflicting_sources",
             "inference_score": 1,
             "source_ids": [
+              "KCSRC00090",
               "KCSRC00034",
               "KCSRC00067"
             ]
@@ -993,6 +995,15 @@
               "source_ids": [
                 "KCSRC00067"
               ]
+            },
+            {
+              "value": "Somewhere in China (January 1995)",
+              "units": "place_name",
+              "precision": "press_report_backstage_summary",
+              "inference_score": 0,
+              "source_ids": [
+                "KCSRC00090"
+              ]
             }
           ]
         }
@@ -1010,7 +1021,7 @@
         "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection).",
         "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them.",
         "Fact 3 (unpaid fit-outs) is alleged, unverified, second-hand hearsay (KCSRC00067, 07:56–08:43). Publication hold: present only as an allegation reported by a former investigator; no implication of guilt or involvement in the abduction. Do not name creditors or tradespeople.",
-        "Departure destination unresolved: Hong Kong (The Age, 11/04/2025, KCSRC00034) vs Queensland (Kel Glare, uncertain, KCSRC00067 04:13–05:00).",
+        "Departure destination unresolved: 'somewhere in China' (The Age, 29/01/1995, page 2, KCSRC00090, Backstage summary) vs Hong Kong (The Age, 11/04/2025, KCSRC00034) vs Queensland (Kel Glare, uncertain, KCSRC00067 04:13–05:00).",
         "Arrival in Australia revised on 2026-10-21: the former event 'parents_migrated_to_melbourne' (1976, Melbourne) cited only TCS-WWKC-WEB-0001, i.e. the site itself, whose wording matches Wikipedia (circular source). It is replaced by 'moved_to_australia_from_hong_kong' (mid-1970s, KCSRC00005 page 3, checked by the user). Wikipedia's '1976 / separately' wording (KCSRC00006, citing p. 26) is unsupported by KCSRC00005; KCSRC00072 says John emigrated 'with his wife, Phyllis'."
       ],
       "identity_status": {

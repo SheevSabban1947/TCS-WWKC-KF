@@ -1,7 +1,7 @@
 {
   "file": "sources.json",
   "schema_version": "0.1.0",
-  "updated": "2026-10-22",
+  "updated": "2026-11-04",
   "claim_model": {
     "value": "...",
     "units": "...",
@@ -13,7 +13,7 @@
   },
   "metadata": {
     "description": "Central catalogue of source records used or available for the Karmein Chan Knowledge File.",
-    "source_count": 90,
+    "source_count": 91,
     "cataloguing_basis": "The Cruel Song source index plus currently referenced source_ids in people.json, places.json, open_questions.json and timeline.json.",
     "notes": [
       "Entries marked non_disclosable_source_details intentionally avoid exposing private or sensitive source locators."
@@ -2530,20 +2530,30 @@
       "publication_date": {
         "value": "2025-04-11",
         "units": "iso8601_date_or_partial_date",
-        "precision": "from_source_index",
+        "precision": "online_article_dateline",
         "inference_score": 0,
         "source_ids": [
-          "TCS-WWKC-WEB-0001"
+          "KCSRC00034"
         ]
       },
-      "identifiers": [],
+      "identifiers": [
+        {
+          "value": "Byline: John Silvester",
+          "units": "source_identifier",
+          "precision": "from_article_page",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00034"
+          ]
+        }
+      ],
       "access": {
-        "value": "see source index on The Cruel Song; exact URL not normalized here",
+        "value": "https://www.theage.com.au/national/victoria/when-karmein-chan-was-abducted-this-policeman-was-first-at-the-scene-20250331-p5lny2.html",
         "units": "access_locator_or_note",
-        "precision": "partial",
-        "inference_score": 1,
+        "precision": "exact",
+        "inference_score": 0,
         "source_ids": [
-          "TCS-WWKC-WEB-0001"
+          "KCSRC00034"
         ]
       },
       "facts_supported": [
@@ -2554,6 +2564,15 @@
           "inference_score": 0,
           "source_ids": [
             "TCS-WWKC-WEB-0001"
+          ]
+        },
+        {
+          "value": "'John and Phyllis separated, their finances collapsed, and Phyllis saved the restaurant with the help of her family. John returned to Hong Kong.'",
+          "units": "fact_summary",
+          "precision": "verbatim_quote",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00034"
           ]
         }
       ],
@@ -2576,7 +2595,9 @@
           "reference_count": 4
         }
       ],
-      "review_flags": []
+      "review_flags": [
+        "Online dateline checked on 2026-11-04: 'April 11, 2025 — 11:35am' (byline John Silvester). The '20250331' in the URL slug is not the publication date. No print edition (date or page) has been checked."
+      ]
     },
     {
       "source_id": "KCSRC00035",
@@ -7495,6 +7516,97 @@
       ],
       "review_flags": [
         "The free register record does not name John or Phyllis Chan; the link between this company and the Chans' Eltham restaurant rests on the company name and dates only. A paid ASIC current and historical extract would show the officeholders."
+      ]
+    },
+    {
+      "source_id": "KCSRC00090",
+      "record_type": "source",
+      "title": {
+        "value": "The Age, 29/01/1995, page 2 – New fear for Karmein's mother",
+        "units": "source_title",
+        "precision": "catalogued_title",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00090"
+        ]
+      },
+      "source_type": {
+        "value": "newspaper_article",
+        "units": "source_type",
+        "precision": "category",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00090"
+        ]
+      },
+      "publication_date": {
+        "value": "1995-01-29",
+        "units": "iso8601_date_or_partial_date",
+        "precision": "from_tcs_backstage_press_review",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00090"
+        ]
+      },
+      "identifiers": [
+        {
+          "value": "ProQuest docview 2521572485",
+          "units": "source_identifier",
+          "precision": "from_tcs_backstage_link",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00090"
+          ]
+        }
+      ],
+      "access": {
+        "value": "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/january-29-1995-page-2-107/docview/2521572485/sem-2?accountid=13905",
+        "units": "access_locator_or_note",
+        "precision": "exact",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00090"
+        ]
+      },
+      "facts_supported": [
+        {
+          "value": "'Ms Lam's former husband, John Chan, is somewhere in China'",
+          "units": "fact_summary",
+          "precision": "tcs_backstage_summary",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00090"
+          ]
+        },
+        {
+          "value": "'She fought to repay massive debts after her husband of 15 years left'",
+          "units": "fact_summary",
+          "precision": "tcs_backstage_summary",
+          "inference_score": 0,
+          "source_ids": [
+            "KCSRC00090"
+          ]
+        }
+      ],
+      "availability_status": {
+        "value": "catalogued_from_source_index",
+        "units": "source_availability_status",
+        "precision": "cataloguing_status",
+        "inference_score": 0,
+        "source_ids": [
+          "KCSRC00090"
+        ]
+      },
+      "referenced_in_current_files": [
+        {
+          "file": "people.json",
+          "reference_count": 2
+        }
+      ],
+      "review_flags": [
+        "Catalogued from the TCS Backstage press review ('Sunday 29 January 1995 – Page 2 – \"New fear for Karmein's mother\"'), which links to this ProQuest record (SLV login required). Article text not re-consulted for this record; the quoted facts are Backstage summary wording, not verbatim from the article.",
+        "Sunday issue, catalogued as 'The Age' following the Backstage listing and the ProQuest collection (same convention as KCSRC00071); the masthead may be The Sunday Age.",
+        "Departure variant: 'somewhere in China' (1995) vs 'returned to Hong Kong' (KCSRC00034, 2025) vs Queensland (KCSRC00067). Hong Kong was a British territory until 1 July 1997, so these are not necessarily incompatible; do not merge them without a better source."
       ]
     }
   ]

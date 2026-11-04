@@ -1,7 +1,7 @@
 knowledge_file:
   file: "karmein_chan_knowledge_file.toon"
   schema_version: "0.4.0"
-  updated: "2026-10-22"
+  updated: "2026-11-04"
   format: "TOON"
   project: "Who Was Karmein Chan? / The Cruel Song Knowledge File"
   description: "Single-file TOON consolidation of the current JSON Knowledge File modules."
@@ -15,12 +15,12 @@ knowledge_file:
     input_files[5]:
       - file: "sources.json"
         schema_version: "0.1.0"
-        updated: "2026-10-22"
+        updated: "2026-11-04"
         record_key: "sources"
-        record_count: 90
+        record_count: 91
       - file: "people.json"
         schema_version: "0.3.0"
-        updated: "2026-10-21"
+        updated: "2026-11-04"
         record_keys[2]:
           - "people"
           - "contextual_people"
@@ -45,16 +45,16 @@ knowledge_file:
     normalizations[1]:
       - "Source referenced_in_current_files counts were recomputed from the current component modules for this consolidation."
     record_counts:
-      sources: 90
+      sources: 91
       people: 78
       contextual_people: 4
       places: 17
       timeline_events: 51
       open_questions: 58
-      total_records: 298
+      total_records: 299
     integrity:
-      referenced_source_id_count: 61
-      catalogued_source_id_count: 90
+      referenced_source_id_count: 62
+      catalogued_source_id_count: 91
       missing_source_ids: []
       unused_catalogue_source_ids[29]:
         - "KCSRC00009"
@@ -153,7 +153,7 @@ knowledge_file:
       core_person_count: 78
       contextual_person_count: 4
       previous_version: "0.2.0"
-      change_summary[10]:
+      change_summary[11]:
         - "Migrated the five original records to the v0.2.x identity/review schema."
         - "Repaired four one-way possible_same_as relationships."
         - "Restricted KCSRC00037 to geographic context on the Parer Street records."
@@ -164,6 +164,7 @@ knowledge_file:
         - "Added controlled-vocabulary and layer definitions."
         - "Added Kelvin “Kel” Glare, Chief Commissioner of Victoria Police at the time of Karmein Chan’s abduction and a reported acquaintance of John Chan."
         - "2026-10-21: integrated Adam Shand facts (KCSRC00066/KCSRC00067): Constables Gallagher and Farley (PPL-0081, PPL-0082); customary-marriage quote and locator; babysitter/house-cleaner detail (PPL-0037); alleged unpaid fit-outs (PPL-0002, alleged/unverified); John Chan departure variants."
+        - "2026-11-04: John Chan (PPL-0002) departure_after_separation: added the 1995 variant 'somewhere in China' (KCSRC00090, The Age 29/01/1995 page 2); KCSRC00034 now has its URL and the 'returned to Hong Kong' quote."
       factual_certification_status: "not_certified_pending_exact_source_locators"
       identity_handling_note: "Mr Cruel, Karmein Chan’s abductor, the Parer Street stalker, the Edgars Creek armed man and the man reportedly seen digging remain separate entities linked only by unresolved hypotheses."
     layers:
@@ -213,7 +214,7 @@ knowledge_file:
       - code: "CONTROLLED_ROLE_VALUE_REVIEW"
         status: "pending"
         description: "Review individual role values for naming consistency after source-level verification."
-  sources[90]:
+  sources[91]:
     - source_id: "TCS-WWKC-WEB-0001"
       record_type: "source"
       title: | "The Cruel Song – Who Was Karmein Chan?" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -746,11 +747,13 @@ knowledge_file:
       record_type: "source"
       title: | "The Age, Friday 11 April 2025 – When Karmein Chan was abducted, this policeman was first at the scene" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
       source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[TCS-WWKC-WEB-0001]
-      publication_date: | "2025-04-11" | u="iso8601_date_or_partial_date" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
-      identifiers: []
-      access: | "see source index on The Cruel Song; exact URL not normalized here" | u="access_locator_or_note" | p="partial" | i=1 | s=[TCS-WWKC-WEB-0001]
-      facts_supported[1]:
+      publication_date: | "2025-04-11" | u="iso8601_date_or_partial_date" | p="online_article_dateline" | i=0 | s=[KCSRC00034]
+      identifiers[1]:
+        -: | "Byline: John Silvester" | u="source_identifier" | p="from_article_page" | i=0 | s=[KCSRC00034]
+      access: | "https://www.theage.com.au/national/victoria/when-karmein-chan-was-abducted-this-policeman-was-first-at-the-scene-20250331-p5lny2.html" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00034]
+      facts_supported[2]:
         -: | "Original Victoria Police statement from Rodney David Phillips, the first policeman to enter the crime scene" | u="fact_summary" | p="from_source_index" | i=0 | s=[TCS-WWKC-WEB-0001]
+        -: | "'John and Phyllis separated, their finances collapsed, and Phyllis saved the restaurant with the help of her family. John returned to Hong Kong.'" | u="fact_summary" | p="verbatim_quote" | i=0 | s=[KCSRC00034]
       availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[TCS-WWKC-WEB-0001]
       referenced_in_current_files[3]:
         - file: "people.json"
@@ -759,7 +762,8 @@ knowledge_file:
           reference_count: 10
         - file: "timeline.json"
           reference_count: 4
-      review_flags: []
+      review_flags[1]:
+        - "Online dateline checked on 2026-11-04: 'April 11, 2025 — 11:35am' (byline John Silvester). The '20250331' in the URL slug is not the publication date. No print edition (date or page) has been checked."
     - source_id: "KCSRC00035"
       record_type: "source"
       title: | "Facebook post" | u="source_title" | p="catalogued_title" | i=0 | s=[TCS-WWKC-WEB-0001]
@@ -1734,6 +1738,25 @@ knowledge_file:
           reference_count: 1
       review_flags[1]:
         - "The free register record does not name John or Phyllis Chan; the link between this company and the Chans' Eltham restaurant rests on the company name and dates only. A paid ASIC current and historical extract would show the officeholders."
+    - source_id: "KCSRC00090"
+      record_type: "source"
+      title: | "The Age, 29/01/1995, page 2 – New fear for Karmein's mother" | u="source_title" | p="catalogued_title" | i=0 | s=[KCSRC00090]
+      source_type: | "newspaper_article" | u="source_type" | p="category" | i=0 | s=[KCSRC00090]
+      publication_date: | "1995-01-29" | u="iso8601_date_or_partial_date" | p="from_tcs_backstage_press_review" | i=0 | s=[KCSRC00090]
+      identifiers[1]:
+        -: | "ProQuest docview 2521572485" | u="source_identifier" | p="from_tcs_backstage_link" | i=0 | s=[KCSRC00090]
+      access: | "https://login.ezproxy.slv.vic.gov.au/login?url=https://www.proquest.com/hnpaustraliancollection/historical-newspapers/january-29-1995-page-2-107/docview/2521572485/sem-2?accountid=13905" | u="access_locator_or_note" | p="exact" | i=0 | s=[KCSRC00090]
+      facts_supported[2]:
+        -: | "'Ms Lam's former husband, John Chan, is somewhere in China'" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00090]
+        -: | "'She fought to repay massive debts after her husband of 15 years left'" | u="fact_summary" | p="tcs_backstage_summary" | i=0 | s=[KCSRC00090]
+      availability_status: | "catalogued_from_source_index" | u="source_availability_status" | p="cataloguing_status" | i=0 | s=[KCSRC00090]
+      referenced_in_current_files[1]:
+        - file: "people.json"
+          reference_count: 2
+      review_flags[3]:
+        - "Catalogued from the TCS Backstage press review ('Sunday 29 January 1995 – Page 2 – \"New fear for Karmein's mother\"'), which links to this ProQuest record (SLV login required). Article text not re-consulted for this record; the quoted facts are Backstage summary wording, not verbatim from the article."
+        - "Sunday issue, catalogued as 'The Age' following the Backstage listing and the ProQuest collection (same convention as KCSRC00071); the masthead may be The Sunday Age."
+        - "Departure variant: 'somewhere in China' (1995) vs 'returned to Hong Kong' (KCSRC00034, 2025) vs Queensland (KCSRC00067). Hong Kong was a British territory until 1 July 1997, so these are not necessarily incompatible; do not merge them without a better source."
   people[78]:
     - id: "TCS-WWKC-PPL-0001"
       record_type: "person"
@@ -1860,16 +1883,17 @@ knowledge_file:
           person_id: | "TCS-WWKC-PPL-0003" | u="person_id" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
           divorce: | false | u="boolean" | p="from_site_text" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00065]
         departure_after_separation:
-          destination: | "unresolved" | u="place_name" | p="conflicting_sources" | i=1 | s=[KCSRC00034,KCSRC00067]
-          variants[2]:
+          destination: | "unresolved" | u="place_name" | p="conflicting_sources" | i=1 | s=[KCSRC00090,KCSRC00034,KCSRC00067]
+          variants[3]:
             -: | "Returned to Hong Kong" | u="place_name" | p="press_report" | i=0 | s=[KCSRC00034]
             -: | "Went to Queensland ('I think'), per former Chief Commissioner Kel Glare" | u="place_name" | p="uncertain_recollection" | i=0 | s=[KCSRC00067]
+            -: | "Somewhere in China (January 1995)" | u="place_name" | p="press_report_backstage_summary" | i=0 | s=[KCSRC00090]
       public_status: | "publicly_known" | u="public_status" | p="exact" | i=0 | s=[TCS-WWKC-WEB-0001]
       review_flags[5]:
         - "The previously recorded 1993 divorce has been removed as invalid: John and Phyllis Chan were married by Chinese custom, not by civil marriage in Australia, so no civil divorce applies; they separated in 1993. Confirmed by the site author (The Cruel Song) on 2026-10-19. Source: KCSRC00065 (The Adam Shand Collection)."
         - "Customary marriage now located: KCSRC00067 (Ep 5), 11:48–12:46. The same passage contains private details about the couple's domestic arrangements; do not publish them."
         - "Fact 3 (unpaid fit-outs) is alleged, unverified, second-hand hearsay (KCSRC00067, 07:56–08:43). Publication hold: present only as an allegation reported by a former investigator; no implication of guilt or involvement in the abduction. Do not name creditors or tradespeople."
-        - "Departure destination unresolved: Hong Kong (The Age, 11/04/2025, KCSRC00034) vs Queensland (Kel Glare, uncertain, KCSRC00067 04:13–05:00)."
+        - "Departure destination unresolved: 'somewhere in China' (The Age, 29/01/1995, page 2, KCSRC00090, Backstage summary) vs Hong Kong (The Age, 11/04/2025, KCSRC00034) vs Queensland (Kel Glare, uncertain, KCSRC00067 04:13–05:00)."
         - "Arrival in Australia revised on 2026-10-21: the former event 'parents_migrated_to_melbourne' (1976, Melbourne) cited only TCS-WWKC-WEB-0001, i.e. the site itself, whose wording matches Wikipedia (circular source). It is replaced by 'moved_to_australia_from_hong_kong' (mid-1970s, KCSRC00005 page 3, checked by the user). Wikipedia's '1976 / separately' wording (KCSRC00006, citing p. 26) is unsupported by KCSRC00005; KCSRC00072 says John emigrated 'with his wife, Phyllis'."
       identity_status: | "identified" | u="identity_status" | p="controlled_label" | i=0 | s=[TCS-WWKC-WEB-0001,KCSRC00006]
       record_scope: | "core_case_graph" | u="record_scope" | p="controlled_label" | i=0 | s=[]
