@@ -319,3 +319,14 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
   - questions about Karmein herself (KCSRC00083-86, KCQST0038-0056);
   - Memorial Scholarship (KCSRC00087-88, KCQST0057-0058);
   - ASIC record for Mings (Eltham) Restaurant Pty. Ltd. (KCSRC00089).
+
+## 2026-11-04 – John Chan's departure: 1995 "somewhere in China" (KCSRC00090) and KCSRC00034 URL
+
+- **KCSRC00034** (The Age, John Silvester, "When Karmein Chan was abducted, this policeman was first at the scene"):
+  - access: the article URL replaces "exact URL not normalized here";
+  - publication date confirmed as **11 April 2025** from the online dateline ("April 11, 2025 — 11:35am"). The `20250331` in the URL slug is not the publication date. No print edition was checked;
+  - new fact_supported (verbatim): "John and Phyllis separated, their finances collapsed, and Phyllis saved the restaurant with the help of her family. John returned to Hong Kong."
+- **New source KCSRC00090:** The Age (Sunday issue), 29/01/1995, page 2, "New fear for Karmein's mother" (ProQuest docview 2521572485, SLV login). It is catalogued from the TCS Backstage press review, and the article text was not re-consulted. Facts (Backstage wording): John Chan "is somewhere in China"; Phyllis "fought to repay massive debts after her husband of 15 years left".
+- **people.json, PPL-0002 `departure_after_separation`:** new variant "Somewhere in China (January 1995)" (KCSRC00090), next to Hong Kong (KCSRC00034) and Queensland (Kel Glare, KCSRC00067). The destination stays `unresolved`. Hong Kong was British until 1 July 1997, so "China" in 1995 and "Hong Kong" in 2025 do not necessarily conflict.
+- **Not added:** r/MrCruel forum claims about where John Chan lives now. They are not sources, and he may be alive.
+- **.toon header:** sources 91, total_records 299, referenced 62 / catalogued 91, unused 29. The KF version stays 0.4.0, with no new zip.
