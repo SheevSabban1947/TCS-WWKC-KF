@@ -331,3 +331,11 @@ Sources ajoutées à `data/sources.json` (KCSRC00069 à KCSRC00077), pour les en
 - **Not added:** r/MrCruel forum claims about where John Chan lives now. They are not sources, and he may be alive.
 - **.toon header:** sources 91, total_records 299, referenced 62 / catalogued 91, unused 29. The KF version stays 0.4.0, with no new zip.
 - **Site:** published 04/11/2026: KCSRC00090 row added to the home page sources table after KCSRC00089 (checked on the live page).
+
+## 2026-11-06 – Knowledge File zip v0.4.0-tcs-wwkc-0050 (for the site)
+
+- **New zip** `karmein_chan_knowledge_file-v0.4.0-tcs-wwkc-0050.zip`, at the repo root. It contains only `karmein_chan_knowledge_file.toon` (includes KCSRC00090 and the John Chan departure variants from PRs #10/#11).
+  - Replaces the v0.4.0-tcs-wwkc-0049 download on thecruelsong.com (section "AI Knowledge File").
+  - The 0049 zip remains in the repo unchanged.
+- **Site version** to show as **TCS-WWKC-0050** once the WordPress download and Version block are updated.
+- KF schema version stays **0.4.0**. Counts unchanged since the KCSRC00090 merge: sources 91, total_records 299.
